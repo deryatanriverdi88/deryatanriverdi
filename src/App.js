@@ -1,15 +1,23 @@
 import React from 'react';
 import './App.css';
-// import Routes from './Routes'
+import Typing from 'react-typing-animation';
 
+class App extends React.Component {
 
-function App() {
-  return (
-    <div className="App">
-       app
-      {/* <Routes/> */}
-    </div>
-  );
+  render(){
+   
+    return (
+      <div className="App">
+        <Typing>
+          <div className="speech-bubble">
+          <h2>Hello there!</h2>
+          <p>My name is Derya!</p>
+          </div>
+          
+        </Typing>
+      </div>
+    );
+  }
 }
 
 export default App;
