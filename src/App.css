@@ -43,12 +43,14 @@
   border-radius: .4em;
   width: 15vw;
   height: auto;
-  top: 30em;
-  left: 63%;
+  top: 20em;
+  right: 50%;
   color: rgb(120,12,62);
   padding: 10px 0;
-
+  z-index: 1;
 }
+
+
 
 .speech-bubble:after {
 	content: '';
@@ -65,3 +67,11 @@
 	margin-bottom: -20px;
 }
 
+.notebook{
+  
+  height: 94vh;
+  width: 34%;
+  position: absolute;
+  top: 12em;
+  left: 80em;
+}
