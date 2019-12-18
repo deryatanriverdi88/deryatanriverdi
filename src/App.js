@@ -30,13 +30,11 @@ class App extends React.Component {
       <div className="App">
        <div className="notebook">
         <Typing>
-         { this.state.sliding ? <div className="speech-bubble"  style={{top: `${this.state.top}em`, left: `${this.state.left}%`}}> 
+         <div className="speech-bubble"  style={{top: `${this.state.top}em`, left: `${this.state.left}%`}}> 
           <h2>Hello there!</h2>
           <p>My name is Derya!</p>
-          </div> : <div className="speech-bubble "> 
-          <h2>Hello there!</h2>
-          <p>My name is Derya!</p>
-          </div>}
+        
+          </div>
           
         </Typing>
         </div>
