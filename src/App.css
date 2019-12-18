@@ -47,6 +47,7 @@
   left: 63%;
   color: rgb(120,12,62);
   padding: 10px 0;
+
 }
 
 .speech-bubble:after {
@@ -63,3 +64,4 @@
 	margin-left: -10px;
 	margin-bottom: -20px;
 }
+
