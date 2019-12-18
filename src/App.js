@@ -28,10 +28,18 @@ class App extends React.Component {
       
 
           <div className="text-div">
-            <div className="post-it-1"></div>
-            <div className="post-it-2"></div>
-            <div className="post-it-1"></div>
-            <div className="post-it-2"></div>
+            <div className="post-it-1">
+              <h3>Who am I ? </h3>
+            </div>
+            <div className="post-it-2">
+            <h3> My Projects </h3>
+            </div>
+            <div className="post-it-1">
+            <h3> Skills </h3>
+            </div>
+            <div className="post-it-2">
+            <h3> Contact! </h3>
+            </div>
           </div>
        
         </div>
