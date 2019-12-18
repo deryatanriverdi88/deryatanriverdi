@@ -7,19 +7,19 @@ class App extends React.Component {
   state = {
     sliding: false,
     top: 30,
-    left: 63
+    left: 60
   }
 
  componentDidMount(){
    setInterval(() => {
-      if(this.state.top > 15 && this.state.left < 70) {
+      if(this.state.top > 10 && this.state.left < 70) {
         this.setState({
           sliding: true, 
-          top: this.state.top - 5,
-          left: this.state.left + 2
+          top: this.state.top - 8,
+          left: this.state.left + 5
         })
       }
-   }, 2500)
+   }, 2400)
  }
 
   render(){
@@ -28,17 +28,17 @@ class App extends React.Component {
     return (
 
       <div className="App">
-       <div className="notebook">
+      
         <Typing>
+       
          <div className="speech-bubble"  style={{top: `${this.state.top}em`, left: `${this.state.left}%`}}> 
           <h2>Hello there!</h2>
           <p>My name is Derya!</p>
         
-          </div>
           
+          </div>
         </Typing>
         </div>
-      </div>
     );
   }
 }
