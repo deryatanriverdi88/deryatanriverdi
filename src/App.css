@@ -43,11 +43,10 @@
   border-radius: .4em;
   width: 15vw;
   height: auto;
-  top: 20em;
-  right: 50%;
+  /* top: 20em;
+  left: 20em; */
   color: rgb(120,12,62);
   padding: 10px 0;
-  z-index: 1;
 }
 
 
@@ -67,11 +66,27 @@
 	margin-bottom: -20px;
 }
 
-.notebook{
+.text-div{
+  max-width: 30vw;
+  margin: 0 auto;
+  padding: 0 30px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  position: relative;
+  top: 25em;
   
+}
+
+
+.notebook{
+  box-sizing: border-box;
   height: 94vh;
   width: 34%;
   position: absolute;
-  top: 12em;
-  left: 80em;
+  top: 8em;
+  left: 60em;
+  padding-top: 40px;
+  border: 1px solid black;
 }
+
+
