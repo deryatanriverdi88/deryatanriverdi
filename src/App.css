@@ -120,9 +120,13 @@
       margin: 100px auto;
   }
 
+ 
+
   .post-it-1:hover, .post-it-2:hover{
     animation: shake 0.5s;
     animation-iteration-count: infinite;
+    color: blue;
+    cursor: pointer;
   }
 
   @keyframes shake {
@@ -138,3 +142,36 @@
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
   }
+
+  .slider{
+      width: 50%;
+  }
+
+  .bio{
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0;
+  }
+  .bio img{
+     width: 50%;
+   
+  }
+    
+  
+  .bio:hover{
+    color: white;
+  }
+
+  .x{
+      position: absolute;
+      top: 0;
+      right: 0;
+  }
+
+  .awssld__content{
+    background-color: rgba(118,170,122, 0.8) !important; 
+   
+    padding: 0 !important;
+  }
+
