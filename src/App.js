@@ -1,16 +1,27 @@
 import React from 'react';
 import './App.css';
 import Typing from 'react-typing-animation';
+// import Bio from './Components/Bio'
+import AwesomeSlider from 'react-awesome-slider';
+import AwesomeSliderStyles from 'react-awesome-slider/src/styled/cube-animation';
+
 
 class App extends React.Component {
 
   state = {
-    
+    bio: false
   }
+  
 
+  handleBioClick = () => {
+    this.setState({
+      bio: !this.state.bio
+    })
+  }
  
-
+  
   render(){
+ 
   
   console.log(this.state)
     return (
@@ -28,7 +39,7 @@ class App extends React.Component {
       
 
           <div className="text-div">
-            <div className="post-it-1">
+            <div className="post-it-1" onClick={this.handleBioClick}>
               <h3>Who am I ? </h3>
             </div>
             <div className="post-it-2">
@@ -43,6 +54,32 @@ class App extends React.Component {
           </div>
        
         </div>
+        { this.state.bio ?  
+        <AwesomeSlider style={{width: '50%', padding: "10% 20%"}} > 
+         
+       
+          <div className="bio" > 
+            <img src="./img/me-2.jpg"/>
+            <p className="text"> Something</p>
+            <button className="x" onClick={this.handleBioClick}>✖️</button>
+ 
+          </div>
+          
+          <div id="flying-2">
+             <img src="./img/flying.gif"/>
+             <div className="text-container">
+             <h3 className="h3">Journey from 🇹🇷 to 🇺🇸 </h3>
+             <p className="text">Something
+             </p>
+
+             </div>
+            
+             <button className="x" onClick={this.handleBioClick}>✖️</button>
+          </div>
+   
+        
+          <div className="slider">4</div>
+      </AwesomeSlider> : null }
         </div>
     );
   }

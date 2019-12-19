@@ -2,7 +2,7 @@
 .App {
     text-align: center;
     background-image: url('./images/background-4.jpeg');
-    height: 150vh;
+    height: 120vh;
     background-repeat: no-repeat;
     background-size: contain;
     margin: 0;
@@ -120,9 +120,13 @@
       margin: 100px auto;
   }
 
+ 
+
   .post-it-1:hover, .post-it-2:hover{
     animation: shake 0.5s;
     animation-iteration-count: infinite;
+    color: rgb(60,43,144);
+    cursor: pointer;
   }
 
   @keyframes shake {
@@ -138,3 +142,87 @@
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
   }
+
+ 
+  .bio{
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0;
+      padding: 20em 10em;
+  }
+  .bio img{
+     width: 30%;
+     /* height: auto; */
+  }
+  .text{
+    /* width: auto; */
+      color: white;
+      /* padding-left: 5em; */
+    
+    }
+
+  .x{
+      position: absolute;
+      height: 30px;
+      width: 30px;
+      top: 0;
+      right: 0;
+      border-radius: 0 0 0 10px;
+      font-size: 15px;
+      
+  }
+
+  #flying-2{
+    
+    box-sizing: border-box;
+    width: 100%; 
+    background-color: rgba(2,151,219, 0.9) !important;
+  } 
+
+ #flying-2 .text{
+     box-sizing: border-box;
+     margin: 0;
+     text-align: center;
+    
+  }
+
+  #flying-2 img{
+    float: left;
+    height: 20vh;
+    box-sizing: border-box;
+    margin-top: 0;
+    width: 50%;
+  }
+
+  .h3{
+    margin: 0;
+    padding: 0;
+  }
+
+  .text-container{
+    position: relative;
+    box-sizing: border-box;
+    width: auto;
+
+     height: 15vh;
+     overflow: scroll;
+  
+  }
+
+
+  .awssld__content{
+    background-color: rgba(239,166,172, 0.8) !important; 
+    border-radius: 15px;
+    padding: 0 !important;
+  
+  }
+  
+
+  .awssld__bullets{
+    display: none !important;
+  }
+
+  
+ 
+
