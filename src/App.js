@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Typing from 'react-typing-animation';
-import Bio from './Components/Bio'
+// import Bio from './Components/Bio'
 import AwesomeSlider from 'react-awesome-slider';
 import AwesomeSliderStyles from 'react-awesome-slider/src/styled/cube-animation';
 
@@ -57,9 +57,27 @@ class App extends React.Component {
         { this.state.bio ?  
         <AwesomeSlider style={{width: '50%', padding: "10% 20%"}} > 
          
-          <div className="slider"><Bio bio={this.handleBioClick}/></div>
-          <div className="slider"> 2</div>
-          <div className="slider">3</div>
+       
+          <div className="bio" > 
+            <img src="./img/me-2.jpg"/>
+            <p className="text"> Something</p>
+            <button className="x" onClick={this.handleBioClick}>✖️</button>
+ 
+          </div>
+          
+          <div id="flying-2">
+             <img src="./img/flying.gif"/>
+             <div className="text-container">
+             <h3 className="h3">Journey from 🇹🇷 to 🇺🇸 </h3>
+             <p className="text">Something
+             </p>
+
+             </div>
+            
+             <button className="x" onClick={this.handleBioClick}>✖️</button>
+          </div>
+   
+        
           <div className="slider">4</div>
       </AwesomeSlider> : null }
         </div>
