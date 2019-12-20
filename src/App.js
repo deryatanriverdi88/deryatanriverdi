@@ -109,9 +109,35 @@ class App extends React.Component {
          {this.state.skill ? 
          <AwesomeSlider style={{width: '50%', padding: "10% 20%"}} >
            <div>
+             <img className="ruby-img"src="./img/rails.jpg"/>
              <button className="x" onClick={this.handleSkillClick}>✖️</button>
            </div>
            <div>
+             <img className="react"src="./img/react.gif"/>
+             <button className="x" onClick={this.handleSkillClick}>✖️</button>
+           </div>
+           <div>
+             <img className="js" src="./img/javascript.jpg"/>
+             <button className="x" onClick={this.handleSkillClick}>✖️</button>
+           </div>
+           <div>
+             <img className="active-record" src="./img/active-record.png"/>
+             <button className="x" onClick={this.handleSkillClick}>✖️</button>
+           </div>
+           <div>
+             <img className="css-img" src="./img/css.jpg"/>
+             <button className="x" onClick={this.handleSkillClick}>✖️</button>
+           </div>
+           <div>
+             <img className="mq-img" src="./img/mq.png"/>
+             <button className="x" onClick={this.handleSkillClick}>✖️</button>
+           </div>
+           <div>
+             <img className="redux-img" src="./img/redux.png"/>
+             <button className="x" onClick={this.handleSkillClick}>✖️</button>
+           </div>
+           <div>
+             <img className="heroku-img" src="./img/heroku.png"/>
              <button className="x" onClick={this.handleSkillClick}>✖️</button>
            </div>
         </AwesomeSlider> : null
