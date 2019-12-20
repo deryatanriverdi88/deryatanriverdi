@@ -109,7 +109,11 @@ class App extends React.Component {
          {this.state.skill ? 
          <AwesomeSlider style={{width: '50%', padding: "10% 20%"}} >
            <div>
-             <img className="ruby-img"src="./img/rails.jpg"/>
+             <img className="ruby-img"src="./img/ruby.jpg"/>
+             <button className="x" onClick={this.handleSkillClick}>✖️</button>
+           </div>
+           <div>
+             <img className="rails-img"src="./img/rails.png"/>
              <button className="x" onClick={this.handleSkillClick}>✖️</button>
            </div>
            <div>
@@ -122,6 +126,10 @@ class App extends React.Component {
            </div>
            <div>
              <img className="active-record" src="./img/active-record.png"/>
+             <button className="x" onClick={this.handleSkillClick}>✖️</button>
+           </div>
+           <div>
+             <img className="html-img" src="./img/html.jpg"/>
              <button className="x" onClick={this.handleSkillClick}>✖️</button>
            </div>
            <div>
@@ -138,6 +146,10 @@ class App extends React.Component {
            </div>
            <div>
              <img className="heroku-img" src="./img/heroku.png"/>
+             <button className="x" onClick={this.handleSkillClick}>✖️</button>
+           </div>
+           <div>
+             <img className="sqlite-img" src="./img/sqlite.png"/>
              <button className="x" onClick={this.handleSkillClick}>✖️</button>
            </div>
         </AwesomeSlider> : null

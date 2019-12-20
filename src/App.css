@@ -235,17 +235,19 @@
   }
  
   .ruby-img{
-    height: 65vh;
+     width: 100%;
+  }
+
+  .rails-img, .redux-img{
+    width: 80%;
   }
 
   .css-img{
     height: 60vh;
   }
-  
-  .mq-img{
-    width: 80%;
+
+  .mq-img, .sqlite-img{
+    width: 90%;
   }
 
-  .redux-img{
-    width: 80%;
-  }
+ 
