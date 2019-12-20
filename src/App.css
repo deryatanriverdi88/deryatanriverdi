@@ -226,14 +226,26 @@
     background-color: rgba(239,166,172, 0.8) !important; 
     border-radius: 15px;
     padding: 0 !important;
-  
   }
 
 
   .awssld__bullets{
-    display: none !important;
+    position: relative !important;
+   bottom: 40px !important;
+  }
+ 
+  .ruby-img{
+    height: 65vh;
   }
 
+  .css-img{
+    height: 60vh;
+  }
   
- 
+  .mq-img{
+    width: 80%;
+  }
 
+  .redux-img{
+    width: 80%;
+  }
