@@ -144,21 +144,32 @@
   }
 
  
-  .bio{
+  .bio, .coder-cat{
       width: 100%;
       display: flex;
       flex-wrap: wrap;
       margin: 0;
-      padding: 20em 10em;
+      padding: 4em;
+  }
+
+  .coder-cat{
+    justify-content: space-between; 
+    padding-right: 4em;
+    height: 45vh;
+    background-color:rgba(195,126,243, 0.8);
   }
   .bio img{
      width: 30%;
-     /* height: auto; */
+     height: auto;
   }
-  .text{
+
+  .coder-cat img{
+    width: 40%;
+  }
+  .bio .text, .coder-cat .text{
     /* width: auto; */
       color: white;
-      /* padding-left: 5em; */
+      padding-left: 5em;
     
     }
 
@@ -177,7 +188,7 @@
     
     box-sizing: border-box;
     width: 100%; 
-    background-color: rgba(2,151,219, 0.9) !important;
+    background-color: rgba(2,151,219, 0.8) !important;
   } 
 
  #flying-2 .text{
@@ -217,7 +228,7 @@
     padding: 0 !important;
   
   }
-  
+
 
   .awssld__bullets{
     display: none !important;

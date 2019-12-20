@@ -31,9 +31,7 @@ class App extends React.Component {
         <Typing>
        
          <div className="speech-bubble" > 
-          <h2>Welcome !</h2>
-          <p>My name is Derya!</p>
-          
+          <h2>Welcome 🤗</h2>      
           </div>
         </Typing> 
       
@@ -71,14 +69,18 @@ class App extends React.Component {
              <h3 className="h3">Journey from 🇹🇷 to 🇺🇸 </h3>
              <p className="text">Something
              </p>
-
              </div>
-            
              <button className="x" onClick={this.handleBioClick}>✖️</button>
           </div>
+
+          <div className="coder-cat" > 
+            <p className="text"> Something</p>
+            <img src="./img/coder-cat.gif"/>
+            
+            <button className="x" onClick={this.handleBioClick}>✖️</button>
+ 
+          </div>
    
-        
-          <div className="slider">4</div>
       </AwesomeSlider> : null }
         </div>
     );
