@@ -156,10 +156,20 @@ class App extends React.Component {
          }
          {this.state.contact ? 
          <AwesomeSlider style={{width: '50%', padding: "10% 20%"}} >
-           <div>
-             <button className="x" onClick={this.handleContactClick}>✖️</button>
-           </div>
-           <div>
+           <div className="linked-in-div">
+             <a href="https://www.linkedin.com/in/derya-tanr%C4%B1verdi-701a3489/" target="_blank">
+             <img src="./img/linkedin.png"/>
+             </a>
+             <a href="https://github.com/deryatanriverdi88" target="_blank">
+                <img src="./img/github.png"/>
+             </a>
+             <a href="https://twitter.com/Derya_T88" target="_blank">
+                <img src="./img/twitter.png"/>
+             </a>
+             <a href="https://medium.com/@deryatanriverdii" target="_blank">
+             <img src="./img/medium.png"/>
+             </a>
+             
              <button className="x" onClick={this.handleContactClick}>✖️</button>
            </div>
         </AwesomeSlider> : null

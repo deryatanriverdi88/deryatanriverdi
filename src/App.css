@@ -93,6 +93,7 @@
     left: 45em;
     
     padding-top: 40px;
+    padding-left: 10px;
     /* border: 1px solid black; */
   }
    
@@ -249,5 +250,36 @@
   .mq-img, .sqlite-img{
     width: 90%;
   }
-
  
+  .linked-in-div{
+    padding: 5em 10em;
+    /* padding: 50px 50px 50px 150px; */
+    margin: 50px auto;
+    display: flex;
+
+   
+  }
+
+  .linked-in-div a{
+    display: block;
+    width: 100%;
+  }
+  
+  .linked-in-div a img{
+    width: 100%;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .linked-in-div a img:hover {
+      animation: img-spin infinite 1s linear;
+    }
+  }
+
+  @keyframes img-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
