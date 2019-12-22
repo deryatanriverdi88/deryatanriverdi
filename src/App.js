@@ -22,19 +22,21 @@ class App extends React.Component {
     return (
 
       <div className="app">
-          <div class="circle">
-          <div class="hair"></div>
-          <div class="head">
-               <div class="left-eye-brow"></div>
-               <div class="right-eye-brow"></div>
-               <div class="left-eye"></div>
-               <div class="right-eye"></div>
-               <div class="nose"></div>
-               <div class="mouth"></div>
+          <div className="circle">
+          <div className="hair"></div>
+          <div className="head">
+               <div className="left-eye-brow"></div>
+               <div className="right-eye-brow"></div>
+               <div className="left-eye"></div>
+               <div className="right-eye"></div>
+               <div className="nose"></div>
+               <div className="mouth"></div>
           </div> 
-          <div class="neck"></div>
-          <div class="t-shirt"></div>
-          <div class="message"></div>
+          <div className="neck"></div>
+          <div className="t-shirt"></div>
+          <div className="message"></div>
+          <div className="computer"></div>
+          <div className="table"></div>
           </div>
       </div>
     );
