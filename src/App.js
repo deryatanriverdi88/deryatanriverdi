@@ -35,8 +35,16 @@ class App extends React.Component {
           <div className="neck"></div>
           <div className="t-shirt"></div>
           <div className="message"></div>
-          <div className="computer"></div>
-          <div className="table"></div>
+          <div className="computer">
+            
+          </div>
+          <div className="table">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <div className="keyboard"></div>
           </div>
       </div>
     );

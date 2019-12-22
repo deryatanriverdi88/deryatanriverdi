@@ -163,7 +163,7 @@ body {
 .t-shirt{
   background: #DF3B57;
   width: 120px;
-  height: 80px;
+  height: 90px;
   position: relative;
   left: 288px;
   top: -16px;
@@ -205,26 +205,38 @@ body {
   height: 100px;
   background:#BFC0C0;
   position: relative;
-  left:270px;
+  left:265px;
   top: -45px;
   box-shadow:
     inset 10px 0 50px rgb(70, 64, 70),
     inset -60px 0 120px rgb(153, 156, 156);
   border-radius: 10px; 
+
 }
 
-.computer:after{
+.keyboard{
   content: "";
   display: inline-block;
   width: 135px;
-  height: 125px;
+  height: 85px;
   background:#BFC0C0;
   box-shadow:
     inset 0px 0 10px rgb(70, 64, 70),
     inset -60px 0 120px rgb(153, 156, 156);
+  position: absolute;
+  left:355px;
+  top:405px;
+  clip-path: polygon(25% 0%, 100% 0%, 76% 53%, 0 54%);
+  z-index: -1;
+}
+
+.table{
+  width: 350px;
+  height: 160px;
+  background: #5E3023;
+  clip-path: polygon(25% 0%, 100% 0%, 83% 53%, 0 54%);
   position: relative;
-  left:55px;
-  top: 45px;
-  clip-path: polygon(32% 1%, 87% 0, 60% 41%, 0 44%);
+  left: 160px;
+  top: -120px;
   z-index: -1;
 }
