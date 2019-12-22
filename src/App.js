@@ -38,12 +38,11 @@ class App extends React.Component {
           <div className="computer">
             
           </div>
-          <div className="table">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-          </div>
+          <div className="table"> </div>
+          <div className="table-leg-1"></div>
+            <div className="table-leg-2"></div>
+            <div className="table-leg-3"></div>
+            <div className="table-leg-4"></div>
           <div className="keyboard"></div>
           </div>
       </div>

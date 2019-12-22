@@ -240,3 +240,33 @@ body {
   top: -120px;
   z-index: -1;
 }
+
+.table-leg-1, .table-leg-2, .table-leg-3, .table-leg-4{
+  width: 10px;
+  height: 140px;
+  background:#5E3023;
+}
+
+.table-leg-1{
+  position: absolute;
+  top: 460px;
+  left: 220px;
+}
+
+.table-leg-2{
+  position: absolute;
+  top: 400px;
+  left: 290px;
+}
+
+.table-leg-3{
+  position: absolute;
+  top: 460px;
+  left: 490px;
+}
+
+.table-leg-4{
+  position: absolute;
+  top: 395px;
+  left: 538px;
+}
