@@ -40,6 +40,8 @@ class App extends React.Component {
           <div className="table"> </div>
           <div className="table-front"></div>
           <div className="table-side"></div>
+          <div className="coffee-cup"></div>
+          <div className="coffee-bottom"></div>
           <div className="keyboard"></div>
           
 
