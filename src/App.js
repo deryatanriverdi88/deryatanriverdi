@@ -58,8 +58,8 @@ class App extends React.Component {
             <div className="floor-line "></div>
             <div className="floor-line "></div>
             <div className="floor-line "></div>
-            <div className="floor-line "></div>
-            <div className="floor-line "></div>
+            <div className="floor-line first"></div>
+            <div className="floor-line second "></div>
           </div>
           </div>
       </div>
