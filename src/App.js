@@ -22,7 +22,9 @@ class App extends React.Component {
     return (
 
       <div className="app">
+         
           <div className="circle">
+          <div className="wall"></div> 
           <div className="chair"></div>
           <div className="hair"></div>
           <div className="head">
@@ -33,8 +35,10 @@ class App extends React.Component {
                <div className="nose"></div>
                <div className="mouth"></div>
           </div> 
+          
           <div className="neck"></div>
           <div className="t-shirt"></div>
+         
           <div className="message"></div>
           <div className="computer"></div>
           <div className="table"> </div>
@@ -45,8 +49,18 @@ class App extends React.Component {
           <div className="coffee-bottom"></div>
           <div className="keyboard"></div>
           
-
-          
+          <div className="floor">
+            <div className="floor-line "></div>
+            <div className="floor-line "></div>
+            <div className="floor-line "></div>
+            <div className="floor-line "></div>
+            <div className="floor-line "></div>
+            <div className="floor-line "></div>
+            <div className="floor-line "></div>
+            <div className="floor-line "></div>
+            <div className="floor-line "></div>
+            <div className="floor-line "></div>
+          </div>
           </div>
       </div>
     );
