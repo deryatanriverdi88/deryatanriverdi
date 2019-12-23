@@ -40,7 +40,9 @@ class App extends React.Component {
           <div className="t-shirt"></div>
          
           <div className="message"></div>
-          <div className="computer"></div>
+          <div className="computer">
+            <div className="apple-logo"></div>
+          </div>
           <div className="table"> </div>
           <div className="table-front"></div>
           <div className="table-side"></div>

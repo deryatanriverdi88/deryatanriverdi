@@ -38,18 +38,18 @@ body {
   padding: 50px;
 }
 .hair{
-  width: 160px;
-  height: 220px;
+  width: 140px;
+  height: 200px;
   z-index: -1;
   position: absolute;
   background: #F9D03B;
-  left: 320px;
-  top: 100px;
+  left: 330px;
+  top: 110px;
   border-radius:90px 90px 35px 35px ;
 }
 
 .head{
-  height: 140px;
+  height: 135px;
   width: 100px;
   background: #DDAD96;
   margin-left: 300px;
@@ -61,8 +61,9 @@ body {
   content:"";
   display: inline-block;
   width: 60px;
-  height: 30px;
-  left: -20px;
+  height: 40px;
+  
+  left: -25px;
   position: relative;
   background: #F9D03B;
   border-radius: 0 0 100px 120px;
@@ -72,22 +73,22 @@ body {
   content: "";
   display: inline-block;
   width: 50px;
-  height:35px;
+  height:45px;
   background: #F9D03B;
   position: relative;
-  top: -110px;
+  top: -115px;
   left: 30px;
   border-radius: 0 0  90px 120px;
 }
 
 .left-eye-brow, .right-eye-brow{
   width: 20px;
-  height: 3px;
+  height: 6px;
   border: 1px solid #5A5353;
   border-color: #5A5353 transparent transparent transparent;
   border-width: 2px;
   position: relative;
-  top: 20px;
+  top: 15px;
   left: 20px;
   border-radius: 50%;
   
@@ -95,22 +96,22 @@ body {
 
 .right-eye-brow{
   left: 65px;
-  top: 15px;
+  top: 10px;
 }
 
 .left-eye, .right-eye{
   background: white;
-  width: 10px; 
-  height: 10px;
+  width: 15px; 
+  height: 7px;
   position: relative;
-  top: 25px;
-  left: 28px;
+  top: 20px;
+  left: 25px;
   border-radius: 50%;
 }
 
 .right-eye{
-  top: 15px;
-  left: 70px;
+  top: 13px;
+  left: 65px;
 }
 
 .left-eye:after, .right-eye:after{
@@ -120,7 +121,7 @@ body {
   height: 6px;
   background: #5A5353;
   position: relative;
-  top: -5px;
+  top: -8px;
   left: 0px;
   border-radius: 50%;
 }
@@ -132,7 +133,7 @@ body {
   border-radius: 40%;
   position: relative;
   left: 48px;
-  top: 12px;
+  top: 7px;
 }
 
 .mouth{
@@ -141,7 +142,7 @@ body {
   width:45px;
   border-radius: 0 0 90px 90px;
   position: relative;
-  top: 20px;
+  top: 13px;
   left: 28px;
 }
 
@@ -212,6 +213,7 @@ body {
 .computer{
   width: 145px;
   height: 100px;
+  padding-top: 10px;
   background:#BFC0C0;
   position: relative;
   left:265px;
@@ -221,6 +223,17 @@ body {
     inset -60px 0 120px rgb(153, 156, 156);
   border-radius: 10px; 
 
+}
+
+.apple-logo{
+  margin: 0px auto;
+  width: 70px;
+  height: 70px;
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-image: url('https://www.transparentpng.com/thumb/apple-logo/AoKYpC-apple-logo-png-icon.png');
 }
 
 .keyboard{
@@ -234,7 +247,7 @@ body {
     inset -60px 0 120px rgb(153, 156, 156);
   position: absolute;
   left:355px;
-  top:405px;
+  top:400px;
   clip-path: polygon(25% 0%, 100% 0%, 76% 53%, 0 54%);
   z-index: -1;
 }
@@ -259,7 +272,7 @@ body {
   height: 130px;
   background: #8E403E;
   position: absolute;
-  top: 465px;
+  top: 460px;
   left: 152px;
   -webkit-box-shadow: -4px -27px 40px -25px rgba(0,0,0,0.75);
 -moz-box-shadow: -4px -27px 40px -25px rgba(0,0,0,0.75);
@@ -272,7 +285,7 @@ box-shadow: -4px -27px 40px -25px rgba(0,0,0,0.75);
   height: 248px;
   background: #8E403E;
   position: absolute;
-  top: 347px;
+  top: 342px;
   left: 520px;
   z-index: -1;
 
