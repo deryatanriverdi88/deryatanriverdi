@@ -24,7 +24,8 @@ class App extends React.Component {
       <div className="app">
          
           <div className="circle">
-          <div className="wall"></div> 
+          <div className="wall">
+          <div className="window"></div></div> 
           <div className="chair"></div>
           <div className="hair"></div>
           <div className="head">
@@ -43,6 +44,7 @@ class App extends React.Component {
           <div className="computer">
             <div className="apple-logo"></div>
           </div>
+          
           <div className="table"> </div>
           <div className="table-front"></div>
           <div className="table-side"></div>
@@ -52,16 +54,6 @@ class App extends React.Component {
           <div className="keyboard"></div>
           
           <div className="floor">
-            <div className="floor-line "></div>
-            <div className="floor-line "></div>
-            <div className="floor-line "></div>
-            <div className="floor-line "></div>
-            <div className="floor-line "></div>
-            <div className="floor-line "></div>
-            <div className="floor-line "></div>
-            <div className="floor-line "></div>
-            <div className="floor-line first"></div>
-            <div className="floor-line second "></div>
           </div>
           </div>
       </div>
