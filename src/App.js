@@ -31,8 +31,28 @@ class App extends React.Component {
           <div className="head">
                <div className="left-eye-brow"></div>
                <div className="right-eye-brow"></div>
-               <div className="left-eye"></div>
-               <div className="right-eye"></div>
+               <div className="left-eyelash">
+                 <ul>
+                   <li></li>
+                   <li></li>
+                   <li></li>
+                   <li></li>
+                 </ul>
+               </div>
+               <div className="right-eyelash">
+                 <ul>
+                   <li></li>
+                   <li></li>
+                   <li></li>
+                   <li></li>
+                 </ul>
+               </div>
+               <div className="left-eye">
+               <div className="cornea"></div>
+               </div>
+               <div className="right-eye">
+                 <div className="cornea"></div>
+               </div>
                <div className="nose"></div>
                <div className="mouth"></div>
           </div> 
