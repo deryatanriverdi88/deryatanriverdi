@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Typing  from 'react-typing-animation'
 
 // import Typing from 'react-typing-animation';
 // // import Bio from './Components/Bio'
@@ -60,7 +61,9 @@ class App extends React.Component {
           <div className="neck"></div>
           <div className="t-shirt"></div>
          
-          <div className="message"></div>
+    <Typing>
+      <div className="message"> Hello, My name is Derya!</div>
+    </Typing>
           <div className="computer">
             <div className="apple-logo"></div>
           </div>
@@ -72,7 +75,12 @@ class App extends React.Component {
           <div className="coffee-cup"></div>
           <div className="coffee-bottom"></div>
           <div className="keyboard"></div>
-          
+          <div className="cabinet">
+            <div className="cabinet-line"></div>
+            <div className="shelf">
+              <div className="shelf-1"></div>
+            </div>
+          </div>
           <div className="floor">
           </div>
           </div>
