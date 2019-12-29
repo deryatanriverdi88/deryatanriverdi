@@ -76,9 +76,13 @@ class App extends React.Component {
           <div className="coffee-bottom"></div>
           <div className="keyboard"></div>
           <div className="cabinet">
-            <div className="cabinet-line"></div>
+            <div className="cabinet-line">
+              <div className="line-1"></div>
+              <div className="line-2"></div>
+            </div>
             <div className="shelf">
               <div className="shelf-1"></div>
+              <div className="shelf-2"></div>
             </div>
           </div>
           <div className="floor">

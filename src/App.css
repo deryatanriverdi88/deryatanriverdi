@@ -279,8 +279,8 @@ ul li{
   padding-top: 10px;
   background:#BFC0C0;
   position: relative;
-  left:265px;
-  top: -45px;
+  left:275px;
+  top: -80px;
   box-shadow:
     inset 10px 0 50px rgb(70, 64, 70),
     inset -60px 0 120px rgb(153, 156, 156);
@@ -299,64 +299,31 @@ ul li{
   background-image: url('https://www.transparentpng.com/thumb/apple-logo/AoKYpC-apple-logo-png-icon.png');
 }
 
-.keyboard{
-  content: "";
-  display: inline-block;
-  width: 135px;
-  height: 85px;
-  background:#BFC0C0;
-  box-shadow:
-    inset 0px 0 10px rgb(70, 64, 70),
-    inset -60px 0 120px rgb(153, 156, 156);
-  position: absolute;
-  left:355px;
-  top:400px;
-  clip-path: polygon(25% 0%, 100% 0%, 76% 53%, 0 54%);
-  z-index: -1;
-}
-
 .table{
-  width: 450px;
-  height: 160px;
-
+  width: 470px;
+  height: 10px;
   background: #5E3023;
-  clip-path: polygon(25% 0%, 100% 0%, 83% 53%, 0 54%);
   position: relative;
-  left: 100px;
-  top: -120px;
+  left: 90px;
+  top: -80px;
   z-index: -1;
 }
 
 .table-front{
-  border-width: 0 3px 0 3px;
-  border-color: #5E3023;
-  border-style: solid;
-  width:368px;
-  height: 130px;
+  width:450px;
+  height: 230px;
   background: #8E403E;
   position: absolute;
-  top: 460px;
-  left: 152px;
+  top: 425px;
+  left: 150px;
   -webkit-box-shadow: -4px -27px 40px -25px rgba(0,0,0,0.75);
 -moz-box-shadow: -4px -27px 40px -25px rgba(0,0,0,0.75);
 box-shadow: -4px -27px 40px -25px rgba(0,0,0,0.75);
 }
 
-.table-side{
-  clip-path: polygon(0 47%, 59% 15%, 59% 64%, 0 100%);
-  width:128px;
-  height: 248px;
-  background: #8E403E;
-  position: absolute;
-  top: 342px;
-  left: 520px;
-  z-index: -1;
-
-}
-
 .chair{
   width: 180px;
-  height: 100px;
+  height: 150px;
   background:#0A3200;
   position: absolute;
   top:280px;
@@ -368,9 +335,9 @@ box-shadow: -4px -27px 40px -25px rgba(0,0,0,0.75);
 .coffee-bottom{
  background: #fdf8f7;
  width: 50px;
- height: 10px;
+ height: 3px;
  position: absolute;
- top: 400px;
+ top: 410px;
  left: 250px;
  border-radius: 50%;
  -webkit-box-shadow: -6px 11px 16px -2px rgba(0,0,0,0.75);
@@ -384,13 +351,9 @@ box-shadow: -2px 5px 3px -2px rgba(0,0,0,0.75);
   width: 30px;
   position: absolute;
   z-index: 1;
-  top: 380px;
+  top: 385px;
   left: 260px;
-  border-radius:13px 13px  10px 10px;
-  /* border-bottom: 10px solid black; */
-  -webkit-box-shadow: -6px 11px 16px -2px rgba(0,0,0,0.75);
--moz-box-shadow: -6px 11px 16px -2px rgba(0,0,0,0.75);
-box-shadow: -1px 4px 3px -2px rgba(0,0,0,0.75);
+  border-radius:5px 5px  10px 10px;
 }
 
 .coffee-cup:after{
@@ -402,19 +365,9 @@ box-shadow: -1px 4px 3px -2px rgba(0,0,0,0.75);
   border-radius: 50%;
   position: relative;
   left: 18px;
-  top: -15px;
+  top: 2px;
 }
 
-.coffee-cup:before{
-  content: "";
-  display: inline-block;
-  height: 6px;
-  width: 22px;
-  background: rgb(112,88,64);
-  border-radius: 50%;
-  position: relative;
-  top: -7px;
-}
 
 .coffee-steam, .coffee-steam:after{
   text-decoration-line: overline underline;
@@ -450,60 +403,62 @@ box-shadow: -1px 4px 3px -2px rgba(0,0,0,0.75);
   left: 900px;
 }
 
-.cabinet:before{
-  display: inline-block;
-  content: "";
-  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
- position: relative;
- top: -60px;
-  background: #5d3023;
-  width: 935px;
-  height: 60px
 
-}
 
-.cabinet:after{
-  clip-path: polygon(0 14%, 100% 4%, 100% 79%, 0% 100%);
-
-  display: inline-block;
-  content: "";
-  background: #5d3023;
-  width: 235px;
-  height: 583px;
-  position: relative;
-  top: -146px;
-  left: 465px;
-  /* transform: rotate(-1deg); */
-}
-
-.cabinet-line{
+.line-1, .line-2 {
   width: 10px;
   height: 500px;
   background: #572f2f;
   position: absolute;
-  left: 230px;
-  top: 0;
+  top: 0px;
 }
 
-.shelf-1{
+.line-2{
+  left: 690px;
+}
+
+.line-1:after, .line-2:before{
+  content:"";
+  width: 10px;
+  height: 500px;
+  background: #572f2f;
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  left: 220px;
+}
+
+.line-2:before{
+  left: -220px;
+}
+
+
+.cabinet-line:before, .cabinet-line:after{
+  content: "";
+  display: inline-block;
+  height: 10px;
+  width: 700px;
+  position:absolute;
+  top: -5px;
+  left: 0px;
+  background:#572f2f;
+}
+
+.cabinet-line:after{
+  top: 500px;
+}
+
+.shelf-1, .shelf-2{
   width: 700px;
   height: 10px;
   background: #572f2f;
   position: absolute;
-  top: 130px;
+  top: 160px;
   margin-bottom: 20px;
 }
 
-.shelf-1:before{
-  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-  width: 920px;
-  height: 60px;
-  display: inline-block;
-  content: "";
-  background: #5d3023;
-  position: absolute;
-  top: -60px;
-  left: 5px;
+.shelf-2{
+  top: 330px;
 }
 
 .floor{
