@@ -11,23 +11,13 @@ body {
   height: 150vh; 
   margin: 0;
   padding: 0;
-  
+  background:  
+  #d8a08d;
 }
 
 ul li{
   list-style: none;
 }
-
-.wall{
-  width: 100%;
-  height: 40vh;
-  background: #73AEBB;
-  z-index: -1;
-  position: absolute;
-  top:0;
-  left: 0;
-}
-
 
 .circle{
   padding: 50px;
@@ -37,7 +27,7 @@ ul li{
   height: 200px;
   z-index: -1;
   position: absolute;
-  background: #F9D03B;
+  background: #f8da67;
   left: 330px;
   top: 110px;
   border-radius:90px 90px 35px 35px ;
@@ -60,7 +50,7 @@ ul li{
   
   left: -25px;
   position: relative;
-  background: #F9D03B;
+  background: #f8da67;
   border-radius: 0 0 100px 120px;
 }
 
@@ -69,7 +59,7 @@ ul li{
   display: inline-block;
   width: 50px;
   height:45px;
-  background: #F9D03B;
+  background: #f8da67;
   position: absolute;
   top: 140px;
   left: 405px;
@@ -92,10 +82,6 @@ ul li{
 .right-eye-brow{
   left: 63px;
   top: 4px;
-}
-
-ul li{
-  list-style: none;
 }
 
 .left-eyelash ul li, .right-eyelash ul li{
@@ -301,24 +287,22 @@ ul li{
 
 .table{
   width: 470px;
-  height: 10px;
-  background: #5E3023;
+  height: 40px;
+  background: #744f25;
   position: relative;
   left: 90px;
   top: -80px;
-  z-index: -1;
+  z-index: 1;
 }
 
 .table-front{
   width:450px;
   height: 230px;
-  background: #8E403E;
+  background:  #a68866;
   position: absolute;
   top: 425px;
   left: 150px;
-  -webkit-box-shadow: -4px -27px 40px -25px rgba(0,0,0,0.75);
--moz-box-shadow: -4px -27px 40px -25px rgba(0,0,0,0.75);
-box-shadow: -4px -27px 40px -25px rgba(0,0,0,0.75);
+  
 }
 
 .chair{
@@ -335,14 +319,12 @@ box-shadow: -4px -27px 40px -25px rgba(0,0,0,0.75);
 .coffee-bottom{
  background: #fdf8f7;
  width: 50px;
- height: 3px;
+ height: 5px;
  position: absolute;
  top: 410px;
  left: 250px;
  border-radius: 50%;
- -webkit-box-shadow: -6px 11px 16px -2px rgba(0,0,0,0.75);
--moz-box-shadow: -6px 11px 16px -2px rgba(0,0,0,0.75);
-box-shadow: -2px 5px 3px -2px rgba(0,0,0,0.75);
+ 
 }
 
 .coffee-cup{
@@ -351,7 +333,7 @@ box-shadow: -2px 5px 3px -2px rgba(0,0,0,0.75);
   width: 30px;
   position: absolute;
   z-index: 1;
-  top: 385px;
+  top: 388px;
   left: 260px;
   border-radius:5px 5px  10px 10px;
 }
@@ -378,10 +360,11 @@ box-shadow: -2px 5px 3px -2px rgba(0,0,0,0.75);
   border-width: 1px;
   border-style: solid;
   position: absolute;
-  top:360px;
+  top:365px;
   left: 273px;
 
-  border-color:transparent transparent transparent #d6d2d2;
+  border-color:transparent transparent transparent 
+  #545b5f;
 
 }
 
@@ -391,82 +374,62 @@ box-shadow: -2px 5px 3px -2px rgba(0,0,0,0.75);
   position: relative;
   top: -8px;
   left: -11px;
-  border-color:transparent #d6d2d2 transparent transparent;
+  border-color:transparent 
+  #545b5f transparent transparent;
 }
 
-.cabinet{
-  width: 700px;
-  height: 500px;
-  background: #8e403f;
-  position: absolute;
-  top: 150px;
-  left: 900px;
+.post-it-1, .post-it-2, .post-it-3, .post-it-4{
+   width: 200px;
+   height: 200px;
+   background: #f9f0ae;
+   position: absolute;
+   top: 100px;
+   left: 800px;
+   border-bottom-right-radius: 80px 15px;
+   box-shadow:
+    inset 10px 0 50px  #f7e485,
+    inset -60px 0 120px #fff8d3;
+
+   
+
 }
 
-
-
-.line-1, .line-2 {
-  width: 10px;
-  height: 500px;
-  background: #572f2f;
-  position: absolute;
-  top: 0px;
+.post-it-2{
+  left: 1150px;
 }
 
-.line-2{
-  left: 690px;
+.post-it-3{
+  top: 400px;
 }
 
-.line-1:after, .line-2:before{
-  content:"";
-  width: 10px;
-  height: 500px;
-  background: #572f2f;
-  display: inline-block;
-  position: absolute;
-  top: 0px;
-  left: 220px;
-}
-
-.line-2:before{
-  left: -220px;
+.post-it-4{
+  left: 1150px;
+  top: 400px;
 }
 
 
-.cabinet-line:before, .cabinet-line:after{
+
+.post-it-1:before, .post-it-2:before, .post-it-3:before, .post-it-4:before{
+   content: "";
+   display: inline-block;
+  
+   width: 110px;
+   height: 100px;
+   position: absolute;
+   top: 92px;
+   left: 10px;
+
+}
+
+.post-it-1:after, .post-it-2:after, .post-it-3:after , .post-it-4:after{
   content: "";
   display: inline-block;
-  height: 10px;
-  width: 700px;
-  position:absolute;
-  top: -5px;
-  left: 0px;
-  background:#572f2f;
-}
-
-.cabinet-line:after{
-  top: 500px;
-}
-
-.shelf-1, .shelf-2{
-  width: 700px;
-  height: 10px;
-  background: #572f2f;
+  width: 200px;
+  height: 200px;
   position: absolute;
-  top: 160px;
-  margin-bottom: 20px;
-}
-
-.shelf-2{
-  top: 330px;
-}
-
-.floor{
-  background: #CCC0BA;
-  width: 100%;
-  height: 100vh;
-  position: absolute;
-  top: 0px;
-  left: 0;
-  z-index: -2;
+  top: -15px;
+  left: -1px;
+  z-index: -1;
+ 
+  box-shadow:2px 15px 5px rgba(0, 0, 0, 0.40);
 }

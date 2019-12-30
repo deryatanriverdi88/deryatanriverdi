@@ -25,8 +25,6 @@ class App extends React.Component {
       <div className="app">
          
           <div className="circle">
-          <div className="wall">
-          <div className="window"></div></div> 
           <div className="chair"></div>
           <div className="hair"></div>
           <div className="head">
@@ -74,19 +72,10 @@ class App extends React.Component {
           <div className="coffee-steam"></div>
           <div className="coffee-cup"></div>
           <div className="coffee-bottom"></div>
-          <div className="keyboard"></div>
-          <div className="cabinet">
-            <div className="cabinet-line">
-              <div className="line-1"></div>
-              <div className="line-2"></div>
-            </div>
-            <div className="shelf">
-              <div className="shelf-1"></div>
-              <div className="shelf-2"></div>
-            </div>
-          </div>
-          <div className="floor">
-          </div>
+          <div className="post-it-1"></div>
+          <div className="post-it-2"></div>
+          <div className="post-it-3"></div>
+          <div className="post-it-4"></div>
           </div>
       </div>
     );
