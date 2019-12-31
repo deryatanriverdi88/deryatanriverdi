@@ -109,7 +109,7 @@ ul li{
   height:45px;
   background: #f8da67;
   position: relative;
-  top: -145px;
+  top: -140px;
   left: 30px;
   border-radius: 0 0  90px 120px;
 }
@@ -429,18 +429,18 @@ ul li{
 
 .eraser, .eraser-2{
   width: 6px;
-  height: 3px;
+  height: 5px;
   background: #df3b57;
   position: absolute;
   top: -25px;
-  left: 40.5px;
+  left: 39.9px;
   transform: rotate(25deg);
   border-radius: 1px 1px 0 0 ;
 }
 
 .eraser-2{
   transform: rotate(15deg);
-  left: 25px;
+  left: 24.8px;
   top: -31px;
 }
 
@@ -449,9 +449,9 @@ ul li{
   content: "";
   display: inline-block;
   width: 6px;
-  height: 1px;
+  height: 2.5px;
   position: absolute;
-  top: 2px;
+  top: 5px;
   left: 0px;
 }
 
