@@ -66,7 +66,7 @@ ul li{
   top: -75px;
   left: 58px;
   background: #37721b;
-  /* transform: rotate(95deg); */
+  border-radius: 90px;
 }
 .hair{
   width: 140px;
@@ -109,7 +109,7 @@ ul li{
   height:45px;
   background: #f8da67;
   position: relative;
-  top: -145px;
+  top: -140px;
   left: 30px;
   border-radius: 0 0  90px 120px;
 }
@@ -217,7 +217,6 @@ ul li{
   background: #dbaf9e;
   position: absolute;
   top: 50px;
-  z-index: 2;
   left: -9px;
   border-radius: 50%;
   transform: rotate(-5deg);
@@ -396,6 +395,106 @@ ul li{
   background-size: 30%;
   background-image: url('https://www.transparentpng.com/thumb/apple-logo/AoKYpC-apple-logo-png-icon.png');
 }
+
+.pencil-jar{
+  width: 45px;
+  height: 55px;
+  background: rgba(60,43,144, 0.1);
+  position: absolute;
+  left: 530px;
+  top: 420px;
+  border-radius: 0 0 10px 10px;
+  border-width: 0 2px 2px 2px;
+  border-style: solid;
+  border-color: rgba(60,43,144, 0.3)
+}
+
+.pencil-jar:before, .pencil-jar:after{
+  content: "";
+  display: inline-block;
+  height: 35px;
+  width: 3px;
+  background: rgba(240,230,230, 0.3);
+  border-radius: 50px;
+  position: absolute;
+  top: 8px;
+  left: 35px;
+}
+
+.pencil-jar:after{
+  width: 3px;
+  height: 3px;
+  top: 45px;
+}
+
+.eraser, .eraser-2{
+  width: 6px;
+  height: 5px;
+  background: #df3b57;
+  position: absolute;
+  top: -25px;
+  left: 39.9px;
+  transform: rotate(25deg);
+  border-radius: 1px 1px 0 0 ;
+}
+
+.eraser-2{
+  transform: rotate(15deg);
+  left: 24.8px;
+  top: -31px;
+}
+
+.eraser:before, .eraser-2:before{
+  background: #8d8d8d;
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 2.5px;
+  position: absolute;
+  top: 5px;
+  left: 0px;
+}
+
+
+
+.pencil, .pencil-2{
+  width: 6px;
+  height: 75px;
+  background: #e9c84c;
+  position: relative;
+  bottom: 27.5px;
+  left: 25px;
+ transform: rotate(25deg);
+ z-index: -1;
+}
+
+.pencil-2{
+  bottom: 105px;
+  left: 15px;
+  transform: rotate(15deg);
+}
+
+.pencil:before, .pencil:after, .pencil-2:before, .pencil-2:after{
+  content: "";
+  display:inline-block;
+  width: 0;
+  height:0;
+  border-top: 10px solid #dead96;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  position: absolute;
+  top: 75px;
+  left: 0px;
+}
+
+.pencil:after, .pencil-2:after{
+  border-top: 4px solid black;
+  border-left: 1.3px solid transparent;
+  border-right: 1.3px solid transparent;
+  left:1.8px;
+  top: 81px;
+}
+
 
 .table{
   width: 470px;
