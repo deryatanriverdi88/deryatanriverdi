@@ -54,8 +54,15 @@ class App extends React.Component {
       <div className="app">
          
           <div className="circle">
+          <div className="clock">
+          <div className="dot"></div>
+            <div className="hour"></div>
+            <div className="minute"></div>
+            <div className="second"></div>
+          </div>
           <div className="chair"></div>
           <div className="hair"></div>
+    
           <div className="head">
                <div className="left-eye-brow"></div>
                <div className="right-eye-brow"></div>
@@ -96,11 +103,11 @@ class App extends React.Component {
           <div className="neck"></div>
           <div className="t-shirt"></div>
          
-    <Typing>
+    {/* <Typing>
       <div className="message"> 
       <p>Hello, My name is Derya!</p> 
       </div>
-    </Typing>
+    </Typing> */}
           <div className="computer">
             <div className="apple-logo"></div>
           </div>
