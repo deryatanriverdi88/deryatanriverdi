@@ -111,7 +111,12 @@ class App extends React.Component {
           <div className="computer">
             <div className="apple-logo"></div>
           </div>
-          
+          <div className="pencil-jar">
+            <div className='eraser'></div>
+            <div className="pencil"></div>
+            <div className='eraser-2'></div>
+            <div className="pencil-2"></div>
+          </div>
           <div className="table"> </div>
           <div className="table-front"></div>
           <div className="table-side"></div>
