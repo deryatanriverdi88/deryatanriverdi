@@ -22,6 +22,52 @@ ul li{
 .circle{
   padding: 50px;
 }
+
+.clock{
+  width: 150px; 
+  height: 150px;
+  border: 15px solid #e0494a;
+  background: white;
+  position: absolute;
+  top: 100px;
+  border-radius: 50%;
+}
+
+.dot{
+  margin: 50px auto;
+  background:black;
+  width: 20px; 
+  height: 20px;
+  border-radius: 50%;
+}
+
+.hour, .minute{
+  width: 35px;
+  height: 7px;
+  background: black;
+  border-radius: 90px;
+  position: relative;
+  top: -65px;
+  left: 25px;
+}
+
+.minute{
+  width: 50px;
+  top: -60px;
+  left: 58px;
+  transform: rotate(30deg);
+  border-radius: 90px;
+}
+
+.second{
+  width: 3px;
+  height: 45px;
+  position: relative;
+  top: -75px;
+  left: 58px;
+  background: #37721b;
+  /* transform: rotate(95deg); */
+}
 .hair{
   width: 140px;
   height: 200px;
@@ -29,9 +75,10 @@ ul li{
   position: absolute;
   background: #f8da67;
   left: 330px;
-  top: 160px;
+  top: 164px;
   border-radius:90px 90px 35px 35px ;
 }
+
 
 .head{
   height: 135px;
@@ -48,7 +95,7 @@ ul li{
   display: inline-block;
   width: 60px;
   height: 40px;
-  top: -10px;
+  top: 0px;
   left: -25px;
   position: relative;
   background: #f8da67;
@@ -68,14 +115,14 @@ ul li{
 }
 
 .left-eye-brow, .right-eye-brow{
-  width: 23px;
+  width: 25px;
   height: 6px;
   border: 1px solid #5A5353;
   border-color: #5A5353 transparent transparent transparent;
   border-width: 2px;
   position: relative;
   top: 10px;
-  left: 18px;
+  left: 15px;
   border-radius: 50%;
   
 }
@@ -220,7 +267,7 @@ ul li{
 .earing{
   width: 3px;
   height: 3px;
-  background: red;
+  background: #479265;
  border-radius: 50%;
  position: relative;
  top: 25px;
@@ -523,7 +570,7 @@ box-shadow: 5px 14px 12px -3px rgba(0,0,0,0.6);
   /* font-family: 'Indie Flower', cursive;
    */
    font-family: 'Cute Font', cursive;
-  font-size: 25px;
+  font-size: 30px;
   padding-top: 80px;
   font-weight: bold;
   color: #EB194B;
