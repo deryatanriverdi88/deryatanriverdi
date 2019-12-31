@@ -79,7 +79,15 @@ class App extends React.Component {
                <div className="cornea"></div>
                </div>
                <div className="right-eye">
-                 <div className="cornea"></div>
+                  <div className="cornea"></div>
+               </div>
+               <div className="ears">
+                 <div className="left-ear">
+                   <div className='earing'></div>
+                 </div>
+                 <div className="right-ear">
+                 <div className='earing'></div>
+                 </div>
                </div>
                <div className="nose"></div>
                <div className="mouth"></div>
@@ -117,10 +125,11 @@ class App extends React.Component {
             <p onClick={this.handleContactClick}>Contact me!</p>
           </div>
           </div>
+          <div className="floor"></div>
           </div>
 
           { this.state.bio ?  
-        <AwesomeSlider style={{width: '60%', "z-index":"1", margin: "-500px auto"}} > 
+        <AwesomeSlider cssModule={AwesomeSliderStyles} style={{width: '60%', "z-index":"1", margin: "-250px auto"}} > 
           <div className="bio" > 
              <img src="./img/me-2.jpg"/>
              <p className="text"> Something</p>
@@ -142,7 +151,7 @@ class App extends React.Component {
         </AwesomeSlider> : null }
 
         {this.state.project ? 
-        <AwesomeSlider style={{width: '60%', "z-index":"1", margin: "-500px auto"}}  >
+        <AwesomeSlider style={{width: '60%', "z-index":"1", margin: "-250px auto"}}  >
           <div>
              <button className="x" onClick={this.handleProjectClick}>✖️</button>
           </div>
@@ -152,7 +161,7 @@ class App extends React.Component {
         </AwesomeSlider> : null}
          
          {this.state.skill ? 
-         <AwesomeSlider style={{width: '60%', "z-index":"1", margin: "-500px auto"}} >
+         <AwesomeSlider style={{width: '60%', "z-index":"1", margin: "-250px auto"}} >
            <div>
              <img className="ruby-img"src="./img/ruby.jpg"/>
              <button className="x" onClick={this.handleSkillClick}>✖️</button>
@@ -166,7 +175,7 @@ class App extends React.Component {
              <button className="x" onClick={this.handleSkillClick}>✖️</button>
            </div>
            <div>
-             <img className="js" src="./img/javascript.jpg"/>
+             <img className="js-img" src="./img/javascript.jpg"/>
              <button className="x" onClick={this.handleSkillClick}>✖️</button>
            </div>
            <div>
@@ -200,7 +209,7 @@ class App extends React.Component {
         </AwesomeSlider> : null
          }
          {this.state.contact ? 
-         <AwesomeSlider style={{width: '40%', "z-index":"1", margin: "-500px auto"}}  >
+         <AwesomeSlider style={{width: '60%', "z-index":"1", margin: "-250px auto"}}  >
            <div className="linked-in-div">
              <a href="https://www.linkedin.com/in/derya-tanr%C4%B1verdi-701a3489/" target="_blank">
              <img src="./img/linkedin.png"/>
