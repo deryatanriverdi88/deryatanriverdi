@@ -121,6 +121,41 @@ class App extends React.Component {
           <div className="table-front"></div>
           <div className="table-side"></div>
           <div className="garbage-can"></div>
+          <div className="dog">
+            <div className="dog-head">
+              <div className="dog-ear">
+                <ul>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </div>
+              <div className="dog-eyes">
+                <ul>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </div>
+              <div className="dog-nose"></div>
+              <div className="dog-mouth">
+                <ul>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </div>
+              <div className="dog-tongue"></div>
+            </div>
+            <div className="dog-body">
+              <div className="collar">
+                <div className="heart"></div>
+              </div>
+            </div>
+            <div className="dog-legs">
+              <ul>
+                <li></li>
+                <li></li>
+              </ul>
+            </div>
+          </div>
           <div className="coffee-steam"></div>
           <div className="coffee-cup"></div>
           <div className="coffee-bottom"></div>
