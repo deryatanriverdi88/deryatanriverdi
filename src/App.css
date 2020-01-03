@@ -68,6 +68,18 @@ ul li{
   background: #37721b;
   border-radius: 90px;
 }
+
+.chair{
+  width: 180px;
+  height: 150px;
+  position: absolute;
+  top:340px;
+  left: 310px;
+  z-index: -1;
+  border-radius: 15px 15px 0 0 ;
+  background: #1f1e1f;
+}
+
 .hair{
   width: 140px;
   height: 200px;
@@ -551,15 +563,31 @@ box-shadow: 5px 14px 12px -3px rgba(0,0,0,0.6);
   left: 200px;
 }
 
-.chair{
-  width: 180px;
-  height: 150px;
+.garbage-can{
+  width: 100px;
+  height: 130px;
+  background: #393e41;
   position: absolute;
-  top:340px;
-  left: 310px;
-  z-index: -1;
-  border-radius: 15px 15px 0 0 ;
-  background: #1f1e1f;
+  left: 610px;
+  top: 605px;
+  border-radius: 5px 5px 20px 20px;
+  -webkit-box-shadow: -3px 5px 14px 3px rgba(0,0,0,0.75);
+-moz-box-shadow: -3px 5px 14px 3px rgba(0,0,0,0.75);
+box-shadow: -3px 5px 14px 3px rgba(0,0,0,0.75);
+  border-bottom: 2px solid #1f2224;
+}
+
+.garbage-can:before{
+  display: inline-block;
+  content: '';
+  background: rgba(0,0,0, 0.5);
+  width:95px;
+  height: 7px;
+  border-radius: 50%;
+  position: absolute;
+  top: -2px;
+  left: 1px;
+ 
 }
 
 .coffee-bottom{
