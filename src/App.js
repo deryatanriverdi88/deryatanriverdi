@@ -14,7 +14,7 @@ class App extends React.Component {
 
   state = {
     date: new Date().getMonth(),
-    day: new Date().getDay(),
+    day: new Date().getDate(),
     month: "",
     bio: false, 
     project: false, 
