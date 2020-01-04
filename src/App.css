@@ -23,6 +23,19 @@ ul li{
   padding: 50px;
 }
 
+.myname{
+  position: absolute;
+  top: 20px;
+  left:1050px;
+  font-family: 'Parisienne', cursive;
+  font-size: 45px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0px 3px 0px #b2a98f,
+  0px 14px 10px rgba(0,0,0,0.15),
+  0px 24px 2px rgba(0,0,0,0.1),
+  0px 34px 30px rgba(0,0,0,0.1);
+}
 .clock{
   width: 180px; 
   height: 180px;
@@ -402,7 +415,6 @@ box-shadow: -5px 3px 14px -3px rgba(0,0,0,0.75);
   
 }
 
-
 .mouth{
   border: 4px solid #DF3B57;
   border-bottom: 5px solid #DF3B57;
@@ -670,9 +682,6 @@ border-left: 1px solid #195532;
 background: #2c8651;
 transform: rotate(15deg);
 border-radius: 10% 90px ;
--webkit-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
--moz-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
 }
 
 
@@ -681,12 +690,18 @@ box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
  left: 38px;
  top: -83px;
  transform: rotate(35deg);
+ -webkit-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
+box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
 }
 
 .plant ul li:nth-child(3){
 top: -103px;
 left: 48px;
 transform: rotate(55deg);
+-webkit-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
+box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
 }
 .table-front{
   width:450px;

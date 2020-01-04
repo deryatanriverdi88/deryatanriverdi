@@ -57,7 +57,6 @@ class App extends React.Component {
     }
     else if (this.state.month === 7){
       return month = "August"
-
     }
     else if (this.state.month ===8){
       return month = "September"
@@ -69,7 +68,7 @@ class App extends React.Component {
       return month = "November"
     }
     else {
-      return month = "NovembDecemberer"
+      return month = "December"
     }
   }
 
@@ -108,6 +107,7 @@ class App extends React.Component {
       <div className="app">
          
           <div className="border">
+          <div className="myname">Derya Tanriverdi</div>
           <div className="clock">
           <Clock className="react-clock"
           value={this.state.date}
