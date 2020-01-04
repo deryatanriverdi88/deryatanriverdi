@@ -3,6 +3,8 @@ import './App.css';
 import Typing  from 'react-typing-animation'
 import AwesomeSlider from 'react-awesome-slider';
 import AwesomeSliderStyles from 'react-awesome-slider/src/styled/cube-animation';
+// import Clock from 'react-live-clock';
+import Clock from 'react-clock';
 
 // import Typing from 'react-typing-animation';
 // // import Bio from './Components/Bio'
@@ -13,51 +15,61 @@ import AwesomeSliderStyles from 'react-awesome-slider/src/styled/cube-animation'
 class App extends React.Component {
 
   state = {
-    date: new Date().getMonth(),
-    day: new Date().getDate(),
-    month: "",
+    month: new Date().getMonth(),
+    day: new Date().getDay(),
+    date: new Date(),
     bio: false, 
     project: false, 
     skill: false, 
     contact: false
   }
+ 
+  componentDidMount() {
+      setInterval(
+        () => this.setState({ date: new Date() }),
+        1000
+      );
+  }
   
-  componentDidMount(){
-    if(this.state.date === 0){
-      this.setState({month: "January"})
+  
+  month =()=> {
+    let month = ""
+    if(this.state.month === 0){
+     return month = "January"
     }
-    else if (this.state.date === 1){
-      this.setState({month: "February"})
+    else if (this.state.month === 1){
+      return month = "February"
     }
-    else if (this.state.date === 2){
-      this.setState({month: "March"})
+    else if (this.state.month === 2){
+      return month = "March"
     }
-    else if (this.state.date === 3){
-      this.setState({month: "April"})
+    else if (this.state.month === 3){
+      return month = "April"
     }
-    else if (this.state.date === 4){
-      this.setState({month: "May"})
+    else if (this.state.month === 4){
+      return month = "May"
     }
-    else if (this.state.date === 5){
-      this.setState({month: "June"})
+    else if (this.state.month === 5){
+      return month = "June"
     }
-    else if (this.state.date === 6){
-      this.setState({month: "July"})
+    else if (this.state.month === 6){
+      return month = "July"
     }
-    else if (this.state.date === 7){
-      this.setState({month: "August"})
+    else if (this.state.month === 7){
+      return month = "August"
+
     }
-    else if (this.state.date ===8){
-      this.setState({month: "September"})
+    else if (this.state.month ===8){
+      return month = "September"
     }
-    else if (this.state.date === 9){
-      this.setState({month: "October"})
+    else if (this.state.month === 9){
+      return month = "October"
     }
-    else if (this.state.date === 10){
-      this.setState({month: "November"})
+    else if (this.state.month === 10){
+      return month = "November"
     }
     else {
-      this.setState({month: "December"})
+      return month = "NovembDecemberer"
     }
   }
 
@@ -85,6 +97,7 @@ class App extends React.Component {
     })
   }
 
+
  
   render(){
  
@@ -96,14 +109,17 @@ class App extends React.Component {
          
           <div className="border">
           <div className="clock">
-            <div className="dot"></div>
+          <Clock className="react-clock"
+          value={this.state.date}
+        />
+            {/* <div className="dot"></div>
             <div className="hour"></div>
             <div className="minute"></div>
-            <div className="second"></div>
+            <div className="second"></div> */}
           </div>
           <div className="calendar">
-          <div className="month">{this.state.month}</div>
-          <div className="day">{this.state.day}</div>
+          <div className="month">{this.month()}</div>
+         <div className="day">{this.state.day}</div>
           </div>
           <div className="shelf">
             <div className="book-holder">
