@@ -29,8 +29,11 @@ ul li{
   border: 15px solid #e0494a;
   background: white;
   position: absolute;
-  top: 100px;
+  top: 40px;
   border-radius: 50%;
+  -webkit-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
+box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
 }
 
 .dot{
@@ -81,6 +84,32 @@ ul li{
 box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
 }
 
+.calendar{
+  position: absolute;
+  top: 220px;
+  left: 75px;
+  -webkit-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
+box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
+}
+
+.month{
+  width: 100px;
+  height: 25px;
+  background:  #e0494a;
+ color: white;
+ font-weight: bold;
+ padding-top: 3px;
+}
+
+.day{
+  width: 100px;
+  height: 50px;
+  background: white;
+  font-weight: bold;
+  padding-top: 10px;
+  font-size: 25px;
+}
 .book-holder ul li {
   width: 25px;
   height: 45px;

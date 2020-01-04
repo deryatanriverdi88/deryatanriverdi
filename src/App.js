@@ -13,12 +13,53 @@ import AwesomeSliderStyles from 'react-awesome-slider/src/styled/cube-animation'
 class App extends React.Component {
 
   state = {
+    date: new Date().getMonth(),
+    day: new Date().getDay(),
+    month: "",
     bio: false, 
     project: false, 
     skill: false, 
     contact: false
   }
   
+  componentDidMount(){
+    if(this.state.date === 0){
+      this.setState({month: "January"})
+    }
+    else if (this.state.date === 1){
+      this.setState({month: "February"})
+    }
+    else if (this.state.date === 2){
+      this.setState({month: "March"})
+    }
+    else if (this.state.date === 3){
+      this.setState({month: "April"})
+    }
+    else if (this.state.date === 4){
+      this.setState({month: "May"})
+    }
+    else if (this.state.date === 5){
+      this.setState({month: "June"})
+    }
+    else if (this.state.date === 6){
+      this.setState({month: "July"})
+    }
+    else if (this.state.date === 7){
+      this.setState({month: "August"})
+    }
+    else if (this.state.date ===8){
+      this.setState({month: "September"})
+    }
+    else if (this.state.date === 9){
+      this.setState({month: "October"})
+    }
+    else if (this.state.date === 10){
+      this.setState({month: "November"})
+    }
+    else {
+      this.setState({month: "December"})
+    }
+  }
 
   handleBioClick = () => {
     this.setState({
@@ -59,6 +100,10 @@ class App extends React.Component {
             <div className="hour"></div>
             <div className="minute"></div>
             <div className="second"></div>
+          </div>
+          <div className="calendar">
+          <div className="month">{this.state.month}</div>
+          <div className="day">{this.state.day}</div>
           </div>
           <div className="shelf">
             <div className="book-holder">
