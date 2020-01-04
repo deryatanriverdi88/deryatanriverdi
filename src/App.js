@@ -13,12 +13,53 @@ import AwesomeSliderStyles from 'react-awesome-slider/src/styled/cube-animation'
 class App extends React.Component {
 
   state = {
+    date: new Date().getMonth(),
+    day: new Date().getDay(),
+    month: "",
     bio: false, 
     project: false, 
     skill: false, 
     contact: false
   }
   
+  componentDidMount(){
+    if(this.state.date === 0){
+      this.setState({month: "January"})
+    }
+    else if (this.state.date === 1){
+      this.setState({month: "February"})
+    }
+    else if (this.state.date === 2){
+      this.setState({month: "March"})
+    }
+    else if (this.state.date === 3){
+      this.setState({month: "April"})
+    }
+    else if (this.state.date === 4){
+      this.setState({month: "May"})
+    }
+    else if (this.state.date === 5){
+      this.setState({month: "June"})
+    }
+    else if (this.state.date === 6){
+      this.setState({month: "July"})
+    }
+    else if (this.state.date === 7){
+      this.setState({month: "August"})
+    }
+    else if (this.state.date ===8){
+      this.setState({month: "September"})
+    }
+    else if (this.state.date === 9){
+      this.setState({month: "October"})
+    }
+    else if (this.state.date === 10){
+      this.setState({month: "November"})
+    }
+    else {
+      this.setState({month: "December"})
+    }
+  }
 
   handleBioClick = () => {
     this.setState({
@@ -59,6 +100,10 @@ class App extends React.Component {
             <div className="hour"></div>
             <div className="minute"></div>
             <div className="second"></div>
+          </div>
+          <div className="calendar">
+          <div className="month">{this.state.month}</div>
+          <div className="day">{this.state.day}</div>
           </div>
           <div className="shelf">
             <div className="book-holder">
@@ -133,7 +178,17 @@ class App extends React.Component {
             <div className='eraser-2'></div>
             <div className="pencil-2"></div>
           </div>
-          <div className="table"> </div>
+          <div className="table">
+            <div className="plant">
+              <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
+            </div>
+            <div className="vase-top"></div>
+            <div className="vase"></div>
+          </div>
           <div className="table-front"></div>
           <div className="table-side"></div>
           <div className="garbage-can"></div>
@@ -193,7 +248,7 @@ class App extends React.Component {
           </div>
 
           { this.state.bio ?  
-        <AwesomeSlider cssModule={AwesomeSliderStyles} style={{width: '60%', "z-index":"1", margin: "-250px auto"}} > 
+        <AwesomeSlider cssModule={AwesomeSliderStyles} style={{width: '60%', "z-index":"6", margin: "-250px auto"}} > 
           <div className="bio" > 
              <img src="./img/me-2.jpg"/>
              <p className="text"> Something</p>
@@ -215,7 +270,7 @@ class App extends React.Component {
         </AwesomeSlider> : null }
 
         {this.state.project ? 
-        <AwesomeSlider style={{width: '60%', "z-index":"1", margin: "-250px auto"}}  >
+        <AwesomeSlider style={{width: '60%', "z-index":"6", margin: "-250px auto"}}  >
           <div>
              <button className="x" onClick={this.handleProjectClick}>✖️</button>
           </div>
@@ -225,7 +280,7 @@ class App extends React.Component {
         </AwesomeSlider> : null}
          
          {this.state.skill ? 
-         <AwesomeSlider style={{width: '60%', "z-index":"1", margin: "-250px auto"}} >
+         <AwesomeSlider style={{width: '60%', "z-index":"6", margin: "-250px auto"}} >
            <div>
              <img className="ruby-img"src="./img/ruby.jpg"/>
              <button className="x" onClick={this.handleSkillClick}>✖️</button>
@@ -273,7 +328,7 @@ class App extends React.Component {
         </AwesomeSlider> : null
          }
          {this.state.contact ? 
-         <AwesomeSlider style={{width: '60%', "z-index":"1", margin: "-250px auto"}}  >
+         <AwesomeSlider style={{width: '60%', "z-index":"6", margin: "-250px auto"}}  >
            <div className="linked-in-div">
              <a href="https://www.linkedin.com/in/derya-tanr%C4%B1verdi-701a3489/" target="_blank">
              <img src="./img/linkedin.png"/>

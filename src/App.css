@@ -29,8 +29,11 @@ ul li{
   border: 15px solid #e0494a;
   background: white;
   position: absolute;
-  top: 100px;
+  top: 40px;
   border-radius: 50%;
+  -webkit-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
+box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
 }
 
 .dot{
@@ -81,6 +84,32 @@ ul li{
 box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
 }
 
+.calendar{
+  position: absolute;
+  top: 220px;
+  left: 75px;
+  -webkit-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
+box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
+}
+
+.month{
+  width: 100px;
+  height: 25px;
+  background:  #e0494a;
+ color: white;
+ font-weight: bold;
+ padding-top: 3px;
+}
+
+.day{
+  width: 100px;
+  height: 50px;
+  background: white;
+  font-weight: bold;
+  padding-top: 10px;
+  font-size: 25px;
+}
 .book-holder ul li {
   width: 25px;
   height: 45px;
@@ -591,6 +620,66 @@ background-image: url("https://www.transparenttextures.com/patterns/wood-pattern
   box-shadow: 0px 13px 10px -3px rgba(0,0,0,0.6);
 }
 
+.vase{
+  width: 35px;
+  height: 40px;
+  position: absolute;
+ background: #ddb8a6;
+ bottom: 26px;
+ left: 30px;
+ clip-path: polygon(0 0, 100% 0, 92% 65%, 8% 65%);
+}
+
+.vase-top{
+  width: 43px;
+  position: absolute;
+  top: -26px;
+  left: 26px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #c4a393 transparent transparent transparent;
+ z-index: 2;
+}
+
+.vase-top:before{
+  content: "";
+  position: absolute;
+  top: -12px;
+  left: -5px;
+  display: inline-block;
+  width: 42.5px;
+  height: 7px;
+  background: #ddb8a6;
+}
+
+.plant ul li{
+position: relative;
+top: -53px;
+left: 28px;
+width: 20px;
+height:25px;
+border-left: 1px solid #195532;
+background: #2c8651;
+transform: rotate(15deg);
+border-radius: 10% 90px ;
+-webkit-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
+box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
+}
+
+
+
+.plant ul li:nth-child(2){
+ left: 38px;
+ top: -83px;
+ transform: rotate(35deg);
+}
+
+.plant ul li:nth-child(3){
+top: -103px;
+left: 48px;
+transform: rotate(55deg);
+}
 .table-front{
   width:450px;
   height: 230px;
@@ -745,7 +834,7 @@ box-shadow: -3px 4px 14px -3px rgba(0,0,0,0.75);
   position: relative;
   top: -40px;
   left: 26px;
-  z-index: 6;
+  z-index: 2;
 }
 
 .dog-mouth ul li{
@@ -880,18 +969,18 @@ box-shadow: -3px 4px 14px -3px rgba(0,0,0,0.75);
 }
 
 .coffee-bottom{
- background: #fdf8f7;
+ background: #ebd8d0;
  width: 50px;
- height: 5px;
+ height: 3px;
  position: absolute;
- top: 470px;
+ top: 472px;
  left: 250px;
  border-radius: 50%;
  
 }
 
 .coffee-cup{
-  background: #fdf8f7;
+  background: #ebd8d0;
   height: 25px;
   width: 30px;
   position: absolute;
@@ -906,7 +995,7 @@ box-shadow: -3px 4px 14px -3px rgba(0,0,0,0.75);
   display: inline-block;
   width: 8px;
   height: 10px;
-  border: 2px solid #fdf8f7;
+  border: 2px solid #ebd8d0;
   border-radius: 50%;
   position: relative;
   left: 18px;
