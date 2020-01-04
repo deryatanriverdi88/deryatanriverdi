@@ -805,7 +805,7 @@ box-shadow: -3px 4px 14px -3px rgba(0,0,0,0.75);
   position: relative;
   top: -40px;
   left: 26px;
-  z-index: 6;
+  z-index: 2;
 }
 
 .dog-mouth ul li{
@@ -940,18 +940,18 @@ box-shadow: -3px 4px 14px -3px rgba(0,0,0,0.75);
 }
 
 .coffee-bottom{
- background: #fdf8f7;
+ background: #ebd8d0;
  width: 50px;
- height: 5px;
+ height: 3px;
  position: absolute;
- top: 470px;
+ top: 472px;
  left: 250px;
  border-radius: 50%;
  
 }
 
 .coffee-cup{
-  background: #fdf8f7;
+  background: #ebd8d0;
   height: 25px;
   width: 30px;
   position: absolute;
@@ -966,7 +966,7 @@ box-shadow: -3px 4px 14px -3px rgba(0,0,0,0.75);
   display: inline-block;
   width: 8px;
   height: 10px;
-  border: 2px solid #fdf8f7;
+  border: 2px solid #ebd8d0;
   border-radius: 50%;
   position: relative;
   left: 18px;
