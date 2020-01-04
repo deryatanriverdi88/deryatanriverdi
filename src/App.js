@@ -16,7 +16,7 @@ class App extends React.Component {
 
   state = {
     month: new Date().getMonth(),
-    day: new Date().getDay(),
+    day: new Date().getDate(),
     date: new Date(),
     bio: false, 
     project: false, 
@@ -102,7 +102,7 @@ class App extends React.Component {
   render(){
  
   
-
+ console.log(new Date().getDay())
     return (
 
       <div className="app">
