@@ -53,12 +53,28 @@ class App extends React.Component {
 
       <div className="app">
          
-          <div className="circle">
+          <div className="border">
           <div className="clock">
             <div className="dot"></div>
             <div className="hour"></div>
             <div className="minute"></div>
             <div className="second"></div>
+          </div>
+          <div className="shelf">
+            <div className="book-holder">
+              <ul>
+                <li></li>
+                <li></li>
+              </ul>
+            </div>
+            <div className="book">
+              <ul>
+                <li>Aspiration</li>
+                <li>Success</li>
+                <li>Future</li>
+                <li>Inspired</li>
+              </ul>
+            </div>
           </div>
           <div className="chair"></div>
           <div className="hair"></div>

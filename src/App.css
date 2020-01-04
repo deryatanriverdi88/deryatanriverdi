@@ -19,7 +19,7 @@ ul li{
   list-style: none;
 }
 
-.circle{
+.border{
   padding: 50px;
 }
 
@@ -68,6 +68,74 @@ ul li{
   background: #37721b;
   border-radius: 90px;
 }
+
+.shelf{
+  width: 150px;
+  height: 20px;
+  background: #A26877;
+  position: absolute;
+  left: 550px;
+  top: 170px;
+  -webkit-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
+box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
+}
+
+.book-holder ul li {
+  width: 25px;
+  height: 45px;
+  position: relative;
+  top: -45px;
+  left: 5px;
+  border-top: 0 solid transparent;
+  border-right: 10px solid #5B8C8C;
+  border-bottom: 10px solid #5B8C8C;
+  border-left: 0 solid transparent;
+}
+
+.book-holder ul li:nth-child(2){
+  left: 120px;
+  top: -90px;
+  border-right: 0 solid transparent;
+  border-bottom: 10px solid #5B8C8C;
+  border-left: 10px solid #5B8C8C;
+}
+
+.book ul li{
+ position: relative;
+ top: -145px;
+ left: 44px;
+ width:15px;
+ height: 55px;
+ background: #FFDB82;
+ border-radius: 3px;
+ transform: rotate(205deg);
+ writing-mode: vertical-lr;
+ font-size: 10px;
+ padding-left: 3px;
+}
+
+.book ul li:nth-child(2){
+  top: -200px;
+  left: 61px;
+  color: white;
+  background: #F2636A
+}
+
+
+.book ul li:nth-child(3){
+  top: -255px;
+ left: 78px;
+ background: #FF8E8E;
+}
+
+.book ul li:nth-child(4){
+  top: -310px;
+  left: 95px;
+  background: #3B6A72;
+  color: white;
+}
+
 
 .chair{
   width: 180px;
@@ -618,7 +686,7 @@ box-shadow: -3px 4px 14px -3px rgba(0,0,0,0.75);
 .dog-ear ul li:before{
   content: "";
   display: inline-block;
-  background:black;
+  background:rgba(70,64,49, 0.8);
   width: 5px;
   height: 10px;
   border-radius: 40%;
@@ -721,6 +789,9 @@ z-index: 1;
   top: -20px;
   border-radius: 50% 50% 40% 40%;
   z-index: -1;
+  -webkit-box-shadow: -3px 4px 14px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -3px 4px 14px -3px rgba(0,0,0,0.75);
+box-shadow: -3px 4px 14px -3px rgba(0,0,0,0.75);
 }
 
 .collar{
@@ -787,7 +858,7 @@ z-index: 1;
  border-radius: 0 0 40px 40px;
  border-width: 2px; 
  border-style: solid;
- border-color: transparent #464031 #464031 #464031;
+ border-color: transparent rgba(70,64,49, 0.6) rgba(70,64,49, 0.6) rgba(70,64,49, 0.6);
 }
 
 .dog-legs ul li:nth-child(2){
@@ -802,7 +873,7 @@ z-index: 1;
   position: absolute;
   top: 17px;
   left: -1px;
-  background: #464031;
+  background: rgba(70,64,49, 0.9);
   width: 18px;
   height: 10px;
   border-radius: 50%;
