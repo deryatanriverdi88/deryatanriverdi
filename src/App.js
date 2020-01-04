@@ -133,7 +133,17 @@ class App extends React.Component {
             <div className='eraser-2'></div>
             <div className="pencil-2"></div>
           </div>
-          <div className="table"> </div>
+          <div className="table">
+            <div className="plant">
+              <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
+            </div>
+            <div className="vase-top"></div>
+            <div className="vase"></div>
+          </div>
           <div className="table-front"></div>
           <div className="table-side"></div>
           <div className="garbage-can"></div>
