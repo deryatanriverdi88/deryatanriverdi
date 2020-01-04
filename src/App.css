@@ -24,27 +24,34 @@ ul li{
 }
 
 .clock{
-  width: 150px; 
-  height: 150px;
+  width: 180px; 
+  height: 180px;
   border: 15px solid #e0494a;
   background: white;
   position: absolute;
-  top: 40px;
+  top: 20px;
+  left: 30px;
   border-radius: 50%;
   -webkit-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
 -moz-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
 box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
 }
 
-.dot{
+.react-clock{
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+
+/* .dot{
   margin: 50px auto;
   background:black;
   width: 20px; 
   height: 20px;
   border-radius: 50%;
-}
+} */
 
-.hour, .minute{
+/* .hour, .minute{
   width: 35px;
   height: 7px;
   background: black;
@@ -70,7 +77,7 @@ box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
   left: 58px;
   background: #37721b;
   border-radius: 90px;
-}
+} */
 
 .shelf{
   width: 150px;
@@ -88,9 +95,9 @@ box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
   position: absolute;
   top: 220px;
   left: 75px;
-  -webkit-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
--moz-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
+  -webkit-box-shadow: -5px 3px 14px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -5px 3px 14px -3px rgba(0,0,0,0.75);
+box-shadow: -5px 3px 14px -3px rgba(0,0,0,0.75);
 }
 
 .month{
@@ -142,6 +149,7 @@ box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
  writing-mode: vertical-lr;
  font-size: 10px;
  padding-left: 3px;
+ 
 }
 
 .book ul li:nth-child(2){
