@@ -53,12 +53,28 @@ class App extends React.Component {
 
       <div className="app">
          
-          <div className="circle">
+          <div className="border">
           <div className="clock">
-          <div className="dot"></div>
+            <div className="dot"></div>
             <div className="hour"></div>
             <div className="minute"></div>
             <div className="second"></div>
+          </div>
+          <div className="shelf">
+            <div className="book-holder">
+              <ul>
+                <li></li>
+                <li></li>
+              </ul>
+            </div>
+            <div className="book">
+              <ul>
+                <li>Aspiration</li>
+                <li>Success</li>
+                <li>Future</li>
+                <li>Inspired</li>
+              </ul>
+            </div>
           </div>
           <div className="chair"></div>
           <div className="hair"></div>
@@ -120,6 +136,42 @@ class App extends React.Component {
           <div className="table"> </div>
           <div className="table-front"></div>
           <div className="table-side"></div>
+          <div className="garbage-can"></div>
+          <div className="dog">
+            <div className="dog-head">
+              <div className="dog-ear">
+                <ul>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </div>
+              <div className="dog-eyes">
+                <ul>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </div>
+              <div className="dog-nose"></div>
+              <div className="dog-mouth">
+                <ul>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </div>
+              <div className="dog-tongue"></div>
+            </div>
+            <div className="dog-body">
+              <div className="collar">
+                <div className="heart"></div>
+              </div>
+            </div>
+            <div className="dog-legs">
+              <ul>
+                <li></li>
+                <li></li>
+              </ul>
+            </div>
+          </div>
           <div className="coffee-steam"></div>
           <div className="coffee-cup"></div>
           <div className="coffee-bottom"></div>
