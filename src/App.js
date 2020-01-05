@@ -112,10 +112,7 @@ class App extends React.Component {
           <Clock className="react-clock"
           value={this.state.date}
         />
-            {/* <div className="dot"></div>
-            <div className="hour"></div>
-            <div className="minute"></div>
-            <div className="second"></div> */}
+      
           </div>
           <div className="calendar">
           <div className="month">{this.month()}</div>
@@ -248,6 +245,19 @@ class App extends React.Component {
           <div className="coffee-bottom"></div>
          <div className="postits">
           <div className="post-it-1">
+          
+             <div className="flower">
+               <div className="middle"></div>
+               <ul>
+                 <li></li>
+                 <li></li>
+                 <li></li>
+                 <li></li>
+                 <li></li>
+                 <li></li>
+               </ul>
+             </div>
+     
             <p onClick={this.handleBioClick}> About me</p>
           </div>
           <div className="post-it-2">
@@ -255,7 +265,29 @@ class App extends React.Component {
           </div>
           <div className="post-it-3">
             <p onClick={this.handleSkillClick}>My skills</p>
-          </div>
+            <div className="lamb">
+              <div className="lamb-top">
+                <div className="lamb-inside">
+                  <ul>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </div>
+                < div className="lamb-light">
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </div>
+              </div>
+              <div className="lamb-bottom"></div>
+            </div>
+            </div>
           <div className="post-it-4">
             <p onClick={this.handleContactClick}>Contact me!</p>
           </div>
