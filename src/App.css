@@ -1145,7 +1145,7 @@ transform: rotate(35deg);
 .flower ul li:nth-child(4){
   top: 42px;
 left: 39px;
-transform: rotate(85deg);
+transform: rotate(95deg);
 }
 
 .flower ul li:nth-child(5){
@@ -1159,6 +1159,145 @@ transform: rotate(85deg);
   left: 17px;
   transform: rotate(35deg);
 }
+
+.lamb{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.lamb-top{
+
+  width: 50px;
+  height: 50px;
+  background: rgba(255, 140, 12, 0.3);
+  border-radius: 100px 90px 100px 20px;
+  transform: rotate(-45deg);
+  transition: background 2s;
+  transition: box-shadow 1s;
+  transition-timing-function: ease;
+ 
+}
+
+.lamb-top:hover{
+  background: rgb(255, 140, 12);
+  -webkit-box-shadow: -3px -4px 30px 12px rgba(211,219,96,1);
+-moz-box-shadow: -3px -4px 30px 12px rgba(211,219,96,1);
+box-shadow: -3px -4px 30px 12px rgba(211,219,96,1);
+}
+
+
+.lamb-inside ul li{
+  position: relative;
+  top: 5px;
+  left: -17px;
+  width: 20px;
+  height: 80px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(255, 244, 172) transparent transparent transparent;
+  transform: rotate(45deg);
+  border-radius: 50%;
+}
+
+.lamb-inside ul li:nth-child(1):before{
+  position: absolute;
+  top: 0px;
+  left: 4px;
+  content: "";
+  display: inline-block; 
+  width: 29px;
+  height: 5px;
+  border-bottom: 1px solid rgba(255, 244, 172) ;
+  border-radius: 40px;
+}
+
+.lamb-inside ul li:nth-child(2){
+ left: -4px;
+ top: -61px;
+}
+
+.lamb-inside ul li:nth-child(2):before, .lamb-inside ul li:nth-child(2):after{
+  position: absolute;
+  top: 3px;
+  left: -5px;
+  content: "";
+  display: inline-block; 
+  height: 30px;
+  border-right: 1px solid rgba(255, 244, 172) ;
+
+  transform: rotate(-5deg);
+}
+
+.lamb-inside ul li:nth-child(2):after{
+  border-left: 1px solid rgba(255, 244, 172) ;
+  border-right: none;
+  transform: rotate(7deg);
+  left: 2px;
+  top: 4px;
+}
+
+.lamb-light ul li{
+  position: absolute;
+  top: -18px;
+  left: 25px;
+  width: 1px;
+  height: 10px;
+  background: rgba(255, 140, 12, 0.3);
+  transition: background 2s;
+  transition-timing-function: ease;
+}
+
+.lamb-ligth:hover{
+  background: rgb(255, 140, 12)
+}
+
+.lamb-light ul li:nth-child(2){
+  top: -7px;
+  left: 50px;
+  transform: rotate(45deg);
+}
+
+.lamb-light ul li:nth-child(3){
+  top:20px;
+  left: 60px;
+  transform: rotate(85deg);
+}
+
+.lamb-light ul li:nth-child(4){
+  top:45px;
+  left: 50px;
+  transform: rotate(135deg);
+}
+
+.lamb-light ul li:nth-child(5){
+  top:55px;
+  left: 30px;
+  transform: rotate(170deg);
+}
+
+.lamb-light ul li:nth-child(6){
+  top:20px;
+  left: -10px;
+  transform: rotate(-80deg);
+}
+
+.lamb-light ul li:nth-child(7){
+  top:-3px;
+  left: 0px;
+  transform: rotate(-45deg);
+}
+
+.lamb-bottom{
+   width: 10px;
+   height: 10px;
+   background: black;
+  position: relative;
+  top: 5px;
+  left: 20px;
+  border-radius: 0 0  5px 5px;
+}
+
 
 .post-it-1 p:hover, .post-it-2 p:hover, .post-it-3 p:hover, .post-it-4 p:hover{
   animation: shake 0.5s;

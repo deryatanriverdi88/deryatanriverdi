@@ -265,7 +265,29 @@ class App extends React.Component {
           </div>
           <div className="post-it-3">
             <p onClick={this.handleSkillClick}>My skills</p>
-          </div>
+            <div className="lamb">
+              <div className="lamb-top">
+                <div className="lamb-inside">
+                  <ul>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </div>
+                < div className="lamb-light">
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </div>
+              </div>
+              <div className="lamb-bottom"></div>
+            </div>
+            </div>
           <div className="post-it-4">
             <p onClick={this.handleContactClick}>Contact me!</p>
           </div>
