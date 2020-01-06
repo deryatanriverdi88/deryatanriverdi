@@ -262,6 +262,14 @@ class App extends React.Component {
           </div>
           <div className="post-it-2">
               <p onClick={this.handleProjectClick}> My projects</p>
+              <div className="file">
+                 <div className="file-top"></div>
+                 <div className="file-bottom">
+                    <div className="opening-tag"></div>
+                    <div className="slash"></div>
+                    <div className="closing-tag"></div>
+                 </div>
+              </div>
           </div>
           <div className="post-it-3">
             <p onClick={this.handleSkillClick}>My skills</p>
@@ -290,6 +298,9 @@ class App extends React.Component {
             </div>
           <div className="post-it-4">
             <p onClick={this.handleContactClick}>Contact me!</p>
+             <div className="email">
+                <span> @  </span>
+             </div>
           </div>
           </div>
           <div className="floor"></div>
