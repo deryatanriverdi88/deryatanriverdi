@@ -302,6 +302,9 @@ class App extends React.Component {
                 <span> @  </span>
              </div>
           </div>
+          <div className="css-art"> 
+            <p>Made by CSS with ❤️ </p>
+          </div>
           </div>
           <div className="floor"></div>
           </div>
