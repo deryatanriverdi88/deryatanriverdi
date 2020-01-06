@@ -1175,12 +1175,12 @@ transform: rotate(95deg);
   display: inline-block;
   height: 10px;
   transform:rotate(45deg);
-  border-right: 2px solid black;
+  border-right: 2px solid #6f6d70;
 }
 
 .file:after{
-  border-top: 2px solid black;
-  border-right: 2px solid black;
+  border-top: 2px solid #6f6d70;
+  border-right: 2px solid #6f6d70;
 
   transform: rotate(0);
   top: -8px;
@@ -1194,7 +1194,7 @@ transform: rotate(95deg);
   position: relative;
   width: 23px;
   height: 12px;
-  border: 2px solid black;
+  border: 2px solid #6f6d70;
   border-right: none;
   border-radius: 5px 0 0 0 ;
 }
@@ -1205,7 +1205,7 @@ transform: rotate(95deg);
   display: inline-block;
   width: 20px;
   height: 15px;
- border: 2px solid black;
+ border: 2px solid #6f6d70;
  border-left: none;
  border-top: none;
   top: -7px;
@@ -1221,7 +1221,7 @@ transform: rotate(95deg);
   width: 5px;
   height: 5px;
   border-radius: 50%;
-  border: 2px solid black;
+  border: 2px solid #6f6d70;
 }
 
 .file-bottom{
@@ -1231,7 +1231,7 @@ transform: rotate(95deg);
   height: 25px;
   border-width: 2px;
   border-style: solid;
-  border-color: transparent black black black;
+  border-color: transparent #6f6d70 #6f6d70 #6f6d70;
   border-radius: 0 0 5px 5px;
 }
 
@@ -1240,7 +1240,7 @@ transform: rotate(95deg);
   position: relative;
   left: 5px;
   height: 10px;
-  border-right: 2px solid black;
+  border-right: 2px solid #6f6d70;
   transform: rotate(45deg);
 }
 
@@ -1418,6 +1418,46 @@ box-shadow: -3px -4px 30px 12px rgba(211,219,96,1);
   top: 5px;
   left: 20px;
   border-radius: 0 0  5px 5px;
+}
+
+.email{
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  width: 10px;
+  height: 10px;
+  border-left: 20px solid #43456b;
+  border-right: 20px solid #43456b;
+  border-bottom: 18px solid transparent;
+  border-top: 18px solid #fdb341;
+}
+
+.email:before, .email:after{
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 2px;
+  top:-36px;
+  left: -19.5px;
+  border-bottom: 18px solid #fdb341;
+  border-left: 18.5px solid transparent;
+  border-right: 18.5px solid transparent;
+}
+
+.email:after{
+  border-bottom: 24px solid #585a7c;
+  border-left: 19px solid transparent;
+  border-right: 19px solid transparent;
+  top:-6px;
+  left: -20px;
+}
+
+.email span{
+  color: white;
+  font-size: 15px;
+  position: relative;
+  top: -28px;
+  left: -6px;
 }
 
 

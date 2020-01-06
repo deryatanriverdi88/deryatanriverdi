@@ -298,6 +298,9 @@ class App extends React.Component {
             </div>
           <div className="post-it-4">
             <p onClick={this.handleContactClick}>Contact me!</p>
+             <div className="email">
+                <span> @  </span>
+             </div>
           </div>
           </div>
           <div className="floor"></div>
