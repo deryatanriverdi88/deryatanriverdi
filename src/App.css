@@ -1161,6 +1161,119 @@ transform: rotate(95deg);
   transform: rotate(35deg);
 }
 
+.file{
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.file:before, .file:after{
+  content: "";
+  position: absolute;
+  top: -8px;
+  left: 25px;
+  display: inline-block;
+  height: 10px;
+  transform:rotate(45deg);
+  border-right: 2px solid black;
+}
+
+.file:after{
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+
+  transform: rotate(0);
+  top: -8px;
+  left: 29px;
+ width: 10px;
+ border-radius: 0 5px 0 0 ;
+}
+
+
+.file-top{
+  position: relative;
+  width: 23px;
+  height: 12px;
+  border: 2px solid black;
+  border-right: none;
+  border-radius: 5px 0 0 0 ;
+}
+
+.file-top:before{
+  position: absolute;
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 15px;
+ border: 2px solid black;
+ border-left: none;
+ border-top: none;
+  top: -7px;
+  left: 17px;
+}
+
+.file-top:after{
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: -4px;
+  right: -13px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+.file-bottom{
+  position: relative;
+  top: -1px;
+  width: 41px;
+  height: 25px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: transparent black black black;
+  border-radius: 0 0 5px 5px;
+}
+
+.opening-tag, .opening-tag:before, .slash, .closing-tag, .closing-tag:before{
+  width: 5px;
+  position: relative;
+  left: 5px;
+  height: 10px;
+  border-right: 2px solid black;
+  transform: rotate(45deg);
+}
+
+.opening-tag:before, .closing-tag:before{
+  content: "";
+  display: inline-block;
+  transform: rotate(75deg);
+  position: absolute;
+  left: 4px;
+  top: 1px;
+}
+
+
+.slash{
+  height: 16px;
+  left: 15px;
+  top: -10px;
+  transform: rotate(25deg);
+}
+
+.closing-tag{
+  top: -24px;
+  left: 25px;
+  transform: rotate(-45deg);
+}
+
+.closing-tag:before{
+  transform: rotate(95deg);
+  left: -5px;
+  top: 1px;
+}
+
+
 .lamb{
   position: absolute;
   top: 20px;
