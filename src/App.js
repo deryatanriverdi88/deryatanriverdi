@@ -240,9 +240,11 @@ class App extends React.Component {
               </ul>
             </div>
           </div>
+          <div className="coffee">
           <div className="coffee-steam"></div>
           <div className="coffee-cup"></div>
           <div className="coffee-bottom"></div>
+          </div>
          <div className="postits">
           <div className="post-it-1">
           
@@ -310,7 +312,7 @@ class App extends React.Component {
           </div>
 
           { this.state.bio ?  
-        <AwesomeSlider cssModule={AwesomeSliderStyles} style={{width: '60%', "z-index":"6", margin: "-250px auto"}} > 
+        <AwesomeSlider cssModule={AwesomeSliderStyles} style={{width: '60%', "z-index":"6", margin: "-50px auto"}} > 
           <div className="bio" > 
              <img src="./img/me-2.jpg"/>
              <p className="text"> Something</p>
@@ -332,7 +334,7 @@ class App extends React.Component {
         </AwesomeSlider> : null }
 
         {this.state.project ? 
-        <AwesomeSlider style={{width: '60%', "z-index":"6", margin: "-250px auto"}}  >
+        <AwesomeSlider style={{width: '60%', "z-index":"6", margin: "-50px auto"}}  >
           <div>
              <button className="x" onClick={this.handleProjectClick}>✖️</button>
           </div>
@@ -342,7 +344,7 @@ class App extends React.Component {
         </AwesomeSlider> : null}
          
          {this.state.skill ? 
-         <AwesomeSlider style={{width: '60%', "z-index":"6", margin: "-250px auto"}} >
+         <AwesomeSlider style={{width: '60%', "z-index":"6", margin: "-50px auto"}} >
            <div>
              <img className="ruby-img"src="./img/ruby.jpg"/>
              <button className="x" onClick={this.handleSkillClick}>✖️</button>
@@ -390,7 +392,7 @@ class App extends React.Component {
         </AwesomeSlider> : null
          }
          {this.state.contact ? 
-         <AwesomeSlider style={{width: '60%', "z-index":"6", margin: "-250px auto"}}  >
+         <AwesomeSlider style={{width: '60%', "z-index":"6", margin: "-50px auto"}}  >
            <div className="linked-in-div">
              <a href="https://www.linkedin.com/in/derya-tanr%C4%B1verdi-701a3489/" target="_blank">
              <img src="./img/linkedin.png"/>
