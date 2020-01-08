@@ -206,6 +206,7 @@ class App extends React.Component {
           <div className="table-side"></div>
           <div className="garbage-can"></div>
           <div className="dog">
+            <p>Pet me ❣️ </p>
             <div className="dog-head">
               <div className="dog-ear">
                 <ul>

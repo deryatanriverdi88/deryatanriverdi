@@ -345,7 +345,6 @@ box-shadow: -5px 3px 14px -3px rgba(0,0,0,0.75);
  
 }
 
-
 .left-ear:after, .right-ear:after{
   border-color: rgba(115,103,74, 0.3)  rgba(115,103,74, 0.3) transparent transparent ;
   width: 3px;
@@ -399,9 +398,6 @@ box-shadow: -5px 3px 14px -3px rgba(0,0,0,0.75);
   top: 25px;
   left: 37px
 }
-
-
-
 
 .mouth:before, .mouth:after{
   content:'';
@@ -560,8 +556,6 @@ box-shadow: -5px 3px 14px -3px rgba(0,0,0,0.75);
   left: 0px;
 }
 
-
-
 .pencil, .pencil-2{
   width: 6px;
   height: 75px;
@@ -599,7 +593,6 @@ box-shadow: -5px 3px 14px -3px rgba(0,0,0,0.75);
   left:1.8px;
   top: 81px;
 }
-
 
 .table{
   width: 470px;
@@ -659,8 +652,6 @@ background: #2c8651;
 transform: rotate(15deg);
 border-radius: 10% 90px ;
 }
-
-
 
 .plant ul li:nth-child(2){
  left: 38px;
@@ -760,6 +751,14 @@ box-shadow: -3px 4px 14px -3px rgba(0,0,0,0.75);
   border-radius:50% 50% 40% 40% ;
 }
 
+.dog p{
+  position: absolute;
+  bottom: 220px;
+  left: 30px;
+  font-weight: bold;
+  color: #EB194B;
+  font-family: 'Cute Font', cursive;
+}
 .dog-ear ul li{
   position: relative;
   background: #ddc78e;
@@ -795,7 +794,6 @@ box-shadow: -3px 4px 14px -3px rgba(0,0,0,0.75);
   left: 12px;
 }
 
-
 .dog-eyes ul li:before{
   content: "";
   display: inline-block;
@@ -819,7 +817,6 @@ box-shadow: -3px 4px 14px -3px rgba(0,0,0,0.75);
    left: -4px;
    border-radius: 50%;
 }
-
 
 .dog-eyes ul li:nth-child(2){
   left: 42px;
@@ -857,8 +854,6 @@ z-index: 1;
  transform: rotate(-15deg);
 }
 
-
-
 .dog-tongue{
   width: 15px;
   height: 20px;
@@ -867,9 +862,16 @@ z-index: 1;
   top: -85px;
  left: 25px;
  border-radius: 0 0 50% 50%;
- animation-name: dog-tongue;
+}
+
+.dog-head:hover{
+  cursor: pointer;
+}
+.dog-head:hover > .dog-tongue{
+  animation-name: dog-tongue;
  animation-duration: 1s;
  animation-iteration-count: infinite;
+ 
 }
 
 
@@ -942,11 +944,11 @@ box-shadow: -3px 4px 14px -3px rgba(0,0,0,0.75);
   border-radius: 50%;
 }
 
-
 .heart:after{
   top: 0px;
   left: 3px;
 }
+
 .dog-legs ul li{
  position: relative;
  top: -45px;
@@ -2113,7 +2115,6 @@ to {
 
 }
 
-
 @media only screen and (min-width: 600px){
   .floor{
     top: 620px;
@@ -2228,7 +2229,6 @@ to {
 
 }
 
-
 @media only screen and (min-width: 700px){
   .floor{
     top: 620px;
@@ -2342,8 +2342,6 @@ to {
   }
 
 }
-
-
 
 @media only screen and (min-width: 1000px){
 
