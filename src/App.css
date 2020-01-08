@@ -1507,11 +1507,8 @@ box-shadow: -3px -4px 30px 12px rgba(211,219,96,1);
    width: 100%;
    height: 40vh;
    position:absolute;
-   /* background: black;
-    */
     background-image: url('./images/wooden-floor.jpg');
    z-index: -10;
-   left: 0;
    top: 630px;
    background-size: cover;
  }
@@ -1661,22 +1658,27 @@ to {
 }
 }
 
-@media screen and (max-width: 500px){
+@media only screen and (min-width: 320px){
   .floor{
-    width: 360%;
+    width: 405%;
+    left: 0;
+  
+  }
+
+  body{
+    height: 100vh;
   }
 
   .myname{
-    position: absolute;
-    left:900px;
-    height: 15px;
-    width: 600px;
+     position: absolute;
+    left:950px;
+      width: 300px;
   
   }
 
   .postits{
-    left: -350px;
-    top: 900px;
+    left: -380px;
+    top:900px;
   }
 
   .post-it-1, .post-it-2, .post-it-3, .post-it-4{
@@ -1773,6 +1775,343 @@ to {
 
 }
 
+@media only screen and (min-width: 350px){
+  .floor{
+    width: 405%;
+    left: 0;
+  
+  }
+
+  .myname{
+     position: absolute;
+    left:1050px;
+      width: 300px;
+  
+  }
+
+  .postits{
+    left: -300px;
+    top:1000px;
+  }
+
+  .post-it-1, .post-it-2, .post-it-3, .post-it-4{
+    width:500px;
+    height: 500px;
+    left: 500px;
+  }
+
+  .post-it-2{
+    left: 1100px;
+  }
+  
+  .post-it-3{
+    top: 700px;
+  }
+
+  .post-it-4{
+    left: 1100px;
+    top: 700px;
+  }
+
+  .post-it-1:after, .post-it-2:after, .post-it-3:after , .post-it-4:after{
+    content: "";
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: -15px;
+    left: -1px;
+    z-index: -1;
+    box-shadow:2px 15px 5px rgba(0, 0, 0, 0.40);
+  }
+
+  .postits p{
+    padding-top: 200px;
+  }
+
+  .css-art p{
+    top: -150px;
+    left: 1450px;
+  }
+
+  .table{
+    left: 450px;
+  }
+
+  .table-front{
+    left: 460px;
+  }
+
+  .chair{
+    left: 600px;
+  }
+
+  .pencil-jar{
+    left: 850px;
+  }
+
+  .dog{
+    left: 950px;
+  }
+
+  .t-shirt{
+    left: 625px;
+  }
+
+  .head{
+    left: 640px;
+  }
+
+  .neck{
+    left: 675px;
+  }
+
+  .hair{
+    left: 620px;
+  }
+
+  .computer{
+    left: 620px;
+  }
+
+  .coffee{
+    left: 290px;
+  }
+
+  .garbage-can{
+    left: 350px;
+  }
+
+  .shelf{
+    left: 300px;
+  }
+}
+
+@media only  screen and (min-width: 400px){
+  .floor{
+    width: 345%;
+  
+  }
+
+
+  .myname{
+    position: absolute;
+    left:1000px;
+    
+  
+  }
+
+  .postits{
+    left: -330px;
+    top: 950px;
+  }
+
+  .post-it-1, .post-it-2, .post-it-3, .post-it-4{
+    width:500px;
+    height: 500px;
+    left: 500px;
+  }
+
+  .post-it-2{
+    left: 1100px;
+  }
+  
+  .post-it-3{
+    top: 700px;
+  }
+
+  .post-it-4{
+    left: 1100px;
+    top: 700px;
+  }
+
+  .post-it-1:after, .post-it-2:after, .post-it-3:after , .post-it-4:after{
+    content: "";
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: -15px;
+    left: -1px;
+    z-index: -1;
+    box-shadow:2px 15px 5px rgba(0, 0, 0, 0.40);
+  }
+
+  .postits p{
+    padding-top: 200px;
+  }
+
+  .css-art p{
+    top: -140px;
+    left: 1450px;
+  }
+
+  .table{
+    left: 450px;
+  }
+
+  .table-front{
+    left: 460px;
+  }
+
+  .chair{
+    left: 600px;
+  }
+
+  .pencil-jar{
+    left: 850px;
+  }
+
+  .dog{
+    left: 950px;
+  }
+
+  .t-shirt{
+    left: 625px;
+  }
+
+  .head{
+    left: 640px;
+  }
+
+  .neck{
+    left: 675px;
+  }
+
+  .hair{
+    left: 620px;
+  }
+
+  .computer{
+    left: 620px;
+  }
+
+  .coffee{
+    left: 290px;
+  }
+
+  .garbage-can{
+    left: 350px;
+  }
+
+  .shelf{
+    left: 300px;
+  }
+
+}
+
+
+@media only screen and (min-width: 700px){
+  .floor{
+    width: 405%;
+    left: 0;
+  
+  }
+
+  .myname{
+     position: absolute;
+    left:1500px;
+      width: 300px;
+  
+  }
+
+  .postits{
+    left:650px;
+    top:50px;
+  }
+
+  .post-it-1, .post-it-2, .post-it-3, .post-it-4{
+    width:200px;
+    height: 200px;
+    left: 650px;
+  }
+
+  .post-it-2{
+    left: 950px;
+  }
+  
+  .post-it-3{
+    top: 350px;
+  }
+
+  .post-it-4{
+    left: 950px;
+    top: 350px;
+  }
+
+  .post-it-1:after, .post-it-2:after, .post-it-3:after , .post-it-4:after{
+    content: "";
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: -15px;
+    left: -1px;
+    z-index: -1;
+    box-shadow:2px 15px 5px rgba(0, 0, 0, 0.40);
+  }
+
+  .postits p{
+    padding-top: 100px;
+  }
+
+  .css-art p{
+    top: 420px;
+    left: 1200px;
+  }
+
+  .table{
+    left: 450px;
+  }
+
+  .table-front{
+    left: 460px;
+  }
+
+  .chair{
+    left: 600px;
+  }
+
+  .pencil-jar{
+    left: 850px;
+  }
+
+  .dog{
+    left: 950px;
+  }
+
+  .t-shirt{
+    left: 625px;
+  }
+
+  .head{
+    left: 640px;
+  }
+
+  .neck{
+    left: 675px;
+  }
+
+  .hair{
+    left: 620px;
+  }
+
+  .computer{
+    left: 620px;
+  }
+
+  .coffee{
+    left: 290px;
+  }
+
+  .garbage-can{
+    left: 350px;
+  }
+
+  .shelf{
+    left: 300px;
+  }
+}
 
 
 /* @media screen and (max-width: 400px){
