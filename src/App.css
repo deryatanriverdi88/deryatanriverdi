@@ -2459,6 +2459,119 @@ to {
 }
 }
 
+@media only screen and (min-width: 1300px){
+
+
+  .floor{
+    width: 100%;
+    left: 0;
+    height: 190px;
+  }
+  
+  .myname{
+     position: absolute;
+    left:950px;
+      width: 300px;
+  
+  }
+  
+  .postits{
+    left:130px;
+    top:30px;
+  }
+  
+  .post-it-1, .post-it-2, .post-it-3, .post-it-4{
+    width:200px;
+    height: 200px;
+    left: 650px;
+  }
+  
+  .post-it-2{
+    left: 950px;
+  }
+  
+  .post-it-3{
+    top: 350px;
+  }
+  
+  .post-it-4{
+    left: 950px;
+    top: 350px;
+  }
+  
+  .post-it-1:after, .post-it-2:after, .post-it-3:after , .post-it-4:after{
+    content: "";
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: -15px;
+    left: -1px;
+    z-index: -1;
+    box-shadow:2px 15px 5px rgba(0, 0, 0, 0.40);
+  }
+  
+  .postits p{
+    padding-top: 90px;
+  }
+  
+  .css-art p{
+    top: 460px;
+    left: 1000px;
+  }
+  
+  .table{
+    left: 140px;
+  }
+  
+  .table-front{
+    left: 150px;
+  }
+  
+  .chair{
+    left: 310px;
+  }
+  
+  .pencil-jar{
+    left: 500px;
+  }
+  
+  .dog{
+    left: 650px;
+  }
+  
+  .t-shirt{
+    left: 334px;
+  }
+  
+  .head{
+    left: 350px;
+  }
+  
+  .neck{
+    left: 385px;
+  }
+  
+  .hair{
+    left: 330px;
+  }
+  
+  .computer{
+    left: 330px;
+  }
+  
+  .coffee{
+    left: 0px;
+  }
+  
+  .garbage-can{
+    left: 40px;
+  }
+  
+  .shelf{
+    left:600px;
+  }
+  }
 
 @media only screen and (min-height: 1000px){
   .floor{
