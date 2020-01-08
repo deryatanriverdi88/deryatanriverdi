@@ -1890,7 +1890,6 @@ to {
 @media only  screen and (min-width: 400px){
   .floor{
     width: 345%;
-  
   }
 
 
@@ -2000,50 +1999,50 @@ to {
 
 }
 
-
-@media only screen and (min-width: 700px){
+@media only screen and (min-width: 600px){
   .floor{
-    width: 100%;
+    top: 620px;
+    width: 220%;
     left: 0;
-  
+    height: 60vh;
   }
 
   .myname{
      position: absolute;
-    left:1100px;
+    left:1050px;
       width: 300px;
   
   }
 
   .postits{
-    left:250px;
-    top:50px;
+    left: -330px;
+    top:850px;
   }
 
   .post-it-1, .post-it-2, .post-it-3, .post-it-4{
-    width:200px;
-    height: 200px;
-    left: 650px;
+    width:500px;
+    height: 500px;
+    left: 500px;
   }
 
   .post-it-2{
-    left: 950px;
+    left: 1100px;
   }
   
   .post-it-3{
-    top: 350px;
+    top: 700px;
   }
 
   .post-it-4{
-    left: 950px;
-    top: 350px;
+    left: 1100px;
+    top: 700px;
   }
 
   .post-it-1:after, .post-it-2:after, .post-it-3:after , .post-it-4:after{
     content: "";
     display: inline-block;
-    width: 200px;
-    height: 200px;
+    width: 500px;
+    height: 500px;
     position: absolute;
     top: -15px;
     left: -1px;
@@ -2052,101 +2051,420 @@ to {
   }
 
   .postits p{
-    padding-top: 100px;
+    padding-top: 200px;
   }
 
   .css-art p{
-    top: 460px;
-    left: 1000px;
+    top: -140px;
+    left: 1450px;
   }
 
   .table{
-    left: 140px;
+    left: 450px;
   }
 
   .table-front{
-    left: 150px;
+    left: 460px;
   }
 
   .chair{
-    left: 310px;
+    left: 600px;
   }
 
   .pencil-jar{
-    left: 500px;
+    left: 850px;
   }
 
   .dog{
-    left: 650px;
+    left: 950px;
   }
 
   .t-shirt{
-    left: 334px;
+    left: 625px;
   }
 
   .head{
-    left: 350px;
+    left: 640px;
   }
 
   .neck{
-    left: 385px;
+    left: 675px;
   }
 
   .hair{
-    left: 330px;
+    left: 620px;
   }
 
   .computer{
-    left: 330px;
+    left: 620px;
   }
 
   .coffee{
-    left: 0px;
+    left: 290px;
   }
 
   .garbage-can{
-    left: 40px;
+    left: 350px;
   }
 
   .shelf{
-    left:600px;
+    left: 300px;
   }
+
 }
 
 
-/* @media screen and (max-width: 400px){
+
+
+
+
+@media only screen and (min-width: 700px){
+  .floor{
+    top: 620px;
+    width: 190%;
+    left: 0;
+    height: 20vh;
+  }
+
+  .myname{
+     position: absolute;
+    left:1050px;
+      width: 300px;
+  
+  }
+
+  .postits{
+    left: -330px;
+    top: 730px;
+  }
+
+  .post-it-1, .post-it-2, .post-it-3, .post-it-4{
+    width:500px;
+    height: 500px;
+    left: 500px;
+  }
+
+  .post-it-2{
+    left: 1100px;
+  }
+  
+  .post-it-3{
+    top: 700px;
+  }
+
+  .post-it-4{
+    left: 1100px;
+    top: 700px;
+  }
+
+  .post-it-1:after, .post-it-2:after, .post-it-3:after , .post-it-4:after{
+    content: "";
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: -15px;
+    left: -1px;
+    z-index: -1;
+    box-shadow:2px 15px 5px rgba(0, 0, 0, 0.40);
+  }
+
+  .postits p{
+    padding-top: 200px;
+  }
+
+  .css-art p{
+    top: -140px;
+    left: 1450px;
+  }
+
+  .table{
+    left: 450px;
+  }
+
+  .table-front{
+    left: 460px;
+  }
+
+  .chair{
+    left: 600px;
+  }
+
+  .pencil-jar{
+    left: 850px;
+  }
+
+  .dog{
+    left: 950px;
+  }
+
+  .t-shirt{
+    left: 625px;
+  }
+
+  .head{
+    left: 640px;
+  }
+
+  .neck{
+    left: 675px;
+  }
+
+  .hair{
+    left: 620px;
+  }
+
+  .computer{
+    left: 620px;
+  }
+
+  .coffee{
+    left: 290px;
+  }
+
+  .garbage-can{
+    left: 350px;
+  }
+
+  .shelf{
+    left: 300px;
+  }
+
+}
+
+
+
+@media only screen and (min-width: 1000px){
+
+
+.floor{
+  width: 190%;
+  left: 0;
+  height: 850px;
+}
 
 .myname{
-  position: absolute;
-  left: 975px !important;
-  height: 15px;
-  width: 300px;
+   position: absolute;
+  left:1050px;
+    width: 300px;
 
 }
 
 .postits{
-  left: -20px;
+  left:330px;
+  top:30px;
 }
-  
-}
-@media screen and (max-width: 500px){
-  .floor{
-    width: 200%;
-  }
-  
-  .postits{
-    right: 60px;
-  }
 
-  .css-art p{
-    
-    left: 1100px;
+.post-it-1, .post-it-2, .post-it-3, .post-it-4{
+  width:200px;
+  height: 200px;
+  left: 650px;
+}
+
+.post-it-2{
+  left: 950px;
+}
+
+.post-it-3{
+  top: 350px;
+}
+
+.post-it-4{
+  left: 950px;
+  top: 350px;
+}
+
+.post-it-1:after, .post-it-2:after, .post-it-3:after , .post-it-4:after{
+  content: "";
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: -15px;
+  left: -1px;
+  z-index: -1;
+  box-shadow:2px 15px 5px rgba(0, 0, 0, 0.40);
+}
+
+.postits p{
+  padding-top: 90px;
+}
+
+.css-art p{
+  top: 460px;
+  left: 1000px;
+}
+
+.table{
+  left: 140px;
+}
+
+.table-front{
+  left: 150px;
+}
+
+.chair{
+  left: 310px;
+}
+
+.pencil-jar{
+  left: 500px;
+}
+
+.dog{
+  left: 650px;
+}
+
+.t-shirt{
+  left: 334px;
+}
+
+.head{
+  left: 350px;
+}
+
+.neck{
+  left: 385px;
+}
+
+.hair{
+  left: 330px;
+}
+
+.computer{
+  left: 330px;
+}
+
+.coffee{
+  left: 0px;
+}
+
+.garbage-can{
+  left: 40px;
+}
+
+.shelf{
+  left:600px;
+}
+}
+
+
+@media only screen and (min-height: 1300px){
+  .floor{
+    top: 620px;
+    width: 190%;
+    left: 0;
+    height: 20vh;
   }
 
   .myname{
-    position: relative;
-   left: 1000px;
-   top: -40px;
+     position: absolute;
+    left:1550px;
+      width: 300px;
+  
+  }
+
+  .postits{
+    left: -100px;
+    top: 930px;
+  }
+
+  .post-it-1, .post-it-2, .post-it-3, .post-it-4{
+    width:500px;
+    height: 500px;
+    left: 500px;
+  }
+
+  .post-it-2{
+    left: 1100px;
   }
   
+  .post-it-3{
+    top: 700px;
+  }
+
+  .post-it-4{
+    left: 1100px;
+    top: 700px;
+  }
+
+  .post-it-1:after, .post-it-2:after, .post-it-3:after , .post-it-4:after{
+    content: "";
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: -15px;
+    left: -1px;
+    z-index: -1;
+    box-shadow:2px 15px 5px rgba(0, 0, 0, 0.40);
+  }
+
+  .postits p{
+    padding-top: 200px;
+  }
+
+  .css-art p{
+    top: -140px;
+    left: 1450px;
+  }
+
+  .table{
+    left: 650px;
+  }
+
+  .table-front{
+    left: 660px;
+  }
+
+  .chair{
+    left: 800px;
+  }
+
+  .pencil-jar{
+    left: 1050px;
+  }
+
+  .dog{
+    left: 1150px;
+  }
+
+  .t-shirt{
+    left: 825px;
+  }
+
+  .head{
+    left: 840px;
+  }
+
+  .neck{
+    left: 875px;
+  }
+
+  .hair{
+    left: 820px;
+  }
+
+  .computer{
+    left: 820px;
+  }
+
+  .coffee{
+    left: 490px;
+  }
+
+  .garbage-can{
+    left: 550px;
+  }
+
+  .shelf{
+    left: 300px;
+  }
+
+}
+
+/* @media only screen and (min-height: 1300px){
+  .floor{
+    height: 1500px;
+  }
 } */
