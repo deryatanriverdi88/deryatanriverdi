@@ -2003,20 +2003,20 @@ to {
 
 @media only screen and (min-width: 700px){
   .floor{
-    width: 405%;
+    width: 100%;
     left: 0;
   
   }
 
   .myname{
      position: absolute;
-    left:1500px;
+    left:1100px;
       width: 300px;
   
   }
 
   .postits{
-    left:650px;
+    left:250px;
     top:50px;
   }
 
@@ -2056,60 +2056,60 @@ to {
   }
 
   .css-art p{
-    top: 420px;
-    left: 1200px;
+    top: 460px;
+    left: 1000px;
   }
 
   .table{
-    left: 450px;
+    left: 140px;
   }
 
   .table-front{
-    left: 460px;
+    left: 150px;
   }
 
   .chair{
-    left: 600px;
+    left: 310px;
   }
 
   .pencil-jar{
-    left: 850px;
+    left: 500px;
   }
 
   .dog{
-    left: 950px;
+    left: 650px;
   }
 
   .t-shirt{
-    left: 625px;
+    left: 334px;
   }
 
   .head{
-    left: 640px;
-  }
-
-  .neck{
-    left: 675px;
-  }
-
-  .hair{
-    left: 620px;
-  }
-
-  .computer{
-    left: 620px;
-  }
-
-  .coffee{
-    left: 290px;
-  }
-
-  .garbage-can{
     left: 350px;
   }
 
+  .neck{
+    left: 385px;
+  }
+
+  .hair{
+    left: 330px;
+  }
+
+  .computer{
+    left: 330px;
+  }
+
+  .coffee{
+    left: 0px;
+  }
+
+  .garbage-can{
+    left: 40px;
+  }
+
   .shelf{
-    left: 300px;
+    left:600px;
   }
 }
 
