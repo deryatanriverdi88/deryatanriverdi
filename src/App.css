@@ -1592,12 +1592,19 @@ width: auto;
 
 }
 
+.awssld{
+  width: 60% !important; 
+  z-index:6 !important;
+  margin: 30px auto !important;
+}
+
 
 .awssld__content{
 
 background-color: #2E9497 !important; 
 border-radius: 15px;
 padding: 0 !important;
+
 }
 
 
@@ -1660,7 +1667,8 @@ to {
 }
 }
 
-@media only screen and (min-width: 320px){
+@media only screen and (min-width: 300px){
+
   .floor{
     width: 405%;
     left: 0;
@@ -1675,7 +1683,7 @@ to {
      position: absolute;
     left:950px;
       width: 300px;
-  
+    z-index: 6;
   }
 
   .postits{
@@ -1773,6 +1781,21 @@ to {
 
   .shelf{
     left: 300px;
+  }
+
+  .awssld{
+    position: absolute !important;
+    top: 1150px;
+    left: 290px;
+    width: 250% !important; 
+    height: 120% !important;
+    z-index:6 !important;
+    margin: 30px auto !important;
+    max-width: none !important;
+  }
+
+  .awssld__container{
+    height: 100% !important;
   }
 
 }
@@ -1887,23 +1910,38 @@ to {
   .shelf{
     left: 300px;
   }
+
+  .awssld{
+    position: absolute !important;
+    top: 1200px;
+    left: 320px;
+    width: 230% !important; 
+    height: 110% !important;
+    z-index:6 !important;
+    margin: 30px auto !important;
+    max-width: none !important;
+  }
+
+  .awssld__container{
+    height: 100% !important;
+  }
 }
 
 @media only  screen and (min-width: 400px){
   .floor{
-    width: 345%;
+    width: 325%;
   }
 
 
   .myname{
     position: absolute;
-    left:1000px;
+    left:900px;
     
   
   }
 
   .postits{
-    left: -330px;
+    left: -430px;
     top: 950px;
   }
 
@@ -1999,7 +2037,23 @@ to {
     left: 300px;
   }
 
+  .awssld{
+    position: absolute !important;
+    top: 1200px;
+    left: 220px;
+    width: 200% !important; 
+    height: 90% !important;
+    z-index:6 !important;
+    margin: 30px auto !important;
+    max-width: none !important;
+  }
+
+  .awssld__container{
+    height: 100% !important;
+  }
+
 }
+
 
 @media only screen and (min-width: 500px){
   .floor{
@@ -2111,6 +2165,20 @@ to {
 
   .shelf{
     left: 300px;
+  }
+  .awssld{
+    position: absolute !important;
+    top: 1100px;
+    left: 290px;
+    width: 150% !important; 
+    height: 205% !important;
+    z-index:6 !important;
+    margin: 30px auto !important;
+    max-width: none !important;
+  }
+
+  .awssld__container{
+    height: 100% !important;
   }
 
 }
@@ -2227,6 +2295,21 @@ to {
     left: 300px;
   }
 
+  .awssld{
+    position: absolute !important;
+    top: 1100px;
+    left: 280px;
+    width: 130% !important; 
+    height: 190% !important;
+    z-index:6 !important;
+    margin: 30px auto !important;
+    max-width: none !important;
+  }
+
+  .awssld__container{
+    height: 100% !important;
+  }
+
 }
 
 @media only screen and (min-width: 700px){
@@ -2341,6 +2424,76 @@ to {
     left: 300px;
   }
 
+  .awssld{
+    position: absolute !important;
+    top: 1000px;
+    left: 285px;
+    width: 110% !important; 
+    height: 70% !important;
+    z-index:6 !important;
+    margin: 30px auto !important;
+    max-width: none !important;
+  }
+
+  .awssld__container{
+    height: 100% !important;
+  }
+
+}
+
+@media only screen and (min-width: 730px){
+  .awssld{
+    position: absolute !important;
+    top: 1000px;
+    left: 285px;
+    width: 120% !important; 
+    height: 160% !important;
+    z-index:6 !important;
+    margin: 30px auto !important;
+    max-width: none !important;
+  }
+
+  .awssld__container{
+    height: 100% !important;
+  }
+}
+
+@media only screen and (min-width: 760px){
+  .awssld{
+    position: absolute !important;
+    top: 960px;
+    left: 300px;
+    width: 110% !important; 
+    height: 70% !important;
+    z-index:6 !important;
+    margin: 30px auto !important;
+    max-width: none !important;
+  }
+  
+  .awssld__container{
+    height: 100% !important;
+  }
+}
+
+@media only screen and (min-width: 800px){
+  .awssld{
+    position: absolute !important;
+    top: 1000px;
+    left: 285px;
+    width: 110% !important; 
+    height: 180% !important;
+    z-index:6 !important;
+    margin: 30px auto !important;
+    max-width: none !important;
+  }
+
+  .awssld__container{
+    height: 100% !important;
+  }
+
+ .myname{
+   left: 900px;
+ }
 }
 
 @media only screen and (min-width: 1000px){
@@ -2349,7 +2502,7 @@ to {
 .floor{
   width: 190%;
   left: 0;
-  height: 850px;
+  height: 840px;
 }
 
 .myname{
@@ -2455,6 +2608,21 @@ to {
 .shelf{
   left:600px;
 }
+
+.awssld{
+  position: absolute !important;
+  top: 160px;
+  left: 330px;
+  width: 140% !important; 
+  height: 130% !important;
+  z-index:6 !important;
+  margin: 30px auto !important;
+  max-width: none !important;
+}
+
+.awssld__container{
+  height: 100% !important;
+}
 }
 
 @media only screen and (min-width: 1300px){
@@ -2463,7 +2631,7 @@ to {
   .floor{
     width: 100%;
     left: 0;
-    height: 190px;
+    height: 410px;
   }
   
   .myname{
@@ -2569,19 +2737,34 @@ to {
   .shelf{
     left:600px;
   }
+  .awssld{
+    position: absolute !important;
+    top: 100px;
+    left: 300px;
+    width: 70% !important; 
+    height: 60% !important;
+    z-index:6 !important;
+    margin: 30px auto !important;
+    max-width: none !important;
+  }
+  
+  .awssld__container{
+    height: 100% !important;
+  }
+ 
   }
 
-@media only screen and (min-height: 1000px){
+@media only screen and (min-height: 1100px){
   .floor{
     top: 620px;
-    width: 190%;
+    width: 200%;
     left: 0;
     height: 20vh;
   }
 
   .myname{
      position: absolute;
-    left:1550px;
+    left:1150px;
       width: 300px;
   
   }
@@ -2681,6 +2864,21 @@ to {
 
   .shelf{
     left: 400px;
+  }
+
+  .awssld{
+    position: absolute !important;
+    top: 1100px;
+    left: 340px;
+    width: 110% !important; 
+    height: 70% !important;
+    z-index:6 !important;
+    margin: 30px auto !important;
+    max-width: none !important;
+  }
+
+  .awssld__container{
+    height: 100% !important;
   }
 
 }
@@ -2794,6 +2992,21 @@ to {
 
   .shelf{
     left: 300px;
+  }
+
+  .awssld{
+    position: absolute !important;
+    top: 1200px;
+    left: 550px;
+    width: 80% !important; 
+    height: 50% !important;
+    z-index:6 !important;
+    margin: 30px auto !important;
+    max-width: none !important;
+  }
+  
+  .awssld__container{
+    height: 100% !important;
   }
 
 }
