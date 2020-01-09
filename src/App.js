@@ -3,8 +3,8 @@ import './App.css';
 import Typing  from 'react-typing-animation'
 import AwesomeSlider from 'react-awesome-slider';
 import AwesomeSliderStyles from 'react-awesome-slider/src/styled/cube-animation';
-// import Clock from 'react-live-clock';
 import Clock from 'react-clock';
+// import Draggable from 'react-draggable';
 
 // import Typing from 'react-typing-animation';
 // // import Bio from './Components/Bio'
@@ -107,7 +107,9 @@ class App extends React.Component {
       <div className="app">
          
           <div className="border">
+         
           <div className="myname">Derya Tanriverdi</div>
+     
           <div className="clock">
           <Clock className="react-clock"
           value={this.state.date}
@@ -248,7 +250,7 @@ class App extends React.Component {
           </div>
          <div className="postits">
           <div className="post-it-1">
-          
+        
              <div className="flower">
                <div className="middle"></div>
                <ul>
@@ -260,11 +262,13 @@ class App extends React.Component {
                  <li></li>
                </ul>
              </div>
+       
      
             <p onClick={this.handleBioClick}> About me</p>
           </div>
           <div className="post-it-2">
               <p onClick={this.handleProjectClick}> My projects</p>
+          
               <div className="file">
                  <div className="file-top"></div>
                  <div className="file-bottom">
@@ -273,6 +277,7 @@ class App extends React.Component {
                     <div className="closing-tag"></div>
                  </div>
               </div>
+     
           </div>
           <div className="post-it-3">
             <p onClick={this.handleSkillClick}>My skills</p>
@@ -310,10 +315,11 @@ class App extends React.Component {
           </div>
           </div>
           <div className="floor"></div>
+      
           </div>
 
           { this.state.bio ?  
-        <AwesomeSlider cssModule={AwesomeSliderStyles} style={{width: '60%', "z-index":"6", margin: "-50px auto"}} > 
+        <AwesomeSlider cssModule={AwesomeSliderStyles}  > 
           <div className="bio" > 
              <img src="./img/me-2.jpg"/>
              <p className="text"> Something</p>
@@ -335,7 +341,7 @@ class App extends React.Component {
         </AwesomeSlider> : null }
 
         {this.state.project ? 
-        <AwesomeSlider style={{width: '60%', "z-index":"6", margin: "-50px auto"}}  >
+        <AwesomeSlider  >
           <div>
              <button className="x" onClick={this.handleProjectClick}>✖️</button>
           </div>
@@ -345,7 +351,7 @@ class App extends React.Component {
         </AwesomeSlider> : null}
          
          {this.state.skill ? 
-         <AwesomeSlider style={{width: '60%', "z-index":"6", margin: "-50px auto"}} >
+         <AwesomeSlider  >
            <div>
              <img className="ruby-img"src="./img/ruby.jpg"/>
              <button className="x" onClick={this.handleSkillClick}>✖️</button>
@@ -393,7 +399,7 @@ class App extends React.Component {
         </AwesomeSlider> : null
          }
          {this.state.contact ? 
-         <AwesomeSlider style={{width: '60%', "z-index":"6", margin: "-50px auto"}}  >
+         <AwesomeSlider >
            <div className="linked-in-div">
              <a href="https://www.linkedin.com/in/derya-tanr%C4%B1verdi-701a3489/" target="_blank">
              <img src="./img/linkedin.png"/>
