@@ -353,48 +353,48 @@ class App extends React.Component {
          {this.state.skill ? 
    <AwesomeSlider  >
           <div className="container">
-              <div className="ruby-img" ></div>
-              <button className="x" onClick={this.handleSkillClick} > x </button>
+              <div className="ruby-img" onClick={this.handleSkillClick} ></div>
+              
           </div>
                <div className="container">
-               <div className="rails-img"></div>
-               <button className="x" onClick={this.handleSkillClick} > x </button>
+               <div className="rails-img" onClick={this.handleSkillClick}></div>
+
           </div>
                <div className="container">
-               <div className="react-img"></div>
-               <button className="x" onClick={this.handleSkillClick} > x </button>
+               <div className="react-img" onClick={this.handleSkillClick}></div>
+
           </div>
                <div className="container">
-               <div className="js-img"></div>
-               <button className="x" onClick={this.handleSkillClick} > x </button>
+               <div className="js-img" onClick={this.handleSkillClick}></div>
+
           </div>
                <div className="container">
-               <div className="active-record"></div>
-               <button className="x" onClick={this.handleSkillClick} > x </button>
+               <div className="active-record" onClick={this.handleSkillClick}></div>
+
           </div>
                <div className="container">
-               <div className="html-img" ></div>
-               <button className="x" onClick={this.handleSkillClick} > x </button>
+               <div className="html-img" onClick={this.handleSkillClick}></div>
+
           </div>
                <div className="container">
-               <div className="css-img"></div>
-               <button className="x" onClick={this.handleSkillClick} > x </button>
+               <div className="css-img" onClick={this.handleSkillClick}></div>
+
           </div>
                <div className="container">
-               <div className="mq-img"></div>
-               <button className="x" onClick={this.handleSkillClick} > x </button>
+               <div className="mq-img" onClick={this.handleSkillClick}></div>
+
           </div>
                <div className="container">
-               <div className="redux-img"></div>
-               <button className="x" onClick={this.handleSkillClick} > x </button>
+               <div className="redux-img" onClick={this.handleSkillClick}></div>
+
           </div>
                <div className="container">
-               <div className="heroku-img"></div>
-               <button className="x" onClick={this.handleSkillClick} > x </button>
+               <div className="heroku-img" onClick={this.handleSkillClick}></div>
+
           </div>
                <div className="container">
-               <div className="sqlite-img" ></div>
-               <button className="x" onClick={this.handleSkillClick} > x </button>
+               <div className="sqlite-img"onClick={this.handleSkillClick} ></div>
+
           </div>
 
         </AwesomeSlider> : null
