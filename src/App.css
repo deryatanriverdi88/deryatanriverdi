@@ -1549,10 +1549,10 @@ width: 40%;
   height: 30px;
   width: 30px;
   top: 30px;
-  right: 30px;
+  right: 0px;
   border-radius: 0 0 0 10px;
   font-size: 15px;
-  
+  background: white;
 }
 
 #flying-2{
