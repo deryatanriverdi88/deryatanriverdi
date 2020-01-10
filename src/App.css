@@ -1598,6 +1598,10 @@ width: auto;
   margin: 30px auto !important;
 }
 
+.awssld__container{
+  width: 100%;
+}
+
 
 .awssld__content{
 
