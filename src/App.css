@@ -1614,6 +1614,11 @@ bottom: 40px !important;
 
 }
 
+.container{
+  width: 100%;
+  height: 100vh;
+}
+
 .ruby-img, .rails-img, .react-img, .js-img, .active-record, .html-img, .css-img, .mq-img, .redux-img, .heroku-img, .sqlite-img{
   width: 100%;
   height: 100vh;
@@ -2080,9 +2085,9 @@ to {
   .awssld{
     position: absolute !important;
     top: 1200px;
-    left: 220px;
+    left: 260px;
     width: 200% !important; 
-    height: 90% !important;
+    height: 100% !important;
     z-index:6 !important;
     margin: 30px auto !important;
     max-width: none !important;
