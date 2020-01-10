@@ -7,7 +7,7 @@
 body {
   text-align: center;
   z-index: -1;
-  width: 100%;
+  width: auto;
   /* height: 150vh;  */
   margin: 0;
   padding: 0;
