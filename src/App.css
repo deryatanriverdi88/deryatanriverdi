@@ -1835,14 +1835,7 @@ to {
   .awssld__controls{
     visibility: visible !important;
   }
-
-  .x{
-    top: -685px;
-    left: 380px;
-  
-  }
 }
-
 @media only screen and (min-width: 350px){
   .floor{
     width: 405%;
@@ -1968,32 +1961,22 @@ to {
   .awssld__container{
     height: 100% !important;
   }
-
-  .x{
-    top: -705px;
-    left: 392px;
-  
-  }
 }
-
 @media only  screen and (min-width: 400px){
   .floor{
     width: 325%;
   }
 
-
   .myname{
     position: absolute;
     left:900px;
-    
-  
   }
 
   .postits{
     left: -370px;
     top: 950px;
   }
-
+  
   .post-it-1, .post-it-2, .post-it-3, .post-it-4{
     width:500px;
     height: 500px;
@@ -2091,7 +2074,7 @@ to {
     top: 1200px;
     left: 260px;
     width: 200% !important; 
-    height: 100% !important;
+    height: 110% !important;
     z-index:6 !important;
     margin: 30px auto !important;
     max-width: none !important;
@@ -2100,17 +2083,7 @@ to {
   .awssld__container{
     height: 100% !important;
   }
-
-  .x{
-    top: -740px;
-    left: 392px;
-  
-  }
-  
- 
 }
-
-
 @media only screen and (min-width: 500px){
   .floor{
     top: 620px;
@@ -2236,15 +2209,7 @@ to {
   .awssld__container{
     height: 100% !important;
   }
-
-  .x{
-    top: -660px;
-    left: 405px;
-    z-index: 6;
-  }
-
 }
-
 @media only screen and (min-width: 600px){
   .floor{
     top: 620px;
@@ -2371,15 +2336,7 @@ to {
   .awssld__container{
     height: 100% !important;
   }
-
-  .x{
-    top: -695px;
-    left: 392px;
-  
-  }
-
 }
-
 @media only screen and (min-width: 700px){
   .floor{
     top: 620px;
@@ -2506,14 +2463,7 @@ to {
   .awssld__container{
     height: 100% !important;
   }
-  .x{
-    top: -660px;
-    left: 420px;
-  
-  }
-
 }
-
 @media only screen and (min-width: 730px){
   .awssld{
     position: absolute !important;
@@ -2530,7 +2480,6 @@ to {
     height: 100% !important;
   }
 }
-
 @media only screen and (min-width: 760px){
   .awssld{
     position: absolute !important;
@@ -2546,14 +2495,7 @@ to {
   .awssld__container{
     height: 100% !important;
   }
-
-  /* .x{
-    top: -720px !important;
-    left: 400px !important;
-  
-  } */
 }
-
 @media only screen and (min-width: 800px){
   .awssld{
     position: absolute !important;
@@ -2573,12 +2515,7 @@ to {
  .myname{
    left: 900px;
  }
- .x{
-   top: -740px;
-   left: 430px;
- }
 }
-
 @media only screen and (min-width: 1000px){
 
 
@@ -2705,14 +2642,8 @@ to {
 
 .awssld__container{
   height: 100% !important;
+ }
 }
-
-.x{
-  top: -1000px;
-  left: 700px;
-}
-}
-
 @media only screen and (min-width: 1300px){
 
 
@@ -2841,40 +2772,7 @@ to {
   }
 
  
-  }
-
-
-
-  @media only screen and (min-height: 375px){
-    .x{
-      left: 430px;
-      top: -680px;
-    }
-  }
-
-  @media only screen and (min-height: 760px){
-    .x{
-      top: -1000px;
-      left: 700px;
-    
-    }
-  }
-@media only screen and (min-height: 812px){
-    .x{
-      top: -895px;
-      left: 410px;
-    
-    }
-  }
-
-  @media only screen and (min-height: 1000px){
-    .x{
-      top: -620px;
-      left: 460px;
-    
-    }
-  }
-
+}
 @media only screen and (min-height: 1100px){
   .floor{
     top: 620px;
@@ -3001,12 +2899,6 @@ to {
   .awssld__container{
     height: 100% !important;
   }
- .x{
-   left: 400px;
-   top: -720px;
- }
-  
-
 }
 @media only screen and (min-height: 1300px){
   .floor{
@@ -3134,15 +3026,7 @@ to {
   .awssld__container{
     height: 100% !important;
   }
-
-  .x{
-    top: -690px;
-    left: 390px;
-
-  }
-
 }
-
 @media only screen and (min-width: 1400px){
   .awssld{
     position: absolute !important;
