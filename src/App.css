@@ -1620,12 +1620,14 @@ bottom: 40px !important;
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.rails-img, .mq-img, .redux-img, .sqlite-img{
   background-size: 80%;
 }
 
-
 .js-img, .html-img, .heroku-img{
-  background-size: 80%;
+  background-size: cover;
 }
 
 .ruby-img{
@@ -1654,9 +1656,8 @@ bottom: 40px !important;
 
 .css-img{
   background-image: url('./images/css.jpg');
-  /* background-size: 120%; */
+  background-size: 120%;
 }
-
 
 .mq-img{
   background-image: url('./images/mq.png');
@@ -1673,7 +1674,6 @@ bottom: 40px !important;
 .sqlite-img{
   background-image: url('./images/sqlite.png');
 }
-
 .linked-in-div a{
 display: block;
 width: 100%;
