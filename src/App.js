@@ -352,38 +352,39 @@ class App extends React.Component {
          
          {this.state.skill ? 
          <AwesomeSlider  >
+           
            <div className="ruby-img">
-             <button className="x" onClick={this.handleSkillClick}>✖️</button>
+           <div className="x" onClick={this.handleSkillClick}>✖️</div>
            </div>
            <div className="rails-img" >
-             <button className="x" onClick={this.handleSkillClick}>✖️</button>
+             <div className="x" onClick={this.handleSkillClick}>✖️</div>
            </div>
            <div className="react-img">
-             <button className="x" onClick={this.handleSkillClick}>✖️</button>
+             <div className="x" onClick={this.handleSkillClick}>✖️</div>
            </div>
            <div className="js-img">
-             <button className="x" onClick={this.handleSkillClick}>✖️</button>
+             <div className="x" onClick={this.handleSkillClick}>✖️</div>
            </div>
            <div className="active-record">
-             <button className="x" onClick={this.handleSkillClick}>✖️</button>
+             <div className="x" onClick={this.handleSkillClick}>✖️</div>
            </div>
            <div className="html-img" >
-             <button className="x" onClick={this.handleSkillClick}>✖️</button>
+             <div className="x" onClick={this.handleSkillClick}>✖️</div>
            </div>
            <div className="css-img">
-             <button className="x" onClick={this.handleSkillClick}>✖️</button>
+             <div className="x" onClick={this.handleSkillClick}>✖️</div>
            </div>
            <div className="mq-img">
-             <button className="x" onClick={this.handleSkillClick}>✖️</button>
+             <div className="x" onClick={this.handleSkillClick}>✖️</div>
            </div>
            <div className="redux-img">
-             <button className="x" onClick={this.handleSkillClick}>✖️</button>
+             <div className="x" onClick={this.handleSkillClick}>✖️</div>
            </div>
            <div className="heroku-img">
-             <button className="x" onClick={this.handleSkillClick}>✖️</button>
+             <div className="x" onClick={this.handleSkillClick}>✖️</div>
            </div>
            <div className="sqlite-img" >
-             <button className="x" onClick={this.handleSkillClick}>✖️</button>
+             <div className="x" onClick={this.handleSkillClick}>✖️</div>
            </div>
         </AwesomeSlider> : null
          }
