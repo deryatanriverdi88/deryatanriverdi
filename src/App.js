@@ -351,9 +351,8 @@ class App extends React.Component {
         </AwesomeSlider> : null}
          
          {this.state.skill ? 
-         <AwesomeSlider>
-           <div className="container">
-             <div className="ruby-img"></div>
+   <AwesomeSlider  >
+           <div className="ruby-img">
              <button className="x" onClick={this.handleSkillClick}>✖️</button>
            </div>
            <div className="rails-img" >
@@ -377,13 +376,13 @@ class App extends React.Component {
            <div className="mq-img">
              <button className="x" onClick={this.handleSkillClick}>✖️</button>
            </div>
-           <div>
+           <div className="redux-img">
              <button className="x" onClick={this.handleSkillClick}>✖️</button>
            </div>
            <div className="heroku-img">
              <button className="x" onClick={this.handleSkillClick}>✖️</button>
            </div>
-           <div className="sqlite-img">
+           <div className="sqlite-img" >
              <button className="x" onClick={this.handleSkillClick}>✖️</button>
            </div>
         </AwesomeSlider> : null
