@@ -1544,16 +1544,6 @@ width: 40%;
 
 }
 
-.x{
-  /* position: absolute;
-  height: 30px;
-  width: 30px;
-  top: 0%;
-  left: 97%;
-  border-radius:0 10px 0 10px;
-  font-size: 15px; */
-  background: white;
-}
 
 #flying-2{
 
@@ -2090,9 +2080,7 @@ to {
     height: 100% !important;
   }
   
-  .x{
-    top: 0;
-  }
+ 
 }
 
 
