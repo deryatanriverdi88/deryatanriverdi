@@ -1621,14 +1621,14 @@ bottom: 40px !important;
   background-repeat: no-repeat;
 }
 
-.rails-img, .mq-img, .redux-img, .sqlite-img{
+/* .rails-img, .mq-img, .redux-img, .sqlite-img{
   background-size: 80%;
 }
 
 
 .js-img, .html-img, .heroku-img{
   background-size: cover;
-}
+} */
 
 .ruby-img{
   background-image: url('./images/ruby.jpg');
@@ -1656,7 +1656,7 @@ bottom: 40px !important;
 
 .css-img{
   background-image: url('./images/css.jpg');
-  background-size: 120%;
+  /* background-size: 120%; */
 }
 
 
@@ -1835,9 +1835,9 @@ to {
     visibility: visible !important;
   }
 
-  .ruby-img, .heroku-img{
+  /* .ruby-img, .heroku-img{
    height: 150vh;
-  }
+  } */
 }
 
 @media only screen and (min-width: 350px){
