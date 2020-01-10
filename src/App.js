@@ -352,8 +352,7 @@ class App extends React.Component {
          
          {this.state.skill ? 
    <AwesomeSlider  >
-           <div>
-            <img className="ruby-img"  src="./img/ruby.jpg"/>
+           <div className="ruby-img" >
            <button className="x" onClick={this.handleSkillClick}>✖️</button>
            </div>
            <div className="rails-img" >

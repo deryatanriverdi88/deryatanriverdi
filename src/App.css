@@ -1545,14 +1545,14 @@ width: 40%;
 }
 
 .x{
-  position: absolute;
+  position: relative;
   height: 30px;
   width: 30px;
-  top: 30px;
-  right: 0px;
-  border-radius: 0 0 0 10px;
+  top: 100px;
+  right: -558px;
+  border-radius:0 10px 0 10px;
   font-size: 15px;
-  background: white;
+  /* background: white; */
 }
 
 #flying-2{
@@ -1624,18 +1624,13 @@ bottom: 40px !important;
 }
 
 
-/* .ruby-img{
+.js-img, .html-img, .heroku-img{
   background-size: 80%;
 }
 
-
-.js-img, .html-img, .heroku-img{
-  background-size: 80%;
-} */
-
-/* .ruby-img{
+.ruby-img{
   background-image: url('./images/ruby.jpg');
-} */
+}
 
 .rails-img{
   background-image: url('./images/rails.png');
