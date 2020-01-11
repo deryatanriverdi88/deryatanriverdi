@@ -288,23 +288,25 @@ class App extends React.Component {
          </div>
 
       { this.state.bio ?  
-        <AwesomeSlider cssModule={AwesomeSliderStyles}> 
-            <div className="bio" onClick={this.handleBioClick}> 
-                <img src="./img/me-2.jpg"/>
-                <p className="text"> Something</p>
-            </div>
-            <div id="flying-2" onClick={this.handleBioClick}>
-                <img src="./img/flying.gif"/>
+        <div className="board"> 
+            <div className="bio" onClick={this.handleBioClick}>   <div className="bio-img-container">
+                     <img src="./img/me-2.jpg"/>
+                </div>
                 <div className="text-container">
-                    <h3 className="h3">Journey from 🇹🇷 to 🇺🇸 </h3>
-                    <p className="text">Something</p>
+                    <h2 className="text h2">Who am I ?</h2>
+                    <p className="text">
+                       Hello, My name is Derya Tanriverdi! <br></br>
+                       I am a full stack Web Developer who graduated from Flatiron School. <br></br>
+                    </p>
+                    <br></br>
+                    <h2 className="text h2">How did coding started?</h2>
+                    <p className="text">
+                       Coding started out of a conversation with a close friend. Her telling, "Why don't you learn coding, you love learning languages." got me curious and start it! First, I started learning HTML / CSS through Codecademy, then extended my resources with Udemy. Thinking of something and making it happened really excited me, and I kept going!
+                    </p>
                 </div>
             </div>
-            <div className="coder-cat" onClick={this.handleBioClick} > 
-                 <p className="text"> Something</p>
-                 <img src="./img/coder-cat.gif"/>
-            </div>
-        </AwesomeSlider> : null }
+          
+        </div> : null }
 
       {this.state.project ? 
         <AwesomeSlider cssModule={AwesomeSliderStyles}>
