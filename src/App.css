@@ -4,15 +4,15 @@
   margin: 0;
 }
 
+
 body {
   text-align: center;
   z-index: -1;
   width: auto;
-  /* height: 150vh;  */
+  height: auto;
   margin: 0;
   padding: 0;
-  background:  
-  #84cce4;
+  background:#84cce4;
 }
 
 ul li{
@@ -36,14 +36,13 @@ ul li{
   0px 24px 2px rgba(0,0,0,0.1),
   0px 34px 30px rgba(0,0,0,0.1);
   transition: letter-spacing 1s;
- 
   transition-timing-function: linear;
 }
 
 .myname:hover{
   letter-spacing: 18px;
-
 }
+
 .clock{
   width: 180px; 
   height: 180px;
@@ -53,9 +52,8 @@ ul li{
   top: 20px;
   left: 30px;
   border-radius: 50%;
-  -webkit-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
--moz-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
+  -webkit-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);-moz-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
+  box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
 }
 
 .react-clock{
@@ -72,8 +70,8 @@ box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
   left: 550px;
   top: 170px;
   -webkit-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
--moz-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
+  -moz-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
+  box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
 }
 
 .calendar{
@@ -81,17 +79,17 @@ box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
   top: 220px;
   left: 75px;
   -webkit-box-shadow: -5px 3px 14px -3px rgba(0,0,0,0.75);
--moz-box-shadow: -5px 3px 14px -3px rgba(0,0,0,0.75);
-box-shadow: -5px 3px 14px -3px rgba(0,0,0,0.75);
+  -moz-box-shadow: -5px 3px 14px -3px rgba(0,0,0,0.75);
+  box-shadow: -5px 3px 14px -3px rgba(0,0,0,0.75);
 }
 
 .month{
   width: 100px;
   height: 25px;
   background:  #e0494a;
- color: white;
- font-weight: bold;
- padding-top: 3px;
+  color: white;
+  font-weight: bold;
+  padding-top: 3px;
 }
 
 .day{
@@ -102,6 +100,7 @@ box-shadow: -5px 3px 14px -3px rgba(0,0,0,0.75);
   padding-top: 10px;
   font-size: 25px;
 }
+
 .book-holder ul li {
   width: 25px;
   height: 45px;
@@ -134,9 +133,7 @@ box-shadow: -5px 3px 14px -3px rgba(0,0,0,0.75);
  writing-mode: vertical-lr;
  font-size: 10px;
  padding-left: 3px;
- 
 }
-
 
 .book ul li:nth-child(2){
   top: -200px;
@@ -145,9 +142,8 @@ box-shadow: -5px 3px 14px -3px rgba(0,0,0,0.75);
   background: #F2636A
 }
 
-
 .book ul li:nth-child(3){
-  top: -255px;
+ top: -255px;
  left: 78px;
  background: #FF8E8E;
 }
@@ -158,7 +154,6 @@ box-shadow: -5px 3px 14px -3px rgba(0,0,0,0.75);
   background: #3B6A72;
   color: white;
 }
-
 
 .chair{
   width: 180px;
@@ -181,7 +176,6 @@ box-shadow: -5px 3px 14px -3px rgba(0,0,0,0.75);
   top: 160px;
   border-radius:90px 90px 35px 35px ;
 }
-
 
 .head{
   height: 135px;
@@ -227,7 +221,6 @@ box-shadow: -5px 3px 14px -3px rgba(0,0,0,0.75);
   top: 40px;
   left: 15px;
   border-radius: 50%;
-  
 }
 
 .right-eye-brow{
@@ -265,10 +258,8 @@ box-shadow: -5px 3px 14px -3px rgba(0,0,0,0.75);
   left: 22px;
   border-radius: 10% 50%;
   border-top: 2px solid black;
-  /* border-bottom: 2px solid black; */
   border-left: 2px solid black;
 }
-
 
 .right-eye{
   top: -5px;
@@ -288,7 +279,6 @@ box-shadow: -5px 3px 14px -3px rgba(0,0,0,0.75);
   top: 0px;
   left: 3px;
   border-radius: 50%;
-
 }
 
 .cornea{
@@ -335,14 +325,13 @@ box-shadow: -5px 3px 14px -3px rgba(0,0,0,0.75);
   display: inline-block;
   border-width: 0.5px;
   border-style: solid;
-  border-color: rgba(115,103,74, 0.3) transparent rgba(115,103,74, 0.3)rgba(115,103,74, 0.3);
+  border-color: rgba(115,103,74, 0.3) transparent rgba(115,   103,74, 0.3)rgba(115,103,74, 0.3);
   width: 9px;
   height: 20px;
   border-radius: 50%;
   position: absolute;
   left: 2px;
   top: 3px;
- 
 }
 
 .left-ear:after, .right-ear:after{
@@ -366,15 +355,14 @@ box-shadow: -5px 3px 14px -3px rgba(0,0,0,0.75);
 }
 
 .earing{
-  width: 3px;
-  height: 3px;
-  background: #479265;
+ width: 3px;
+ height: 3px;
+ background: #479265;
  border-radius: 50%;
  position: relative;
  top: 25px;
  left: 5px;
 }
-
 
 .nose{
   height:5px;
@@ -384,7 +372,6 @@ box-shadow: -5px 3px 14px -3px rgba(0,0,0,0.75);
   position: relative;
   left: 48px;
   top: 13px;
-  
 }
 
 .mouth{
@@ -410,7 +397,6 @@ box-shadow: -5px 3px 14px -3px rgba(0,0,0,0.75);
   left: 0px;
   border-radius: 50% 90px;
   transform: rotate(-20deg);
-  /* border-radius:50% 90px 0 0 ; */
 }
 
 .mouth:after{
@@ -418,7 +404,6 @@ box-shadow: -5px 3px 14px -3px rgba(0,0,0,0.75);
   border-radius: 90px 50%;
   transform: rotate(20deg);
 }
-
 
 .neck{
   width: 30px;
@@ -457,20 +442,6 @@ box-shadow: -5px 3px 14px -3px rgba(0,0,0,0.75);
   left: 30px;
 }
 
-.message{
-  clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 59% 75%, 23% 100%, 32% 75%, 0% 75%);
-  position: absolute;
-  background: white;
-  width: 250px;
-  height: 150px;
-  left: 500px;
-  top: 40px;
-  font-size: 20px;
-  padding: 30px;
-  border-radius: 10px;
-  box-sizing: border-box;
-}
-
 .computer{
   width: 145px;
   height: 100px;
@@ -490,7 +461,6 @@ box-shadow: -5px 3px 14px -3px rgba(0,0,0,0.75);
   margin: 0px auto;
   width: 70px;
   height: 70px;
-  
   background-position: center;
   background-repeat: no-repeat;
   background-size: 30%;
@@ -563,8 +533,8 @@ box-shadow: -5px 3px 14px -3px rgba(0,0,0,0.75);
   position: relative;
   bottom: 27.5px;
   left: 25px;
- transform: rotate(25deg);
- z-index: -1;
+  transform: rotate(25deg);
+  z-index: -1;
 }
 
 .pencil-2{
@@ -597,9 +567,8 @@ box-shadow: -5px 3px 14px -3px rgba(0,0,0,0.75);
 .table{
   width: 470px;
   height: 40px;
-  /* background: #815136; */
   background-color: #d4bf82;
-background-image: url("https://www.transparenttextures.com/patterns/wood-pattern.png");
+  background-image: url("https://www.transparenttextures.com/patterns/wood-pattern.png");
   position: absolute;
   left: 140px;
   top: 470px;
@@ -613,10 +582,10 @@ background-image: url("https://www.transparenttextures.com/patterns/wood-pattern
   width: 35px;
   height: 40px;
   position: absolute;
- background: #ddb8a6;
- bottom: 26px;
- left: 30px;
- clip-path: polygon(0 0, 100% 0, 92% 65%, 8% 65%);
+  background: #ddb8a6;
+  bottom: 26px;
+  left: 30px;
+  clip-path: polygon(0 0, 100% 0, 92% 65%, 8% 65%);
 }
 
 .vase-top{
@@ -627,7 +596,7 @@ background-image: url("https://www.transparenttextures.com/patterns/wood-pattern
   border-width: 5px;
   border-style: solid;
   border-color: #c4a393 transparent transparent transparent;
- z-index: 2;
+  z-index: 2;
 }
 
 .vase-top:before{
@@ -658,8 +627,8 @@ border-radius: 10% 90px ;
  top: -83px;
  transform: rotate(35deg);
  -webkit-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
--moz-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
+ -moz-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
+ box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
 }
 
 .plant ul li:nth-child(3){
@@ -670,24 +639,23 @@ transform: rotate(55deg);
 -moz-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
 box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
 }
+
 .table-front{
   width:450px;
   height: 230px;
-  /* background:  #c5a754; */
   position: absolute;
   top: 505px;
   left: 150px;
   background-color: #d4bf82;
-background-image: url("https://www.transparenttextures.com/patterns/wood-pattern.png");
--webkit-box-shadow: 5px 14px 12px -3px rgba(0,0,0,0.6);
--moz-box-shadow: 5px 14px 12px -3px rgba(0,0,0,0.6);
-box-shadow: 5px 14px 12px -3px rgba(0,0,0,0.6);
+  background-image: url("https://www.transparenttextures.com/patterns/wood-pattern.png");
+  -webkit-box-shadow: 5px 14px 12px -3px rgba(0,0,0,0.6);
+  -moz-box-shadow: 5px 14px 12px -3px rgba(0,0,0,0.6);
+  box-shadow: 5px 14px 12px -3px rgba(0,0,0,0.6);
 }
 
-
 .table-front:before, .table-front:after{
-  content: "";
-  display: inline-block;
+   content: "";
+   display: inline-block;
    width: 20px;
    height: 15px;
    position: absolute;
@@ -719,8 +687,8 @@ box-shadow: 5px 14px 12px -3px rgba(0,0,0,0.6);
   top: 550px;
   border-radius: 5px 5px 20px 20px;
   -webkit-box-shadow: -3px 4px 14px -3px rgba(0,0,0,0.75);
--moz-box-shadow: -3px 4px 14px -3px rgba(0,0,0,0.75);
-box-shadow: -3px 4px 14px -3px rgba(0,0,0,0.75);
+  -moz-box-shadow: -3px 4px 14px -3px rgba(0,0,0,0.75);
+  box-shadow: -3px 4px 14px -3px rgba(0,0,0,0.75);
 }
 
 .garbage-can:before{
@@ -733,7 +701,6 @@ box-shadow: -3px 4px 14px -3px rgba(0,0,0,0.75);
   position: absolute;
   top: -2px;
   left: 1px;
- 
 }
 
 .dog{
@@ -759,6 +726,7 @@ box-shadow: -3px 4px 14px -3px rgba(0,0,0,0.75);
   color: #EB194B;
   font-family: 'Cute Font', cursive;
 }
+
 .dog-ear ul li{
   position: relative;
   background: #ddc78e;
@@ -767,7 +735,6 @@ box-shadow: -3px 4px 14px -3px rgba(0,0,0,0.75);
   left: 10px;
   top: -10px;
   border-radius: 40%;
-
 }
 
 .dog-ear ul li:before{
@@ -813,9 +780,9 @@ box-shadow: -3px 4px 14px -3px rgba(0,0,0,0.75);
   height: 3px;
   background: white;
   position: relative;
-   top: -10px;
-   left: -4px;
-   border-radius: 50%;
+  top: -10px;
+  left: -4px;
+  border-radius: 50%;
 }
 
 .dog-eyes ul li:nth-child(2){
@@ -847,7 +814,6 @@ background: #ddc78e;
 z-index: 1;
 }
 
-
 .dog-mouth ul li:nth-child(2){
  left: 30px;
  top: -75px;
@@ -860,20 +826,20 @@ z-index: 1;
   position: relative;
   background: #9e5662;
   top: -85px;
- left: 25px;
- border-radius: 0 0 50% 50%;
+  left: 25px;
+  border-radius: 0 0 50% 50%;
 }
 
 .dog-head:hover{
   cursor: pointer;
 }
+
 .dog-head:hover > .dog-tongue{
-  animation-name: dog-tongue;
+ animation-name: dog-tongue;
  animation-duration: 1s;
  animation-iteration-count: infinite;
  
 }
-
 
 @keyframes dog-tongue{
  0% {height: 20px;}
@@ -881,6 +847,7 @@ z-index: 1;
  30% {height: 10px;}
  40% {height: 5px;}
 }
+
 .dog-body{
   width: 70px;
   height: 80px;
@@ -891,8 +858,8 @@ z-index: 1;
   border-radius: 50% 50% 40% 40%;
   z-index: -1;
   -webkit-box-shadow: -3px 4px 14px -3px rgba(0,0,0,0.75);
--moz-box-shadow: -3px 4px 14px -3px rgba(0,0,0,0.75);
-box-shadow: -3px 4px 14px -3px rgba(0,0,0,0.75);
+  -moz-box-shadow: -3px 4px 14px -3px rgba(0,0,0,0.75);
+  box-shadow: -3px 4px 14px -3px rgba(0,0,0,0.75);
 }
 
 .collar{
@@ -906,7 +873,6 @@ box-shadow: -3px 4px 14px -3px rgba(0,0,0,0.75);
   position: relative;
   left: 10px;
   top: -5px;
-
 }
 
 .collar:before{
@@ -916,10 +882,9 @@ box-shadow: -3px 4px 14px -3px rgba(0,0,0,0.75);
   height: 13px;
   background: white;
   position: absolute;
- top: 30px;
- left: 21px;
- border-radius: 50%;
-
+  top: 30px;
+  left: 21px;
+  border-radius: 50%;
 }
 
 .heart{
@@ -994,7 +959,6 @@ box-shadow: -3px 4px 14px -3px rgba(0,0,0,0.75);
  top: 467px;
  left: 250px;
  border-radius: 50%;
- 
 }
 
 .coffee-cup{
@@ -1020,7 +984,6 @@ box-shadow: -3px 4px 14px -3px rgba(0,0,0,0.75);
   top: 2px;
 }
 
-
 .coffee-steam, .coffee-steam:after{
   text-decoration-line: overline underline;
   text-decoration-style: wavy;
@@ -1032,10 +995,8 @@ box-shadow: -3px 4px 14px -3px rgba(0,0,0,0.75);
   position: absolute;
   top:430px;
   left: 273px;
-
   border-color:transparent transparent transparent 
   #828083;
-
 }
 
 .coffee-steam:after{
@@ -1059,9 +1020,6 @@ box-shadow: -3px 4px 14px -3px rgba(0,0,0,0.75);
    box-shadow:
     inset 10px 0 50px  #f7e485,
     inset -60px 0 120px #fff8d3;
-
-   
-
 }
 
 .postits{
@@ -1096,9 +1054,8 @@ box-shadow: -3px 4px 14px -3px rgba(0,0,0,0.75);
 }
 
 .postits p{
-   font-family: 'Cute Font', cursive;
+  font-family: 'Cute Font', cursive;
   font-size: 30px;
-
   padding-top: 80px;
   font-weight: bold;
   color: #EB194B;
@@ -1142,7 +1099,6 @@ box-shadow: -3px 4px 14px -3px rgba(0,0,0,0.75);
   background:rgba(255, 87, 138, 0.7);
   border-radius: 90px 50%;
   transform: rotate(-90deg);
-
 }
 
 .flower ul li:nth-child(2){
@@ -1152,12 +1108,13 @@ box-shadow: -3px 4px 14px -3px rgba(0,0,0,0.75);
 }
 
 .flower ul li:nth-child(3){
-  top: 30px;
+top: 30px;
 left: 45px;
 transform: rotate(35deg);
 }
+
 .flower ul li:nth-child(4){
-  top: 42px;
+top: 42px;
 left: 39px;
 transform: rotate(95deg);
 }
@@ -1194,14 +1151,12 @@ transform: rotate(95deg);
 .file:after{
   border-top: 2px solid #6f6d70;
   border-right: 2px solid #6f6d70;
-
   transform: rotate(0);
   top: -8px;
   left: 29px;
- width: 10px;
- border-radius: 0 5px 0 0 ;
+  width: 10px;
+  border-radius: 0 5px 0 0 ;
 }
-
 
 .file-top{
   position: relative;
@@ -1218,9 +1173,9 @@ transform: rotate(95deg);
   display: inline-block;
   width: 20px;
   height: 15px;
- border: 2px solid #6f6d70;
- border-left: none;
- border-top: none;
+  border: 2px solid #6f6d70;
+  border-left: none;
+  border-top: none;
   top: -7px;
   left: 17px;
 }
@@ -1266,7 +1221,6 @@ transform: rotate(95deg);
   top: 1px;
 }
 
-
 .slash{
   height: 16px;
   left: 15px;
@@ -1286,7 +1240,6 @@ transform: rotate(95deg);
   top: 1px;
 }
 
-
 .lamb{
   position: absolute;
   top: 20px;
@@ -1294,7 +1247,6 @@ transform: rotate(95deg);
 }
 
 .lamb-top{
-
   width: 50px;
   height: 50px;
   background: rgba(255, 140, 12, 0.5);
@@ -1303,21 +1255,19 @@ transform: rotate(95deg);
   transition: background 1s;
   transition: box-shadow 1s;
   transition-timing-function: ease-in-out;
- 
 }
 
 .lamb-top:hover{
   background: rgb(255, 140, 12);
   -webkit-box-shadow: -3px -4px 30px 12px rgba(211,219,96,1);
--moz-box-shadow: -3px -4px 30px 12px rgba(211,219,96,1);
-box-shadow: -3px -4px 30px 12px rgba(211,219,96,1);
+  -moz-box-shadow: -3px -4px 30px 12px rgba(211,219,96,1);
+  box-shadow: -3px -4px 30px 12px rgba(211,219,96,1);
 }
 
 .lamb-inside{
   width: 0px;
   height: 0px;
 }
-
 
 .lamb-inside ul li{
   position: relative;
@@ -1333,7 +1283,6 @@ box-shadow: -3px -4px 30px 12px rgba(211,219,96,1);
   transition: border-color 1s;
   transition-timing-function: ease-in-out;
 }
-
 
 .lamb-inside ul li:nth-child(1):before{
   position: absolute;
@@ -1360,7 +1309,6 @@ box-shadow: -3px -4px 30px 12px rgba(211,219,96,1);
   display: inline-block; 
   height: 30px;
   border-right: 1px solid rgba(0,0,0, 0.5);
-
   transform: rotate(-5deg);
 }
 
@@ -1427,10 +1375,10 @@ box-shadow: -3px -4px 30px 12px rgba(211,219,96,1);
    width: 10px;
    height: 10px;
    background: black;
-  position: relative;
-  top: 5px;
-  left: 20px;
-  border-radius: 0 0  5px 5px;
+   position: relative;
+   top: 5px;
+   left: 20px;
+   border-radius: 0 0  5px 5px;
 }
 
 .email{
@@ -1473,7 +1421,6 @@ box-shadow: -3px -4px 30px 12px rgba(211,219,96,1);
   left: -6px;
 }
 
-
 .post-it-1 p:hover, .post-it-2 p:hover, .post-it-3 p:hover, .post-it-4 p:hover{
   animation: shake 0.5s;
   animation-iteration-count: infinite;
@@ -1504,12 +1451,11 @@ box-shadow: -3px -4px 30px 12px rgba(211,219,96,1);
   color: black;
 }
 
-
 .floor{
-   width: 100%;
+   width: auto;
    height: 40vh;
    position:absolute;
-  background-image: url('./images/wooden-floor.jpg');
+   background-image: url('./images/wooden-floor.jpg');
    z-index: -10;
    top: 630px;
    background-size: cover;
@@ -1533,86 +1479,63 @@ padding-right: 4em;
 }
 
 .coder-cat img{
-width: 40%;
-
-
+  width: 40%;
 }
+
 .bio .text, .coder-cat .text{
-/* width: auto; */
   color: white;
   padding-left: 5em;
-
 }
 
-
 #flying-2{
-
 box-sizing: border-box;
 width: 100%; 
-/* background-color: rgba(2,151,219, 0.8) !important; */
 } 
 
 #flying-2 .text{
  box-sizing: border-box;
  margin: 0;
  text-align: center;
-
 }
 
 #flying-2 img{
-float: left;
-height: 20vh;
-box-sizing: border-box;
-margin-top: 0;
-width: 50%;
+  float: left;
+  height: 20vh;
+  box-sizing: border-box;
+  margin-top: 0;
+  width: 50%;
 }
 
 .h3{
-margin: 0;
-padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .text-container{
-position: relative;
-box-sizing: border-box;
-width: auto;
-
- height: 15vh;
- /* overflow: scroll; */
-
-}
-
-.x{
-  display: inline-block;
-  width: 45px;
-  height: 45px;
-  background: white;
   position: relative;
-  top: -780px;
-  left:560px;
-  font-weight: bold;
-  border-radius: 0 10px 0 10px;
+  box-sizing: border-box;
+  width: auto;
+  height: 15vh;
 }
+
 .awssld{
   width: 60% !important; 
   z-index:6 !important;
   margin: 30px auto !important;
 }
 
-
 .awssld__content{
-
-background-color: #2E9497 !important; 
-border-radius: 15px;
-padding: 0 !important;
-
+  background-color: #2E9497 !important; 
+  border-radius: 15px;
+  padding: 0 !important;
 }
 
 .awssld__bullets{
-position: relative !important;
-bottom: 40px !important;
+  position: relative !important;
+  bottom: 40px !important;
 
 }
+
 .container{
   width: 100%;
   height: 100%;
@@ -1677,28 +1600,34 @@ bottom: 40px !important;
 .sqlite-img{
   background-image: url('./images/sqlite.png');
 }
-.linked-in-div a{
-display: block;
-width: 100%;
+
+.contact-div{
+  justify-content: space-between;
+  display: flex;
+  padding: 0 50px;
 }
 
-.linked-in-div a img{
-width: 100%;
+.contact-div a{
+  width: 20%;
+}
+
+.contact-div a img{
+  width: 100%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-.linked-in-div a img:hover {
-  animation: img-spin infinite 1s linear;
-}
+  .linked-in-div a img:hover {
+    animation: img-spin infinite 1s linear;
+  }
 }
 
 @keyframes img-spin {
-from {
-  transform: rotate(0deg);
-}
-to {
-  transform: rotate(360deg);
-}
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 @media only screen and (min-width: 300px){
@@ -1706,17 +1635,12 @@ to {
   .floor{
     width: 405%;
     left: 0;
-  
-  }
-
-  body{
-    height: 100vh;
   }
 
   .myname{
-     position: absolute;
+    position: absolute;
     left:950px;
-      width: 300px;
+    width: 300px;
     z-index: 6;
   }
 
@@ -1836,18 +1760,17 @@ to {
     visibility: visible !important;
   }
 }
+
 @media only screen and (min-width: 350px){
   .floor{
     width: 405%;
     left: 0;
-  
   }
 
   .myname{
-     position: absolute;
+    position: absolute;
     left:1050px;
-      width: 300px;
-  
+    width: 300px;
   }
 
   .postits{
@@ -1962,6 +1885,7 @@ to {
     height: 100% !important;
   }
 }
+
 @media only  screen and (min-width: 400px){
   .floor{
     width: 325%;
@@ -2084,6 +2008,7 @@ to {
     height: 100% !important;
   }
 }
+
 @media only screen and (min-width: 500px){
   .floor{
     top: 620px;
@@ -2093,10 +2018,9 @@ to {
   }
 
   .myname{
-     position: absolute;
+    position: absolute;
     left:1000px;
-      width: 300px;
-  
+    width: 300px;
   }
 
   .postits{
@@ -2210,6 +2134,7 @@ to {
     height: 100% !important;
   }
 }
+
 @media only screen and (min-width: 600px){
   .floor{
     top: 620px;
@@ -2219,10 +2144,9 @@ to {
   }
 
   .myname{
-     position: absolute;
+    position: absolute;
     left:1050px;
-      width: 300px;
-  
+    width: 300px;
   }
 
   .postits{
@@ -2337,6 +2261,7 @@ to {
     height: 100% !important;
   }
 }
+
 @media only screen and (min-width: 700px){
   .floor{
     top: 620px;
@@ -2464,6 +2389,7 @@ to {
     height: 100% !important;
   }
 }
+
 @media only screen and (min-width: 730px){
   .awssld{
     position: absolute !important;
@@ -2480,6 +2406,7 @@ to {
     height: 100% !important;
   }
 }
+
 @media only screen and (min-width: 760px){
   .awssld{
     position: absolute !important;
@@ -2496,7 +2423,12 @@ to {
     height: 100% !important;
   }
 }
+
 @media only screen and (min-width: 800px){
+  .myname{
+    left: 900px;
+  }
+
   .awssld{
     position: absolute !important;
     top: 1000px;
@@ -2511,14 +2443,9 @@ to {
   .awssld__container{
     height: 100% !important;
   }
-
- .myname{
-   left: 900px;
- }
 }
+
 @media only screen and (min-width: 1000px){
-
-
 .floor{
   width: 190%;
   left: 0;
@@ -2526,10 +2453,9 @@ to {
 }
 
 .myname{
-   position: absolute;
+  position: absolute;
   left:1050px;
-    width: 300px;
-
+  width: 300px;
 }
 
 .postits{
@@ -2644,9 +2570,8 @@ to {
   height: 100% !important;
  }
 }
+
 @media only screen and (min-width: 1300px){
-
-
   .floor{
     width: 100%;
     left: 0;
@@ -2654,10 +2579,9 @@ to {
   }
   
   .myname{
-     position: absolute;
+    position: absolute;
     left:950px;
-      width: 300px;
-  
+    width: 300px;
   }
   
   .postits{
@@ -2770,9 +2694,8 @@ to {
   .awssld__container{
     height: 100% !important;
   }
-
- 
 }
+
 @media only screen and (min-height: 1100px){
   .floor{
     top: 620px;
@@ -2782,10 +2705,9 @@ to {
   }
 
   .myname{
-     position: absolute;
+    position: absolute;
     left:1150px;
-      width: 300px;
-  
+    width: 300px;
   }
 
   .postits{
@@ -2900,6 +2822,7 @@ to {
     height: 100% !important;
   }
 }
+
 @media only screen and (min-height: 1300px){
   .floor{
     top: 620px;
@@ -2909,10 +2832,9 @@ to {
   }
 
   .myname{
-     position: absolute;
+    position: absolute;
     left:1550px;
-      width: 300px;
-  
+    width: 300px;
   }
 
   .postits{
@@ -3027,6 +2949,7 @@ to {
     height: 100% !important;
   }
 }
+
 @media only screen and (min-width: 1400px){
   .awssld{
     position: absolute !important;
