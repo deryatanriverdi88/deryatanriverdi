@@ -1465,9 +1465,10 @@ transform: rotate(95deg);
   width: 60% !important; 
   z-index:6 !important;
   left: 400px;
+  max-width: none !important;
 }
 
-.awssld__content, .bio{
+.awssld__content, .bio, .contact-div{
   background-color: #2E9497 !important; 
   border-radius: 15px;
   padding: 0 !important;
@@ -1490,6 +1491,7 @@ transform: rotate(95deg);
   flex-wrap: wrap;
   margin: 0;
   padding: 4em;
+  position: absolute;
 }
 
 .bio-img-container{
@@ -1585,9 +1587,9 @@ transform: rotate(95deg);
 }
 
 .contact-div{
+  position: absolute;
   justify-content: space-between;
   display: flex;
-  padding: 0 50px;
 }
 
 .contact-div a{
@@ -1621,10 +1623,8 @@ transform: rotate(95deg);
   }
 
   .myname{
-    position: absolute;
     left:950px;
     width: 300px;
-    z-index: 6;
   }
 
   .postits{
@@ -1652,15 +1652,8 @@ transform: rotate(95deg);
   }
 
   .post-it-1:after, .post-it-2:after, .post-it-3:after , .post-it-4:after{
-    content: "";
-    display: inline-block;
-    width: 500px;
-    height: 500px;
-    position: absolute;
     top: -15px;
     left: -1px;
-    z-index: -1;
-    box-shadow:2px 15px 5px rgba(0, 0, 0, 0.40);
   }
 
   .postits p{
@@ -1725,14 +1718,10 @@ transform: rotate(95deg);
   }
 
   .awssld, .board{
-    position: absolute !important;
-    top: 1150px;
-    left: 290px;
-    width: 250% !important; 
-    height: 120% !important;
-    z-index:6 !important;
-    margin: 30px auto !important;
-    max-width: none !important;
+    top: 1100px;
+    left: 260px;
+    width: 260% !important; 
+    height: 120vh !important;
   }
 
   .awssld__container{
@@ -1743,17 +1732,26 @@ transform: rotate(95deg);
     visibility: visible !important;
   }
 
+  .bio{
+    top: 50px;
+    height: 130vh;
+  }
+
+  .bio-img-container img{
+    margin: 100px;
+    width: 100%;
+   }
+
   .text-container{
     padding: 70px 0 20px 60px;
     line-height: 35px;
   }
 
-  .bio-img-container img{
-    margin:100px;
-    width: 100%;
-    height: auto;
-    border-radius: 15px;
-   }
+  .contact-div{
+    top: 100px;
+    padding: 280px  100px !important;
+    height: 120vh;
+  }
 }
 
 @media only screen and (min-width: 350px){
@@ -1763,7 +1761,6 @@ transform: rotate(95deg);
   }
 
   .myname{
-    position: absolute;
     left:1050px;
     width: 300px;
   }
@@ -1793,15 +1790,8 @@ transform: rotate(95deg);
   }
 
   .post-it-1:after, .post-it-2:after, .post-it-3:after , .post-it-4:after{
-    content: "";
-    display: inline-block;
-    width: 500px;
-    height: 500px;
-    position: absolute;
     top: -15px;
     left: -1px;
-    z-index: -1;
-    box-shadow:2px 15px 5px rgba(0, 0, 0, 0.40);
   }
 
   .postits p{
@@ -1866,14 +1856,10 @@ transform: rotate(95deg);
   }
 
   .awssld, .board{
-    position: absolute !important;
-    top: 1200px;
+    top: 1205px;
     left: 320px;
-    width: 230% !important; 
-    height: 110% !important;
-    z-index:6 !important;
-    margin: 30px auto !important;
-    max-width: none !important;
+    width: 235% !important; 
+    height: 10% !important;
   }
 
   .awssld__container{
@@ -1885,12 +1871,21 @@ transform: rotate(95deg);
     line-height: 40px;
   }
 
+  .bio{
+    top: 90px;
+    height: 90vh;
+  }
+
   .bio-img-container img{
     margin:120px;
     width: 100%;
-    height: auto;
-    border-radius: 15px;
    }
+  
+  .contact-div{
+    top: 100px;
+    padding: 280px  100px !important;
+    height: 90vh;
+  }
 }
 
 @media only  screen and (min-width: 400px){
@@ -1899,7 +1894,6 @@ transform: rotate(95deg);
   }
 
   .myname{
-    position: absolute;
     left:900px;
   }
 
@@ -1928,15 +1922,8 @@ transform: rotate(95deg);
   }
 
   .post-it-1:after, .post-it-2:after, .post-it-3:after , .post-it-4:after{
-    content: "";
-    display: inline-block;
-    width: 500px;
-    height: 500px;
-    position: absolute;
     top: -15px;
     left: -1px;
-    z-index: -1;
-    box-shadow:2px 15px 5px rgba(0, 0, 0, 0.40);
   }
 
   .postits p{
@@ -2001,18 +1988,18 @@ transform: rotate(95deg);
   }
 
   .awssld,  .board{
-    position: absolute !important;
-    top: 1200px;
-    left: 260px;
-    width: 200% !important; 
-    height: 110% !important;
-    z-index:6 !important;
-    margin: 30px auto !important;
-    max-width: none !important;
+    top: 1105px;
+    left: 240px;
+    width: 220% !important; 
+    height: 100% !important;
   }
 
   .awssld__container{
-    height: 10% !important;
+    height: 100% !important;
+  }
+
+  .bio{
+    height: 100vh;
   }
 
   .text-container{
@@ -2020,12 +2007,11 @@ transform: rotate(95deg);
     line-height: 35px;
   }
 
-  .bio-img-container img{
-    margin:100px;
-    width: 100%;
-    height: auto;
-    border-radius: 15px;
-   }
+  .contact-div{
+    top: 130px;
+    height: 100vh;
+    padding: 320px  100px !important;
+  }
 }
 
 @media only screen and (min-width: 500px){
@@ -2037,7 +2023,6 @@ transform: rotate(95deg);
   }
 
   .myname{
-    position: absolute;
     left:1000px;
     width: 300px;
   }
@@ -2067,15 +2052,8 @@ transform: rotate(95deg);
   }
 
   .post-it-1:after, .post-it-2:after, .post-it-3:after , .post-it-4:after{
-    content: "";
-    display: inline-block;
-    width: 500px;
-    height: 500px;
-    position: absolute;
     top: -15px;
     left: -1px;
-    z-index: -1;
-    box-shadow:2px 15px 5px rgba(0, 0, 0, 0.40);
   }
 
   .postits p{
@@ -2138,19 +2116,21 @@ transform: rotate(95deg);
   .shelf{
     left: 300px;
   }
+
   .awssld, .board{
-    position: absolute !important;
-    top: 1100px;
+    top: 1000px;
     left: 290px;
-    width: 150% !important; 
-    height: 205% !important;
-    z-index:6 !important;
-    margin: 30px auto !important;
-    max-width: none !important;
+    width: 160% !important; 
+    height: 230vh !important;
   }
 
   .awssld__container{
     height: 100% !important;
+  }
+
+  .bio{
+    top: 110px;
+    height: 230vh;
   }
 
   .text-container{
@@ -2158,12 +2138,11 @@ transform: rotate(95deg);
     line-height: 35px;
   }
 
-  .bio-img-container img{
-    margin:100px;
-    width: 100%;
-    height: auto;
-    border-radius: 15px;
-   }
+  .contact-div{
+    top: 110px;
+    height: 230vh;
+    padding: 250px  100px !important;
+  }
 }
 
 @media only screen and (min-width: 600px){
@@ -2175,7 +2154,6 @@ transform: rotate(95deg);
   }
 
   .myname{
-    position: absolute;
     left:1050px;
     width: 300px;
   }
@@ -2205,15 +2183,8 @@ transform: rotate(95deg);
   }
 
   .post-it-1:after, .post-it-2:after, .post-it-3:after , .post-it-4:after{
-    content: "";
-    display: inline-block;
-    width: 500px;
-    height: 500px;
-    position: absolute;
     top: -15px;
     left: -1px;
-    z-index: -1;
-    box-shadow:2px 15px 5px rgba(0, 0, 0, 0.40);
   }
 
   .postits p{
@@ -2278,14 +2249,16 @@ transform: rotate(95deg);
   }
 
   .awssld, .board{
-    position: absolute !important;
-    top: 1100px;
+    top: 1005px;
     left: 280px;
-    width: 130% !important; 
-    height: 190% !important;
-    z-index:6 !important;
-    margin: 30px auto !important;
-    max-width: none !important;
+    width: 140% !important; 
+    height: 210vh !important;
+  }
+
+  .bio{
+    top: 100px;
+    left: -10px;
+    height: 200vh;
   }
 
   .awssld__container{
@@ -2298,11 +2271,14 @@ transform: rotate(95deg);
   }
 
   .bio-img-container img{
-    margin:100px;
+    margin:120px;
     width: 100%;
-    height: auto;
-    border-radius: 15px;
    }
+
+  .contact-div{
+    height: 200vh;
+    padding: 300px  100px !important;
+  }
 }
 
 @media only screen and (min-width: 700px){
@@ -2431,18 +2407,18 @@ transform: rotate(95deg);
   .awssld__container{
     height: 100% !important;
   }
+
+  .contact-div{
+    padding: 350px  100px !important;
+  }
 }
 
 @media only screen and (min-width: 730px){
   .awssld, .board{
-    position: absolute !important;
     top: 1000px;
     left: 285px;
     width: 120% !important; 
     height: 160% !important;
-    z-index:6 !important;
-    margin: 30px auto !important;
-    max-width: none !important;
   }
 
   .awssld__container{
@@ -2454,28 +2430,40 @@ transform: rotate(95deg);
     line-height: 35px;
   }
 
-  .bio-img-container img{
-    margin:100px;
-    width: 100%;
-    height: auto;
-    border-radius: 15px;
-   }
+  .bio{
+    top: 10px;
+    height: 180vh;
+  }
+  .contact-div{
+    top: 10px;
+    height: 180vh;
+    padding: 280px  100px !important;
+  }
 }
 
 @media only screen and (min-width: 760px){
-  .awssld{
-    position: absolute !important;
+
+
+  .awssld, .board{
     top: 960px;
     left: 300px;
     width: 110% !important; 
     height: 70% !important;
-    z-index:6 !important;
-    margin: 30px auto !important;
-    max-width: none !important;
   }
-  
+
   .awssld__container{
     height: 100% !important;
+  }
+
+  .bio{
+    top: 70px;
+    height: 70vh;
+  }
+
+  .contact-div{
+    top: 80px;
+    height: 70vh;
+    padding: 320px  100px !important;
   }
 }
 
@@ -2487,19 +2475,16 @@ transform: rotate(95deg);
   .postits{
     left: -290px;
   }
+
   .myname{
     left: 900px;
   }
 
   .awssld, .board{
-    position: absolute !important;
     top: 1000px;
     left: 330px;
     width: 110% !important; 
     height: 180% !important;
-    z-index:6 !important;
-    margin: 30px auto !important;
-    max-width: none !important;
   }
 
   .awssld__container{
@@ -2511,12 +2496,9 @@ transform: rotate(95deg);
     line-height: 35px;
   }
 
-  .bio-img-container img{
-    margin:100px;
-    width: 100%;
-    height: auto;
-    border-radius: 15px;
-   }
+  .contact-div{
+    padding: 300px  100px !important;
+  }
 }
 
 @media only screen and (min-width: 1000px){
@@ -2527,7 +2509,6 @@ transform: rotate(95deg);
 }
 
 .myname{
-  position: absolute;
   left:1050px;
   width: 300px;
 }
@@ -2557,15 +2538,10 @@ transform: rotate(95deg);
 }
 
 .post-it-1:after, .post-it-2:after, .post-it-3:after , .post-it-4:after{
-  content: "";
-  display: inline-block;
   width: 200px;
   height: 200px;
-  position: absolute;
   top: -15px;
   left: -1px;
-  z-index: -1;
-  box-shadow:2px 15px 5px rgba(0, 0, 0, 0.40);
 }
 
 .postits p{
@@ -2630,30 +2606,30 @@ transform: rotate(95deg);
 }
 
 .awssld, .board{
-  position: absolute !important;
   top: 160px;
   left: 330px;
   width: 140% !important; 
   height: 130% !important;
-  z-index:6 !important;
-  margin: 30px auto !important;
-  max-width: none !important;
 }
 
 .awssld__container{
   height: 100% !important;
  }
 
- .text-container{
+.bio{
+  top: 10px;
+  height: 130vh;
+}
+
+.text-container{
   padding: 100px 0 20px 90px;
   line-height: 75px;
 }
 
-.bio-img-container img{
-  margin:100px;
-  width: 100%;
-  height: auto;
-  border-radius: 15px;
+.contact-div{
+  top: 10px;
+  height: 120vh;
+  padding: 350px  100px !important;
  }
 }
 
@@ -2665,7 +2641,6 @@ transform: rotate(95deg);
   }
   
   .myname{
-    position: absolute;
     left:950px;
     width: 300px;
   }
@@ -2695,15 +2670,10 @@ transform: rotate(95deg);
   }
   
   .post-it-1:after, .post-it-2:after, .post-it-3:after , .post-it-4:after{
-    content: "";
-    display: inline-block;
     width: 200px;
     height: 200px;
-    position: absolute;
     top: -15px;
     left: -1px;
-    z-index: -1;
-    box-shadow:2px 15px 5px rgba(0, 0, 0, 0.40);
   }
   
   .postits p{
@@ -2766,32 +2736,31 @@ transform: rotate(95deg);
   .shelf{
     left:600px;
   }
+
   .awssld, .board{
-    position: absolute !important;
     top: 100px;
     left: 300px;
     width: 70% !important; 
     height: 60% !important;
-    z-index:6 !important;
-    margin: 30px auto !important;
-    max-width: none !important;
   }
   
   .awssld__container{
     height: 100% !important;
   }
 
+  .bio{
+    height: 70vh;
+  }
+
   .text-container{
     padding: 70px 0 20px 60px;
     line-height: 45px;
   }
-
-  .bio-img-container img{
-    margin:100px;
-    width: 100%;
-    height: auto;
-    border-radius: 15px;
-   }
+  
+  .contact-div{
+    height: 60vh;
+    padding: 280px  100px !important;
+  }
 }
 
 @media only screen and (min-height: 1100px){
@@ -2803,7 +2772,6 @@ transform: rotate(95deg);
   }
 
   .myname{
-    position: absolute;
     left:1150px;
     width: 300px;
   }
@@ -2833,15 +2801,8 @@ transform: rotate(95deg);
   }
 
   .post-it-1:after, .post-it-2:after, .post-it-3:after , .post-it-4:after{
-    content: "";
-    display: inline-block;
-    width: 500px;
-    height: 500px;
-    position: absolute;
     top: -15px;
     left: -1px;
-    z-index: -1;
-    box-shadow:2px 15px 5px rgba(0, 0, 0, 0.40);
   }
 
   .postits p{
@@ -2906,18 +2867,18 @@ transform: rotate(95deg);
   }
 
   .awssld{
-    position: absolute !important;
     top: 1100px;
     left: 340px;
     width: 110% !important; 
     height: 70% !important;
-    z-index:6 !important;
-    margin: 30px auto !important;
-    max-width: none !important;
   }
 
   .awssld__container{
     height: 100% !important;
+  }
+
+  .contact-div{
+    padding: 350px  100px !important;
   }
 }
 
@@ -2930,7 +2891,6 @@ transform: rotate(95deg);
   }
 
   .myname{
-    position: absolute;
     left:1550px;
     width: 300px;
   }
@@ -2960,15 +2920,8 @@ transform: rotate(95deg);
   }
 
   .post-it-1:after, .post-it-2:after, .post-it-3:after , .post-it-4:after{
-    content: "";
-    display: inline-block;
-    width: 500px;
-    height: 500px;
-    position: absolute;
     top: -15px;
     left: -1px;
-    z-index: -1;
-    box-shadow:2px 15px 5px rgba(0, 0, 0, 0.40);
   }
 
   .postits p{
@@ -3033,46 +2986,55 @@ transform: rotate(95deg);
   }
 
   .awssld, .board{
-    position: absolute !important;
     top: 1200px;
     left: 550px;
     width: 80% !important; 
     height: 50% !important;
-    z-index:6 !important;
-    margin: 30px auto !important;
-    max-width: none !important;
   }
   
   .awssld__container{
     height: 100% !important;
+  }
+
+  .bio{
+    height: 50vh;
   }
 
   .text-container{
     padding: 70px 0 20px 60px;
     line-height: 35px;
   }
-
-  .bio-img-container img{
-    margin:100px;
-    width: 100%;
-    height: auto;
-    border-radius: 15px;
-   }
+  
+  .contact-div{
+    height: 50vh;
+    padding: 310px  100px !important;
+  }
 }
 
 @media only screen and (min-width: 1400px){
-  .awssld{
-    position: absolute !important;
-    top: 100px;
+  .awssld, .board{
+    top: 80px;
     left: 350px;
     width: 60% !important; 
     height: 80% !important;
-    z-index:6 !important;
-    margin: 30px auto !important;
-    max-width: none !important;
   }
   
   .awssld__container{
     height: 100% !important;
   }
+  
+  .text-container{
+    padding: 70px 0 20px 60px;
+    line-height: 55px;
+  }
+
+  .bio-img-container img{
+    margin:80px;
+   }
+
+   .contact-div{
+    height: 50vh;
+    padding: 310px  100px !important;
+  }
+  
 }
