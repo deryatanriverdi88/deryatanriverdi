@@ -94,199 +94,198 @@ class App extends React.Component {
  console.log(new Date().getDay())
     return (
       <div className="app">
-        <div className="border">
-          <div className="myname">Derya Tanriverdi</div>
-          <div className="clock">
-             <Clock className="react-clock" value={this.state.date}/>
-          </div>
-          <div className="calendar">
-             <div className="month">{this.month()}</div>
-             <div className="day">{this.state.day}</div>
-          </div>
-          <div className="shelf">
-             <div className="book-holder">
-               <ul>
-                 <li></li>
-                 <li></li>
-               </ul>
-             </div>
-             <div className="book">
-                <ul>
-                  <li>Aspiration</li>
-                  <li>Success</li>
-                  <li>Future</li>
-                  <li>Inspired</li>
-                </ul>
-             </div>
-          </div>
-          <div className="chair"></div>
-          <div className="hair"></div>
-          <div className="head">
-             <div className="left-eye-brow"></div>
-             <div className="right-eye-brow"></div>
-             <div className="left-eyelash">
-                <ul>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                </ul>
-             </div>
-             <div className="right-eyelash">
+         <div className="border">
+            <div className="myname">Derya Tanriverdi</div>
+            <div className="clock">
+                <Clock className="react-clock" value={this.state.date}/>
+            </div>
+            <div className="calendar">
+                <div className="month">{this.month()}</div>
+                <div className="day">{this.state.day}</div>
+            </div>
+            <div className="shelf">
+               <div className="book-holder">
                  <ul>
                    <li></li>
                    <li></li>
-                   <li></li>
-                   <li></li>
                  </ul>
-              </div>
-              <div className="left-eye">
-                 <div className="cornea"></div>
-              </div>
-              <div className="right-eye">
-                  <div className="cornea"></div>
-              </div>
-              <div className="ears">
-                  <div className="left-ear">
-                  <div className='earing'></div>
-              </div>
-                  <div className="right-ear">
-                     <div className='earing'></div>
-                  </div>
-              </div>
-              <div className="nose"></div>
-              <div className="mouth"></div>
-          </div> 
-          <div className="neck"></div>
-          <div className="t-shirt"></div>
-          <div className="computer">
-              <div className="apple-logo"></div>
-          </div>
-          <div className="pencil-jar">
-             <div className='eraser'></div>
-             <div className="pencil"></div>
-             <div className='eraser-2'></div>
-             <div className="pencil-2"></div>
-          </div>
-          <div className="table">
-             <div className="plant">
-                <ul>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                </ul>
-             </div>
-             <div className="vase-top"></div>
-             <div className="vase"></div>
-          </div>
-          <div className="table-front"></div>
-          <div className="table-side"></div>
-          <div className="garbage-can"></div>
-          <div className="dog">
-              <p>Pet me ❣️ </p>
-             <div className="dog-head">
-                <div className="dog-ear">
-                   <ul>
-                     <li></li>
-                     <li></li>
-                   </ul>
-                </div>
-                <div className="dog-eyes">
-                   <ul>
-                     <li></li>
-                     <li></li>
-                   </ul>
-                </div>
-              <div className="dog-nose"></div>
-              <div className="dog-mouth">
+               </div>
+               <div className="book">
                   <ul>
-                     <li></li>
-                     <li></li>
+                    <li>Aspiration</li>
+                    <li>Success</li>
+                    <li>Future</li>
+                    <li>Inspired</li>
                   </ul>
-              </div>
-              <div className="dog-tongue"></div>
+               </div>
             </div>
-            <div className="dog-body">
-                <div className="collar">
-                   <div className="heart"></div>
+            <div className="chair"></div>
+            <div className="hair"></div>
+            <div className="head">
+                <div className="left-eye-brow"></div>
+                <div className="right-eye-brow"></div>
+                <div className="left-eyelash">
+                   <ul>
+                     <li></li>
+                     <li></li>
+                     <li></li>
+                     <li></li>
+                   </ul>
+                </div>
+                <div className="right-eyelash">
+                    <ul>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                    </ul>
+                 </div>
+                 <div className="left-eye">
+                    <div className="cornea"></div>
+                 </div>
+                 <div className="right-eye">
+                     <div className="cornea"></div>
+                 </div>
+                 <div className="ears">
+                     <div className="left-ear">
+                     <div className='earing'></div>
+                 </div>
+                     <div className="right-ear">
+                        <div className='earing'></div>
+                     </div>
+                 </div>
+                 <div className="nose"></div>
+                 <div className="mouth"></div>
+            </div> 
+            <div className="neck"></div>
+            <div className="t-shirt"></div>
+            <div className="computer">
+                <div className="apple-logo"></div>
+            </div>
+            <div className="pencil-jar">
+                 <div className='eraser'></div>
+                 <div className="pencil"></div>
+                 <div className='eraser-2'></div>
+                 <div className="pencil-2"></div>
+            </div>
+            <div className="table">
+                <div className="plant">
+                   <ul>
+                     <li></li>
+                     <li></li>
+                     <li></li>
+                   </ul>
+                </div>
+                <div className="vase-top"></div>
+                <div className="vase"></div>
+            </div>
+            <div className="table-front"></div>
+            <div className="table-side"></div>
+            <div className="garbage-can"></div>
+            <div className="dog">
+                  <p>Pet me ❣️ </p>
+                 <div className="dog-head">
+                    <div className="dog-ear">
+                       <ul>
+                         <li></li>
+                         <li></li>
+                       </ul>
+                    </div>
+                    <div className="dog-eyes">
+                       <ul>
+                         <li></li>
+                         <li></li>
+                       </ul>
+                    </div>
+                  <div className="dog-nose"></div>
+                  <div className="dog-mouth">
+                      <ul>
+                         <li></li>
+                         <li></li>
+                      </ul>
+                  </div>
+                  <div className="dog-tongue"></div>
+                </div>
+                <div className="dog-body">
+                    <div className="collar">
+                       <div className="heart"></div>
+                    </div>
+                </div>
+                <div className="dog-legs">
+                    <ul>
+                       <li></li>
+                       <li></li>
+                    </ul>
                 </div>
             </div>
-            <div className="dog-legs">
-                <ul>
-                   <li></li>
-                   <li></li>
-                </ul>
+            <div className="coffee">
+                <div className="coffee-steam"></div>
+                <div className="coffee-cup"></div>
+                <div className="coffee-bottom"></div>
             </div>
-          </div>
-          <div className="coffee">
-               <div className="coffee-steam"></div>
-               <div className="coffee-cup"></div>
-               <div className="coffee-bottom"></div>
-          </div>
-          <div className="postits">
+            <div className="postits">
                 <div className="post-it-1">
-                    <div className="flower">
-                        <div className="middle"></div>
-                            <ul>
-                              <li></li>
-                              <li></li>
-                              <li></li>
-                              <li></li>
-                              <li></li>
-                              <li></li>
-                            </ul>
+                        <div className="flower">
+                            <div className="middle"></div>
+                                <ul>
+                                  <li></li>
+                                  <li></li>
+                                  <li></li>
+                                  <li></li>
+                                  <li></li>
+                                  <li></li>
+                                </ul>
+                        </div>
+                        <p onClick={this.handleBioClick}> About me</p>
                     </div>
-                    <p onClick={this.handleBioClick}> About me</p>
-                </div>
-          <div className="post-it-2">
-                <p onClick={this.handleProjectClick}> My projects</p>
-                <div className="file">
-                    <div className="file-top"></div>
-                    <div className="file-bottom">
-                        <div className="opening-tag"></div>
-                        <div className="slash"></div>
-                        <div className="closing-tag"></div>
-                    </div>
-                </div>
-          </div>
-          <div className="post-it-3">
-                <p onClick={this.handleSkillClick}>My skills</p>
-                <div className="lamb">
-                    <div className="lamb-top">
-                         <div className="lamb-inside">
-                             <ul>
-                                <li></li>
-                                <li></li>
-                             </ul>
-                         </div>
-                         <div className="lamb-light">
-                            <ul>
-                               <li></li>
-                               <li></li>
-                               <li></li>
-                               <li></li>
-                               <li></li>
-                               <li></li>
-                               <li></li>
-                             </ul>
+              <div className="post-it-2">
+                    <p onClick={this.handleProjectClick}> My projects</p>
+                    <div className="file">
+                        <div className="file-top"></div>
+                        <div className="file-bottom">
+                            <div className="opening-tag"></div>
+                            <div className="slash"></div>
+                            <div className="closing-tag"></div>
                         </div>
                     </div>
-                    <div className="lamb-bottom"></div>
               </div>
+              <div className="post-it-3">
+                    <p onClick={this.handleSkillClick}>My skills</p>
+                    <div className="lamb">
+                        <div className="lamb-top">
+                            <div className="lamb-inside">
+                                <ul>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                            </div>
+                            <div className="lamb-light">
+                                <ul>
+                                  <li></li>
+                                  <li></li>
+                                  <li></li>
+                                  <li></li>
+                                  <li></li>
+                                  <li></li>
+                                  <li></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className="lamb-bottom"></div>
+                  </div>
+              </div>
+              <div className="post-it-4">
+                    <p onClick={this.handleContactClick}>Contact me!</p>
+                    <div className="email">
+                        <span> @  </span>
+                    </div>
+             </div>
+             <div className="css-art"> 
+                 <p>Made by CSS with ❤️ </p>
+             </div>
           </div>
-          <div className="post-it-4">
-                <p onClick={this.handleContactClick}>Contact me!</p>
-                <div className="email">
-                     <span> @  </span>
-                </div>
-          </div>
-          <div className="css-art"> 
-               <p>Made by CSS with ❤️ </p>
-          </div>
-          </div>
-          <div className="floor"></div>
-      
-      </div>
+            <div className="floor"></div>
+         </div>
 
       { this.state.bio ?  
         <AwesomeSlider cssModule={AwesomeSliderStyles}> 
@@ -355,7 +354,7 @@ class App extends React.Component {
         </AwesomeSlider> : null}
 
       {this.state.contact ? 
-         <AwesomeSlider >
+         <AwesomeSlider cssModule={AwesomeSliderStyles}>
            <div className="contact-div" onClick={this.handleContactClick}>
                <a href="https://www.linkedin.com/in/derya-tanr%C4%B1verdi-701a3489/" target="_blank">
                   <img src="./img/linkedin.png"/>
