@@ -356,7 +356,7 @@ class App extends React.Component {
         </AwesomeSlider> : null}
 
       {this.state.contact ? 
-         <AwesomeSlider cssModule={AwesomeSliderStyles}>
+         <div className="board">
            <div className="contact-div" onClick={this.handleContactClick}>
                <a href="https://www.linkedin.com/in/derya-tanr%C4%B1verdi-701a3489/" target="_blank">
                   <img src="./img/linkedin.png"/>
@@ -371,7 +371,7 @@ class App extends React.Component {
                   <img src="./img/medium.png"/>
                </a>
            </div>
-        </AwesomeSlider> : null
+        </div> : null
          }
 
       </div>
