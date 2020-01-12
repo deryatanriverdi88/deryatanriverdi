@@ -13,6 +13,7 @@ body {
   margin: 0;
   padding: 0;
   background:#84cce4;
+  overflow-x: hidden;
 }
 
 ul li{
@@ -1486,7 +1487,7 @@ transform: rotate(95deg);
   height: 100%;
 }
 
-.bio{
+.bio, .project-div{
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -1495,9 +1496,52 @@ transform: rotate(95deg);
   position: absolute;
 }
 
+.project{
+  justify-content: space-between;
+}
+
 .bio-img-container{
   width: 30%;
 }
+
+.video-container{
+  width: 50%;
+}
+
+.project-div .text-container{
+  width: 50%;
+  padding: 0 10px 0 30px;
+  text-align: center;
+  line-height: 20px;
+}
+
+.project-div .text{
+  padding: 5px 10px;
+  width: auto;
+}
+
+.project-div h2{
+  margin: 10px auto;
+}
+
+.project-div ul{
+ list-style: square;
+}
+
+.link-ul{
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-style {
+  padding-inline-start: 20px;
+}
+
+.list-style li{
+  list-style: circle;
+}
+
 
 .bio-img-container img{
  margin: 40px auto;
@@ -1515,17 +1559,23 @@ transform: rotate(95deg);
   line-height: 40px;
 }
 
-.bio .text{
+.text{
   font-style: italic;
   font-size: 20px;
   font-family: 'El Messiri', sans-serif;
   box-sizing: border-box;
   margin: 0;
   text-align: center;
-  width: 100%;
+  width: 50%;
   color: white;
   padding-left: 5em;
  }
+
+video{
+  height: auto;
+  width: 100%;
+  margin: 60px 0 0 20px;
+}
  
 .ruby-img, .rails-img, .react-img, .js-img, .active-record, .html-img, .css-img, .mq-img, .redux-img, .heroku-img, .sqlite-img{
   width: 100%;
@@ -1538,7 +1588,7 @@ transform: rotate(95deg);
   background-size: 80%;
 }
 
-.js-img, .html-img, .heroku-img{
+.js-img, .html-img, .heroku-img, .css-img{
   background-size: cover;
 }
 
@@ -1567,8 +1617,7 @@ transform: rotate(95deg);
 }
 
 .css-img{
-  background-image: url('./images/css.jpg');
-  background-size: 120%;
+  background-image: url('./images/css.png');
 }
 
 .mq-img{
