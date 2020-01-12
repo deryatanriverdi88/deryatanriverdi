@@ -1493,7 +1493,7 @@ transform: rotate(95deg);
   flex-wrap: wrap;
   margin: 0;
   padding: 4em;
-  position: absolute;
+  
 }
 
 .project{
@@ -1550,6 +1550,7 @@ transform: rotate(95deg);
  border-radius: 15px;
 }
 
+
 .text-container{
   position: relative;
   box-sizing: border-box;
@@ -1559,6 +1560,7 @@ transform: rotate(95deg);
   line-height: 40px;
 }
 
+
 .text{
   font-style: italic;
   font-size: 20px;
@@ -1566,7 +1568,7 @@ transform: rotate(95deg);
   box-sizing: border-box;
   margin: 0;
   text-align: center;
-  width: 50%;
+  width: 100%;
   color: white;
   padding-left: 5em;
  }
@@ -3077,7 +3079,9 @@ iframe{
     padding: 70px 0 20px 60px;
     line-height: 55px;
   }
-
+  .bio{
+    height: 80vh;
+  }
   .bio-img-container img{
     margin:80px;
    }
