@@ -284,6 +284,7 @@ class App extends React.Component {
                  <p>Made by CSS with ❤️ </p>
              </div>
           </div>
+            <div className="window"></div>
             <div className="floor"></div>
          </div>
 
@@ -310,11 +311,37 @@ class App extends React.Component {
 
       {this.state.project ? 
         <AwesomeSlider cssModule={AwesomeSliderStyles}>
-            <div>
-                <button className="x" onClick={this.handleProjectClick}>✖️</button>
+            <div className="project-div" onClick=                   {this.handleProjectClick}>
+                   <div className="video-container">
+                         <video src="./img/demo-6.mov" controls></video>
+                   </div>
+                   <div className="text-container">
+                          <h2 className="text h2">NutriTrack</h2>
+                          <ul className="link-ul">
+                            <li>
+                            <a href="https://github.com/deryatanriverdi88/NutriTrack-Frontend" className="text a-tag"> Github Frontend</a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/deryatanriverdi88/NutriTrack-Backend" className="text a-tag"> Github BackEnd</a>
+                            </li>
+                            <li>
+                                <a href="https://nutritrack-test.netlify.com" className="text a-tag"> Live App</a>
+                            </li>
+                          </ul>
+                          <h3 className="text">An application where users can track the nutritional values of their food intakes. </h3>
+                          <ul className="list-style">
+                             <li className="text">Implemented authorization, authentication, and persistence using Bcrypt, JWT, localStorage and Rails Credentials.</li>
+                             <li className="text">Employed JavaScript new Date function,  so a user can view and add food to their calendar.</li>
+                             <li className="text">Utilized react-router to create client-side end-points for users to navigate from.
+                             </li>
+                             <li className="text">
+                             Created a dynamic user interface using React/Redux and Responsive CSS to adapt to various screen sizes and devices.
+                             </li>
+                          </ul>
+                   </div>  
             </div>
-            <div>
-                <button className="x" onClick={this.handleProjectClick}>✖️</button>
+            <div onClick={this.handleProjectClick}>
+             
             </div>
         </AwesomeSlider> : null}
          
