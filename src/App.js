@@ -371,7 +371,7 @@ class App extends React.Component {
                           <h2 className="text h2">MeRecommends</h2>
                           <ul className="link-ul">
                             <li>
-                            <a href="https://github.com/deryatanriverdi88/MeRecommends-2" className="text a-tag"> Github</a>
+                            <a href="https://github.com/deryatanriverdi88/MeRecommends-2" className="text a-tag" style={{"margin-left": "180px"}}> Github</a>
                             </li>
                           </ul>
                           <h3 className="text">A web-page for users to view or create recommendations of events, restaurants, etc. based on locations within NYC.</h3>

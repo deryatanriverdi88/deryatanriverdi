@@ -1490,15 +1490,12 @@ transform: rotate(95deg);
 .bio, .project-div{
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
+  justify-content: left;
   margin: 0;
   padding: 4em;
-  
+  position: absolute;
 }
 
-.project{
-  justify-content: space-between;
-}
 
 .bio-img-container{
   width: 30%;
@@ -1510,7 +1507,7 @@ transform: rotate(95deg);
 
 .project-div .text-container{
   width: 50%;
-  padding: 0 10px 0 30px;
+  padding: 40px 10px 0 30px;
   text-align: center;
   line-height: 20px;
 }
@@ -1550,7 +1547,6 @@ transform: rotate(95deg);
  border-radius: 15px;
 }
 
-
 .text-container{
   position: relative;
   box-sizing: border-box;
@@ -1560,7 +1556,6 @@ transform: rotate(95deg);
   line-height: 40px;
 }
 
-
 .text{
   font-style: italic;
   font-size: 20px;
@@ -1568,7 +1563,6 @@ transform: rotate(95deg);
   box-sizing: border-box;
   margin: 0;
   text-align: center;
-  width: 100%;
   color: white;
   padding-left: 5em;
  }
@@ -3068,7 +3062,11 @@ iframe{
     top: 80px;
     left: 350px;
     width: 60% !important; 
-    height: 80% !important;
+    height: auto !important;
+  }
+
+  .bio{
+    height: auto;
   }
   
   .awssld__container{
@@ -3079,9 +3077,7 @@ iframe{
     padding: 70px 0 20px 60px;
     line-height: 55px;
   }
-  .bio{
-    height: 80vh;
-  }
+
   .bio-img-container img{
     margin:80px;
    }
