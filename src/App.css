@@ -1908,9 +1908,9 @@ iframe{
     height: 10% !important;
   }
 
-  .awssld__container{
+  /* .awssld__container{
     height: 100% !important;
-  }
+  } */
 
   .text-container{
     padding: 70px 0 20px 60px;
@@ -1919,7 +1919,7 @@ iframe{
 
   .bio{
     top: 90px;
-    height: 90vh;
+    height: auto;
   }
 
   .bio-img-container img{
@@ -1929,8 +1929,16 @@ iframe{
   
   .contact-div{
     top: 100px;
-    padding: 280px  100px !important;
-    height: 90vh;
+    padding: 250px  100px !important;
+    height: 80vh;
+  }
+
+  .project-div .text-container{
+    line-height: 20px;
+  }
+
+  iframe{
+    margin-top: 120px;
   }
 }
 
@@ -2037,7 +2045,7 @@ iframe{
     top: 1150px;
     left: 240px;
     width: 220% !important; 
-    height: 110vh !important;
+    height: auto !important;
   }
 
   .awssld__container{
@@ -2045,7 +2053,7 @@ iframe{
   }
 
   .bio{
-    height: 100vh;
+    height:auto;
   }
 
   .text-container{
@@ -2054,10 +2062,12 @@ iframe{
   }
 
   .contact-div{
-    top: 130px;
+    top: 90px;
     height: 100vh;
     padding: 320px  100px !important;
   }
+
+  
 }
 
 @media only screen and (min-width: 500px){
@@ -2527,10 +2537,14 @@ iframe{
   }
 
   .awssld, .board{
-    top: 1000px;
+    top: 950px;
     left: 330px;
     width: 110% !important; 
-    height: 180% !important;
+    height: 190vh !important;
+  }
+
+  .bio{
+    height: auto;
   }
 
   .awssld__container{
@@ -2543,7 +2557,7 @@ iframe{
   }
 
   .contact-div{
-    padding: 300px  100px !important;
+    padding: 360px  100px !important;
   }
 }
 
@@ -2676,6 +2690,10 @@ iframe{
   top: 10px;
   height: 120vh;
   padding: 350px  100px !important;
+ }
+
+ iframe{
+   height: 30vh;
  }
 }
 
@@ -3083,8 +3101,8 @@ iframe{
    }
 
    .contact-div{
-    height: 50vh;
-    padding: 310px  100px !important;
+    height: 70vh;
+    padding: 300px  100px !important;
   }
   
 }
