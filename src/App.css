@@ -1571,8 +1571,8 @@ transform: rotate(95deg);
   padding-left: 5em;
  }
 
-video{
-  height: auto;
+iframe{
+  height: 40vh;
   width: 100%;
   margin: 60px 0 0 20px;
 }
