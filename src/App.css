@@ -1550,7 +1550,6 @@ transform: rotate(95deg);
  border-radius: 15px;
 }
 
-
 .text-container{
   position: relative;
   box-sizing: border-box;
@@ -1571,7 +1570,6 @@ transform: rotate(95deg);
   color: white;
   padding-left: 5em;
  }
-
 
 video{
   height: auto;
