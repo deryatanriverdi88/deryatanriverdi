@@ -311,9 +311,9 @@ class App extends React.Component {
 
       {this.state.project ? 
         <AwesomeSlider cssModule={AwesomeSliderStyles}>
-            <div className="project-div" onClick=                   {this.handleProjectClick}>
+            <div className="project-div" onClick={this.handleProjectClick}>
                    <div className="video-container">
-                         <video src="./img/demo-6.mov" controls></video>
+                   <iframe width="560" height="315" src="https://www.youtube.com/embed/yVvnaz8s6Tk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                    </div>
                    <div className="text-container">
                           <h2 className="text h2">NutriTrack</h2>
@@ -340,8 +340,46 @@ class App extends React.Component {
                           </ul>
                    </div>  
             </div>
-            <div onClick={this.handleProjectClick}>
-             
+            <div className="project-div" onClick={this.handleProjectClick}>
+                   <div className="video-container">
+                   <iframe width="560" height="315" src="https://www.youtube.com/embed/FWPfYNnCwCY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                   </div>
+                   <div className="text-container">
+                          <h2 className="text h2">DoggoDoption</h2>
+                          <ul className="link-ul">
+                            <li>
+                            <a href="https://github.com/deryatanriverdi88/pet-adoption-app-frontend" className="text a-tag"> Github Frontend</a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/deryatanriverdi88/pet-adoption-app-backend" className="text a-tag"> Github BackEnd</a>
+                            </li>
+                          </ul>
+                          <h3 className="text">Dog Adoption web page where people can adopt dogs. </h3>
+                          <ul className="list-style">
+                             <li className="text">Utilized Bcrypt, JWT and localStorage to authenticate and authorize the user. </li>
+                             <li className="text">Wrote JavaScript functions to allow users to find dogs by their names.</li>
+                             <li className="text">Made external call to an API using RestClient to save images of dogs to the Dog model on the backend.
+                             </li>
+                          </ul>
+                   </div>  
+            </div>
+            <div className="project-div" onClick={this.handleProjectClick}>
+                   <div className="video-container">
+                   <iframe width="560" height="315" src="https://www.youtube.com/embed/zTY2ZHW46P8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                   </div>
+                   <div className="text-container">
+                          <h2 className="text h2">MeRecommends</h2>
+                          <ul className="link-ul">
+                            <li>
+                            <a href="https://github.com/deryatanriverdi88/MeRecommends-2" className="text a-tag"> Github</a>
+                            </li>
+                          </ul>
+                          <h3 className="text">A web-page for users to view or create recommendations of events, restaurants, etc. based on locations within NYC.</h3>
+                          <ul className="list-style">
+                             <li className="text">Developed a Rails API with endpoints for Users, Recommendations, and Locations.</li>
+                             <li className="text">Incorporated localStorage to persist a user on refresh.</li>
+                          </ul>
+                   </div>  
             </div>
         </AwesomeSlider> : null}
          
