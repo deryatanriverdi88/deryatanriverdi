@@ -91,7 +91,7 @@ class App extends React.Component {
   render(){
  
   
- console.log(new Date().getDay())
+ console.log(this.state.date.getHours())
     return (
       <div className="app">
          <div className="border">
@@ -284,7 +284,8 @@ class App extends React.Component {
                  <p>Made by CSS with ❤️ </p>
              </div>
           </div>
-            <div className="window">
+            {this.state.date.getHours() >= 5 && this.state.date.getHours()  <=17 ? 
+              <div className="window">
               <div className="curtain"></div>
               <div className="cloud">
                 <ul>
@@ -303,7 +304,32 @@ class App extends React.Component {
                 </div>
               </div>
               <div className="window-devide"></div>
-            </div>
+            </div> : 
+             <div className="window" id="night">
+             <div className="moon"></div>
+             <div className="stars">
+               <ul>
+                 <li></li>
+                 <li></li>
+                 <li></li>
+                 <li></li>
+               </ul>
+             </div>
+             <div className="curtain"></div>
+             <div className="land" id="dark-green-land">
+               <div className="tree" id="dark-green-tree">
+                 <ul>
+                   <li></li>
+                   <li></li>
+                   <li></li>
+                   <li></li>
+                 </ul>
+               </div>
+             </div>
+             <div className="window-devide"></div>
+           </div>
+            }
+           
             <div className="floor"></div>
          </div>
 
