@@ -284,7 +284,26 @@ class App extends React.Component {
                  <p>Made by CSS with ❤️ </p>
              </div>
           </div>
-            <div className="window"></div>
+            <div className="window">
+              <div className="curtain"></div>
+              <div className="cloud">
+                <ul>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </div>
+              <div className="land">
+                <div className="tree">
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </div>
+              </div>
+              <div className="window-devide"></div>
+            </div>
             <div className="floor"></div>
          </div>
 
