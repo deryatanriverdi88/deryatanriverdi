@@ -1593,8 +1593,12 @@ iframe{
   background-repeat: no-repeat;
 }
 
-.rails-img, .redux-img, .sqlite-img, .react-img, .active-record, .mq-img{
+.rails-img, .redux-img, .sqlite-img, .react-img, .mq-img{
   background-size: 80%;
+}
+
+.active-record{
+  background-size: 50%;
 }
 
 
