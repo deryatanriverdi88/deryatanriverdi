@@ -2729,7 +2729,7 @@ iframe{
 
 }
 
-@media only screen and (min-width: 1300px){
+@media only screen and (min-width: 1400px){
   .floor{
     width: 100%;
     left: 0;
@@ -2853,19 +2853,60 @@ iframe{
    .project-div{
      padding-top: 5em;
    }
+
+   .bio .text-container{
+     padding-top: 0;
+   }
   
-  .text-container{
-    padding: 300px 0 20px 60px;
-    line-height: 55px;
+   .project-div .text-container{
+    padding: 0px 0 20px 60px;
+    line-height: 20px;
   }
   .contact-div{
-    padding: 300px  100px;
+    padding: 250px  100px !important;
   }
   
   iframe{
     height: 35vh;
   }
 }
+
+@media only screen and (min-width: 1900px){
+  .awssld, .bio-card, .contact-card{
+    top: 110px;
+    left: 260px;
+    width: 75% !important; 
+    height: 80vh !important;
+  }
+
+  .bio .text-container{
+    padding-top: 105px;
+    line-height: 40px;
+  }
+  
+  .bio-img-container img{
+    margin: 120px 100px;
+    width: 100%;
+   }
+  
+   .project-div{
+     padding-top: 5em;
+   }
+  
+  .text-container{
+    padding: 300px 0 20px 60px;
+    line-height: 55px;
+  }
+  .contact-div{
+    padding: 200px  100px;
+  }
+  
+  iframe{
+    height: 35vh;
+  }
+}
+
+
 
 @media only screen and (min-height: 1100px){
   .floor{
@@ -3139,5 +3180,32 @@ iframe{
 }
 
 @media only screen and (min-width: 1400px){
+  .awssld, .bio-card, .contact-card{
+    top: 100px;
+    left: 250px;
+    width: 65% !important; 
+    height: 85vh !important;
+  }
+ 
+  .bio-img-container img{
+    margin: 100px 100px;
+    width: 70%;
+   }
   
+   .project-div{
+     padding-top: 3em;
+   }
+
+
+  .text-container{
+    padding: 300px 0 20px 60px;
+    line-height: 35px;
+  }
+  .contact-div{
+    padding: 450px  100px;
+  }
+
+  iframe{
+    height: 40vh;
+  }
 }
