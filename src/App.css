@@ -1994,7 +1994,7 @@ iframe{
 
 }
 
-@media screen and (min-device-pixel-ratio:2.2){
+@media screen and (-webkit-min-device-pixel-ratio:2.2){
 
   .myname{
     left: 550px;
@@ -2160,11 +2160,8 @@ iframe{
   }
 }
 
-@media screen and (min-device-pixel-ratio:3.0){
+@media screen and (-webkit-min-device-pixel-ratio:3.0){
 
- html{
-    width: 50%;
-  }
 
   .myname{
     left: 550px;
