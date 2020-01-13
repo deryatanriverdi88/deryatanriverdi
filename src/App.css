@@ -1994,7 +1994,7 @@ iframe{
 
 }
 
-@media only screen and (min-width: 350px){
+@media screen and (-webkit-min-device-pixel-ratio:2.2){
 
   .myname{
     left: 550px;
@@ -2160,7 +2160,8 @@ iframe{
   }
 }
 
-@media only  screen and (min-width: 400px){
+@media screen and (-webkit-min-device-pixel-ratio:3.0){
+
 
   .myname{
     left: 550px;
@@ -3395,8 +3396,8 @@ iframe{
   }
   
   .bio-img-container img{
-    margin: 120px 100px;
-    width: 100%;
+    margin: 30px 100px;
+    width: 80%;
    }
   
    .project-div{

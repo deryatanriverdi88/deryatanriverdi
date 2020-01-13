@@ -319,9 +319,9 @@ class App extends React.Component {
                        I am a full stack Web Developer who graduated from Flatiron School. <br></br>
                     </p>
                     <br></br>
-                    <h2 className="text h2">How did coding started?</h2>
+                    <h2 className="text h2">How I began coding...</h2>
                     <p className="text">
-                       Coding started out of a conversation with a close friend. Her telling, "Why don't you learn coding, you love learning languages." got me curious and start it! First, I started learning HTML / CSS through Codecademy, then extended my resources with Udemy. Thinking of something and making it happened really excited me, and I kept going!
+                    My coding journey began when my friend suggested to try coding due to my love of foreign languages; this connection piqued my curiosity. First I signed up for Codecademy and learned HTML and CSS. Then I learned Ruby through Udemy where I really found my passion for coding, and I just kept going! I love the challenge of learning new code and creating code to turn ideas into reality!
                     </p>
                 </div>
             </div>
@@ -459,7 +459,6 @@ class App extends React.Component {
            </div>
         </div> : null
          }
-
       </div>
     );
   }
