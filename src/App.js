@@ -289,7 +289,7 @@ class App extends React.Component {
          </div>
 
       { this.state.bio ?  
-        <div className="board"> 
+        <div className="bio-card"> 
             <div className="bio" onClick={this.handleBioClick}>   <div className="bio-img-container">
                      <img src="./img/me-2.jpg"/>
                 </div>
@@ -385,43 +385,45 @@ class App extends React.Component {
          
       {this.state.skill ? 
         <AwesomeSlider cssModule={AwesomeSliderStyles} >
-          <div className="container">
+          
+          <div className="skill-slide">
               <div className="ruby-img" onClick={this.handleSkillClick} ></div>
           </div>
-          <div className="container">
+          <div className="skill-slide">
               <div className="rails-img" onClick={this.handleSkillClick}></div>
           </div>
-          <div className="container">
+          <div className="skill-slide">
               <div className="react-img" onClick={this.handleSkillClick}></div>
           </div>
-          <div className="container">
+          <div className="skill-slide">
               <div className="js-img" onClick={this.handleSkillClick}></div>
           </div>
-          <div className="container">
+          <div className="skill-slide">
               <div className="active-record" onClick={this.handleSkillClick}></div>
           </div>
-          <div className="container">
+          <div className="skill-slide">
               <div className="html-img" onClick={this.handleSkillClick}></div>
           </div>
-          <div className="container">
+          <div className="skill-slide">
               <div className="css-img" onClick={this.handleSkillClick}></div>
           </div>
-          <div className="container">
+          <div className="skill-slide">
               <div className="mq-img" onClick={this.handleSkillClick}></div>
           </div>
-          <div className="container">
+          <div className="skill-slide">
               <div className="redux-img" onClick={this.handleSkillClick}></div>
           </div>
-          <div className="container">
+          <div className="skill-slide">
               <div className="heroku-img" onClick={this.handleSkillClick}></div>
           </div>
-          <div className="container">
+          <div className="skill-slide">
               <div className="sqlite-img"onClick={this.handleSkillClick} ></div>
           </div>
+   
         </AwesomeSlider> : null}
 
       {this.state.contact ? 
-         <div className="board">
+         <div className="contact-card">
            <div className="contact-div" onClick={this.handleContactClick}>
                <a href="https://www.linkedin.com/in/derya-tanr%C4%B1verdi-701a3489/" target="_blank">
                   <img src="./img/linkedin.png"/>

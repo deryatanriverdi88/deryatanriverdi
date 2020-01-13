@@ -1462,19 +1462,24 @@ transform: rotate(95deg);
    background-size: cover;
 }
 
-.awssld, .board{
-  position: absolute;
+.awssld, .bio-card, .contact-card{
+  position: absolute !important;
   width: 60% !important; 
   z-index:6 !important;
   left: 400px;
   max-width: none !important;
 }
 
+.awssld__container, .bio, .contact-div, .skill-slide, .project-div{
+  width: 100% !important;
+  height: 100% !important;
+}
+
 .awssld__content, .bio, .contact-div{
   background-color: #2E9497 !important; 
   border-radius: 15px;
-  padding: 0 !important;
-  z-index: 9;
+  /* padding: 0 !important; */
+  /* z-index: 9; */
 }
 
 .awssld__bullets{
@@ -1482,13 +1487,12 @@ transform: rotate(95deg);
   bottom: 40px !important;
 }
 
-.container{
-  width: 100%;
-  height: 100%;
+.awssld__controls{
+  visibility: visible !important;
 }
 
+
 .bio, .project-div{
-  width: 100%;
   display: flex;
   justify-content: left;
   margin: 0;
@@ -1574,6 +1578,7 @@ transform: rotate(95deg);
  .video-container{
    padding-top: 0;
  }
+
 iframe{
   height: 80vh;
   width: 190%;
@@ -1583,6 +1588,7 @@ iframe{
 .ruby-img, .rails-img, .react-img, .js-img, .active-record, .html-img, .css-img, .mq-img, .redux-img, .heroku-img, .sqlite-img{
   width: 100%;
   height: 100%;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -1620,7 +1626,7 @@ iframe{
 }
 
 .css-img{
-  background-image: url('./images/css.png');
+  background-image: url('./images/css.jpg');
 }
 
 .mq-img{
@@ -1770,41 +1776,30 @@ iframe{
     left: 300px;
   }
 
-  .awssld, .board{
-    top: 900px;
+  .awssld, .bio-card, .contact-card{
+    top: 1000px;
     left: 120px;
     width: 345% !important; 
     height: 195vh !important;
   }
-
-  .awssld__container{
-    height: 100% !important;
-  }
-  
-  .awssld__controls{
-    visibility: visible !important;
-  }
-
-  .bio{
-    top: 92px;
-    height: 195vh;
-  }
-
+ 
   .bio-img-container img{
     margin: 240px 100px;
     width: 100%;
+   }
+
+   .project-div{
+     padding-top: 10em;
    }
 
   .text-container{
     padding: 300px 0 20px 60px;
     line-height: 35px;
   }
-
   .contact-div{
-    top: 100px;
-    padding: 480px  100px !important;
-    height: 195vh;
+    padding: 450px  100px;
   }
+
 }
 
 @media only screen and (min-width: 350px){
@@ -1908,45 +1903,59 @@ iframe{
     left: 300px;
   }
 
-  .awssld, .board{
-    top: 1000px;
+  .awssld, .bio-card, .contact-card{
+    top: 1100px;
     left: 200px;
     width: 306% !important; 
-    height: 145vh !important;
+    height: 175vh !important;
   }
+ 
+  .bio-img-container img{
+    margin: 240px 100px;
+    width: 100%;
+   }
 
-  /* .awssld__container{
-    height: 100% !important;
-  } */
+   .project-div{
+     padding-top: 10em;
+   }
 
   .text-container{
-    padding: 260px 0 20px 60px;
-    line-height: 40px;
+    padding: 300px 0 20px 60px;
+    line-height: 35px;
   }
-
-  .bio{
-    top: 90px;
-    height: 175vh;
+  .contact-div{
+    padding: 450px  100px;
   }
+}
 
+@media only screen and (min-width: 375px){
+  .awssld, .bio-card, .contact-card{
+    top: 1100px;
+    left: 200px;
+    width: 295% !important; 
+    height: 136vh !important;
+  }
+ 
   .bio-img-container img{
-    margin:250px 120px;
+    margin: 240px 100px;
     width: 100%;
    }
   
-  .contact-div{
-    top: 100px;
-    padding: 450px  100px !important;
-    height: 145vh;
+   .project-div{
+     padding-top: 10em;
+   }
+
+  .text-container{
+    padding: 300px 0 20px 60px;
+    line-height: 35px;
   }
 
-  .project-div .text-container{
-    line-height: 20px;
+  .contact-div{
+    padding: 450px  100px;
   }
 
   iframe{
-
-    margin-top: 120px;
+    height: 50vh;
   }
 }
 
@@ -2049,33 +2058,34 @@ iframe{
     left: 300px;
   }
 
-  .awssld,  .board{
-    top: 950px;
-    left: 130px;
-    width: 270% !important; 
-    height: 150vh !important;
+  .awssld, .bio-card, .contact-card{
+    top: 1050px;
+    left: 120px;
+    width: 275% !important; 
+    height: 151vh !important;
   }
+ 
+  .bio-img-container img{
+    margin: 240px 100px;
+    width: 100%;
+   }
 
-  .awssld__container{
-    height: 100% !important;
-  }
-
-  .bio{
-    height:155vh;
-  }
+   .project-div{
+     padding-top: 10em;
+   }
 
   .text-container{
-    padding: 400px 0 20px 60px;
+    padding: 300px 0 20px 60px;
     line-height: 35px;
   }
-
   .contact-div{
-    top: 90px;
-    height: 155vh;
-    padding: 500px  100px !important;
+    padding: 450px  100px;
   }
-  
-  
+
+  iframe{
+    height: 60vh;
+  }
+
 }
 
 @media only screen and (min-width: 500px){
@@ -2181,40 +2191,29 @@ iframe{
     left: 300px;
   }
 
-  .awssld, .board{
-    top: 840px;
-    left: 160px;
-    width: 200% !important; 
+  .awssld, .bio-card, .contact-card{
+    top: 950px;
+    left: 165px;
+    width: 195% !important; 
     height: 350vh !important;
   }
-
-  .awssld__container{
-    height: 100% !important;
-  }
-
-  .bio{
-    top: 110px;
-    height: 350vh;
-  }
+ 
+  .bio-img-container img{
+    margin: 240px 100px;
+    width: 100%;
+   }
 
   .text-container{
     padding: 300px 0 20px 60px;
     line-height: 35px;
   }
-
   .contact-div{
-    top: 110px;
-    height: 350vh;
-    padding: 450px  100px !important;
+    padding: 450px  100px;
   }
 
-  .project-div .text-container{
-    padding-bottom: 35px;
-  }
-
+ 
   iframe{
-    height: 200vh;
-    padding-top: 0;
+    height: 150vh;
   }
 }
 
@@ -2321,40 +2320,32 @@ iframe{
     left: 300px;
   }
 
-  .awssld, .board{
-    top: 840px;
-    left: 165px;
+  .awssld, .bio-card, .contact-card{
+    top: 940px;
+    left: 170px;
     width: 175% !important; 
     height: 310vh !important;
   }
-
-  .bio{
-    top: 100px;
-    left: -10px;
-    height: 310vh;
-  }
-
-  .awssld__container{
-    height: 100% !important;
-  }
-
-  .text-container{
-    padding: 350px 0 20px 60px;
-    line-height: 35px;
-  }
-
+ 
   .bio-img-container img{
-    margin: 260px 120px;
+    margin: 240px 100px;
     width: 100%;
    }
 
+   .project-div{
+     padding-top: 10em;
+   }
+
+  .text-container{
+    padding: 300px 0 20px 60px;
+    line-height: 35px;
+  }
   .contact-div{
-    height: 310vh;
-    padding: 500px  100px !important;
+    padding: 450px  100px;
   }
 
-  .project-div .text-container{
-    padding-top: 100px;
+  iframe{
+    height: 130vh;
   }
 }
 
@@ -2469,84 +2460,91 @@ iframe{
   .shelf{
     left: 300px;
   }
-
-  .awssld{
-    position: absolute !important;
-    top: 1000px;
-    left: 285px;
-    width: 110% !important; 
-    height: 70% !important;
-    z-index:6 !important;
-    margin: 30px auto !important;
-    max-width: none !important;
-  }
-
-  .awssld__container{
-    height: 100% !important;
-  }
-
-  .contact-div{
-    padding: 350px  100px !important;
-  }
-
 }
 
 @media only screen and (min-width: 730px){
-  .awssld, .board{
-    top: 800px;
-    left: 165px;
+  .awssld, .bio-card, .contact-card{
+    top: 830px;
+    left: 160px;
     width: 155% !important; 
     height: 270vh !important;
   }
-
-  .awssld__container{
-    height: 100% !important;
-  }
+ 
+  .bio-img-container img{
+    margin: 240px 100px;
+    width: 100%;
+   }
+  
+   .project-div{
+     padding-top: 10em;
+   }
 
   .text-container{
-    padding: 380px 0 20px 60px;
+    padding: 300px 0 20px 60px;
     line-height: 35px;
   }
-
-  .bio{
-    top: 10px;
-    height: 280vh;
-  }
   .contact-div{
-    top: 20px;
-    height: 270vh;
-    padding: 380px  100px !important;
+    padding: 450px  100px;
   }
-
 
   iframe{
     height: 120vh;
   }
 }
 
-@media only screen and (min-width: 760px){
-
-
-  .awssld, .board{
-    top: 755px;
-    left: 170px;
-    width: 145% !important; 
-    height: 115vh !important;
+@media only screen and (min-width: 740px){
+  .awssld, .bio-card, .contact-card{
+    top: 830px;
+    left: 160px;
+    width: 151% !important; 
+    height: 310vh !important;
   }
+ 
+  .bio-img-container img{
+    margin: 240px 100px;
+    width: 100%;
+   }
+  
+   .project-div{
+     padding-top: 10em;
+   }
 
-  .awssld__container{
-    height: 100% !important;
+  .text-container{
+    padding: 300px 0 20px 60px;
+    line-height: 35px;
   }
-
-  .bio{
-    top: 70px;
-    height: 110vh;
-  }
-
   .contact-div{
-    top: 70px;
-    height: 110vh;
-    padding: 420px  100px !important;
+    padding: 450px  100px;
+  }
+
+  iframe{
+    height: 140vh;
+  }
+}
+
+@media only screen and (min-width: 760px){
+  .awssld, .bio-card, .contact-card{
+    top: 820px;
+    left: 160px;
+    width: 150% !important; 
+    height: 110vh !important;
+  }
+ 
+  .bio-img-container img{
+    margin: 240px 100px;
+    width: 100%;
+   }
+  
+   .project-div{
+     padding-top: 10em;
+   }
+
+  .text-container{
+    padding: 300px 0 20px 60px;
+    line-height: 35px;
+  }
+  .contact-div{
+    padding: 450px  100px;
   }
 
   iframe{
@@ -2567,34 +2565,33 @@ iframe{
     left: 900px;
   }
 
-  .awssld, .board{
-    top: 800px;
-    left: 210px;
+  .awssld, .bio-card, .contact-card{
+    top: 825px;
+    left: 200px;
     width: 137% !important; 
-    height:295vh !important;
+    height: 295vh !important;
   }
-
-  .bio{
-    top: 30px;
-    height: 295vh;
-  }
-
-  .awssld__container{
-    height: 100% !important;
-  }
+ 
+  .bio-img-container img{
+    margin: 240px 100px;
+    width: 100%;
+   }
+  
+   .project-div{
+     padding-top: 10em;
+   }
 
   .text-container{
     padding: 300px 0 20px 60px;
     line-height: 35px;
   }
-
   .contact-div{
-    top: 30px;
-    height: 295vh;
-    padding: 460px  100px !important;
+    padding: 450px  100px;
   }
 
- 
+  iframe{
+    height: 120vh;
+  }
 }
 
 @media only screen and (min-width: 1000px){
@@ -2701,41 +2698,35 @@ iframe{
   left:600px;
 }
 
-.awssld, .board{
-  top: 160px;
-  left: 330px;
-  width: 140% !important; 
-  height: 130% !important;
+.awssld, .bio-card, .contact-card{
+  top: 110px;
+  left: 200px;
+  width: 155% !important; 
+  height: 160vh !important;
 }
 
-.awssld__container{
-  height: 100% !important;
+.bio-img-container img{
+  margin: 120px 100px;
+  width: 100%;
  }
 
-.bio{
-  top: 10px;
-  height: 130vh;
-}
-
-.bio-img-container{
-  width: 25%;
-  margin-top: -70px;
-}
+ .project-div{
+   padding-top: 10em;
+ }
 
 .text-container{
-  padding: 100px 0 20px 90px;
-  line-height: 75px;
+  padding: 300px 0 20px 60px;
+  line-height: 55px;
+}
+.contact-div{
+  padding: 450px  100px;
 }
 
-.contact-div{
-  top: 10px;
-  height: 120vh;
-  padding: 350px  100px !important;
- }
+iframe{
+  height: 70vh;
+}
 
- iframe{
-   height: 60vh;
- }
+
 }
 
 @media only screen and (min-width: 1300px){
@@ -2842,41 +2833,37 @@ iframe{
     left:600px;
   }
 
-  .awssld, .board{
-    top: 80px;
-    left: 140px;
-    width: 85% !important; 
+  .awssld, .bio-card, .contact-card{
+    top: 110px;
+    left: 260px;
+    width: 75% !important; 
     height: 80vh !important;
   }
+
+  .bio .text-container{
+    padding-top: 105px;
+    line-height: 40px;
+  }
   
-  .awssld__container{
-    height: 100% !important;
-  }
-
-  .bio{
-    height: 70vh;
-  }
-
   .bio-img-container img{
-    width: 80%;
-  }
-
+    margin: 120px 100px;
+    width: 100%;
+   }
+  
+   .project-div{
+     padding-top: 5em;
+   }
+  
   .text-container{
-    padding: 70px 0 20px 60px;
-    line-height: 45px;
+    padding: 300px 0 20px 60px;
+    line-height: 55px;
+  }
+  .contact-div{
+    padding: 300px  100px;
   }
   
-  .contact-div{
-    height: 80vh;
-    padding: 280px  100px !important;
-  }
-
   iframe{
-    height: 25vh;
-  }
-
-  .project-div {
-    height: auto;
+    height: 35vh;
   }
 }
 
@@ -2983,19 +2970,32 @@ iframe{
     left: 400px;
   }
 
-  .awssld{
-    top: 1100px;
-    left: 340px;
-    width: 110% !important; 
-    height: 70% !important;
+  .awssld, .bio-card, .contact-card{
+    top: 950px;
+    left: 180px;
+    width: 140% !important; 
+    height: 90vh !important;
   }
+ 
+  .bio-img-container img{
+    margin: 240px 100px;
+    width: 100%;
+   }
+  
+   .project-div{
+     padding-top: 10em;
+   }
 
-  .awssld__container{
-    height: 100% !important;
+  .text-container{
+    padding: 300px 0 20px 60px;
+    line-height: 35px;
   }
-
   .contact-div{
-    padding: 350px  100px !important;
+    padding: 450px  100px;
+  }
+
+  iframe{
+    height: 40vh;
   }
 }
 
@@ -3101,77 +3101,43 @@ iframe{
   .shelf{
     left: 300px;
   }
+   
 
-  .awssld, .board{
-    top: 1000px;
-    left: 400px;
-    width: 109% !important; 
+  .awssld, .bio-card, .contact-card{
+    top: 1020px;
+    left: 390px;
+    width: 110% !important; 
     height: 85vh !important;
   }
-  
-  .awssld__container{
-    height: 100% !important;
-  }
 
-  .bio{
-    height: 82vh;
-  }
-
-  .text-container{
-    padding: 350px 0 20px 60px;
-    line-height: 35px;
-  }
-
-  .bio-img-container{
-    padding-top: 140px;
+  .bio .text-container{
+    padding-top:255px;
+    line-height: 40px;
   }
   
-  .contact-div{
-    height: 82vh;
-    padding: 450px  100px !important;
-  }
-
-  iframe{
-    height: 40vh;
-  }
-}
-
-@media only screen and (min-width: 1400px){
-  .awssld, .board{
-    top: 80px;
-    left: 350px;
-    width: 60% !important; 
-    height: 80vh !important;
-  }
-
-  .bio{
-    height: 80vh;
-  }
+  .bio-img-container img{
+    margin: 250px 100px;
+    width: 100%;
+   }
   
-  .awssld__container{
-    height: 100% !important;
-  }
+   .project-div{
+     padding-top: 5em;
+   }
   
   .text-container{
-    padding: 70px 0 20px 60px;
+    padding: 300px 0 20px 60px;
     line-height: 55px;
   }
-
-  .bio-img-container img{
-    margin: 220px 80px 0 80px;
-   }
-
-   .contact-div{
-    height: 80vh;
-    padding: 300px  100px !important;
+  .contact-div{
+    padding: 500px  100px;
   }
-
+  
   iframe{
     height: 35vh;
   }
+  
+}
 
-  .project-div .text-container{
-    padding-top: 0;
-  }
+@media only screen and (min-width: 1400px){
   
 }
