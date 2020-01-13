@@ -1593,9 +1593,10 @@ iframe{
   background-repeat: no-repeat;
 }
 
-.rails-img, .mq-img, .redux-img, .sqlite-img{
+.rails-img, .redux-img, .sqlite-img, .react-img, .active-record, .mq-img{
   background-size: 80%;
 }
+
 
 .js-img, .html-img, .heroku-img, .css-img{
   background-size: cover;
@@ -1622,7 +1623,7 @@ iframe{
 }
 
 .html-img{
-  background-image: url('./images/html.jpg');
+  background-image: url('./images/html.png');
 }
 
 .css-img{
@@ -3170,6 +3171,8 @@ iframe{
   .contact-div{
     padding: 450px  100px;
   }
+
+  
 
   iframe{
     height: 40vh;
