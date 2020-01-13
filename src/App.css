@@ -3,18 +3,24 @@
   padding: 0;
   margin: 0;
 }
-
-body {
+html, body {
   text-align: center;
   z-index: -1;
-  max-width: 100%;
-  width: auto;
-  height: auto;
+  width: 100%;
+  height: 100%;
   margin: 0;
   padding: 0;
   background:#84cce4;
   overflow-x: hidden;
+  border: 1px solid black;
 }
+
+/* #root {
+  max-width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+} */
+
 
 ul li{
   list-style: none;
@@ -2160,8 +2166,17 @@ iframe{
   }
 }
 
-@media screen and (-webkit-device-aspect-ratio: 9/16){
+@media screen and (min-width: 400px){
 
+  .clock{
+    width: 5em;
+    height: 5em;
+  }
+
+ .react-clock{
+    width: 3.3em !important;
+    height: 3.3em !important;
+  }
 
   .myname{
     left: 550px;
