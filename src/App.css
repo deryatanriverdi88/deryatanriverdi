@@ -27,7 +27,8 @@ ul li{
 .myname{
   position: absolute;
   top: 20px;
-  left:800px;
+  left:350px;
+  width: 300px;
   font-family: 'Parisienne', cursive;
   font-size: 45px;
   font-weight: bold;
@@ -1681,14 +1682,13 @@ iframe{
 
 @media only screen and (min-width: 300px){
 
+  .myname{
+   left: 550px;
+  }
+
   .floor{
     width: 405%;
     left: 0;
-  }
-
-  .myname{
-    left:950px;
-    width: 300px;
   }
 
   .postits{
@@ -1808,14 +1808,14 @@ iframe{
 }
 
 @media only screen and (min-width: 350px){
+
+  .myname{
+    left: 550px;
+  }
+  
   .floor{
     width: 405%;
     left: 0;
-  }
-
-  .myname{
-    left:1050px;
-    width: 300px;
   }
 
   .postits{
@@ -1934,11 +1934,16 @@ iframe{
 }
 
 @media only screen and (min-width: 375px){
+
+  .myname{
+    left: 550px;
+  }
+  
   .awssld, .bio-card, .contact-card{
     top: 1100px;
     left: 200px;
     width: 295% !important; 
-    height: 136vh !important;
+    height: 165vh !important;
   }
  
   .bio-img-container img{
@@ -1965,12 +1970,13 @@ iframe{
 }
 
 @media only  screen and (min-width: 400px){
-  .floor{
-    width: 325%;
-  }
 
   .myname{
-    left:550px;
+    left: 550px;
+  }
+  
+  .floor{
+    width: 325%;
   }
 
   .postits{
@@ -2101,11 +2107,6 @@ iframe{
     height: 60vh;
   }
 
-  .myname{
-    left:1000px;
-    width: 300px;
-  }
-
   .postits{
     left: -330px;
     top:850px;
@@ -2228,11 +2229,6 @@ iframe{
     width: 220%;
     left: 0;
     height: 60vh;
-  }
-
-  .myname{
-    left:1050px;
-    width: 300px;
   }
 
   .postits{
@@ -2360,13 +2356,6 @@ iframe{
     width: 190%;
     left: 0;
     height: 40vh;
-  }
-
-  .myname{
-     position: absolute;
-    left:1050px;
-      width: 300px;
-  
   }
 
   .postits{
@@ -2498,6 +2487,11 @@ iframe{
 }
 
 @media only screen and (min-width: 740px){
+
+  .myname{
+    left: 550px;
+   }
+
   .awssld, .bio-card, .contact-card{
     top: 830px;
     left: 160px;
@@ -2558,6 +2552,10 @@ iframe{
 }
 
 @media only screen and (min-width: 800px){
+
+  .myname{
+    left: 600px;
+  }
   .floor{
     width: 180%;
   }
@@ -2566,14 +2564,10 @@ iframe{
     left: -290px;
   }
 
-  .myname{
-    left: 900px;
-  }
-
   .awssld, .bio-card, .contact-card{
     top: 825px;
     left: 200px;
-    width: 137% !important; 
+    width: 138% !important; 
     height: 295vh !important;
   }
  
@@ -2600,15 +2594,15 @@ iframe{
 }
 
 @media only screen and (min-width: 1000px){
+
+  .myname{
+    left: 300px;
+  }
+  
 .floor{
   width: 190%;
   left: 0;
   height: 840px;
-}
-
-.myname{
-  left:1050px;
-  width: 300px;
 }
 
 .postits{
@@ -2735,19 +2729,18 @@ iframe{
 }
 
 @media only screen and (min-width: 1200px){
+  .myname{
+    left: 250px;
+  }
+
   .floor{
     width: 100%;
     left: 0;
     height: 410px;
   }
   
-  .myname{
-    left:950px;
-    width: 300px;
-  }
-  
   .postits{
-    left:130px;
+    left:100px;
     top:30px;
   }
   
@@ -2835,14 +2828,14 @@ iframe{
   }
   
   .shelf{
-    left:600px;
+    left:500px;
   }
 
   .awssld, .bio-card, .contact-card{
     top: 110px;
-    left: 260px;
-    width: 85% !important; 
-    height: 80vh !important;
+    left: 230px;
+    width: 80% !important; 
+    height: 90vh !important;
   }
 
   .bio .text-container{
@@ -2851,12 +2844,12 @@ iframe{
   }
   
   .bio-img-container img{
-    margin: 120px 100px;
+    margin: 40px 80px;
     width: 100%;
    }
   
    .project-div{
-     padding-top: 5em;
+     padding-top: 2em;
    }
 
    .bio .text-container{
@@ -2872,22 +2865,17 @@ iframe{
   }
   
   iframe{
-    height: 35vh;
+    height: 50vh;
   }
 }
 
-
 @media only screen and (min-height: 1100px){
+
   .floor{
     top: 620px;
     width: 200%;
     left: 0;
     height: 20vh;
-  }
-
-  .myname{
-    left:1150px;
-    width: 300px;
   }
 
   .postits{
@@ -2983,7 +2971,7 @@ iframe{
   .awssld, .bio-card, .contact-card{
     top: 950px;
     left: 180px;
-    width: 140% !important; 
+    width: 141% !important; 
     height: 90vh !important;
   }
  
@@ -3010,16 +2998,15 @@ iframe{
 }
 
 @media only screen and (min-height: 1300px){
+  .myname{
+    left: 750px;
+  }
+  
   .floor{
     top: 620px;
     width: 190%;
     left: 0;
     height: 20vh;
-  }
-
-  .myname{
-    left:1550px;
-    width: 300px;
   }
 
   .postits{
@@ -3148,8 +3135,6 @@ iframe{
   
 }
 
-
-
 @media only screen and (min-width: 1400px){
   .awssld, .bio-card, .contact-card{
     top: 100px;
@@ -3182,6 +3167,7 @@ iframe{
     height: 40vh;
   }
 }
+
 @media only screen and (min-width: 1900px){
   .awssld, .bio-card, .contact-card{
     top: 110px;
