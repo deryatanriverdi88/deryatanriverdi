@@ -119,6 +119,7 @@ class App extends React.Component {
                   </ul>
                </div>
             </div>
+            <div className="light"></div>
             <div className="chair"></div>
             <div className="hair"></div>
             <div className="head">
@@ -168,8 +169,8 @@ class App extends React.Component {
                  <div className='eraser-2'></div>
                  <div className="pencil-2"></div>
             </div>
-            <div className="table">
-                <div className="plant">
+            <div className="plant-div">
+            <div className="plant">
                    <ul>
                      <li></li>
                      <li></li>
@@ -179,8 +180,10 @@ class App extends React.Component {
                 <div className="vase-top"></div>
                 <div className="vase"></div>
             </div>
+            <div className="table">
+               
+            </div>
             <div className="table-front"></div>
-            <div className="table-side"></div>
             <div className="garbage-can"></div>
             <div className="dog">
                   <p>Pet me ❣️ </p>
@@ -305,7 +308,7 @@ class App extends React.Component {
               </div>
               <div className="window-devide"></div>
             </div> : 
-             <div className="window" id="night">
+              <div className="window" id="night">
              <div className="moon"></div>
              <div className="stars">
                <ul>

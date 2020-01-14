@@ -565,24 +565,51 @@ ul li{
   top: 81px;
 }
 
-.table{
-  width: 470px;
-  height: 40px;
-  background-color: #d4bf82;
-  background-image: url("https://www.transparenttextures.com/patterns/wood-pattern.png");
+.plant-div{
   position: absolute;
-  left: 140px;
-  top: 470px;
-  z-index: 1;
-  -webkit-box-shadow: 0px 13px 10px -3px rgba(0,0,0,0.6);
-  -moz-box-shadow: 0px 13px 10px -3px rgba(0,0,0,0.6);
-  box-shadow: 0px 13px 10px -3px rgba(0,0,0,0.6);
+  left: 150px;
+  top:385px;
 }
+
+.plant{
+  position: relative;
+  top: 90px;
+}
+
+.plant ul li{
+  position: relative;
+  top: -53px;
+  left: 28px;
+  width: 20px;
+  height:25px;
+  border-left: 1px solid #195532;
+  background: #2c8651;
+  transform: rotate(15deg);
+  border-radius: 10% 90px ;
+  }
+  
+.plant ul li:nth-child(2){
+   left: 38px;
+   top: -83px;
+   transform: rotate(35deg);
+   -webkit-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
+   -moz-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
+   box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
+  }
+  
+.plant ul li:nth-child(3){
+  top: -103px;
+  left: 48px;
+  transform: rotate(55deg);
+  -webkit-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
+  -moz-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
+  box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
+  }
 
 .vase{
   width: 35px;
   height: 40px;
-  position: absolute;
+  position: relative;
   background: #ddb8a6;
   bottom: 26px;
   left: 30px;
@@ -591,9 +618,9 @@ ul li{
 
 .vase-top{
   width: 43px;
-  position: absolute;
-  top: -26px;
-  left: 26px;
+  position: relative; 
+  top: -15px;
+  left: 26px; 
   border-width: 5px;
   border-style: solid;
   border-color: #c4a393 transparent transparent transparent;
@@ -611,34 +638,18 @@ ul li{
   background: #ddb8a6;
 }
 
-.plant ul li{
-position: relative;
-top: -53px;
-left: 28px;
-width: 20px;
-height:25px;
-border-left: 1px solid #195532;
-background: #2c8651;
-transform: rotate(15deg);
-border-radius: 10% 90px ;
-}
-
-.plant ul li:nth-child(2){
- left: 38px;
- top: -83px;
- transform: rotate(35deg);
- -webkit-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
- -moz-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
- box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
-}
-
-.plant ul li:nth-child(3){
-top: -103px;
-left: 48px;
-transform: rotate(55deg);
--webkit-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
--moz-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
+.table{
+  width: 470px;
+  height: 40px;
+  background-color: #d4bf82;
+  background-image: url("https://www.transparenttextures.com/patterns/wood-pattern.png");
+  position: absolute;
+  left: 140px;
+  top: 470px;
+  z-index: 1;
+  -webkit-box-shadow: 0px 13px 10px -3px rgba(0,0,0,0.6);
+  -moz-box-shadow: 0px 13px 10px -3px rgba(0,0,0,0.6);
+  box-shadow: 0px 13px 10px -3px rgba(0,0,0,0.6);
 }
 
 .table-front{
@@ -1937,6 +1948,8 @@ iframe{
   }
 }
 
+/* iPhone 5/SE => 320 x 568 
+   iPad Touch => 320 x 568*/
 @media only screen and (min-width: 300px){
 
   .myname{
@@ -2068,6 +2081,9 @@ iframe{
 
 }
 
+/* Galaxy S5 => 360 x 640, 
+   Samsung Galaxy S9 / S9+ => 360 x 740,
+   Samsung Galaxy S8 / S8+ => 360 x 740  */
 @media only screen and (min-width: 350px){
 
   .myname{
@@ -2198,6 +2214,10 @@ iframe{
   }
 }
 
+/* iPhone 6/7/8 => 375 x 667,
+   iPhone X => 375 x 712, 
+   iPhone XS => 375 x 812,
+   Galaxy s7 => 360 x 640 */
 @media only screen and (min-width: 375px){
 
   .myname{
@@ -2234,6 +2254,10 @@ iframe{
   }
 }
 
+/* Pixel 2 => 411 x 731,
+   Pixel XL => 411 x 823,
+   iPhone 6/7/8 plus => 414 x 736,
+   iPhone XR => 414 x 896 */
 @media screen and (min-width: 400px){
 
   .myname{
@@ -2790,6 +2814,9 @@ iframe{
   }
 }
 
+/* iPad => 768 x 1024, 
+   iPad Mini => 768 x 1024,
+   iPad Air 1 & 2 => 768 x 1024 */
 @media only screen and (min-width: 760px){
   .awssld, .bio-card, .contact-card{
     top: 820px;
@@ -2864,6 +2891,7 @@ iframe{
   }
 }
 
+/* iPad Pro => 1024 x 1366 */
 @media only screen and (min-width: 1000px){
 
   .myname{
@@ -3003,6 +3031,7 @@ iframe{
 
 }
 
+/* Samsung Galaxy Tab 10 => 1280 x 800 */
 @media only screen and (min-width: 1200px){
   .myname{
     left: 250px;
@@ -3111,7 +3140,7 @@ iframe{
   }
 
   .awssld, .bio-card, .contact-card{
-    top: 110px;
+    top: 90px;
     left: 230px;
     width: 80% !important; 
     height: 90vh !important;
@@ -3450,8 +3479,12 @@ iframe{
   }
 }
 
+/* Del XPS 13 => 1920 x 1080*/
 @media only screen and (min-width: 1900px){
-
+  
+  .floor{
+    height: 50vh;
+  }
   .window{
     display: inline-block;
     left: 1400px;
@@ -3488,4 +3521,105 @@ iframe{
   iframe{
     height: 35vh;
   }
+}
+
+@media only screen and (min-width: 5000px){
+
+ 
+
+  .chair{
+    width: 230px;
+    height: 200px;
+    top: 1100px;
+    left: 1000px;
+  }
+
+  .plant-div{
+    top: 1105px;
+    left: 700px;
+  }
+
+  .plant{
+    top: 75px;
+    left:20px;
+  }
+
+  .plant ul li{
+   top: -4px;
+   left: 0px;
+   width: 50px;
+   height: 50px;
+  }
+   
+  .plant ul li:nth-child(2){
+    top: -60px;
+    left: 20px;
+  }
+
+  .vase-top{
+    width: 90px;
+  }
+
+  
+  .vase{
+    width: 80px;
+    height: 100px;
+  }
+
+  .vase-top:before{
+    width: 90px;
+    height: 20px;
+    top: -25px;
+  }
+
+  
+  .table{
+    width: 940px;
+    height: 70px;
+    top: 1300px;
+  }
+
+  .table-front{
+    top: 1300px;
+    width: 920px;
+    height: 500px;
+  }
+  
+  .table-front:before, .table-front:after {
+    width: 30px;
+    height: 30px;
+  }
+  .table-front:before{
+    top: 500px;
+    left: 10px;
+  }
+   
+  .table-front:after {
+    top:500px;
+    left: 880px;
+  }
+
+  .garbage-can{
+    top: 1450px;
+    left: 450px;
+    width: 150px;
+    height: 190px;
+  }
+
+  .garbage-can:before{
+   width: 150px;
+   height: 15px;
+  }
+
+  .postits{
+    top: 400px;
+    left: 2000px;
+  }
+
+  .floor{
+    top:1500px;
+    width: 100%;
+   height:50%;
+  }
+
 }
