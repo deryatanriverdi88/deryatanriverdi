@@ -2489,7 +2489,7 @@ iframe{
     top: 895px;
     left: 195px;
     width: 71% !important; 
-    height: 110vh !important;
+    height: 115vh !important;
   }
 
   .bio .text-container{
@@ -2768,48 +2768,71 @@ iframe{
 } */
 
 /* Apple Macbook Air 13-inch => 1440 x 900 */
-/* @media only screen and (min-width: 1400px){
+ @media only screen and (min-width: 1400px){
 
   .awssld, .bio-card, .contact-card{
-    top: 100px;
-    left: 250px;
-    width: 75% !important; 
-    height: 85vh !important;
+    top: 900px;
+    left: 190px;
+    width: 65% !important; 
+    height: 95vh !important;
   }
  
   .bio-img-container img{
-    margin: 100px 100px;
-    width: 70%;
+    margin: 150px 100px;
+    width: 100%;
    }
   
    .project-div{
      padding-top: 3em;
    }
 
-
-  .text-container{
-    padding: 300px 0 20px 60px;
-    line-height: 35px;
-  }
-  .contact-div{
-    padding: 450px  100px;
+  .bio .text-container{
+    padding-top: 40px;
   }
 
-  
   iframe{
-    height: 40vh;
-  }
-} */
-
-/* Del XPS 13 => 1920 x 1080*/
-/* @media only screen and (min-width: 1900px){
-  
-  .floor{
     height: 50vh;
   }
+} 
+
+/* Del XPS 13 => 1920 x 1080*/
+ @media only screen and (min-width: 1900px){
+  
+  .floor{
+    height: 45vh;
+  }
+
+  .postits{
+    top: -20px;
+    left: 600px;
+  }
+
+  .post-it-1, .post-it-2, .post-it-3, .post-it-4{
+    width: 250px;
+    height:250px;
+  }
+
+  .post-it-2, .post-it-4{
+    left: 650px;
+  }
+
+  .post-it-3, .post-it-4{
+    top: 370px;
+  }
+
+
+  .post-it-1:after, .post-it-2:after, .post-it-3:after, .post-it-4:after{
+    width: 250px;
+    height: 250px;
+  }
+
+  .postits p{
+    padding-top: 100px;
+  }
+
   .window{
-    display: inline-block;
-    left: 1400px;
+    top: 200px;
+    left: 1550px;
   }
   .awssld, .bio-card, .contact-card{
     top: 110px;
@@ -2843,27 +2866,21 @@ iframe{
   iframe{
     height: 35vh;
   }
-} */
+} 
 
 /* Apple Macbook Pro 15-inch => 2880 x 1800  */
-/* @media only screen and (min-width: 2200px){
+ @media only screen and (min-width: 2200px){
 
   .myname{
     font-size: 80px;
     width: auto;
     left: 400px;
   }
-  
-  .css-art{
-    width: auto;
-  }
-  
+
   .css-art p{
     font-size: 30px;
-    position: absolute;
     top: 140px;
-    left: 650px;
-    width: auto;
+    left: 550px;
   }
   
   .clock{
@@ -2964,7 +2981,7 @@ iframe{
   
   .head{
       width: 108px;
-      top: 968px;
+      top: 768px;
       left: 1075px;
   }
   
@@ -3005,14 +3022,14 @@ iframe{
       width: 50px;
       height: 30px;
       border-radius: 0 0 90px 90px;
-      top: 1095px;
+      top: 760px;
       left: 1105px;
   }
   
   .t-shirt{
     width: 170px;
     height: 200px;
-    top: 1100px;
+    top: 740px;
     left: 1050px;
   }
   
@@ -3107,8 +3124,8 @@ iframe{
   }
   
   .dog{
-    top: 1300px;
-    left: 1000px;
+    top: 1050px;
+    left: 2000px;
   }
   
   .dog-head{
@@ -3234,7 +3251,7 @@ iframe{
   
   .postits{
       top: 100px;
-      left: 550px;
+      left: 600px;
   }
   
   .postits p{
@@ -3248,7 +3265,7 @@ iframe{
   }
   
   .post-it-2, .post-it-4{
-      left: 1000px;
+      left: 850px;
   }
   
   .post-it-3, .post-it-4{
@@ -3257,7 +3274,7 @@ iframe{
   
   .window{
       top: 300px;
-      left: 2000px;
+      left: 1950px;
       width: 800px;
       height: 600px;
       border: 20px solid white;
@@ -3373,9 +3390,49 @@ iframe{
       width: 100%;
       height:40%;
    }
-} */
+
+   .awssld, .bio-card, .contact-card{
+    top: 130px;
+    left: 360px;
+    width: 75% !important; 
+    height: 80vh !important;
+  }
+
+  .bio .text-container{
+    padding-top: 155px;
+    line-height: 70px;
+  }
+
+  .text{
+    font-size: 40px;
+  }
+  
+  .bio-img-container img{
+    margin: 100px 100px;
+    width: 100%;
+   }
+  
+   .project-div{
+     padding-top: 5em;
+   }
+
+   .project-div .text-container{
+     padding-top:30px;
+    line-height: 50px;
+  }
+  
+  
+  .contact-div{
+    padding: 450px  100px;
+  }
+  
+  iframe{
+    height: 40vh;
+  }
+} 
+
 /* Apple Macbook 13-inch => 2560 x 1600 */
-/* @media only screen and (min-width: 2500px){  
+ @media only screen and (min-width: 2500px){  
   .table{
     top: 950px;
   }
@@ -3411,17 +3468,17 @@ iframe{
   }
 
   .dog{
-    top: 1200px;
-    left: 1000px;
+    top: 1000px;
+    left: 2000px;
   }
 
   .postits{
       top: 40px;
-      left: 470px;
+      left: 650px;
   }
 
   .window{
-      left: 1900px;
+      left: 1950px;
       width: 600px;
   } 
   
@@ -3492,10 +3549,50 @@ iframe{
       width: 100%;
       height:35%;
    }
-} */
+
+
+   .awssld, .bio-card, .contact-card{
+    top: 130px;
+    left: 360px;
+    width: 75% !important; 
+    height: 90vh !important;
+  }
+
+  .bio .text-container{
+    padding-top: 155px;
+    line-height: 70px;
+  }
+
+  .text{
+    font-size: 40px;
+  }
+  
+  .bio-img-container img{
+    margin: 150px 100px;
+   }
+  
+   .project-div{
+     padding-top: 5em;
+   }
+
+   .project-div .text-container{
+     padding-top:50px;
+    line-height: 50px;
+  }
+  
+  
+  .contact-div{
+    padding: 550px  100px;
+  }
+  
+  iframe{
+    height: 45vh;
+  }
+   
+} 
 
 /* Apple iMac 27-inch => 5120 x 2880 */
-/* @media only screen and (min-width: 5000px){
+ @media only screen and (min-width: 5000px){
 
 .myname{
   font-size: 120px;
@@ -3504,7 +3601,6 @@ iframe{
 
 .css-art p{
   font-size: 40px;
-  position: absolute;
   top: 180px;
   left: 800px;
   width: auto;
@@ -3541,11 +3637,6 @@ padding-top: 20px;
   top: 20px;
 }
 
-
-.t-shirt{
-  top: 1100px;
-  left: 1050px;
-}
 
 .computer{
     top: 1180px;
@@ -3592,8 +3683,8 @@ padding-top: 20px;
 }
 
 .dog{
-  top: 1500px;
-  left: 1600px;
+  top: 1400px;
+  left: 4000px;
 }
 
 .coffee{
@@ -3607,6 +3698,7 @@ padding-top: 20px;
 }
 
 .postits p{
+   padding-top: 250px;
     font-size: 60px;
 }
 
@@ -3616,7 +3708,7 @@ padding-top: 20px;
 }
 
 .post-it-2, .post-it-4{
-    left: 1400px;
+    left: 1200px;
 }
 
 .post-it-3, .post-it-4{
@@ -3670,4 +3762,45 @@ padding-top: 20px;
     width: 100%;
     height:50%;
 }
-} */
+
+.awssld, .bio-card, .contact-card{
+  top: 180px;
+  left: 360px;
+  width: 75% !important; 
+  height: 90vh !important;
+}
+
+.bio .text-container{
+  padding-top: 555px;
+  line-height: 100px;
+}
+.bio .text{
+  font-size: 70px;
+}
+.text{
+  font-size: 60px;
+}
+
+.bio-img-container img{
+  margin: 180px 100px;
+  width: 100%;
+ }
+
+ .project-div{
+   padding-top: 10em;
+ }
+
+ .project-div .text-container{
+   padding-top:200px;
+  line-height: 70px;
+}
+
+
+.contact-div{
+  padding: 800px  100px;
+}
+
+iframe{
+  height: 50vh;
+}
+} 
