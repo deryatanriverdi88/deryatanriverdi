@@ -2392,10 +2392,12 @@ iframe{
   }
 } 
 
+/* Samsung Galaxy Tab 10 => 800x 1280 */
  @media only screen and (min-width: 800px){
 
   .floor{
     width: 135%;
+    height: 15vh;
   }
 
   .postits{
@@ -2405,12 +2407,12 @@ iframe{
   .awssld, .bio-card, .contact-card{
     top: 875px;
     left: 110px;
-    width: 112% !important; 
-    height: 230vh !important;
+    width: 113% !important; 
+    height: 70vh !important;
   }
  
   .bio-img-container img{
-    margin: 100px 100px;
+    margin: 180px 100px;
     width: 100%;
    }
   
@@ -2423,7 +2425,7 @@ iframe{
     line-height: 35px;
   }
   iframe{
-    height: 90vh;
+    height: 30vh;
   }
 } 
 
@@ -2467,8 +2469,8 @@ iframe{
 
 } 
 
-/* Samsung Galaxy Tab 10 => 1280 x 800 */
-/* @media only screen and (min-width: 1200px){
+
+@media only screen and (min-width: 1200px){
   .myname{
     left: 250px;
   }
@@ -2603,7 +2605,7 @@ iframe{
   iframe{
     height: 50vh;
   }
-} */
+} 
 
 /* @media only screen and (min-height: 1100px){
 
