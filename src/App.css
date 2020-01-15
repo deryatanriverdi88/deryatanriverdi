@@ -167,13 +167,19 @@ ul li{
   background: #1f1e1f;
 }
 
+.girl{
+  position: absolute;
+  top: 10px;
+  left: 5px;
+}
+
 .hair{
   width: 140px;
   height: 200px;
   z-index: -1;
-  position: absolute;
+  position: relative;
   background: #f8da67;
-  left: 330px;
+  left: 0px;
   top: 160px;
   border-radius:90px 90px 35px 35px ;
 }
@@ -3444,6 +3450,7 @@ iframe{
   
 }
 
+/* Apple Macbook Air 13-inch => 1440 x 900 */
 @media only screen and (min-width: 1400px){
 
   .awssld, .bio-card, .contact-card{
@@ -3522,14 +3529,661 @@ iframe{
   }
 }
 
+/* Apple Macbook Pro 15-inch => 2880 x 1800  */
+
+@media only screen and (min-width: 2200px){
+
+  .myname{
+    font-size: 80px;
+    width: auto;
+    left: 400px;
+  }
+  
+  .css-art{
+    width: auto;
+  }
+  
+  .css-art p{
+    font-size: 30px;
+    position: absolute;
+    top: 140px;
+    left: 650px;
+    width: auto;
+  }
+  
+  .clock{
+    width: 300px;
+    height: 300px;
+  }
+  
+  .react-clock{
+    width: 270px !important;
+    height: 270px !important;
+  }
+  
+  .calendar{
+    top: 400px;
+  }
+  
+  .month{
+  padding-top: 10px;
+   width:200px;
+   height: 50px;
+   font-size: 30px;
+  }
+  
+  .day{
+    padding-top: 10px;
+    width: 200px;
+    height: 80px;
+    font-size: 50px;
+  }
+  
+  .shelf{
+    width: 260px;
+    height: 40px;
+    top: 650px;
+    left: 40px;
+  }
+  
+  .book-holder ul li{
+    width: 40px;
+    height: 70px;
+    top: -68px;
+    border-top: 0 solid transparent;
+    border-right:20px solid #5B8C8C;
+    border-bottom: 20px solid #5B8C8C;
+    border-left: 0 solid transparent;
+  }
+  
+  .book-holder ul li:nth-child(2){
+    left: 210px;
+    top: -137px;
+    border-top: 0 solid transparent;
+    border-left:20px solid #5B8C8C;
+    border-bottom: 20px solid #5B8C8C;
+    border-right: 0 solid transparent;
+  }
+  
+  .book ul li{
+    width: 30px;
+    height: 70px;
+    top: -215px;
+    left: 70px;
+   font-size: 15px;
+  
+  }
+  
+  .book ul li:nth-child(2){
+    top: -285px;
+    left: 105px;
+  }
+  
+  .book ul li:nth-child(3){
+    top: -355px;
+    left: 140px;
+  }
+  
+  .book ul li:nth-child(4){
+    top: -425px;
+    left: 170px;
+  }
+  
+  .chair{
+      width: 260px;
+      height: 200px;
+      top: 950px;
+      left: 460px;
+  }
+
+  .girl{
+    position: absolute;
+    top: -150px;
+    left: -535px;
+  }
+  
+  .hair{
+     top:920px;
+     left: 1058px;
+  }
+  
+  .head{
+      width: 108px;
+      top: 968px;
+      left: 1075px;
+  }
+  
+  .left-eye-brow{
+    left: 20px;
+  }
+  
+  .right-eye-brow{
+    left: 65px;
+  }
+  
+  .left-eye{
+      left: 25px;
+  }
+  
+  .right-eye{
+    left: 70px;
+  }
+  
+  .right-ear{
+     left: 102px;
+  }
+  
+  .nose{
+     left:50px;
+  }
+  
+  .mouth{
+     left: 40px;
+  }
+  
+  .head:after{
+     width: 60px;
+     left: 25px;
+  }
+  
+  .neck{
+      width: 50px;
+      height: 30px;
+      border-radius: 0 0 90px 90px;
+      top: 1095px;
+      left: 1105px;
+  }
+  
+  .t-shirt{
+    width: 170px;
+    height: 200px;
+    top: 1100px;
+    left: 1050px;
+  }
+  
+  .computer{
+      top: 1030px;
+      left: 490px;
+      width: 220px;
+      height: 120px;
+  }
+  
+  .pencil-jar{
+      top: 1095px;
+      left: 850px;
+  }
+  
+  .plant-div{
+      top: 950px;
+      left: 250px;
+  }
+  
+  .plant{
+      top: 75px;
+      left:20px;
+  }
+  
+  .plant ul li{
+     top: -4px;
+     left: 0px;
+     width: 50px;
+     height: 50px;
+  }
+     
+  .plant ul li:nth-child(2){
+      top: -60px;
+      left: 20px;
+  }
+  
+  .vase-top{
+      width: 90px;
+  }
+    
+  .vase{
+      width: 80px;
+      height: 100px;
+  }
+  
+  .vase-top:before{
+      width: 90px;
+      height: 20px;
+      top: -25px;
+  }
+  
+  .table{
+    left: 250px;
+    width: 700px;
+    height: 70px;
+    top: 1150px;
+  }
+  
+  .table-front{
+    left: 260px;
+    top: 1220px;
+    width: 680px;
+    height: 400px;
+  }
+  
+  .table-front:before, .table-front:after {
+      width: 30px;
+      height: 30px;
+  }
+  
+  .table-front:before{
+      top: 400px;
+      left: 10px;
+  }
+   
+  .table-front:after {
+      top:400px;
+      left: 640px;
+  }
+  
+  .garbage-can{
+      top: 1420px;
+      left: 100px;
+      width: 150px;
+      height: 190px;
+  }
+  
+  .garbage-can:before{
+     width: 150px;
+     height: 15px;
+  }
+  
+  .dog{
+    top: 1300px;
+    left: 1000px;
+  }
+  
+  .dog-head{
+    width: 85px;
+    height: 80px;
+  }
+  
+  .dog-ear ul li{
+    width: 25px;
+    left: 10px;
+  }
+  
+  .dog-ear ul li:nth-child(2){
+    left: 50px;
+  }
+  
+  .dog-eyes ul li{
+    width: 13px;
+    height: 13px;
+    left: 15px;
+  }
+  
+  .dog-eyes ul li:nth-child(2){
+    top: -48px;
+    left: 50px;
+  }
+  
+  .dog-eyes ul li:before{
+    width: 7px;
+    height: 7px;
+    left: 1px;
+    top: -3px;
+  }
+  
+  .dog ul li:after{
+    width: 3px;
+    height: 3px;
+    top: -6px;
+    left: -5px;
+  }
+  
+  .dog-nose{
+    left: 35px;
+  }
+  
+  .dog-mouth ul li{
+    left: 20px;
+  }
+  
+  .dog-mouth ul li:nth-child(2){
+    left: 40px;
+  }
+  
+  .dog-tongue{
+    left: 32px;
+  }
+  
+  .dog-body{
+    width: 90px;
+    height: 100px;
+  }
+  
+  .collar{
+    top: -4px;
+    left: 15px;
+    width: 60px;
+  }
+  
+  .dog-legs ul li{
+    top: -50px;
+    width: 30px;
+    height: 40px;
+  }
+  
+  .dog-legs ul li:nth-child(2){
+    top: -90px;
+    left: 60px;
+  }
+  
+  .dog-legs ul li:before{
+    width: 27px;
+    height: 16px;
+    top: 20px;
+  }
+  
+  .coffee{
+      top: 1095px;
+      left: 400px;
+  }
+  
+  .coffee-cup{
+      width: 45px;
+      height: 30px;
+  }
+  
+  .coffee-cup:after{
+      width: 13px;
+      height: 13px;
+      left: 28px;
+      top: 5px;
+  }
+  
+  .coffee-bottom{
+      width: 70px;
+      height: 7px;
+  }
+  
+  .coffee-steam, .coffee-steam:before{
+     border: 10px;
+     left: 25px;
+     border-width: 3px;
+     border-style: solid;
+     border-color:transparent transparent transparent 
+     #828083;
+  }
+  
+  .coffee-steam:before{
+      top: -15px;
+      left: -5px;
+      border-color:  transparent  #828083 transparent transparent;
+     
+  }
+  
+  .postits{
+      top: 100px;
+      left: 550px;
+  }
+  
+  .postits p{
+    padding-top: 150px;
+    font-size: 50px;
+  }
+  
+  .post-it-1, .post-it-2, .post-it-3, .post-it-4,  .post-it-1:after,.post-it-2:after, .post-it-3:after, .post-it-4:after {
+      width: 400px;
+      height: 400px;
+  }
+  
+  .post-it-2, .post-it-4{
+      left: 1000px;
+  }
+  
+  .post-it-3, .post-it-4{
+      top: 630px;
+  }
+  
+  .window{
+      top: 300px;
+      left: 2000px;
+      width: 800px;
+      height: 600px;
+      border: 20px solid white;
+  } 
+  
+  .curtain{
+      width: 780px;
+      height: 120px;
+      
+  }
+  
+  .curtain:before{
+    height: 100px;
+     top: 120px;
+     left: 415px;
+     width: 10px;
+    
+  }
+  
+  .curtain:after{
+     width: 20px;
+     height: 20px;
+     top: 210px;
+     left: 400px;
+     border: 10px solid #ff9801;
+  }
+  
+  .moon{
+      width: 100px;
+      height: 100px;
+      top: 200px;
+      left: 100px;
+  }
+  
+  .moon:after{
+      width: 90px;
+      height: 90px;
+  }
+  
+  .stars{
+      top: 100px;
+      left: 200px;
+  }
+  
+  .stars ul li{
+      left: 100px;
+  }
+  
+  .stars ul li:nth-child(2){
+      left: 400px;
+  }
+  
+  .stars ul li:nth-child(3){
+      left: 500px;
+  }
+  
+  .stars ul li:nth-child(4){
+      top: 300px;
+      left: 600px;
+  }
+  
+  .land, .land:after{
+      width: 420px;
+      height: 230px;
+      border-radius: 50% 50% 0 0;
+  }
+  
+  .land:after{
+      width: 460px;
+      height: 200px;
+      left: 300px;
+  }
+  
+  .tree ul li{
+      top:-20px;
+      left: 100px;
+  }
+  
+  .tree ul li:nth-child(2){
+      top:-60px;
+      left: 230px;
+  }
+  
+  .tree ul li:nth-child(3){
+      top:-70px;
+      left: 530px;
+  }
+  
+  .tree ul li:nth-child(4){
+      top:-70px;
+      left: 670px;
+  }
+  
+  .window-devide{
+      left: 400px;
+      height: 450px;
+      width: 30px;
+  }
+  
+  .window-devide:before, .window-devide:after{
+       width: 60px;
+       height: 40px;
+       left: -50px;
+       top: 230px;
+  }
+  
+  .window-devide:after{
+      left: 10px;
+  }
+  
+  .floor{
+      top:1150px;
+      width: 100%;
+      height:40%;
+   }
+}
+/* Apple Macbook 13-inch => 2560 x 1600 */
+@media only screen and (min-width: 2500px){  
+  .table{
+    top: 950px;
+  }
+
+  .table-front{
+    top: 1000px;
+  }
+
+  .plant-div{
+    top: 752px;
+  }
+
+  .coffee{
+    top: 893px;
+  }
+
+  .chair{
+    top: 800px;
+    left: 470px;
+  }
+
+  .girl{
+    top: -300px;
+    left: -525px;
+  }
+
+  .computer{
+    top: 830px;
+  }
+
+  .garbage-can{
+    top: 1200px;
+  }
+
+  .dog{
+    top: 1200px;
+    left: 1000px;
+  }
+
+  .postits{
+      top: 40px;
+      left: 470px;
+  }
+
+  .window{
+      left: 1900px;
+      width: 600px;
+  } 
+  
+  .curtain{
+      width: 570px;
+  }
+  
+  .curtain:before{
+     left: 295px;
+  }
+  
+  .curtain:after{
+     left: 284px;
+  }
+
+  .stars{
+      top: 100px;
+      left: 70px;
+  }
+  
+  .stars ul li{
+      left: 60px;
+  }
+  
+  .stars ul li:nth-child(2){
+      left: 130px;
+  }
+  
+  .stars ul li:nth-child(3){
+      left:270px;
+  }
+  
+  .stars ul li:nth-child(4){
+      top: 200px;
+      left: 400px;
+  }
+
+  .land:after{
+      width: 260px;
+      height: 200px;
+  }
+ 
+  .tree ul li:nth-child(3){
+      left: 430px;
+  }
+  
+  .tree ul li:nth-child(4){
+      left: 500px;
+  }
+  
+  .window-devide{
+      left: 280px;
+  }
+  
+  .window-devide:before, .window-devide:after{
+       width: 60px;
+       height: 40px;
+       left: -50px;
+       top: 230px;
+  }
+  
+  .window-devide:after{
+      left: 10px;
+  }
+  
+  .floor{
+      top:1110px;
+      width: 100%;
+      height:35%;
+   }
+}
+
+/* Apple iMac 27-inch => 5120 x 2880 */
 @media only screen and (min-width: 5000px){
 
 .myname{
-  font-size: 100px;
-  width: auto;
-}
-
-.css-art{
+  font-size: 120px;
   width: auto;
 }
 
@@ -3537,22 +4191,8 @@ iframe{
   font-size: 40px;
   position: absolute;
   top: 180px;
-  left: 1050px;
+  left: 800px;
   width: auto;
-}
-
-.clock{
-  width: 300px;
-  height: 300px;
-}
-
-.react-clock{
-  width: 270px !important;
-  height: 270px !important;
-}
-
-.calendar{
-  top: 500px;
 }
 
 .month{
@@ -3576,120 +4216,25 @@ padding-top: 20px;
   left: 1500px;
 }
 
-.book-holder ul li{
-  width: 40px;
-  height: 70px;
-  top: -68px;
-  border-top: 0 solid transparent;
-  border-right:20px solid #5B8C8C;
-  border-bottom: 20px solid #5B8C8C;
-  border-left: 0 solid transparent;
-}
-
-.book-holder ul li:nth-child(2){
-  left: 210px;
-  top: -137px;
-  border-top: 0 solid transparent;
-  border-left:20px solid #5B8C8C;
-  border-bottom: 20px solid #5B8C8C;
-  border-right: 0 solid transparent;
-}
-
-.book ul li{
-  width: 30px;
-  height: 70px;
-  top: -215px;
-  left: 70px;
- font-size: 15px;
-
-}
-
-.book ul li:nth-child(2){
-  top: -285px;
-  left: 105px;
-}
-
-.book ul li:nth-child(3){
-  top: -355px;
-  left: 140px;
-}
-
-.book ul li:nth-child(4){
-  top: -425px;
-  left: 170px;
-}
-
 .chair{
-    width: 260px;
-    height: 200px;
     top: 1100px;
     left: 1000px;
 }
 
-.hair{
-   top:920px;
-   left: 1058px;
+.girl{
+  left: 0px;
+  top: 20px;
 }
 
-.head{
-    width: 108px;
-    top: 968px;
-    left: 1075px;
-}
-
-.left-eye-brow{
-  left: 20px;
-}
-
-.right-eye-brow{
-  left: 65px;
-}
-
-.left-eye{
-    left: 25px;
-}
-
-.right-eye{
-  left: 70px;
-}
-
-.right-ear{
-   left: 102px;
-}
-
-.nose{
-   left:50px;
-}
-
-.mouth{
-   left: 40px;
-}
-
-.head:after{
-   width: 60px;
-   left: 25px;
-}
-
-.neck{
-    width: 50px;
-    height: 30px;
-    border-radius: 0 0 90px 90px;
-    top: 1095px;
-    left: 1105px;
-}
 
 .t-shirt{
-  width: 170px;
-  height: 300px;
   top: 1100px;
   left: 1050px;
 }
 
 .computer{
     top: 1180px;
-    left: 1015px;
-    width: 230px;
-    height: 120px;
+    left: 1020px;
 }
 
 .pencil-jar{
@@ -3702,53 +4247,18 @@ padding-top: 20px;
     left: 700px;
 }
 
-.plant{
-    top: 75px;
-    left:20px;
-}
-
-.plant ul li{
-   top: -4px;
-   left: 0px;
-   width: 50px;
-   height: 50px;
-}
-   
-.plant ul li:nth-child(2){
-    top: -60px;
-    left: 20px;
-}
-
-.vase-top{
-    width: 90px;
-}
-  
-.vase{
-    width: 80px;
-    height: 100px;
-}
-
-.vase-top:before{
-    width: 90px;
-    height: 20px;
-    top: -25px;
-}
-
 .table{
-    width: 850px;
+    width: 950px;
     height: 70px;
     top: 1300px;
+    left: 600px;
 }
 
 .table-front{
-    top: 1300px;
-    width: 820px;
+    top: 1350px;
+    left: 615px;
+    width: 920px;
     height: 500px;
-}
-
-.table-front:before, .table-front:after {
-    width: 30px;
-    height: 30px;
 }
 
 .table-front:before{
@@ -3758,19 +4268,12 @@ padding-top: 20px;
  
 .table-front:after {
     top:500px;
-    left: 780px;
+    left: 880px;
 }
 
 .garbage-can{
     top: 1450px;
     left: 450px;
-    width: 150px;
-    height: 190px;
-}
-
-.garbage-can:before{
-   width: 150px;
-   height: 15px;
 }
 
 .dog{
@@ -3778,125 +4281,9 @@ padding-top: 20px;
   left: 1600px;
 }
 
-.dog-head{
-  width: 85px;
-  height: 80px;
-}
-
-.dog-ear ul li{
-  width: 25px;
-  left: 10px;
-}
-
-.dog-ear ul li:nth-child(2){
-  left: 50px;
-}
-
-.dog-eyes ul li{
-  width: 13px;
-  height: 13px;
-  left: 15px;
-}
-
-.dog-eyes ul li:nth-child(2){
-  top: -48px;
-  left: 50px;
-}
-
-.dog-eyes ul li:before{
-  width: 7px;
-  height: 7px;
-  left: 1px;
-  top: -3px;
-}
-
-.dog ul li:after{
-  width: 3px;
-  height: 3px;
-  top: -6px;
-  left: -5px;
-}
-
-.dog-nose{
-  left: 35px;
-}
-
-.dog-mouth ul li{
-  left: 20px;
-}
-
-.dog-mouth ul li:nth-child(2){
-  left: 40px;
-}
-
-.dog-tongue{
-  left: 32px;
-}
-
-.dog-body{
-  width: 90px;
-  height: 100px;
-}
-
-.collar{
-  top: -4px;
-  left: 15px;
-  width: 60px;
-}
-
-.dog-legs ul li{
-  top: -50px;
-  width: 30px;
-  height: 40px;
-}
-
-.dog-legs ul li:nth-child(2){
-  top: -90px;
-  left: 60px;
-}
-
-.dog-legs ul li:before{
-  width: 27px;
-  height: 16px;
-  top: 20px;
-}
-
 .coffee{
     top: 1245px;
     left: 900px;
-}
-
-.coffee-cup{
-    width: 45px;
-    height: 30px;
-}
-
-.coffee-cup:after{
-    width: 13px;
-    height: 13px;
-    left: 28px;
-    top: 5px;
-}
-
-.coffee-bottom{
-    width: 70px;
-    height: 7px;
-}
-
-.coffee-steam, .coffee-steam:before{
-   border: 10px;
-   left: 25px;
-   border-width: 3px;
-   border-style: solid;
-   border-color:transparent transparent transparent 
-   #828083;
-}
-
-.coffee-steam:before{
-    top: -15px;
-    left: -5px;
-    border-color:  transparent  #828083 transparent transparent;
-   
 }
 
 .postits{
@@ -3926,17 +4313,15 @@ padding-top: 20px;
     left: 4000px;
     width: 900px;
     height: 700px;
-    border: 20px solid white;
 } 
 
 .curtain{
     width: 880px;
     height: 120px;
-    
 }
 
 .curtain:before{
-    height: 100px;
+   height: 100px;
    top: 115px;
    left: 445px;
    width: 10px;
@@ -3951,87 +4336,18 @@ padding-top: 20px;
    border: 10px solid #ff9801;
 }
 
-.moon{
-    width: 100px;
-    height: 100px;
-    top: 200px;
-    left: 100px;
-}
-
-.moon:after{
-    width: 90px;
-    height: 90px;
-}
-
-.stars{
-    top: 100px;
-    left: 200px;
-}
-
-.stars ul li{
-    left: 100px;
-}
-
-.stars ul li:nth-child(2){
-    left: 400px;
-}
-
-.stars ul li:nth-child(3){
-    left: 500px;
-}
-
-.stars ul li:nth-child(4){
-    top: 300px;
-    left: 600px;
-}
-
 .land, .land:after{
     width: 420px;
-    height: 230px;
-    border-radius: 50% 50% 0 0;
 }
 
 .land:after{
     width: 550px;
-    height: 200px;
-    left: 300px;
-}
-
-.tree ul li{
-    top:-20px;
-    left: 100px;
-}
-
-.tree ul li:nth-child(2){
-    top:-60px;
-    left: 230px;
-}
-
-.tree ul li:nth-child(3){
-    top:-70px;
-    left: 530px;
-}
-
-.tree ul li:nth-child(4){
-    top:-70px;
-    left: 730px;
 }
 
 .window-devide{
     left: 430px;
     height: 560px;
     width: 30px;
-}
-
-.window-devide:before, .window-devide:after{
-     width: 60px;
-     height: 40px;
-     left: -50px;
-     top: 230px;
-}
-
-.window-devide:after{
-    left: 10px;
 }
 
 .floor{

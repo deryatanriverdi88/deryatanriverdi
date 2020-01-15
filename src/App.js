@@ -124,6 +124,8 @@ class App extends React.Component {
             </div>
             <div className="light"></div>
             <div className="chair"></div>
+           
+            <div className="girl">
             <div className="hair"></div>
             <div className="head">
                 <div className="left-eye-brow"></div>
@@ -163,6 +165,7 @@ class App extends React.Component {
             </div> 
             <div className="neck"></div>
             <div className="t-shirt"></div>
+            </div>
             <div className="computer">
                 <div className="apple-logo"></div>
             </div>
