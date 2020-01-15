@@ -2365,35 +2365,32 @@ iframe{
 /* iPad => 768 x 1024, 
    iPad Mini => 768 x 1024,
    iPad Air 1 & 2 => 768 x 1024 */
-/* @media only screen and (min-width: 760px){
+ @media only screen and (min-width: 760px){
   .awssld, .bio-card, .contact-card{
-    top: 820px;
-    left: 160px;
-    width: 150% !important; 
-    height: 110vh !important;
+    top: 875px;
+    left: 120px;
+    width: 118% !important; 
+    height: 85vh !important;
   }
  
   .bio-img-container img{
-    margin: 240px 100px;
+    margin: 140px 100px;
     width: 100%;
    }
   
    .project-div{
-     padding-top: 10em;
+     padding-top: 5em;
    }
 
   .text-container{
-    padding: 300px 0 20px 60px;
+    padding: 110px 0 20px 60px;
     line-height: 35px;
-  }
-  .contact-div{
-    padding: 450px  100px;
   }
 
   iframe{
-    height: 50vh;
+    height: 35vh;
   }
-} */
+} 
 
 /* @media only screen and (min-width: 800px){
 
