@@ -2218,35 +2218,120 @@ iframe{
   }
 } 
 
-/* @media only screen and (min-width: 730px){
+ @media only screen and (min-width: 730px){
+
+  .floor{
+    width: 150%;
+  }
+
+  .myname{
+    left: 400px;
+  }
+
+  .css-art p{
+    left: 470px;
+  }
+
+  .plant-div{
+    left: 300px;
+  }
+
+  .coffee{
+    left: 380px;
+  }
+  .table{
+    left: 300px;
+  }
+
+  .table-front{
+    left: 310px;
+  }
+
+  .chair{
+    left: 440px;
+  }
+
+  .girl{
+    left: 460px;
+  }
+
+  .computer{
+    left: 460px;
+  }
+
+  .pencil-jar{
+    left: 700px;
+  }
+
+  .dog{
+    left: 800px;
+  }
+
+  .window{
+    left: 760px;
+  }
+
+  .garbage-can{
+   left: 150px;
+  }
+
+  .postits{
+    left:-230px;
+    top:780px;
+  }
+  
+  .post-it-1, .post-it-2, .post-it-3, .post-it-4{
+    width:400px;
+    height: 400px;
+    left: 350px;
+  }
+
+  .post-it-3{
+    top: 550px;
+    left: 350px;
+  }
+
+  .post-it-2{
+    left: 850px;
+  }
+  
+  .post-it-4{
+    left: 850px;
+    top: 550px;
+  }
+  
+  .post-it-1:after, .post-it-2:after, .post-it-3:after , .post-it-4:after{
+    width: 200px;
+    height: 200px;
+    top: -15px;
+    left: -1px;
+  }
+  
+  .postits p{
+    padding-top: 180px;
+  }
+
   .awssld, .bio-card, .contact-card{
-    top: 830px;
-    left: 160px;
-    width: 155% !important; 
-    height: 270vh !important;
+    top: 880px;
+    left: 120px;
+    width: 125% !important; 
+    height: 210vh !important;
   }
  
   .bio-img-container img{
-    margin: 240px 100px;
+    margin: 170px 100px;
     width: 100%;
    }
   
-   .project-div{
-     padding-top: 10em;
-   }
-
   .text-container{
-    padding: 300px 0 20px 60px;
+    padding: 130px 0 20px 60px;
     line-height: 35px;
-  }
-  .contact-div{
-    padding: 450px  100px;
   }
 
   iframe{
-    height: 120vh;
+    height: 80vh;
   }
-} */
+} 
 
 /* @media only screen and (min-width: 740px){
 
