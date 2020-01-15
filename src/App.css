@@ -2090,17 +2090,8 @@ iframe{
    Samsung Galaxy S8 / S8+ => 360 x 740  */
 @media only screen and (min-width: 350px){
 
-  .myname{
-    left: 550px;
-  }
-  
   .floor{
     width: 405%;
-    left: 0;
-  }
-
-  .girl{
-    left: 0px;
   }
 
   .postits{
@@ -2108,112 +2099,11 @@ iframe{
     top:1000px;
   }
 
-  .post-it-1, .post-it-2, .post-it-3, .post-it-4{
-    width:500px;
-    height: 500px;
-    left: 500px;
-  }
-
-  .post-it-2{
-    left: 1100px;
-  }
-  
-  .post-it-3{
-    top: 700px;
-  }
-
-  .post-it-4{
-    left: 1100px;
-    top: 700px;
-  }
-
-  .post-it-1:after, .post-it-2:after, .post-it-3:after , .post-it-4:after{
-    top: -15px;
-    left: -1px;
-  }
-
-  .postits p{
-    padding-top: 200px;
-  }
-
-  .table{
-    left: 450px;
-  }
-
-  .table-front{
-    left: 460px;
-  }
-
-  .chair{
-    left: 600px;
-  }
-
-  .pencil-jar{
-    left: 850px;
-  }
-
-  .dog{
-    left: 950px;
-  }
-
-  .t-shirt{
-    left: 625px;
-  }
-
-  .head{
-    left: 640px;
-  }
-
-  .neck{
-    left: 675px;
-  }
-
-  .hair{
-    left: 620px;
-  }
-
-  .computer{
-    left: 620px;
-  }
-
-  /* .coffee{
-    left: 290px;
-  } */
-
-  .garbage-can{
-    left: 350px;
-  }
-
-  .shelf{
-    left: 300px;
-  }
-
-  .window{
-    left: 1000px;
-  }
-
   .awssld, .bio-card, .contact-card{
     top: 1100px;
     left: 200px;
     width: 306% !important; 
     height: 175vh !important;
-  }
- 
-  .bio-img-container img{
-    margin: 240px 100px;
-    width: 100%;
-   }
-
-   .project-div{
-     padding-top: 10em;
-   }
-
-  .text-container{
-    padding: 300px 0 20px 60px;
-    line-height: 35px;
-  }
-  .contact-div{
-    padding: 450px  100px;
   }
 }
 
