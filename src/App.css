@@ -2194,11 +2194,9 @@ iframe{
   }
 } 
 
-/* @media only screen and (min-width: 700px){
+@media only screen and (min-width: 700px){
   .floor{
-    top: 620px;
     width: 190%;
-    left: 0;
     height: 40vh;
   }
 
@@ -2207,89 +2205,18 @@ iframe{
     top: 730px;
   }
 
-  .post-it-1, .post-it-2, .post-it-3, .post-it-4{
-    width:500px;
-    height: 500px;
-    left: 500px;
-  }
-
-  .post-it-2{
-    left: 1100px;
-  }
-  
-  .post-it-3{
-    top: 700px;
-  }
-
-  .post-it-4{
-    left: 1100px;
-    top: 700px;
-  }
-
   .post-it-1:after, .post-it-2:after, .post-it-3:after , .post-it-4:after{
-    content: "";
-    display: inline-block;
     width: 500px;
     height: 500px;
-    position: absolute;
-    top: -15px;
-    left: -1px;
-    z-index: -1;
-    box-shadow:2px 15px 5px rgba(0, 0, 0, 0.40);
   }
-
-  .postits p{
-    padding-top: 200px;
+ 
+  .awssld, .bio-card, .contact-card{
+    top: 830px;
+    left: 170px;
+    width: 136% !important; 
+    height: 310vh !important;
   }
-
-  .table{
-    left: 450px;
-  }
-
-  .table-front{
-    left: 460px;
-  }
-
-  .chair{
-    left: 600px;
-  }
-
-  .pencil-jar{
-    left: 850px;
-  }
-
-  .dog{
-    left: 950px;
-  }
-
-  .t-shirt{
-    left: 625px;
-  }
-
-  .head{
-    left: 640px;
-  }
-
-  .neck{
-    left: 675px;
-  }
-
-  .hair{
-    left: 620px;
-  }
-
-  .computer{
-    left: 620px;
-  }
-
-  .garbage-can{
-    left: 350px;
-  }
-
-  .shelf{
-    left: 300px;
-  }
-} */
+} 
 
 /* @media only screen and (min-width: 730px){
   .awssld, .bio-card, .contact-card{
