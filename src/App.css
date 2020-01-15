@@ -2129,7 +2129,7 @@ iframe{
    Pixel XL => 411 x 823,
    iPhone 6/7/8 plus => 414 x 736,
    iPhone XR => 414 x 896 */
- @media screen and (min-width: 400px){
+@media screen and (min-width: 400px){
 
   .floor{
     width: 315%;
@@ -2153,7 +2153,7 @@ iframe{
 
 } 
 
- @media only screen and (min-width: 500px){
+@media only screen and (min-width: 500px){
   .floor{
     top: 620px;
     width: 240%;
@@ -2177,93 +2177,9 @@ iframe{
   }
 } 
 
-/* @media only screen and (min-width: 600px){
+@media only screen and (min-width: 600px){
   .floor{
-    top: 620px;
     width: 220%;
-    left: 0;
-    height: 60vh;
-  }
-
-  .postits{
-    left: -330px;
-    top:850px;
-  }
-
-  .post-it-1, .post-it-2, .post-it-3, .post-it-4{
-    width:500px;
-    height: 500px;
-    left: 500px;
-  }
-
-  .post-it-2{
-    left: 1100px;
-  }
-  
-  .post-it-3{
-    top: 700px;
-  }
-
-  .post-it-4{
-    left: 1100px;
-    top: 700px;
-  }
-
-  .post-it-1:after, .post-it-2:after, .post-it-3:after , .post-it-4:after{
-    top: -15px;
-    left: -1px;
-  }
-
-  .postits p{
-    padding-top: 200px;
-  }
-
-  .table{
-    left: 450px;
-  }
-
-  .table-front{
-    left: 460px;
-  }
-
-  .chair{
-    left: 600px;
-  }
-
-  .pencil-jar{
-    left: 850px;
-  }
-
-  .dog{
-    left: 950px;
-  }
-
-  .t-shirt{
-    left: 625px;
-  }
-
-  .head{
-    left: 640px;
-  }
-
-  .neck{
-    left: 675px;
-  }
-
-  .hair{
-    left: 620px;
-  }
-
-  .computer{
-    left: 620px;
-  }
-
-  .garbage-can{
-    left: 350px;
-  }
-
-  .shelf{
-    left: 300px;
   }
 
   .awssld, .bio-card, .contact-card{
@@ -2272,28 +2188,11 @@ iframe{
     width: 175% !important; 
     height: 310vh !important;
   }
- 
-  .bio-img-container img{
-    margin: 240px 100px;
-    width: 100%;
-   }
-
-   .project-div{
-     padding-top: 10em;
-   }
-
-  .text-container{
-    padding: 300px 0 20px 60px;
-    line-height: 35px;
-  }
-  .contact-div{
-    padding: 450px  100px;
-  }
 
   iframe{
-    height: 130vh;
+    height: 140vh;
   }
-} */
+} 
 
 /* @media only screen and (min-width: 700px){
   .floor{
