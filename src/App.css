@@ -1472,7 +1472,7 @@ transform: rotate(95deg);
 
 .window{
   position: absolute;
-  top: 130px;
+  top: 150px;
   left: 1400px;
   width: 300px;
   height: 300px;
@@ -1961,13 +1961,13 @@ iframe{
 @media only screen and (min-width: 300px){
 
   .myname{
-   left: 550px;
+   left: 920px;
   }
 
   .css-art p{
     font-size: 20px;
-    top: 35px;
-    left: 620px;
+    top: 45px;
+    left: 990px;
   }
 
   .floor{
@@ -2029,7 +2029,6 @@ iframe{
   .dog{
     left: 950px;
   }
-
  
   .girl{
     left: 620px;
@@ -2169,10 +2168,23 @@ iframe{
 }
 
 @media only screen and (min-width: 500px){
+
+  .myname{
+    left: 1000px;
+  }
+
+  .css-art p{
+    left: 1070px;
+  }
+
   .floor{
     top: 620px;
     width: 240%;
     height: 60vh;
+  }
+
+  .window{
+    left: 1000px;
   }
 
   .postits{
@@ -2210,6 +2222,15 @@ iframe{
 } 
 
 @media only screen and (min-width: 700px){
+
+  .myname{
+    left: 750px;
+  }
+
+  .css-art p{
+    left: 820px;
+  }
+
   .floor{
     width: 160%;
     height: 40vh;
@@ -2237,14 +2258,6 @@ iframe{
 
   .floor{
     width: 150%;
-  }
-
-  .myname{
-    left: 400px;
-  }
-
-  .css-art p{
-    left: 470px;
   }
 
   .plant-div{
@@ -2411,6 +2424,10 @@ iframe{
 } 
 
 @media only screen and (min-width: 800px){
+  .floor{
+    width: 135%;
+  }
+ 
   .awssld, .bio-card, .contact-card{
     top: 765px;
     left: 0px;
@@ -2556,6 +2573,14 @@ iframe{
 } 
 
 @media  only screen and (min-width: 1280px){
+
+  .myname{
+    left: 900px;
+  }
+
+  .css-art p{
+    left:970px;
+  }
   .awssld, .bio-card, .contact-card{
     top: 855px;
     left: 0px;
@@ -2569,6 +2594,14 @@ iframe{
 }
 
 @media only screen and (min-width: 1300px){
+
+  .myname{
+    left: 900px;
+  }
+
+  .css-art p{
+    left:970px;
+  }
   .awssld, .bio-card, .contact-card{
     top: 850px;
     left: 0px;
@@ -2691,7 +2724,14 @@ iframe{
 
 /* Del XPS 13 => 1920 x 1080*/
  @media only screen and (min-width: 1900px){
-  
+  .myname{
+    left: 1550px;
+  }
+
+  .css-art p{
+    left:1620px;
+  }
+
   .floor{
     height: 45vh;
   }
@@ -3327,6 +3367,14 @@ iframe{
 
 /* Apple Macbook 13-inch => 2560 x 1600 */
  @media only screen and (min-width: 2500px){  
+  
+  .myname{
+    left: 2000px;
+  }
+
+  .css-art p{
+    left:2200px;
+  }
 
   .table{
     top: 950px;
@@ -3493,17 +3541,13 @@ iframe{
 /* Apple iMac 27-inch => 5120 x 2880 */
  @media only screen and (min-width: 5000px){
 
-.myname{
-  font-size: 120px;
-  width: auto;
-}
+  .myname{
+    left: 4380px;
+  }
 
-.css-art p{
-  font-size: 40px;
-  top: 180px;
-  left: 800px;
-  width: auto;
-}
+  .css-art p{
+    left:4580px;
+  }
 
 .month{
 padding-top: 20px;
