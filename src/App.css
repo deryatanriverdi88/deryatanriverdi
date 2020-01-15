@@ -11,7 +11,6 @@ html, body {
   margin: 0;
   padding: 0;
   background:#84cce4;
-  overflow-x: hidden;
 }
 
 
@@ -42,6 +41,18 @@ ul li{
 
 .myname:hover{
   letter-spacing: 18px;
+}
+
+.css-art{
+  position: absolute;
+}
+.css-art p{
+  font-size:23px;
+  font-family: 'Indie Flower', cursive;
+  position: relative;
+  left: 350px;
+  top:85px;
+  color: black;
 }
 
 .clock{
@@ -169,8 +180,8 @@ ul li{
 
 .girl{
   position: absolute;
-  top: 10px;
-  left: 5px;
+  top: 140px;
+  left:330px ;
 }
 
 .hair{
@@ -180,17 +191,18 @@ ul li{
   position: relative;
   background: #f8da67;
   left: 0px;
-  top: 160px;
+  top: 0px;
   border-radius:90px 90px 35px 35px ;
+
 }
 
 .head{
   height: 135px;
   width: 100px;
   background: #dbaf9e;
-  position: absolute;
-  left:350px;
-  top: 200px;
+  position: relative;
+  left:20px;
+  top: -150px;
   border-radius: 0 0 60% 60%;
 }
 
@@ -417,19 +429,19 @@ ul li{
   height: 20px;
   background:  #dbaf9e;
   z-index: 1;
-  position: absolute;
-  left: 385px;
-  top:330px;
-  border-radius: 0 0 15px 15px
+  position: relative;
+  left: 55px;
+  top:-155px;
+  border-radius: 0 0 15px 15px;
 }
 
 .t-shirt{
   background: #DF3B57;
   width: 135px;
   height: 150px;
-  position: absolute;
-  left: 334px;
-  top: 340px;
+  position: relative;
+  left: 5px;
+  top: -170px;
   z-index: -1;
   border-radius: 40px 40px 0 0;
 }
@@ -440,9 +452,9 @@ ul li{
   background:rgba(109,102,103, 0.4);
   width: 3px;
   height: 100px;
-  position: relative;
+  position: absolute;
   top: 50px;
-  left: -30px;
+  left: 100px;
 }
 
 .t-shirt:after{
@@ -1458,15 +1470,6 @@ transform: rotate(95deg);
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
-.css-art p{
-  font-size:13px;
-  font-family: 'Indie Flower', cursive;
-  position: relative;
-  left: 1210px;
-  top: 525px;
-  color: black;
-}
-
 .window{
   position: absolute;
   top: 130px;
@@ -1961,14 +1964,22 @@ iframe{
    left: 550px;
   }
 
+  .css-art p{
+    font-size: 20px;
+    top: 35px;
+    left: 620px;
+  }
+
   .floor{
-    width: 405%;
+    height: 35vh;
+    width: 395%;
     left: 0;
   }
 
   .postits{
     left: -380px;
-    top:900px;
+    top:850px;
+
   }
 
   .post-it-1, .post-it-2, .post-it-3, .post-it-4{
@@ -1999,11 +2010,6 @@ iframe{
     padding-top: 200px;
   }
 
-  .css-art p{
-    top: -150px;
-    left: 1450px;
-  }
-
   .table{
     left: 450px;
   }
@@ -2024,19 +2030,8 @@ iframe{
     left: 950px;
   }
 
-  .t-shirt{
-    left: 625px;
-  }
-
-  .head{
-    left: 640px;
-  }
-
-  .neck{
-    left: 675px;
-  }
-
-  .hair{
+ 
+  .girl{
     left: 620px;
   }
 
@@ -2044,9 +2039,13 @@ iframe{
     left: 620px;
   }
 
-  /* .coffee{
-    left: 290px;
-  } */
+  .coffee{
+    left: 530px;
+  }
+
+  .plant-div{
+    left: 450px;
+  }
 
   .garbage-can{
     left: 350px;
@@ -2057,11 +2056,11 @@ iframe{
   }
 
   .window{
-    left: 950px;
+    left: 930px;
   }
 
   .awssld, .bio-card, .contact-card{
-    top: 1000px;
+    top: 950px;
     left: 120px;
     width: 345% !important; 
     height: 195vh !important;
@@ -2091,13 +2090,8 @@ iframe{
    Samsung Galaxy S8 / S8+ => 360 x 740  */
 @media only screen and (min-width: 350px){
 
-  .myname{
-    left: 550px;
-  }
-  
   .floor{
     width: 405%;
-    left: 0;
   }
 
   .postits{
@@ -2105,117 +2099,11 @@ iframe{
     top:1000px;
   }
 
-  .post-it-1, .post-it-2, .post-it-3, .post-it-4{
-    width:500px;
-    height: 500px;
-    left: 500px;
-  }
-
-  .post-it-2{
-    left: 1100px;
-  }
-  
-  .post-it-3{
-    top: 700px;
-  }
-
-  .post-it-4{
-    left: 1100px;
-    top: 700px;
-  }
-
-  .post-it-1:after, .post-it-2:after, .post-it-3:after , .post-it-4:after{
-    top: -15px;
-    left: -1px;
-  }
-
-  .postits p{
-    padding-top: 200px;
-  }
-
-  .css-art p{
-    top: -150px;
-    left: 1450px;
-  }
-
-  .table{
-    left: 450px;
-  }
-
-  .table-front{
-    left: 460px;
-  }
-
-  .chair{
-    left: 600px;
-  }
-
-  .pencil-jar{
-    left: 850px;
-  }
-
-  .dog{
-    left: 950px;
-  }
-
-  .t-shirt{
-    left: 625px;
-  }
-
-  .head{
-    left: 640px;
-  }
-
-  .neck{
-    left: 675px;
-  }
-
-  .hair{
-    left: 620px;
-  }
-
-  .computer{
-    left: 620px;
-  }
-
-  /* .coffee{
-    left: 290px;
-  } */
-
-  .garbage-can{
-    left: 350px;
-  }
-
-  .shelf{
-    left: 300px;
-  }
-
-  .window{
-    left: 1000px;
-  }
-
   .awssld, .bio-card, .contact-card{
     top: 1100px;
     left: 200px;
     width: 306% !important; 
     height: 175vh !important;
-  }
- 
-  .bio-img-container img{
-    margin: 240px 100px;
-    width: 100%;
-   }
-
-   .project-div{
-     padding-top: 10em;
-   }
-
-  .text-container{
-    padding: 300px 0 20px 60px;
-    line-height: 35px;
-  }
-  .contact-div{
-    padding: 450px  100px;
   }
 }
 
@@ -2225,37 +2113,15 @@ iframe{
    Galaxy s7 => 360 x 640 */
 @media only screen and (min-width: 375px){
 
-  .myname{
-    left: 550px;
-  }
-  
   .awssld, .bio-card, .contact-card{
     top: 1100px;
     left: 200px;
     width: 295% !important; 
     height: 165vh !important;
   }
- 
-  .bio-img-container img{
-    margin: 240px 100px;
-    width: 100%;
-   }
-  
-   .project-div{
-     padding-top: 10em;
-   }
-
-  .text-container{
-    padding: 300px 0 20px 60px;
-    line-height: 35px;
-  }
-
-  .contact-div{
-    padding: 450px  100px;
-  }
 
   iframe{
-    height: 50vh;
+    height: 60vh;
   }
 }
 
@@ -2265,102 +2131,13 @@ iframe{
    iPhone XR => 414 x 896 */
 @media screen and (min-width: 400px){
 
-  .myname{
-    left: 550px;
-  }
-  
   .floor{
-    width: 325%;
+    width: 315%;
   }
 
   .postits{
     left: -370px;
     top: 950px;
-  }
-  
-  .post-it-1, .post-it-2, .post-it-3, .post-it-4{
-    width:500px;
-    height: 500px;
-    left: 500px;
-  }
-
-  .post-it-2{
-    left: 1100px;
-  }
-  
-  .post-it-3{
-    top: 700px;
-  }
-
-  .post-it-4{
-    left: 1100px;
-    top: 700px;
-  }
-
-  .post-it-1:after, .post-it-2:after, .post-it-3:after , .post-it-4:after{
-    top: -15px;
-    left: -1px;
-  }
-
-  .postits p{
-    padding-top: 200px;
-  }
-
-  .css-art p{
-    top: -140px;
-    left: 1450px;
-  }
-
-  .table{
-    left: 450px;
-  }
-
-  .table-front{
-    left: 460px;
-  }
-
-  .chair{
-    left: 600px;
-  }
-
-  .pencil-jar{
-    left: 850px;
-  }
-
-  .dog{
-    left: 950px;
-  }
-
-  .t-shirt{
-    left: 625px;
-  }
-
-  .head{
-    left: 640px;
-  }
-
-  .neck{
-    left: 675px;
-  }
-
-  .hair{
-    left: 620px;
-  }
-
-  .computer{
-    left: 620px;
-  }
-
-  /* .coffee{
-    left: 290px;
-  } */
-
-  .garbage-can{
-    left: 350px;
-  }
-
-  .shelf{
-    left: 300px;
   }
 
   .awssld, .bio-card, .contact-card{
@@ -2369,126 +2146,23 @@ iframe{
     width: 275% !important; 
     height: 160vh !important;
   }
- 
-  .bio-img-container img{
-    margin: 240px 100px;
-    width: 100%;
-   }
-
-   .project-div{
-     padding-top: 10em;
-   }
-
-  .text-container{
-    padding: 300px 0 20px 60px;
-    line-height: 35px;
-  }
-  .contact-div{
-    padding: 450px  100px;
-  }
 
   iframe{
-    height: 60vh;
+    height: 70vh;
   }
 
-}
+} 
 
 @media only screen and (min-width: 500px){
   .floor{
     top: 620px;
     width: 240%;
-    left: 0;
     height: 60vh;
   }
 
   .postits{
     left: -330px;
     top:850px;
-  }
-
-  .post-it-1, .post-it-2, .post-it-3, .post-it-4{
-    width:500px;
-    height: 500px;
-    left: 500px;
-  }
-
-  .post-it-2{
-    left: 1100px;
-  }
-  
-  .post-it-3{
-    top: 700px;
-  }
-
-  .post-it-4{
-    left: 1100px;
-    top: 700px;
-  }
-
-  .post-it-1:after, .post-it-2:after, .post-it-3:after , .post-it-4:after{
-    top: -15px;
-    left: -1px;
-  }
-
-  .postits p{
-    padding-top: 200px;
-  }
-
-  .css-art p{
-    top: -140px;
-    left: 1450px;
-  }
-
-  .table{
-    left: 450px;
-  }
-
-  .table-front{
-    left: 460px;
-  }
-
-  .chair{
-    left: 600px;
-  }
-
-  .pencil-jar{
-    left: 850px;
-  }
-
-  .dog{
-    left: 950px;
-  }
-
-  .t-shirt{
-    left: 625px;
-  }
-
-  .head{
-    left: 640px;
-  }
-
-  .neck{
-    left: 675px;
-  }
-
-  .hair{
-    left: 620px;
-  }
-
-  .computer{
-    left: 620px;
-  }
-
-  /* .coffee{
-    left: 290px;
-  } */
-
-  .garbage-can{
-    left: 350px;
-  }
-
-  .shelf{
-    left: 300px;
   }
 
   .awssld, .bio-card, .contact-card{
@@ -2497,122 +2171,15 @@ iframe{
     width: 195% !important; 
     height: 350vh !important;
   }
- 
-  .bio-img-container img{
-    margin: 240px 100px;
-    width: 100%;
-   }
 
-  .text-container{
-    padding: 300px 0 20px 60px;
-    line-height: 35px;
-  }
-  .contact-div{
-    padding: 450px  100px;
-  }
-
- 
   iframe{
     height: 150vh;
   }
-}
+} 
 
 @media only screen and (min-width: 600px){
   .floor{
-    top: 620px;
     width: 220%;
-    left: 0;
-    height: 60vh;
-  }
-
-  .postits{
-    left: -330px;
-    top:850px;
-  }
-
-  .post-it-1, .post-it-2, .post-it-3, .post-it-4{
-    width:500px;
-    height: 500px;
-    left: 500px;
-  }
-
-  .post-it-2{
-    left: 1100px;
-  }
-  
-  .post-it-3{
-    top: 700px;
-  }
-
-  .post-it-4{
-    left: 1100px;
-    top: 700px;
-  }
-
-  .post-it-1:after, .post-it-2:after, .post-it-3:after , .post-it-4:after{
-    top: -15px;
-    left: -1px;
-  }
-
-  .postits p{
-    padding-top: 200px;
-  }
-
-  .css-art p{
-    top: -140px;
-    left: 1450px;
-  }
-
-  .table{
-    left: 450px;
-  }
-
-  .table-front{
-    left: 460px;
-  }
-
-  .chair{
-    left: 600px;
-  }
-
-  .pencil-jar{
-    left: 850px;
-  }
-
-  .dog{
-    left: 950px;
-  }
-
-  .t-shirt{
-    left: 625px;
-  }
-
-  .head{
-    left: 640px;
-  }
-
-  .neck{
-    left: 675px;
-  }
-
-  .hair{
-    left: 620px;
-  }
-
-  .computer{
-    left: 620px;
-  }
-
-  /* .coffee{
-    left: 290px;
-  } */
-
-  .garbage-can{
-    left: 350px;
-  }
-
-  .shelf{
-    left: 300px;
   }
 
   .awssld, .bio-card, .contact-card{
@@ -2621,166 +2188,152 @@ iframe{
     width: 175% !important; 
     height: 310vh !important;
   }
- 
-  .bio-img-container img{
-    margin: 240px 100px;
-    width: 100%;
-   }
-
-   .project-div{
-     padding-top: 10em;
-   }
-
-  .text-container{
-    padding: 300px 0 20px 60px;
-    line-height: 35px;
-  }
-  .contact-div{
-    padding: 450px  100px;
-  }
 
   iframe{
-    height: 130vh;
+    height: 140vh;
   }
-}
+} 
 
 @media only screen and (min-width: 700px){
   .floor{
-    top: 620px;
-    width: 190%;
-    left: 0;
+    width: 160%;
     height: 40vh;
   }
 
   .postits{
-    left: -330px;
+    left: -400px;
     top: 730px;
   }
 
-  .post-it-1, .post-it-2, .post-it-3, .post-it-4{
-    width:500px;
-    height: 500px;
-    left: 500px;
-  }
-
-  .post-it-2{
-    left: 1100px;
-  }
-  
-  .post-it-3{
-    top: 700px;
-  }
-
-  .post-it-4{
-    left: 1100px;
-    top: 700px;
-  }
-
   .post-it-1:after, .post-it-2:after, .post-it-3:after , .post-it-4:after{
-    content: "";
-    display: inline-block;
     width: 500px;
     height: 500px;
-    position: absolute;
-    top: -15px;
-    left: -1px;
-    z-index: -1;
-    box-shadow:2px 15px 5px rgba(0, 0, 0, 0.40);
+  }
+ 
+  .awssld, .bio-card, .contact-card{
+    top: 830px;
+    left: 100px;
+    width: 136% !important; 
+    height: 310vh !important;
+  }
+} 
+
+ @media only screen and (min-width: 730px){
+
+  .floor{
+    width: 150%;
   }
 
-  .postits p{
-    padding-top: 200px;
+  .myname{
+    left: 400px;
   }
 
   .css-art p{
-    top: -140px;
-    left: 1450px;
+    left: 470px;
   }
 
+  .plant-div{
+    left: 300px;
+  }
+
+  .coffee{
+    left: 380px;
+  }
   .table{
-    left: 450px;
+    left: 300px;
   }
 
   .table-front{
-    left: 460px;
+    left: 310px;
   }
 
   .chair{
-    left: 600px;
+    left: 440px;
   }
 
-  .pencil-jar{
-    left: 850px;
-  }
-
-  .dog{
-    left: 950px;
-  }
-
-  .t-shirt{
-    left: 625px;
-  }
-
-  .head{
-    left: 640px;
-  }
-
-  .neck{
-    left: 675px;
-  }
-
-  .hair{
-    left: 620px;
+  .girl{
+    left: 460px;
   }
 
   .computer{
-    left: 620px;
+    left: 460px;
   }
 
-  /* .coffee{
-    left: 290px;
-  } */
+  .pencil-jar{
+    left: 700px;
+  }
+
+  .dog{
+    left: 800px;
+  }
+
+  .window{
+    left: 760px;
+  }
 
   .garbage-can{
+   left: 150px;
+  }
+
+  .postits{
+    left:-230px;
+    top:780px;
+  }
+  
+  .post-it-1, .post-it-2, .post-it-3, .post-it-4{
+    width:400px;
+    height: 400px;
     left: 350px;
   }
 
-  .shelf{
-    left: 300px;
+  .post-it-3{
+    top: 550px;
+    left: 350px;
   }
-}
 
-@media only screen and (min-width: 730px){
+  .post-it-2{
+    left: 850px;
+  }
+  
+  .post-it-4{
+    left: 850px;
+    top: 550px;
+  }
+  
+  .post-it-1:after, .post-it-2:after, .post-it-3:after , .post-it-4:after{
+    width: 200px;
+    height: 200px;
+    top: -15px;
+    left: -1px;
+  }
+  
+  .postits p{
+    padding-top: 180px;
+  }
+
   .awssld, .bio-card, .contact-card{
-    top: 830px;
-    left: 160px;
-    width: 155% !important; 
-    height: 270vh !important;
+    top: 880px;
+    left: 120px;
+    width: 125% !important; 
+    height: 210vh !important;
   }
  
   .bio-img-container img{
-    margin: 240px 100px;
+    margin: 170px 100px;
     width: 100%;
    }
   
-   .project-div{
-     padding-top: 10em;
-   }
-
   .text-container{
-    padding: 300px 0 20px 60px;
+    padding: 130px 0 20px 60px;
     line-height: 35px;
-  }
-  .contact-div{
-    padding: 450px  100px;
   }
 
   iframe{
-    height: 120vh;
+    height: 80vh;
   }
-}
+} 
 
-@media only screen and (min-width: 740px){
+/* @media only screen and (min-width: 740px){
 
   .myname{
     left: 550px;
@@ -2817,12 +2370,12 @@ iframe{
   iframe{
     height: 140vh;
   }
-}
+} */
 
 /* iPad => 768 x 1024, 
    iPad Mini => 768 x 1024,
    iPad Air 1 & 2 => 768 x 1024 */
-@media only screen and (min-width: 760px){
+/* @media only screen and (min-width: 760px){
   .awssld, .bio-card, .contact-card{
     top: 820px;
     left: 160px;
@@ -2850,9 +2403,9 @@ iframe{
   iframe{
     height: 50vh;
   }
-}
+} */
 
-@media only screen and (min-width: 800px){
+/* @media only screen and (min-width: 800px){
 
   .myname{
     left: 600px;
@@ -2894,10 +2447,10 @@ iframe{
   iframe{
     height: 120vh;
   }
-}
+} */
 
 /* iPad Pro => 1024 x 1366 */
-@media only screen and (min-width: 1000px){
+/* @media only screen and (min-width: 1000px){
 
   .myname{
     left: 300px;
@@ -2944,11 +2497,6 @@ iframe{
   padding-top: 90px;
 }
 
-.css-art p{
-  top: 460px;
-  left: 1000px;
-}
-
 .table{
   left: 140px;
 }
@@ -2988,10 +2536,6 @@ iframe{
 .computer{
   left: 330px;
 }
-
-/* .coffee{
-  left: 0px;
-} */
 
 .garbage-can{
   left: 40px;
@@ -3034,10 +2578,10 @@ iframe{
 }
 
 
-}
+} */
 
 /* Samsung Galaxy Tab 10 => 1280 x 800 */
-@media only screen and (min-width: 1200px){
+/* @media only screen and (min-width: 1200px){
   .myname{
     left: 250px;
   }
@@ -3083,11 +2627,6 @@ iframe{
     padding-top: 90px;
   }
   
-  .css-art p{
-    top: 460px;
-    left: 1000px;
-  }
-  
   .table{
     left: 140px;
   }
@@ -3128,9 +2667,6 @@ iframe{
     left: 330px;
   }
   
-  /* .coffee{
-    left: 0px;
-  } */
   
   .garbage-can{
     left: 40px;
@@ -3180,9 +2716,9 @@ iframe{
   iframe{
     height: 50vh;
   }
-}
+} */
 
-@media only screen and (min-height: 1100px){
+/* @media only screen and (min-height: 1100px){
 
   .floor{
     top: 620px;
@@ -3222,11 +2758,6 @@ iframe{
 
   .postits p{
     padding-top: 200px;
-  }
-
-  .css-art p{
-    top: -140px;
-    left: 1450px;
   }
 
   .table{
@@ -3269,9 +2800,6 @@ iframe{
     left: 720px;
   }
 
-  /* .coffee{
-    left: 390px;
-  } */
 
   .garbage-can{
     left: 450px;
@@ -3308,9 +2836,9 @@ iframe{
   iframe{
     height: 40vh;
   }
-}
+} */
 
-@media only screen and (min-height: 1300px){
+/* @media only screen and (min-height: 1300px){
   .myname{
     left: 750px;
   }
@@ -3355,11 +2883,6 @@ iframe{
     padding-top: 200px;
   }
 
-  .css-art p{
-    top: -140px;
-    left: 1450px;
-  }
-
   .table{
     left: 650px;
   }
@@ -3399,10 +2922,6 @@ iframe{
   .computer{
     left: 820px;
   }
-
-  /* .coffee{
-    left: 490px;
-  } */
 
   .garbage-can{
     left: 550px;
@@ -3448,10 +2967,10 @@ iframe{
     height: 35vh;
   }
   
-}
+} */
 
 /* Apple Macbook Air 13-inch => 1440 x 900 */
-@media only screen and (min-width: 1400px){
+/* @media only screen and (min-width: 1400px){
 
   .awssld, .bio-card, .contact-card{
     top: 100px;
@@ -3479,14 +2998,13 @@ iframe{
   }
 
   
-
   iframe{
     height: 40vh;
   }
-}
+} */
 
 /* Del XPS 13 => 1920 x 1080*/
-@media only screen and (min-width: 1900px){
+/* @media only screen and (min-width: 1900px){
   
   .floor{
     height: 50vh;
@@ -3527,11 +3045,10 @@ iframe{
   iframe{
     height: 35vh;
   }
-}
+} */
 
 /* Apple Macbook Pro 15-inch => 2880 x 1800  */
-
-@media only screen and (min-width: 2200px){
+/* @media only screen and (min-width: 2200px){
 
   .myname{
     font-size: 80px;
@@ -4058,9 +3575,9 @@ iframe{
       width: 100%;
       height:40%;
    }
-}
+} */
 /* Apple Macbook 13-inch => 2560 x 1600 */
-@media only screen and (min-width: 2500px){  
+/* @media only screen and (min-width: 2500px){  
   .table{
     top: 950px;
   }
@@ -4177,10 +3694,10 @@ iframe{
       width: 100%;
       height:35%;
    }
-}
+} */
 
 /* Apple iMac 27-inch => 5120 x 2880 */
-@media only screen and (min-width: 5000px){
+/* @media only screen and (min-width: 5000px){
 
 .myname{
   font-size: 120px;
@@ -4355,4 +3872,4 @@ padding-top: 20px;
     width: 100%;
     height:50%;
 }
-}
+} */
