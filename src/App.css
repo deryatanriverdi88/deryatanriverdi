@@ -2113,37 +2113,15 @@ iframe{
    Galaxy s7 => 360 x 640 */
 @media only screen and (min-width: 375px){
 
-  .myname{
-    left: 550px;
-  }
-  
   .awssld, .bio-card, .contact-card{
     top: 1100px;
     left: 200px;
     width: 295% !important; 
     height: 165vh !important;
   }
- 
-  .bio-img-container img{
-    margin: 240px 100px;
-    width: 100%;
-   }
-  
-   .project-div{
-     padding-top: 10em;
-   }
-
-  .text-container{
-    padding: 300px 0 20px 60px;
-    line-height: 35px;
-  }
-
-  .contact-div{
-    padding: 450px  100px;
-  }
 
   iframe{
-    height: 50vh;
+    height: 60vh;
   }
 }
 
