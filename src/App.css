@@ -2796,14 +2796,43 @@ iframe{
 } 
 
 /* Del XPS 13 => 1920 x 1080*/
-/* @media only screen and (min-width: 1900px){
+ @media only screen and (min-width: 1900px){
   
   .floor{
-    height: 50vh;
+    height: 45vh;
   }
+
+  .postits{
+    top: -20px;
+    left: 600px;
+  }
+
+  .post-it-1, .post-it-2, .post-it-3, .post-it-4{
+    width: 250px;
+    height:250px;
+  }
+
+  .post-it-2, .post-it-4{
+    left: 650px;
+  }
+
+  .post-it-3, .post-it-4{
+    top: 370px;
+  }
+
+
+  .post-it-1:after, .post-it-2:after, .post-it-3:after, .post-it-4:after{
+    width: 250px;
+    height: 250px;
+  }
+
+  .postits p{
+    padding-top: 100px;
+  }
+
   .window{
-    display: inline-block;
-    left: 1400px;
+    top: 200px;
+    left: 1550px;
   }
   .awssld, .bio-card, .contact-card{
     top: 110px;
@@ -2837,7 +2866,7 @@ iframe{
   iframe{
     height: 35vh;
   }
-} */
+} 
 
 /* Apple Macbook Pro 15-inch => 2880 x 1800  */
 /* @media only screen and (min-width: 2200px){
