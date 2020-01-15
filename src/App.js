@@ -96,6 +96,9 @@ class App extends React.Component {
       <div className="app">
          <div className="border">
             <div className="myname">Derya Tanriverdi</div>
+            <div className="css-art"> 
+                 <p>Made by CSS with <span> ❤️ </span> </p>
+            </div>
             <div className="clock">
                 <Clock className="react-clock" value={this.state.date}/>
             </div>
@@ -119,6 +122,7 @@ class App extends React.Component {
                   </ul>
                </div>
             </div>
+            <div className="light"></div>
             <div className="chair"></div>
             <div className="hair"></div>
             <div className="head">
@@ -168,8 +172,8 @@ class App extends React.Component {
                  <div className='eraser-2'></div>
                  <div className="pencil-2"></div>
             </div>
-            <div className="table">
-                <div className="plant">
+            <div className="plant-div">
+            <div className="plant">
                    <ul>
                      <li></li>
                      <li></li>
@@ -179,8 +183,10 @@ class App extends React.Component {
                 <div className="vase-top"></div>
                 <div className="vase"></div>
             </div>
+            <div className="table">
+               
+            </div>
             <div className="table-front"></div>
-            <div className="table-side"></div>
             <div className="garbage-can"></div>
             <div className="dog">
                   <p>Pet me ❣️ </p>
@@ -280,10 +286,9 @@ class App extends React.Component {
                         <span> @  </span>
                     </div>
              </div>
-             <div className="css-art"> 
-                 <p>Made by CSS with ❤️ </p>
-             </div>
+             
           </div>
+        
             {this.state.date.getHours() >= 5 && this.state.date.getHours()  <=17 ? 
               <div className="window">
               <div className="curtain"></div>
@@ -305,7 +310,7 @@ class App extends React.Component {
               </div>
               <div className="window-devide"></div>
             </div> : 
-             <div className="window" id="night">
+              <div className="window" id="night">
              <div className="moon"></div>
              <div className="stars">
                <ul>

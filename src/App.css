@@ -565,24 +565,51 @@ ul li{
   top: 81px;
 }
 
-.table{
-  width: 470px;
-  height: 40px;
-  background-color: #d4bf82;
-  background-image: url("https://www.transparenttextures.com/patterns/wood-pattern.png");
+.plant-div{
   position: absolute;
-  left: 140px;
-  top: 470px;
-  z-index: 1;
-  -webkit-box-shadow: 0px 13px 10px -3px rgba(0,0,0,0.6);
-  -moz-box-shadow: 0px 13px 10px -3px rgba(0,0,0,0.6);
-  box-shadow: 0px 13px 10px -3px rgba(0,0,0,0.6);
+  left: 150px;
+  top:385px;
 }
+
+.plant{
+  position: relative;
+  top: 90px;
+}
+
+.plant ul li{
+  position: relative;
+  top: -53px;
+  left: 28px;
+  width: 20px;
+  height:25px;
+  border-left: 1px solid #195532;
+  background: #2c8651;
+  transform: rotate(15deg);
+  border-radius: 10% 90px ;
+  }
+  
+.plant ul li:nth-child(2){
+   left: 38px;
+   top: -83px;
+   transform: rotate(35deg);
+   -webkit-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
+   -moz-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
+   box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
+  }
+  
+.plant ul li:nth-child(3){
+  top: -103px;
+  left: 48px;
+  transform: rotate(55deg);
+  -webkit-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
+  -moz-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
+  box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
+  }
 
 .vase{
   width: 35px;
   height: 40px;
-  position: absolute;
+  position: relative;
   background: #ddb8a6;
   bottom: 26px;
   left: 30px;
@@ -591,9 +618,9 @@ ul li{
 
 .vase-top{
   width: 43px;
-  position: absolute;
-  top: -26px;
-  left: 26px;
+  position: relative; 
+  top: -15px;
+  left: 26px; 
   border-width: 5px;
   border-style: solid;
   border-color: #c4a393 transparent transparent transparent;
@@ -611,34 +638,18 @@ ul li{
   background: #ddb8a6;
 }
 
-.plant ul li{
-position: relative;
-top: -53px;
-left: 28px;
-width: 20px;
-height:25px;
-border-left: 1px solid #195532;
-background: #2c8651;
-transform: rotate(15deg);
-border-radius: 10% 90px ;
-}
-
-.plant ul li:nth-child(2){
- left: 38px;
- top: -83px;
- transform: rotate(35deg);
- -webkit-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
- -moz-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
- box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
-}
-
-.plant ul li:nth-child(3){
-top: -103px;
-left: 48px;
-transform: rotate(55deg);
--webkit-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
--moz-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
+.table{
+  width: 470px;
+  height: 40px;
+  background-color: #d4bf82;
+  background-image: url("https://www.transparenttextures.com/patterns/wood-pattern.png");
+  position: absolute;
+  left: 140px;
+  top: 470px;
+  z-index: 1;
+  -webkit-box-shadow: 0px 13px 10px -3px rgba(0,0,0,0.6);
+  -moz-box-shadow: 0px 13px 10px -3px rgba(0,0,0,0.6);
+  box-shadow: 0px 13px 10px -3px rgba(0,0,0,0.6);
 }
 
 .table-front{
@@ -948,17 +959,15 @@ z-index: 1;
 
 .coffee{
   position: absolute;
-  left: 0px;
-  top: 0px;
+ left: 250px;
+  top:422px;
 }
 
 .coffee-bottom{
  background: #ebd8d0;
  width: 50px;
  height: 3px;
- position: absolute;
- top: 467px;
- left: 250px;
+ position: relative;
  border-radius: 50%;
 }
 
@@ -966,10 +975,9 @@ z-index: 1;
   background: #ebd8d0;
   height: 25px;
   width: 30px;
-  position: absolute;
+  position: relative;
   z-index: 1;
-  top: 445px;
-  left: 260px;
+  left: 10px;
   border-radius:5px 5px  10px 10px;
 }
 
@@ -985,7 +993,8 @@ z-index: 1;
   top: 2px;
 }
 
-.coffee-steam, .coffee-steam:after{
+
+.coffee-steam, .coffee-steam:before{
   text-decoration-line: overline underline;
   text-decoration-style: wavy;
   width:15px;
@@ -993,19 +1002,19 @@ z-index: 1;
   border-radius: 50%;
   border-width: 1px;
   border-style: solid;
-  position: absolute;
-  top:430px;
-  left: 273px;
+  position: relative;
+  top:0;
+  left: 18px;
   border-color:transparent transparent transparent 
   #828083;
 }
 
-.coffee-steam:after{
+.coffee-steam:before{
   content:"";
   display: inline-block;
-  position: relative;
-  top: -8px;
-  left: -11px;
+  position: absolute;
+  top: -6px;
+  left: -5px; 
   border-color:transparent 
   #828083 transparent transparent;
 }
@@ -1549,6 +1558,7 @@ transform: rotate(95deg);
 .land{
   z-index: -1;
 }
+
 .land, .land:after{
   width: 180px;
   height: 130px;
@@ -1937,6 +1947,8 @@ iframe{
   }
 }
 
+/* iPhone 5/SE => 320 x 568 
+   iPad Touch => 320 x 568*/
 @media only screen and (min-width: 300px){
 
   .myname{
@@ -2026,9 +2038,9 @@ iframe{
     left: 620px;
   }
 
-  .coffee{
+  /* .coffee{
     left: 290px;
-  }
+  } */
 
   .garbage-can{
     left: 350px;
@@ -2068,6 +2080,9 @@ iframe{
 
 }
 
+/* Galaxy S5 => 360 x 640, 
+   Samsung Galaxy S9 / S9+ => 360 x 740,
+   Samsung Galaxy S8 / S8+ => 360 x 740  */
 @media only screen and (min-width: 350px){
 
   .myname{
@@ -2157,9 +2172,9 @@ iframe{
     left: 620px;
   }
 
-  .coffee{
+  /* .coffee{
     left: 290px;
-  }
+  } */
 
   .garbage-can{
     left: 350px;
@@ -2198,6 +2213,10 @@ iframe{
   }
 }
 
+/* iPhone 6/7/8 => 375 x 667,
+   iPhone X => 375 x 712, 
+   iPhone XS => 375 x 812,
+   Galaxy s7 => 360 x 640 */
 @media only screen and (min-width: 375px){
 
   .myname{
@@ -2234,6 +2253,10 @@ iframe{
   }
 }
 
+/* Pixel 2 => 411 x 731,
+   Pixel XL => 411 x 823,
+   iPhone 6/7/8 plus => 414 x 736,
+   iPhone XR => 414 x 896 */
 @media screen and (min-width: 400px){
 
   .myname{
@@ -2322,9 +2345,9 @@ iframe{
     left: 620px;
   }
 
-  .coffee{
+  /* .coffee{
     left: 290px;
-  }
+  } */
 
   .garbage-can{
     left: 350px;
@@ -2450,9 +2473,9 @@ iframe{
     left: 620px;
   }
 
-  .coffee{
+  /* .coffee{
     left: 290px;
-  }
+  } */
 
   .garbage-can{
     left: 350px;
@@ -2574,9 +2597,9 @@ iframe{
     left: 620px;
   }
 
-  .coffee{
+  /* .coffee{
     left: 290px;
-  }
+  } */
 
   .garbage-can{
     left: 350px;
@@ -2708,9 +2731,9 @@ iframe{
     left: 620px;
   }
 
-  .coffee{
+  /* .coffee{
     left: 290px;
-  }
+  } */
 
   .garbage-can{
     left: 350px;
@@ -2790,6 +2813,9 @@ iframe{
   }
 }
 
+/* iPad => 768 x 1024, 
+   iPad Mini => 768 x 1024,
+   iPad Air 1 & 2 => 768 x 1024 */
 @media only screen and (min-width: 760px){
   .awssld, .bio-card, .contact-card{
     top: 820px;
@@ -2864,6 +2890,7 @@ iframe{
   }
 }
 
+/* iPad Pro => 1024 x 1366 */
 @media only screen and (min-width: 1000px){
 
   .myname{
@@ -2956,9 +2983,9 @@ iframe{
   left: 330px;
 }
 
-.coffee{
+/* .coffee{
   left: 0px;
-}
+} */
 
 .garbage-can{
   left: 40px;
@@ -3003,6 +3030,7 @@ iframe{
 
 }
 
+/* Samsung Galaxy Tab 10 => 1280 x 800 */
 @media only screen and (min-width: 1200px){
   .myname{
     left: 250px;
@@ -3094,9 +3122,9 @@ iframe{
     left: 330px;
   }
   
-  .coffee{
+  /* .coffee{
     left: 0px;
-  }
+  } */
   
   .garbage-can{
     left: 40px;
@@ -3111,7 +3139,7 @@ iframe{
   }
 
   .awssld, .bio-card, .contact-card{
-    top: 110px;
+    top: 90px;
     left: 230px;
     width: 80% !important; 
     height: 90vh !important;
@@ -3235,9 +3263,9 @@ iframe{
     left: 720px;
   }
 
-  .coffee{
+  /* .coffee{
     left: 390px;
-  }
+  } */
 
   .garbage-can{
     left: 450px;
@@ -3366,9 +3394,9 @@ iframe{
     left: 820px;
   }
 
-  .coffee{
+  /* .coffee{
     left: 490px;
-  }
+  } */
 
   .garbage-can{
     left: 550px;
@@ -3450,8 +3478,12 @@ iframe{
   }
 }
 
+/* Del XPS 13 => 1920 x 1080*/
 @media only screen and (min-width: 1900px){
-
+  
+  .floor{
+    height: 50vh;
+  }
   .window{
     display: inline-block;
     left: 1400px;
@@ -3488,4 +3520,523 @@ iframe{
   iframe{
     height: 35vh;
   }
+}
+
+@media only screen and (min-width: 5000px){
+
+.myname{
+  font-size: 100px;
+  width: auto;
+}
+
+.css-art{
+  width: auto;
+}
+
+.css-art p{
+  font-size: 40px;
+  position: absolute;
+  top: 180px;
+  left: 1050px;
+  width: auto;
+}
+
+.clock{
+  width: 300px;
+  height: 300px;
+}
+
+.react-clock{
+  width: 270px !important;
+  height: 270px !important;
+}
+
+.calendar{
+  top: 500px;
+}
+
+.month{
+padding-top: 20px;
+ width:250px;
+ height: 80px;
+ font-size: 30px;
+}
+
+.day{
+  padding-top: 30px;
+  width: 250px;
+  height: 150px;
+  font-size: 50px;
+}
+
+.shelf{
+  width: 260px;
+  height: 40px;
+  top: 900px;
+  left: 1500px;
+}
+
+.book-holder ul li{
+  width: 40px;
+  height: 70px;
+  top: -68px;
+  border-top: 0 solid transparent;
+  border-right:20px solid #5B8C8C;
+  border-bottom: 20px solid #5B8C8C;
+  border-left: 0 solid transparent;
+}
+
+.book-holder ul li:nth-child(2){
+  left: 210px;
+  top: -137px;
+  border-top: 0 solid transparent;
+  border-left:20px solid #5B8C8C;
+  border-bottom: 20px solid #5B8C8C;
+  border-right: 0 solid transparent;
+}
+
+.book ul li{
+  width: 30px;
+  height: 70px;
+  top: -215px;
+  left: 70px;
+ font-size: 15px;
+
+}
+
+.book ul li:nth-child(2){
+  top: -285px;
+  left: 105px;
+}
+
+.book ul li:nth-child(3){
+  top: -355px;
+  left: 140px;
+}
+
+.book ul li:nth-child(4){
+  top: -425px;
+  left: 170px;
+}
+
+.chair{
+    width: 260px;
+    height: 200px;
+    top: 1100px;
+    left: 1000px;
+}
+
+.hair{
+   top:920px;
+   left: 1058px;
+}
+
+.head{
+    width: 108px;
+    top: 968px;
+    left: 1075px;
+}
+
+.left-eye-brow{
+  left: 20px;
+}
+
+.right-eye-brow{
+  left: 65px;
+}
+
+.left-eye{
+    left: 25px;
+}
+
+.right-eye{
+  left: 70px;
+}
+
+.right-ear{
+   left: 102px;
+}
+
+.nose{
+   left:50px;
+}
+
+.mouth{
+   left: 40px;
+}
+
+.head:after{
+   width: 60px;
+   left: 25px;
+}
+
+.neck{
+    width: 50px;
+    height: 30px;
+    border-radius: 0 0 90px 90px;
+    top: 1095px;
+    left: 1105px;
+}
+
+.t-shirt{
+  width: 170px;
+  height: 300px;
+  top: 1100px;
+  left: 1050px;
+}
+
+.computer{
+    top: 1180px;
+    left: 1015px;
+    width: 230px;
+    height: 120px;
+}
+
+.pencil-jar{
+    top: 1240px;
+    left: 1350px;
+}
+
+.plant-div{
+    top: 1105px;
+    left: 700px;
+}
+
+.plant{
+    top: 75px;
+    left:20px;
+}
+
+.plant ul li{
+   top: -4px;
+   left: 0px;
+   width: 50px;
+   height: 50px;
+}
+   
+.plant ul li:nth-child(2){
+    top: -60px;
+    left: 20px;
+}
+
+.vase-top{
+    width: 90px;
+}
+  
+.vase{
+    width: 80px;
+    height: 100px;
+}
+
+.vase-top:before{
+    width: 90px;
+    height: 20px;
+    top: -25px;
+}
+
+.table{
+    width: 850px;
+    height: 70px;
+    top: 1300px;
+}
+
+.table-front{
+    top: 1300px;
+    width: 820px;
+    height: 500px;
+}
+
+.table-front:before, .table-front:after {
+    width: 30px;
+    height: 30px;
+}
+
+.table-front:before{
+    top: 500px;
+    left: 10px;
+}
+ 
+.table-front:after {
+    top:500px;
+    left: 780px;
+}
+
+.garbage-can{
+    top: 1450px;
+    left: 450px;
+    width: 150px;
+    height: 190px;
+}
+
+.garbage-can:before{
+   width: 150px;
+   height: 15px;
+}
+
+.dog{
+  top: 1500px;
+  left: 1600px;
+}
+
+.dog-head{
+  width: 85px;
+  height: 80px;
+}
+
+.dog-ear ul li{
+  width: 25px;
+  left: 10px;
+}
+
+.dog-ear ul li:nth-child(2){
+  left: 50px;
+}
+
+.dog-eyes ul li{
+  width: 13px;
+  height: 13px;
+  left: 15px;
+}
+
+.dog-eyes ul li:nth-child(2){
+  top: -48px;
+  left: 50px;
+}
+
+.dog-eyes ul li:before{
+  width: 7px;
+  height: 7px;
+  left: 1px;
+  top: -3px;
+}
+
+.dog ul li:after{
+  width: 3px;
+  height: 3px;
+  top: -6px;
+  left: -5px;
+}
+
+.dog-nose{
+  left: 35px;
+}
+
+.dog-mouth ul li{
+  left: 20px;
+}
+
+.dog-mouth ul li:nth-child(2){
+  left: 40px;
+}
+
+.dog-tongue{
+  left: 32px;
+}
+
+.dog-body{
+  width: 90px;
+  height: 100px;
+}
+
+.collar{
+  top: -4px;
+  left: 15px;
+  width: 60px;
+}
+
+.dog-legs ul li{
+  top: -50px;
+  width: 30px;
+  height: 40px;
+}
+
+.dog-legs ul li:nth-child(2){
+  top: -90px;
+  left: 60px;
+}
+
+.dog-legs ul li:before{
+  width: 27px;
+  height: 16px;
+  top: 20px;
+}
+
+.coffee{
+    top: 1245px;
+    left: 900px;
+}
+
+.coffee-cup{
+    width: 45px;
+    height: 30px;
+}
+
+.coffee-cup:after{
+    width: 13px;
+    height: 13px;
+    left: 28px;
+    top: 5px;
+}
+
+.coffee-bottom{
+    width: 70px;
+    height: 7px;
+}
+
+.coffee-steam, .coffee-steam:before{
+   border: 10px;
+   left: 25px;
+   border-width: 3px;
+   border-style: solid;
+   border-color:transparent transparent transparent 
+   #828083;
+}
+
+.coffee-steam:before{
+    top: -15px;
+    left: -5px;
+    border-color:  transparent  #828083 transparent transparent;
+   
+}
+
+.postits{
+    top: -50px;
+    left: 1700px;
+}
+
+.postits p{
+    font-size: 60px;
+}
+
+.post-it-1, .post-it-2, .post-it-3, .post-it-4,  .post-it-1:after,.post-it-2:after, .post-it-3:after, .post-it-4:after {
+    width: 700px;
+    height: 700px;
+}
+
+.post-it-2, .post-it-4{
+    left: 1400px;
+}
+
+.post-it-3, .post-it-4{
+    top: 830px;
+}
+
+.window{
+    top: 500px;
+    left: 4000px;
+    width: 900px;
+    height: 700px;
+    border: 20px solid white;
+} 
+
+.curtain{
+    width: 880px;
+    height: 120px;
+    
+}
+
+.curtain:before{
+    height: 100px;
+   top: 115px;
+   left: 445px;
+   width: 10px;
+  
+}
+
+.curtain:after{
+   width: 20px;
+   height: 20px;
+   top: 210px;
+   left: 430px;
+   border: 10px solid #ff9801;
+}
+
+.moon{
+    width: 100px;
+    height: 100px;
+    top: 200px;
+    left: 100px;
+}
+
+.moon:after{
+    width: 90px;
+    height: 90px;
+}
+
+.stars{
+    top: 100px;
+    left: 200px;
+}
+
+.stars ul li{
+    left: 100px;
+}
+
+.stars ul li:nth-child(2){
+    left: 400px;
+}
+
+.stars ul li:nth-child(3){
+    left: 500px;
+}
+
+.stars ul li:nth-child(4){
+    top: 300px;
+    left: 600px;
+}
+
+.land, .land:after{
+    width: 420px;
+    height: 230px;
+    border-radius: 50% 50% 0 0;
+}
+
+.land:after{
+    width: 550px;
+    height: 200px;
+    left: 300px;
+}
+
+.tree ul li{
+    top:-20px;
+    left: 100px;
+}
+
+.tree ul li:nth-child(2){
+    top:-60px;
+    left: 230px;
+}
+
+.tree ul li:nth-child(3){
+    top:-70px;
+    left: 530px;
+}
+
+.tree ul li:nth-child(4){
+    top:-70px;
+    left: 730px;
+}
+
+.window-devide{
+    left: 430px;
+    height: 560px;
+    width: 30px;
+}
+
+.window-devide:before, .window-devide:after{
+     width: 60px;
+     height: 40px;
+     left: -50px;
+     top: 230px;
+}
+
+.window-devide:after{
+    left: 10px;
+}
+
+.floor{
+    top:1500px;
+    width: 100%;
+    height:50%;
+}
 }
