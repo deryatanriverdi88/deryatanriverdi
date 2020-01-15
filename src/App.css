@@ -2333,44 +2333,34 @@ iframe{
   }
 } 
 
-/* @media only screen and (min-width: 740px){
-
-  .myname{
-    left: 550px;
-   }
-
-  .window{
-    left: 1000px;
-  }
+ @media only screen and (min-width: 740px){
 
   .awssld, .bio-card, .contact-card{
-    top: 830px;
-    left: 160px;
-    width: 151% !important; 
-    height: 310vh !important;
+    top: 880px;
+    left: 120px;
+    width: 122% !important; 
+    height: 240vh !important;
   }
  
   .bio-img-container img{
-    margin: 240px 100px;
+    margin: 150px 100px;
     width: 100%;
    }
   
    .project-div{
-     padding-top: 10em;
+     padding-top: 5em;
    }
 
   .text-container{
-    padding: 300px 0 20px 60px;
+    padding: 100px 0 20px 60px;
     line-height: 35px;
   }
-  .contact-div{
-    padding: 450px  100px;
-  }
 
+  
   iframe{
-    height: 140vh;
+    height: 90vh;
   }
-} */
+} 
 
 /* iPad => 768 x 1024, 
    iPad Mini => 768 x 1024,
