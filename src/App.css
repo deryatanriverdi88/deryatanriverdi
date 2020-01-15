@@ -3432,7 +3432,7 @@ iframe{
 } 
 
 /* Apple Macbook 13-inch => 2560 x 1600 */
-/* @media only screen and (min-width: 2500px){  
+ @media only screen and (min-width: 2500px){  
   .table{
     top: 950px;
   }
@@ -3468,17 +3468,17 @@ iframe{
   }
 
   .dog{
-    top: 1200px;
-    left: 1000px;
+    top: 1000px;
+    left: 2000px;
   }
 
   .postits{
       top: 40px;
-      left: 470px;
+      left: 650px;
   }
 
   .window{
-      left: 1900px;
+      left: 1950px;
       width: 600px;
   } 
   
@@ -3549,7 +3549,47 @@ iframe{
       width: 100%;
       height:35%;
    }
-} */
+
+
+   .awssld, .bio-card, .contact-card{
+    top: 130px;
+    left: 360px;
+    width: 75% !important; 
+    height: 90vh !important;
+  }
+
+  .bio .text-container{
+    padding-top: 155px;
+    line-height: 70px;
+  }
+
+  .text{
+    font-size: 40px;
+  }
+  
+  .bio-img-container img{
+    margin: 150px 100px;
+   }
+  
+   .project-div{
+     padding-top: 5em;
+   }
+
+   .project-div .text-container{
+     padding-top:50px;
+    line-height: 50px;
+  }
+  
+  
+  .contact-div{
+    padding: 550px  100px;
+  }
+  
+  iframe{
+    height: 45vh;
+  }
+   
+} 
 
 /* Apple iMac 27-inch => 5120 x 2880 */
 /* @media only screen and (min-width: 5000px){
