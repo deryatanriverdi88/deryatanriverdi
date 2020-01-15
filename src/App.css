@@ -2392,49 +2392,40 @@ iframe{
   }
 } 
 
-/* @media only screen and (min-width: 800px){
+ @media only screen and (min-width: 800px){
 
-  .myname{
-    left: 600px;
-  }
   .floor{
-    width: 180%;
+    width: 135%;
   }
 
   .postits{
-    left: -290px;
+    left: -240px;
   }
-  .window{
-    left: 1100px;
-  }
+ 
   .awssld, .bio-card, .contact-card{
-    top: 825px;
-    left: 200px;
-    width: 138% !important; 
-    height: 295vh !important;
+    top: 875px;
+    left: 110px;
+    width: 112% !important; 
+    height: 230vh !important;
   }
  
   .bio-img-container img{
-    margin: 240px 100px;
+    margin: 100px 100px;
     width: 100%;
    }
   
    .project-div{
-     padding-top: 10em;
+     padding-top: 5em;
    }
 
   .text-container{
-    padding: 300px 0 20px 60px;
+    padding: 80px 0 20px 60px;
     line-height: 35px;
   }
-  .contact-div{
-    padding: 450px  100px;
-  }
-
   iframe{
-    height: 120vh;
+    height: 90vh;
   }
-} */
+} 
 
 /* iPad Pro => 1024 x 1366 */
 /* @media only screen and (min-width: 1000px){
