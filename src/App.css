@@ -2469,139 +2469,48 @@ iframe{
 
 } 
 
-
 @media only screen and (min-width: 1200px){
-  .myname{
-    left: 250px;
-  }
 
   .floor{
     width: 100%;
-    left: 0;
-    height: 410px;
-  }
-  
-  .postits{
-    left:100px;
-    top:30px;
-  }
-  
-  .post-it-1, .post-it-2, .post-it-3, .post-it-4{
-    width:200px;
-    height: 200px;
-    left: 650px;
-  }
-  
-  .post-it-2{
-    left: 950px;
-  }
-  
-  .post-it-3{
-    top: 350px;
-  }
-  
-  .post-it-4{
-    left: 950px;
-    top: 350px;
-  }
-  
-  .post-it-1:after, .post-it-2:after, .post-it-3:after , .post-it-4:after{
-    width: 200px;
-    height: 200px;
-    top: -15px;
-    left: -1px;
-  }
-  
-  .postits p{
-    padding-top: 90px;
-  }
-  
-  .table{
-    left: 140px;
-  }
-  
-  .table-front{
-    left: 150px;
-  }
-  
-  .chair{
-    left: 310px;
-  }
-  
-  .pencil-jar{
-    left: 500px;
-  }
-  
-  .dog{
-    left: 650px;
-  }
-  
-  .t-shirt{
-    left: 334px;
-  }
-  
-  .head{
-    left: 350px;
-  }
-  
-  .neck{
-    left: 385px;
-  }
-  
-  .hair{
-    left: 330px;
-  }
-  
-  .computer{
-    left: 330px;
-  }
-  
-  
-  .garbage-can{
-    left: 40px;
-  }
-  
-  .shelf{
-    left:500px;
+    height: 30vh;
   }
 
   .window{
-    display: none;
+    left: 900px;
+  }
+  
+  .postits{
+    left:-150px;
+    top:800px;
   }
 
   .awssld, .bio-card, .contact-card{
-    top: 90px;
-    left: 230px;
-    width: 80% !important; 
-    height: 90vh !important;
+    top: 895px;
+    left: 195px;
+    width: 71% !important; 
+    height: 110vh !important;
   }
 
   .bio .text-container{
-    padding-top: 105px;
+    padding-top: 55px;
     line-height: 40px;
   }
   
   .bio-img-container img{
-    margin: 40px 80px;
+    margin: 200px 80px;
     width: 100%;
    }
   
    .project-div{
-     padding-top: 2em;
+     padding-top: 5em;
    }
 
-   .bio .text-container{
-     padding-top: 0;
-   }
-  
    .project-div .text-container{
     padding: 0px 0 20px 60px;
     line-height: 20px;
   }
-  .contact-div{
-    padding: 250px  100px !important;
-  }
-  
+
   iframe{
     height: 50vh;
   }
