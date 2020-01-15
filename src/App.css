@@ -2096,11 +2096,11 @@ iframe{
 
   .postits{
     left: -300px;
-    top:1000px;
+    top:850px;
   }
 
   .awssld, .bio-card, .contact-card{
-    top: 1100px;
+    top: 940px;
     left: 200px;
     width: 306% !important; 
     height: 175vh !important;
@@ -2112,10 +2112,16 @@ iframe{
    iPhone XS => 375 x 812,
    Galaxy s7 => 360 x 640 */
 @media only screen and (min-width: 375px){
+  .floor{
+    width: 350%;
+  }
 
+  .postits{
+    left: -400px;
+  }
   .awssld, .bio-card, .contact-card{
-    top: 1100px;
-    left: 200px;
+    top: 950px;
+    left: 100px;
     width: 295% !important; 
     height: 165vh !important;
   }
@@ -2136,15 +2142,15 @@ iframe{
   }
 
   .postits{
-    left: -370px;
+    left: -400px;
     top: 950px;
   }
 
   .awssld, .bio-card, .contact-card{
     top: 1050px;
-    left: 120px;
+    left: 100px;
     width: 275% !important; 
-    height: 160vh !important;
+    height: 135vh !important;
   }
 
   iframe{
@@ -2152,6 +2158,15 @@ iframe{
   }
 
 } 
+
+@media screen and (min-width: 410px){
+  .awssld, .bio-card, .contact-card{
+    top: 1050px;
+    left: 100px;
+    width: 275% !important; 
+    height: 155vh !important;
+  }
+}
 
 @media only screen and (min-width: 500px){
   .floor{
@@ -2323,6 +2338,9 @@ iframe{
     width: 100%;
    }
   
+   .project-div {
+     padding-top: 5em;
+   }
   .text-container{
     padding: 130px 0 20px 60px;
     line-height: 35px;
@@ -2336,10 +2354,10 @@ iframe{
  @media only screen and (min-width: 740px){
 
   .awssld, .bio-card, .contact-card{
-    top: 880px;
-    left: 120px;
-    width: 122% !important; 
-    height: 240vh !important;
+    top: 750px;
+    left: 0px;
+    width: 150% !important; 
+    height: 280vh !important;
   }
  
   .bio-img-container img{
@@ -2358,7 +2376,7 @@ iframe{
 
   
   iframe{
-    height: 90vh;
+    height: 110vh;
   }
 } 
 
@@ -2392,23 +2410,12 @@ iframe{
   }
 } 
 
-/* Samsung Galaxy Tab 10 => 800x 1280 */
- @media only screen and (min-width: 800px){
-
-  .floor{
-    width: 135%;
-    height: 15vh;
-  }
-
-  .postits{
-    left: -240px;
-  }
- 
+@media only screen and (min-width: 800px){
   .awssld, .bio-card, .contact-card{
-    top: 875px;
-    left: 110px;
-    width: 113% !important; 
-    height: 70vh !important;
+    top: 765px;
+    left: 0px;
+    width: 150% !important; 
+    height: 80vh !important;
   }
  
   .bio-img-container img{
@@ -2427,6 +2434,38 @@ iframe{
   iframe{
     height: 30vh;
   }
+}
+
+@media only screen and (min-width: 811px){
+  .awssld, .bio-card, .contact-card{
+    top: 875px;
+    left: 95px;
+    width: 115% !important; 
+    height: 235vh !important;
+  }
+
+  iframe{
+    height: 80vh;
+  }
+}
+/* Samsung Galaxy Tab 10 => 800x 1280 */
+ @media only screen and (min-width: 890px){
+  .floor{
+    width: 120%;
+  }
+
+  .postits{
+    left: -250px;
+  }
+  .awssld, .bio-card, .contact-card{
+    top: 875px;
+    left: 95px;
+    width: 105% !important; 
+    height: 210vh !important;
+  }
+  iframe{
+    height: 80vh;
+  }
 } 
 
 /* iPad Pro => 1024 x 1366 */
@@ -2438,14 +2477,14 @@ iframe{
  }
 
  .postits{
-   top:850px;
+   top:750px;
  }
 
 .awssld, .bio-card, .contact-card{
-  top: 950px;
-  left: 110px;
+  top: 850px;
+  left: 100px;
   width: 90% !important; 
-  height: 65vh !important;
+  height: 115vh !important;
 }
 
 .bio-img-container img{
@@ -2458,12 +2497,12 @@ iframe{
  }
 
 .text-container{
-  padding: 60px 0 20px 60px;
+  padding: 0px 0 20px 60px;
   line-height: 40px;
 }
 
 iframe{
-  height: 30vh;
+  height: 50vh;
 }
 
 
@@ -2486,10 +2525,10 @@ iframe{
   }
 
   .awssld, .bio-card, .contact-card{
-    top: 895px;
+    top: 875px;
     left: 195px;
     width: 71% !important; 
-    height: 115vh !important;
+    height: 90vh !important;
   }
 
   .bio .text-container{
@@ -2516,101 +2555,47 @@ iframe{
   }
 } 
 
-/* @media only screen and (min-height: 1100px){
-
-  .floor{
-    top: 620px;
-    width: 200%;
-    left: 0;
-    height: 20vh;
-  }
-
-  .postits{
-    left: -300px;
-    top: 850px;
-  }
-
-  .post-it-1, .post-it-2, .post-it-3, .post-it-4{
-    width:500px;
-    height: 500px;
-    left: 500px;
-  }
-
-  .post-it-2{
-    left: 1100px;
-  }
-  
-  .post-it-3{
-    top: 700px;
-  }
-
-  .post-it-4{
-    left: 1100px;
-    top: 700px;
-  }
-
-  .post-it-1:after, .post-it-2:after, .post-it-3:after , .post-it-4:after{
-    top: -15px;
-    left: -1px;
-  }
-
-  .postits p{
-    padding-top: 200px;
-  }
-
-  .table{
-    left: 550px;
-  }
-
-  .table-front{
-    left: 560px;
-  }
-
-  .chair{
-    left: 700px;
-  }
-
-  .pencil-jar{
-    left: 950px;
-  }
-
-  .dog{
-    left: 1050px;
-  }
-
-  .t-shirt{
-    left: 725px;
-  }
-
-  .head{
-    left: 740px;
-  }
-
-  .neck{
-    left: 775px;
-  }
-
-  .hair{
-    left: 720px;
-  }
-
-  .computer{
-    left: 720px;
-  }
-
-
-  .garbage-can{
-    left: 450px;
-  }
-
-  .shelf{
-    left: 400px;
-  }
-
+@media  only screen and (min-width: 1280px){
   .awssld, .bio-card, .contact-card{
-    top: 950px;
+    top: 855px;
+    left: 0px;
+    width: 100% !important; 
+    height: 115vh !important;
+  }
+
+  .bio-img-container img{
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (min-width: 1300px){
+  .awssld, .bio-card, .contact-card{
+    top: 850px;
+    left: 0px;
+    width: 100% !important; 
+    height: 120vh !important;
+    
+  }
+
+  .bio .text-container{
+    padding-top: 100px;
+  }
+
+  .bio-img-container img{
+    margin-top: 30px;
+  }
+
+  iframe{
+    height:70vh;
+  }
+}
+
+/* @media only screen and (min-height: 1000px){
+
+ .assld, .bio-card, .contact-card{
+    top: 900px;
     left: 180px;
-    width: 141% !important; 
+    width: 120% !important; 
     height: 90vh !important;
   }
  
@@ -2620,13 +2605,14 @@ iframe{
    }
   
    .project-div{
-     padding-top: 10em;
+     padding-top: 5em;
    }
 
-  .text-container{
-    padding: 300px 0 20px 60px;
-    line-height: 35px;
-  }
+   .project-div .text-container{
+     padding-top: 10px;
+   }
+
+
   .contact-div{
     padding: 450px  100px;
   }
@@ -2634,147 +2620,55 @@ iframe{
   iframe{
     height: 40vh;
   }
-} */
+}  */
 
-/* @media only screen and (min-height: 1300px){
-  .myname{
-    left: 750px;
-  }
-  
+@media only screen and (min-height: 1300px){
+
   .floor{
-    top: 620px;
-    width: 190%;
-    left: 0;
-    height: 20vh;
+    width: 100%;
+  }
+  .window{
+    left:700px;
   }
 
   .postits{
-    left: -100px;
-    top: 930px;
-  }
-
-  .post-it-1, .post-it-2, .post-it-3, .post-it-4{
-    width:500px;
-    height: 500px;
-    left: 500px;
-  }
-
-  .post-it-2{
-    left: 1100px;
-  }
-  
-  .post-it-3{
-    top: 700px;
-  }
-
-  .post-it-4{
-    left: 1100px;
-    top: 700px;
-  }
-
-  .post-it-1:after, .post-it-2:after, .post-it-3:after , .post-it-4:after{
-    top: -15px;
-    left: -1px;
-  }
-
-  .postits p{
-    padding-top: 200px;
-  }
-
-  .table{
-    left: 650px;
-  }
-
-  .table-front{
-    left: 660px;
-  }
-
-  .chair{
-    left: 800px;
+    left: -300px;
   }
 
   .pencil-jar{
-    left: 1050px;
-  }
-
-  .dog{
-    left: 1150px;
-  }
-
-  .t-shirt{
-    left: 825px;
-  }
-
-  .head{
-    left: 840px;
-  }
-
-  .neck{
-    left: 875px;
-  }
-
-  .hair{
-    left: 820px;
-  }
-
-  .computer{
-    left: 820px;
-  }
-
-  .garbage-can{
-    left: 550px;
-  }
-
-  .shelf{
-    left: 300px;
-  }
-   
-  .window{
-    left: 1300px;
+    z-index: 2;
   }
   .awssld, .bio-card, .contact-card{
-    top: 1020px;
-    left: 390px;
-    width: 110% !important; 
-    height: 85vh !important;
+    top: 850px;
+    left: 40px;
+    width: 92% !important; 
+    height: 65vh !important;
   }
 
   .bio .text-container{
-    padding-top:255px;
+    padding-top:55px;
     line-height: 40px;
   }
   
   .bio-img-container img{
-    margin: 250px 100px;
-    width: 100%;
+    margin: 150px 100px;
+
    }
-  
-   .project-div{
-     padding-top: 5em;
-   }
-  
-  .text-container{
-    padding: 300px 0 20px 60px;
-    line-height: 55px;
-  }
-  .contact-div{
-    padding: 500px  100px;
-  }
   
   iframe{
-    height: 35vh;
+    height: 25vh;
   }
   
-} */
+} 
 
 /* Apple Macbook Air 13-inch => 1440 x 900 */
  @media only screen and (min-width: 1400px){
 
   .awssld, .bio-card, .contact-card{
-    top: 900px;
-    left: 190px;
-    width: 65% !important; 
-    height: 95vh !important;
+    top: 850px;
+    left: 0px;
+    width: 100% !important; 
+    height: 100vh !important;
   }
  
   .bio-img-container img{
@@ -2791,7 +2685,7 @@ iframe{
   }
 
   iframe{
-    height: 50vh;
+    height: 60vh;
   }
 } 
 
@@ -2864,7 +2758,7 @@ iframe{
   }
   
   iframe{
-    height: 35vh;
+    height: 45vh;
   }
 } 
 
@@ -3433,6 +3327,7 @@ iframe{
 
 /* Apple Macbook 13-inch => 2560 x 1600 */
  @media only screen and (min-width: 2500px){  
+
   .table{
     top: 950px;
   }
@@ -3463,6 +3358,10 @@ iframe{
     top: 830px;
   }
 
+
+  .pencil-jar{
+    top: 895px;
+  }
   .garbage-can{
     top: 1200px;
   }
@@ -3547,7 +3446,7 @@ iframe{
   .floor{
       top:1110px;
       width: 100%;
-      height:35%;
+      height:45%;
    }
 
 
