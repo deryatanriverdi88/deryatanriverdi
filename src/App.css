@@ -2489,7 +2489,7 @@ iframe{
     top: 895px;
     left: 195px;
     width: 71% !important; 
-    height: 110vh !important;
+    height: 115vh !important;
   }
 
   .bio .text-container{
@@ -3761,5 +3761,46 @@ padding-top: 20px;
     top:1500px;
     width: 100%;
     height:50%;
+}
+
+.awssld, .bio-card, .contact-card{
+  top: 180px;
+  left: 360px;
+  width: 75% !important; 
+  height: 90vh !important;
+}
+
+.bio .text-container{
+  padding-top: 555px;
+  line-height: 100px;
+}
+.bio .text{
+  font-size: 70px;
+}
+.text{
+  font-size: 60px;
+}
+
+.bio-img-container img{
+  margin: 180px 100px;
+  width: 100%;
+ }
+
+ .project-div{
+   padding-top: 10em;
+ }
+
+ .project-div .text-container{
+   padding-top:200px;
+  line-height: 70px;
+}
+
+
+.contact-div{
+  padding: 800px  100px;
+}
+
+iframe{
+  height: 50vh;
 }
 } 
