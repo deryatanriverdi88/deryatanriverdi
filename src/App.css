@@ -2196,12 +2196,12 @@ iframe{
 
 @media only screen and (min-width: 700px){
   .floor{
-    width: 190%;
+    width: 160%;
     height: 40vh;
   }
 
   .postits{
-    left: -330px;
+    left: -400px;
     top: 730px;
   }
 
@@ -2212,7 +2212,7 @@ iframe{
  
   .awssld, .bio-card, .contact-card{
     top: 830px;
-    left: 170px;
+    left: 100px;
     width: 136% !important; 
     height: 310vh !important;
   }
