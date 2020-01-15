@@ -96,6 +96,9 @@ class App extends React.Component {
       <div className="app">
          <div className="border">
             <div className="myname">Derya Tanriverdi</div>
+            <div className="css-art"> 
+                 <p>Made by CSS with <span> ❤️ </span> </p>
+            </div>
             <div className="clock">
                 <Clock className="react-clock" value={this.state.date}/>
             </div>
@@ -283,10 +286,9 @@ class App extends React.Component {
                         <span> @  </span>
                     </div>
              </div>
-             <div className="css-art"> 
-                 <p>Made by CSS with ❤️ </p>
-             </div>
+             
           </div>
+        
             {this.state.date.getHours() >= 5 && this.state.date.getHours()  <=17 ? 
               <div className="window">
               <div className="curtain"></div>
