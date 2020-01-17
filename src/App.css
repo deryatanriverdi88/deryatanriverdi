@@ -1782,6 +1782,7 @@ box-shadow: 0px 0px 5px 1px rgba(173,163,173,1);
   height: 50px;
   margin-left: 100px;
   border-radius: 90px;
+  background: white;
 }
 
 .resume a{
