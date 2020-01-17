@@ -123,6 +123,7 @@ class App extends React.Component {
                </div>
             </div>
             <div className="light"></div>
+            <div className="bulb"></div>
             <div className="chair"></div>
             <div className="girl">
               <div className="hair"></div>
