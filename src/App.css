@@ -22,6 +22,35 @@ ul li{
   padding: 50px;
 }
 
+.light-off{
+  background:  rgba(9,55,99, 0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120vh;
+  z-index: 9;
+}
+
+.light-on button, .light-off button {
+  position: absolute;
+  top: 20px;
+  left: 600px;
+  width: 100px;
+  height: 50px;
+  border-radius: 90px;
+  background: white;
+  font-weight: bold;
+  padding: 10px;
+  outline:none;
+}
+
+.light-off button{
+  top: 400px;
+  left: 900px;
+}
+
+
 .myname{
   position: absolute;
   z-index: 6;
@@ -192,8 +221,6 @@ ul li{
 }
 
 .bulb{
-  content: "";
-  display: inline-block;
   width: 50px;
   height: 20px;
   border-radius: 0 0 90px 90px;
@@ -205,6 +232,11 @@ ul li{
   -webkit-box-shadow: 1px 10px 34px 13px rgba(192,196,78,1);
 -moz-box-shadow: 1px 10px 34px 13px rgba(192,196,78,1);
 box-shadow: 1px 10px 34px 13px rgba(192,196,78,1);
+}
+
+#off{
+  display: none;
+  background: transparent;
 }
 
 .chair{
@@ -2002,6 +2034,27 @@ iframe{
    iPad Touch => 320 x 568  # Verrical  done*/
 @media only screen and (min-width: 300px){
 
+  
+  .light-off{
+    width: 395%;
+    height: 430vh;
+  }
+
+  .light-off button {
+    top: 830px;
+    left: 540px;
+    width: 200px;
+    height: 100px;
+    font-size: 20px;
+  }
+
+  .light-on button{
+    width: 150px;
+    height: 75px;
+    left: 500px;
+    font-size: 20px;
+  }
+
   .myname{
    top: 550px;
    left: 530px;
@@ -2045,8 +2098,11 @@ iframe{
   }
 
   .post-it-1:after, .post-it-2:after, .post-it-3:after , .post-it-4:after{
+    width:500px;
+    height: 500px;
     top: -15px;
     left: -1px;
+    box-shadow:2px 15px 5px rgba(0, 0, 0, 0.40);
   }
 
   .postits p{
@@ -2136,6 +2192,10 @@ iframe{
    Samsung Galaxy S9 / S9+ => 360 x 740 # Vertical done,
    Samsung Galaxy S8 / S8+ => 360 x 740 # Vertical done */
 @media only screen and (min-width: 350px){
+  .light-off{
+    width: 350%;
+    height: 350vh;
+  }
 
   .floor{
     width: 350%;
@@ -2158,7 +2218,7 @@ iframe{
    iPhone XS => 375 x 812 # Vertical done,
    Galaxy s7 => 360 x 640  # Vertical done*/
 @media only screen and (min-width: 375px){
-
+ 
   .myname{
     left: 500px;
   }
@@ -2184,6 +2244,10 @@ iframe{
 /* Pixel 2 => 411 x 731 # Vertical done,
    Pixel 2 XL => 411 x 823 # Vertical done */
  @media screen and (min-width: 411px){
+  .light-off{
+    width: 310%;
+    height: 310vh;
+  }
 
     .floor{
       width: 310%;
@@ -2214,6 +2278,14 @@ iframe{
 /* iPhone 5/SE => 568 x 320 # Horizontal done
    iPad Touch =>  568 x 320 # Horizontal done*/
 @media only screen and (min-width: 500px){
+  .light-off{
+    width: 240%;
+    height: 650vh;
+  }
+
+  .light-off button{
+    left: 620px;
+  }
 
   .myname{
     left: 420px;
@@ -2252,10 +2324,15 @@ iframe{
    Galaxy s7 => 640 x 360 # Horizontal done, 
    iPhone 6/7/8 => 667 x 375 # Horizontal done*/
 @media only screen and (min-width: 600px){
+  .light-off{
+    width: 220%;
+    height: 640vh;
+  }
 
   .myname{
     left: 380px;
   }
+
   .floor{
     width: 220%;
   }
@@ -2273,6 +2350,14 @@ iframe{
 /* Pixel 2 => 731 x 411 # Horizontal done, 
    iPhone 6/7/8 plus => 736 x 414 # Horizontal done*/
 @media only screen and (min-width: 730px){
+  .light-off{
+    width: 150%;
+    height: 450vh;
+  }
+
+  .light-off button{
+    left: 480px;
+  }
 
   .myname{
     left: 200px;
@@ -2394,6 +2479,9 @@ iframe{
  /* Samsung Galaxy S8 / S8+ => 740 x 360 # Horizontal done,
     Samsung Galaxy S9 / S9+ => 740 x 360 # Horizontal done*/
  @media only screen and (min-width: 740px){
+  .light-off{
+    height: 490vh;
+  }
 
   .awssld, .bio-card, .contact-card{
     top: 850px;
@@ -2423,6 +2511,10 @@ iframe{
    iPad Mini => 768 x 1024 # Vertical done,
    iPad Air 1 & 2 => 768 x 1024  # Vertical done*/
  @media only screen and (min-width: 760px){
+  .light-off{
+    width: 150%;
+    height: 180vh;
+  }
 
   .css-art p{
     left: 460px;
@@ -2456,7 +2548,11 @@ iframe{
 
 /* Samsung Galaxy Tab 10 => 800x 1280 # Vertical done */
 @media only screen and (min-width: 800px){
-  
+
+  .light-off{
+    height: 150vh;
+  }
+
   .floor{
     width: 150%;
   }
@@ -2488,6 +2584,9 @@ iframe{
    iPhone X => 812 x 375 # Horizontal done, 
    Pixel 2 XL => 823 x 411 # Horizontal done*/
 @media only screen and (min-width: 812px){
+  .light-off{
+    height: 500vh;
+  }
 
   .myname{
    left: 140px;
@@ -2527,6 +2626,11 @@ iframe{
 /* iPad Pro => 1024 x 1366 # Vertical done, 
    iPad Air 1 & 2 => 1024 x 768 # Horizontal*/
  @media only screen and (min-width: 1000px){
+
+  .light-off{
+    width: 120%;
+    height: 150vh;
+  }
 
 .myname{
     left: 30px;
@@ -2570,6 +2674,16 @@ iframe{
 
 /* Samsung Galaxy Tab 10 => 1280 x 800 # Horizontal done*/
 @media  only screen and (min-width: 1280px){
+
+  .light-off{
+    width: 120%;
+    height:220vh;
+  }
+
+  .light-off button {
+    left: 610px;
+  }
+
   .myname{
     left: -115px;
   }
@@ -2609,9 +2723,15 @@ iframe{
 
 /* Acer Chromebook => 1336 x 768 */
 @media only screen and (min-width: 1336px){
+
+  .light-off{
+    height:230vh;
+  }
+
   .postits{
     left: -100px;
   }  
+
   .awssld, .bio-card, .contact-card{
     top: 820px;
     left: 200px;
@@ -2640,6 +2760,11 @@ iframe{
 
 /* iPad Pro => 1366 x 1024 # Horizontal done */
 @media only screen and (min-width: 1366px){
+
+  .light-off{
+    height:200vh;
+  }
+
   .postits{
     left: -100px;
   }  
@@ -2671,6 +2796,7 @@ iframe{
   .floor{
     width: 100%;
   }
+
   .myname{
     left: -160px;
   }
@@ -2704,6 +2830,15 @@ iframe{
 
 /* Del XPS 13 => 1920 x 1080 done */
  @media only screen and (min-width: 1900px){
+  .light-off{
+    height: 120vh;
+  }
+
+  .light-off button{
+    top: 400px;
+    left: 850px;
+  }
+
   .myname{
     left: -400px;
   }
@@ -2713,7 +2848,7 @@ iframe{
   }
 
   .floor{
-    height: 55vh;
+    height: 65vh;
   }
 
   .postits{
@@ -2785,6 +2920,15 @@ iframe{
 
 /* Apple Macbook 13-inch => 2560 x 1600 done*/
  @media only screen and (min-width: 2500px){
+
+  .light-off{
+    height: 150vh;
+  }
+
+  .light-off button{
+    top: 610px;
+    left: 1320px;
+  }
   
   .myname{
     font-size: 80px;
@@ -3310,7 +3454,7 @@ iframe{
   .floor{
       top:1150px;
       width:120%;
-      height:40%;
+      height:50vh;
    }
 
   .awssld, .bio-card, .contact-card{
@@ -3362,6 +3506,10 @@ iframe{
 
 /* Apple Macbook Pro 15-inch => 2880 x 1800 done */
  @media only screen and (min-width: 2800px){  
+
+  .light-off{
+    height: 130vh;
+  }
   
   .myname{
     top: 1100px;
@@ -3490,8 +3638,8 @@ iframe{
   
   .floor{
       top:1110px;
-      width: 100%;
-      height:45%;
+      width: 120%;
+      height:65vh;
    }
 
  .awssld, .bio-card, .contact-card{
@@ -3532,6 +3680,15 @@ iframe{
 
 /* Apple iMac 27-inch => 5120 x 2880 done*/
  @media only screen and (min-width: 5000px){
+
+.light-off{
+  height: 103vh;
+}
+
+.light-off button {
+  top: 720px;
+ left: 2720px;
+}
 
 .myname{
     left: -1420px;
