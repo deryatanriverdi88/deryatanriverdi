@@ -38,7 +38,7 @@ ul li{
 }
 
 .myname:hover{
-  letter-spacing: 18px;
+  letter-spacing: 7px;
 }
 
 .css-art{
@@ -1777,6 +1777,19 @@ box-shadow: 0px 0px 5px 1px rgba(173,163,173,1);
   position: absolute;
 }
 
+.resume {
+  width: 100px;
+  height: 50px;
+  margin-left: 100px;
+  border-radius: 90px;
+}
+
+.resume a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
 .project-div{
   display: block;
   padding: 0 5em;
@@ -2439,6 +2452,7 @@ iframe{
   .myname{
    left: 140px;
   }
+
   .awssld, .bio-card, .contact-card{
     top: 875px;
     left: 120px;
@@ -2455,9 +2469,11 @@ iframe{
   .myname{
     left: 100px;
   }
+
   .floor{
     width: 135%;
   }
+
   .awssld, .bio-card, .contact-card{
     top: 875px;
     left: 115px;
@@ -2475,6 +2491,7 @@ iframe{
 .myname{
     left: 30px;
   }
+
  .floor{
    width: 120%;
    height: 20vh;
@@ -2610,28 +2627,29 @@ iframe{
 
 /* Apple Macbook Air 13-inch => 1440 x 900 done */
  @media only screen and (min-width: 1400px){
+
+  .floor{
+    width: 100%;
+  }
   .myname{
     left: -160px;
   }
+
   .css-art p{
     left: 470px;
   }
 
-  .postits{
-    left: 0px;
-  }
-
   .awssld, .bio-card, .contact-card{
     top: 800px;
-    left: 300px;
+    left: 100px;
   }
  
   .bio-img-container img{
-    margin: 70px 100px;
+    margin: 150px 100px;
     width: 100%;
    }
   
-   .project-div{
+  .project-div{
      padding-top: 3em;
    }
 
@@ -2715,6 +2733,7 @@ iframe{
     padding: 300px 0 20px 60px;
     line-height: 55px;
   }
+
   .contact-div{
     padding: 200px  100px;
   }
@@ -3293,7 +3312,7 @@ iframe{
     height: 40vh;
   }
  .front-end{
-   padding-left: 120px;
+   padding-left: 140px;
  }
   
  .back-end{
