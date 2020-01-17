@@ -124,47 +124,46 @@ class App extends React.Component {
             </div>
             <div className="light"></div>
             <div className="chair"></div>
-           
             <div className="girl">
-            <div className="hair"></div>
-            <div className="head">
-                <div className="left-eye-brow"></div>
-                <div className="right-eye-brow"></div>
-                <div className="left-eyelash">
-                   <ul>
-                     <li></li>
-                     <li></li>
-                     <li></li>
-                     <li></li>
-                   </ul>
-                </div>
-                <div className="right-eyelash">
-                    <ul>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                    </ul>
-                 </div>
-                 <div className="left-eye">
-                    <div className="cornea"></div>
-                 </div>
-                 <div className="right-eye">
-                     <div className="cornea"></div>
-                 </div>
-                 <div className="ears">
-                     <div className="left-ear">
-                     <div className='earing'></div>
-                 </div>
-                     <div className="right-ear">
-                        <div className='earing'></div>
-                     </div>
-                 </div>
-                 <div className="nose"></div>
-                 <div className="mouth"></div>
-            </div> 
-            <div className="neck"></div>
-            <div className="t-shirt"></div>
+              <div className="hair"></div>
+              <div className="head">
+                  <div className="left-eye-brow"></div>
+                  <div className="right-eye-brow"></div>
+                  <div className="left-eyelash">
+                     <ul>
+                       <li></li>
+                       <li></li>
+                       <li></li>
+                       <li></li>
+                     </ul>
+                  </div>
+                  <div className="right-eyelash">
+                      <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                      </ul>
+                   </div>
+                   <div className="left-eye">
+                      <div className="cornea"></div>
+                   </div>
+                   <div className="right-eye">
+                       <div className="cornea"></div>
+                   </div>
+                   <div className="ears">
+                       <div className="left-ear">
+                       <div className='earing'></div>
+                   </div>
+                       <div className="right-ear">
+                          <div className='earing'></div>
+                       </div>
+                   </div>
+                   <div className="nose"></div>
+                   <div className="mouth"></div>
+              </div> 
+              <div className="neck"></div>
+              <div className="t-shirt"></div>
             </div>
             <div className="computer">
                 <div className="apple-logo"></div>
@@ -291,9 +290,8 @@ class App extends React.Component {
              </div>
              
           </div>
-        
             {this.state.date.getHours() > 5 && this.state.date.getHours()  < 17 ? 
-              <div className="window">
+            <div className="window">
               <div className="curtain"></div>
               <div className="cloud">
                 <ul>
@@ -313,19 +311,9 @@ class App extends React.Component {
               </div>
               <div className="window-devide"></div>
             </div> : 
-              <div className="window" id="night">
-             <div className="moon"></div>
-             <div className="stars">
-               <ul>
-                 <li></li>
-                 <li></li>
-                 <li></li>
-                 <li></li>
-               </ul>
-             </div>
-             <div className="curtain"></div>
-             <div className="land" id="dark-green-land">
-               <div className="tree" id="dark-green-tree">
+            <div className="window" id="night">
+               <div className="moon"></div>
+               <div className="stars">
                  <ul>
                    <li></li>
                    <li></li>
@@ -333,17 +321,27 @@ class App extends React.Component {
                    <li></li>
                  </ul>
                </div>
-             </div>
-             <div className="window-devide"></div>
+               <div className="curtain"></div>
+               <div className="land" id="dark-green-land">
+                 <div className="tree" id="dark-green-tree">
+                   <ul>
+                     <li></li>
+                     <li></li>
+                     <li></li>
+                     <li></li>
+                   </ul>
+                 </div>
+               </div>
+               <div className="window-devide"></div>
            </div>
             }
-           
             <div className="floor"></div>
          </div>
 
       { this.state.bio ?  
         <div className="bio-card"> 
-            <div className="bio" onClick={this.handleBioClick}>   <div className="bio-img-container">
+            <div className="bio" >  
+             <div className="bio-img-container">
                      <img src="./img/me-2.jpg"/>
                 </div>
                 <div className="text-container">
@@ -358,13 +356,14 @@ class App extends React.Component {
                     My coding journey began when my friend suggested to try coding due to my love of foreign languages; this connection piqued my curiosity. First I signed up for Codecademy and learned HTML and CSS. Then I learned Ruby through Udemy where I really found my passion for coding, and I just kept going! I love the challenge of learning new code and creating code to turn ideas into reality!
                     </p>
                 </div>
+                <button className="x" onClick={this.handleBioClick}> x </button>
             </div>
           
         </div> : null }
 
       {this.state.project ? 
         <AwesomeSlider cssModule={AwesomeSliderStyles}>
-            <div className="project-div" onClick={this.handleProjectClick}>
+            <div className="project-div">
                    <div className="video-container">
                    <iframe width="560" height="315" src="https://www.youtube.com/embed/yVvnaz8s6Tk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                    </div>
@@ -392,6 +391,7 @@ class App extends React.Component {
                              </li>
                           </ul>
                    </div>  
+                   <button className="x" onClick={this.handleProjectClick}> x </button>
             </div>
             <div className="project-div" onClick={this.handleProjectClick}>
                    <div className="video-container">
@@ -472,12 +472,12 @@ class App extends React.Component {
           <div className="skill-slide">
               <div className="sqlite-img"onClick={this.handleSkillClick} ></div>
           </div>
-   
+          <button className="x" onClick={this.handleSkillClick}> x </button>
         </AwesomeSlider> : null}
 
       {this.state.contact ? 
          <div className="contact-card">
-           <div className="contact-div" onClick={this.handleContactClick}>
+           <div className="contact-div">
                <a href="https://www.linkedin.com/in/derya-tanr%C4%B1verdi-701a3489/" target="_blank">
                   <img src="./img/linkedin.png"/>
                </a>
@@ -491,6 +491,7 @@ class App extends React.Component {
                   <img src="./img/medium.png"/>
                </a>
            </div>
+           <button className="x" onClick={this.handleContactClick}> x </button>
         </div> : null
          }
       </div>

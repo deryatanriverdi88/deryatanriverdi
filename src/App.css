@@ -1942,6 +1942,15 @@ iframe{
   width: 100%;
 }
 
+.x{
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: white;
+  font-size: 35px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .linked-in-div a img:hover {
     animation: img-spin infinite 1s linear;
@@ -2061,10 +2070,10 @@ iframe{
   }
 
   .awssld, .bio-card, .contact-card{
-    top: 950px;
+    top: 940px;
     left: 90px;
-    width: 1100px !important; 
-    height: 1100px !important;
+    width: 1110px !important; 
+    height: 1110px !important;
   }
  
   .bio-img-container img{
@@ -2072,14 +2081,19 @@ iframe{
     width: 100%;
    }
 
-   .project-div{
+  .x{
+   top: 10px;
+   left: 10px;
+  }
+
+  .project-div{
      padding-top: 10em;
    }
 
   .text-container{
-    padding: 300px 0 20px 60px;
-    line-height: 35px;
+    padding-top: 240px;
   }
+
   .contact-div{
     padding: 450px  100px;
   }
@@ -2124,6 +2138,7 @@ iframe{
   .postits{
     left: -400px;
   }
+
   .awssld, .bio-card, .contact-card{
     top: 950px;
     left: 100px;
@@ -2325,7 +2340,7 @@ iframe{
   }
  
   .bio-img-container img{
-    margin: 170px 100px;
+    margin: 200px 100px;
     width: 100%;
    }
   
@@ -2438,7 +2453,7 @@ iframe{
 
 /* iPhone XS => 812 x 375 # Horizontal done,
    iPhone X => 812 x 375 # Horizontal done, 
-   Pixel XL => 823 x 411 # Horizontal done*/
+   Pixel 2 XL => 823 x 411 # Horizontal done*/
 @media only screen and (min-width: 812px){
 
   .myname{
@@ -2477,7 +2492,7 @@ iframe{
    iPad Air 1 & 2 => 1024 x 768 # Horizontal*/
  @media only screen and (min-width: 1000px){
 
-  .myname{
+.myname{
     left: 30px;
   }
  .floor{
@@ -2500,12 +2515,12 @@ iframe{
   width: 100%;
  }
 
- .project-div{
+.project-div{
    padding-top: 5em;
  }
 
 .text-container{
-  padding: 0px 0 20px 60px;
+  padding-top: 100px;
   line-height: 40px;
 }
 
@@ -2639,7 +2654,7 @@ iframe{
   }
 
   .floor{
-    height: 45vh;
+    height: 55vh;
   }
 
   .postits{
@@ -2674,9 +2689,11 @@ iframe{
     top: 200px;
     left: 1550px;
   }
+
   .awssld, .bio-card, .contact-card{
     top: 80px;
     left: 300px;
+    width: 1210px !important;
   }
 
   .bio .text-container{
@@ -2689,7 +2706,7 @@ iframe{
     width: 80%;
    }
   
-   .project-div{
+  .project-div{
      padding-top: 5em;
    }
   
@@ -3236,7 +3253,7 @@ iframe{
       height:40%;
    }
 
-   .awssld, .bio-card, .contact-card{
+  .awssld, .bio-card, .contact-card{
     top: 130px;
     left: 360px;
     width: 2000px !important; 
