@@ -2793,6 +2793,10 @@ iframe{
 /* Apple Macbook Air 13-inch => 1440 x 900 done */
  @media only screen and (min-width: 1400px){
 
+  .light-off{
+    height: 230vh;
+  }
+
   .floor{
     width: 100%;
   }
