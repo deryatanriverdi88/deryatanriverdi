@@ -1769,7 +1769,6 @@ box-shadow: 0px 0px 5px 1px rgba(173,163,173,1);
   visibility: visible !important;
 }
 
-
 .bio, .project-div{
   display: flex;
   justify-content: left;
@@ -1825,7 +1824,6 @@ box-shadow: 0px 0px 5px 1px rgba(173,163,173,1);
   list-style: circle;
 }
 
-
 .bio-img-container img{
  margin: 40px auto;
  width: 80%;
@@ -1853,7 +1851,7 @@ box-shadow: 0px 0px 5px 1px rgba(173,163,173,1);
   padding-left: 5em;
  }
 
- .video-container{
+.video-container{
    padding-top: 0;
  }
 
@@ -1863,69 +1861,50 @@ iframe{
   margin: 0 0 0 20px;
 }
  
-.ruby-img, .rails-img, .react-img, .js-img, .active-record, .html-img, .css-img, .mq-img, .redux-img, .heroku-img, .sqlite-img{
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+.skill-slide h3{
+  padding-top: 60px;
+  font-size: 50px;
+  font-family: 'El Messiri', sans-serif;
+  color: white;
+  letter-spacing: 20px;
+  text-decoration: underline;
 }
 
-.rails-img, .redux-img, .sqlite-img, .react-img, .mq-img{
-  background-size: 80%;
+.front-end, .back-end{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top:40px;
+  padding-left: 100px;
+  padding-right: 20px;
+  padding-bottom: 100px !important;
+
 }
 
-.active-record{
-  background-size: 50%;
+.front-end img{
+  width: 45%;
+  height: auto;
+  border-radius: 15px;
 }
 
-
-.js-img, .html-img, .heroku-img, .css-img{
-  background-size: cover;
+.back-end img{
+  width: 35%;
+  height: 40%;
 }
 
-.ruby-img{
-  background-image: url('./images/ruby.jpg');
+.react-img, .js-img, .html-img{
+  margin-right: 30px;
 }
 
-.rails-img{
-  background-image: url('./images/rails.png');
+.rails-img, .heroku-img{
+  margin-left: 150px;
 }
 
-.react-img{
-  background-image: url('./images/react.gif');
+.html-img, .mq-img, .active-record-img, .heroku-img, .sqlite-img{
+  margin-top:40px;
 }
 
-.js-img{
-  background-image: url('./images/javascript.jpg');
-}
-
-.active-record{
-  background-image: url('./images/active-record.png');
-}
-
-.html-img{
-  background-image: url('./images/html.png');
-}
-
-.css-img{
-  background-image: url('./images/css.jpg');
-}
-
-.mq-img{
-  background-image: url('./images/mq.png');
-}
-
-.redux-img{
-  background-image: url('./images/redux.png');
-}
-
-.heroku-img{
-  background-image: url('./images/heroku.png');
-}
-
-.sqlite-img{
-  background-image: url('./images/sqlite.png');
+.active-record-img{
+  margin-left: 260px;
 }
 
 .contact-div{
@@ -2075,7 +2054,7 @@ iframe{
     width: 1110px !important; 
     height: 1110px !important;
   }
- 
+
   .bio-img-container img{
     margin: 240px 100px;
     width: 100%;
@@ -2560,6 +2539,14 @@ iframe{
   iframe{
     height: 50vh;
   }
+  .front-end img, .back-end img{
+    height: 25vh;
+  }
+
+  .back-end{
+    padding-left: 200px;
+  }
+
 }
 
 /* Acer Chromebook => 1336 x 768 */
@@ -2580,8 +2567,16 @@ iframe{
     margin-top: 30px;
   }
 
+  .skill-slide{
+    height: auto !important;
+  }
+
   iframe{
     height:60vh;
+  }
+
+  .front-end img, .back-end img{
+    height: 30vh;
   }
 }
 
@@ -2590,6 +2585,7 @@ iframe{
   .postits{
     left: -100px;
   }  
+  
   .awssld, .bio-card, .contact-card{
     top: 820px; 
   }
@@ -2604,6 +2600,10 @@ iframe{
 
   iframe{
     height:40vh;
+  }
+
+  .front-end img, .back-end img{
+    height: 20vh;
   }
 }
 
@@ -3291,6 +3291,13 @@ iframe{
   iframe{
     height: 40vh;
   }
+ .front-end{
+   padding-left: 120px;
+ }
+  
+ .back-end{
+  padding-left: 380px;
+ }
 } 
 
 /* Apple Macbook Pro 15-inch => 2880 x 1800 done */
@@ -3672,5 +3679,17 @@ padding-top: 20px;
 
 iframe{
   height: 50vh;
+}
+
+.front-end{
+  padding-left: 300px;
+}
+
+.back-end{
+  padding-left: 720px;
+}
+
+.active-record-img{
+  margin-left: 700px;
 }
 } 

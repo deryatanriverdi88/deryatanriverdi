@@ -440,39 +440,30 @@ class App extends React.Component {
         <AwesomeSlider cssModule={AwesomeSliderStyles} >
           
           <div className="skill-slide">
-              <div className="ruby-img" onClick={this.handleSkillClick} ></div>
+            <h3> Frontend</h3>
+              <div className="front-end">
+                <img className="react-img" src='./img/react.gif'/>
+                <img className="redux-img" src='./img/redux.png'/>
+                <img className="js-img" src='./img/javascript.jpg'/>
+                <img className="css-img" src='./img/css.png'/>
+                <img className="html-img" src='./img/html.png'/>
+                <img className="mq-img" src='./img/mq.png'/>
+                <button className="x" onClick={this.handleSkillClick}> x </button>
+              </div>
           </div>
           <div className="skill-slide">
-              <div className="rails-img" onClick={this.handleSkillClick}></div>
+            <h3> Backend</h3>
+              <div className="back-end">
+                <img className="ruby-img" src='./img/ruby.jpg'/>
+                <img className="rails-img" src='./img/rails.png'/>
+                <img className="sqlite-img" src='./img/sqlite.png'/>
+                <img className="heroku-img" src='./img/heroku.png'/>
+                <img className="active-record-img" src='./img/active-record.png'/>
+                
+                <button className="x" onClick={this.handleSkillClick}> x </button>
+              </div>
           </div>
-          <div className="skill-slide">
-              <div className="react-img" onClick={this.handleSkillClick}></div>
-          </div>
-          <div className="skill-slide">
-              <div className="js-img" onClick={this.handleSkillClick}></div>
-          </div>
-          <div className="skill-slide">
-              <div className="active-record" onClick={this.handleSkillClick}></div>
-          </div>
-          <div className="skill-slide">
-              <div className="html-img" onClick={this.handleSkillClick}></div>
-          </div>
-          <div className="skill-slide">
-              <div className="css-img" onClick={this.handleSkillClick}></div>
-          </div>
-          <div className="skill-slide">
-              <div className="mq-img" onClick={this.handleSkillClick}></div>
-          </div>
-          <div className="skill-slide">
-              <div className="redux-img" onClick={this.handleSkillClick}></div>
-          </div>
-          <div className="skill-slide">
-              <div className="heroku-img" onClick={this.handleSkillClick}></div>
-          </div>
-          <div className="skill-slide">
-              <div className="sqlite-img"onClick={this.handleSkillClick} ></div>
-          </div>
-          <button className="x" onClick={this.handleSkillClick}> x </button>
+          
         </AwesomeSlider> : null}
 
       {this.state.contact ? 
