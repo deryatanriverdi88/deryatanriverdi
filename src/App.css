@@ -1882,7 +1882,7 @@ iframe{
 
 .front-end img{
   width: 45%;
-  height: auto;
+  height: 40%;
   border-radius: 15px;
 }
 
@@ -2155,6 +2155,7 @@ iframe{
       top: 950px;
       left: 90px;
     }
+
   }
 
 /* iPhone 5/SE => 568 x 320 # Horizontal done
