@@ -3,6 +3,7 @@
   padding: 0;
   margin: 0;
 }
+
 html, body {
   text-align: center;
   z-index: -90;
@@ -13,7 +14,6 @@ html, body {
   background:#84cce4;
 }
 
-
 ul li{
   list-style: none;
 }
@@ -21,8 +21,6 @@ ul li{
 .border{
   padding: 50px;
 }
-
-
 
 .myname{
   position: absolute;
@@ -46,6 +44,7 @@ ul li{
 .css-art{
   position: absolute;
 }
+
 .css-art p{
   font-size:23px;
   font-family: 'Indie Flower', cursive;
@@ -54,6 +53,7 @@ ul li{
   top:85px;
   color: black;
   z-index: 6;
+  font-weight: bold;
 }
 
 .clock{
@@ -2116,6 +2116,7 @@ iframe{
   .myname{
     left: 500px;
   }
+
   .floor{
     width: 350%;
   }
@@ -2129,12 +2130,12 @@ iframe{
   }
 
   iframe{
-    height: 60vh;
+    height: 70vh;
   }
 }
 
 /* Pixel 2 => 411 x 731 # Vertical done,
-   Pixel XL => 411 x 823 # Vertical done */
+   Pixel 2 XL => 411 x 823 # Vertical done */
  @media screen and (min-width: 411px){
 
     .floor{
@@ -2328,9 +2329,10 @@ iframe{
     width: 100%;
    }
   
-   .project-div {
+  .project-div {
      padding-top: 5em;
    }
+
   .text-container{
     padding: 130px 0 20px 60px;
     line-height: 35px;
@@ -2340,6 +2342,7 @@ iframe{
     height: 80vh;
   }
 } 
+
  /* Samsung Galaxy S8 / S8+ => 740 x 360 # Horizontal done,
     Samsung Galaxy S9 / S9+ => 740 x 360 # Horizontal done*/
  @media only screen and (min-width: 740px){
@@ -2363,7 +2366,6 @@ iframe{
     line-height: 35px;
   }
 
-  
   iframe{
     height: 110vh;
   }
@@ -2383,8 +2385,6 @@ iframe{
   .awssld, .bio-card, .contact-card{
     top: 875px;
     left: 120px;
-    /* width: 118% !important; 
-    height: 85vh !important; */
   }
  
   .bio-img-container img{
@@ -2408,6 +2408,7 @@ iframe{
 
 /* Samsung Galaxy Tab 10 => 800x 1280 # Vertical done */
 @media only screen and (min-width: 800px){
+  
   .floor{
     width: 150%;
   }
@@ -2446,8 +2447,6 @@ iframe{
   .awssld, .bio-card, .contact-card{
     top: 875px;
     left: 120px;
-    /* width: 115% !important; 
-    height: 235vh !important; */
   }
 
   iframe{
@@ -2457,6 +2456,7 @@ iframe{
 
 /* iPhone XR => 896 x 414 # Horizontal done*/
 @media only screen and (min-width: 896px){
+  
   .myname{
     left: 100px;
   }
@@ -2466,9 +2466,8 @@ iframe{
   .awssld, .bio-card, .contact-card{
     top: 875px;
     left: 115px;
-    /* width: 110% !important; 
-    height: 210vh !important; */
   }
+
   iframe{
     height: 80vh;
   }
@@ -2511,7 +2510,7 @@ iframe{
 }
 
 iframe{
-  height: 50vh;
+  height: 30vh;
 }
 
 
@@ -2520,7 +2519,7 @@ iframe{
 /* Samsung Galaxy Tab 10 => 1280 x 800 # Horizontal done*/
 @media  only screen and (min-width: 1280px){
   .myname{
-    left: -95px;
+    left: -115px;
   }
   .css-art p{
     left:470px;
@@ -2542,19 +2541,20 @@ iframe{
   .bio-img-container img{
     margin-top: 30px;
   }
+
+  iframe{
+    height: 50vh;
+  }
 }
 
-/* iPad Pro => 1366 x 1024 # Horizontal done */
+/* Acer Chromebook => 1336 x 768 */
 @media only screen and (min-width: 1336px){
   .postits{
     left: -100px;
   }  
   .awssld, .bio-card, .contact-card{
     top: 820px;
-    left: 0px;
-    /* width: 100% !important; 
-    height: 100vh !important; */
-    
+    left: 200px;
   }
 
   .bio .text-container{
@@ -2566,48 +2566,31 @@ iframe{
   }
 
   iframe{
-    height:70vh;
+    height:60vh;
   }
 }
 
-/* @media only screen and (min-height: 1300px){
-
-  .floor{
-    width: 105%;
-  }
-  .window{
-    left:700px;
-  }
-
+/* iPad Pro => 1366 x 1024 # Horizontal done */
+@media only screen and (min-width: 1366px){
   .postits{
-    left: -300px;
-  }
-
-  .pencil-jar{
-    z-index: 2;
-  }
+    left: -100px;
+  }  
   .awssld, .bio-card, .contact-card{
-    top: 850px;
-    left: 40px;
-    width: 92% !important; 
-    height: 65vh !important;
+    top: 820px; 
   }
 
   .bio .text-container{
-    padding-top:55px;
-    line-height: 40px;
+    padding-top: 100px;
   }
-  
-  .bio-img-container img{
-    margin: 150px 100px;
 
-   }
-  
-  iframe{
-    height: 25vh;
+  .bio-img-container img{
+    margin-top: 30px;
   }
-  
-}  */
+
+  iframe{
+    height:40vh;
+  }
+}
 
 /* Apple Macbook Air 13-inch => 1440 x 900 done */
  @media only screen and (min-width: 1400px){
@@ -2641,7 +2624,7 @@ iframe{
   }
 
   iframe{
-    height: 60vh;
+    height: 45vh;
   }
 } 
 
@@ -2719,7 +2702,7 @@ iframe{
   }
   
   iframe{
-    height: 45vh;
+    height: 35vh;
   }
 } 
 
@@ -3339,6 +3322,7 @@ iframe{
   .pencil-jar{
     top: 895px;
   }
+
   .garbage-can{
     top: 1200px;
   }
@@ -3426,12 +3410,9 @@ iframe{
       height:45%;
    }
 
-
-   .awssld, .bio-card, .contact-card{
+ .awssld, .bio-card, .contact-card{
     top: 130px;
     left: 360px;
-    /* width: 75% !important; 
-    height: 90vh !important; */
   }
 
   .bio .text-container{
@@ -3456,29 +3437,27 @@ iframe{
     line-height: 50px;
   }
   
-  
   .contact-div{
     padding: 550px  100px;
   }
-  
+
   iframe{
-    height: 45vh;
+    height: 35vh;
   }
-   
 } 
 
 /* Apple iMac 27-inch => 5120 x 2880 done*/
  @media only screen and (min-width: 5000px){
 
-  .myname{
+.myname{
     left: -1420px;
     top: 1450px;
-  }
+}
 
-  .css-art p{
+.css-art p{
     top: 1520px;
     left:1080px;
-  }
+}
 
 .month{
 padding-top: 20px;
