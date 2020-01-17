@@ -95,7 +95,7 @@ class App extends React.Component {
     return (
       <div className="app">
          <div className="border">
-            <div className="myname">Derya Tanriverdi</div>
+            <p className="myname">Derya Tanriverdi</p>
             <div className="css-art"> 
                  <p>Made by CSS with <span> ❤️ </span> </p>
             </div>
