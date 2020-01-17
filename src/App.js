@@ -175,19 +175,17 @@ class App extends React.Component {
                  <div className="pencil-2"></div>
             </div>
             <div className="plant-div">
-            <div className="plant">
+               <div className="plant">
                    <ul>
                      <li></li>
                      <li></li>
                      <li></li>
                    </ul>
                 </div>
-                <div className="vase-top"></div>
-                <div className="vase"></div>
+               <div className="vase-top"></div>
+               <div className="vase"></div>
             </div>
-            <div className="table">
-               
-            </div>
+            <div className="table"></div>
             <div className="table-front"></div>
             <div className="garbage-can"></div>
             <div className="dog">
@@ -355,6 +353,9 @@ class App extends React.Component {
                     <p className="text">
                     My coding journey began when my friend suggested to try coding due to my love of foreign languages; this connection piqued my curiosity. First I signed up for Codecademy and learned HTML and CSS. Then I learned Ruby through Udemy where I really found my passion for coding, and I just kept going! I love the challenge of learning new code and creating code to turn ideas into reality!
                     </p>
+                    <button className="resume">
+                    <a href="./resume.zip"> Download my resume!</a>
+                    </button>
                 </div>
                 <button className="x" onClick={this.handleBioClick}> x </button>
             </div>
@@ -393,7 +394,7 @@ class App extends React.Component {
                    </div>  
                    <button className="x" onClick={this.handleProjectClick}> x </button>
             </div>
-            <div className="project-div" onClick={this.handleProjectClick}>
+            <div className="project-div">
                    <div className="video-container">
                    <iframe width="560" height="315" src="https://www.youtube.com/embed/FWPfYNnCwCY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                    </div>
@@ -415,8 +416,9 @@ class App extends React.Component {
                              </li>
                           </ul>
                    </div>  
+                   <button className="x" onClick={this.handleProjectClick}> x </button>
             </div>
-            <div className="project-div" onClick={this.handleProjectClick}>
+            <div className="project-div">
                    <div className="video-container">
                    <iframe width="560" height="315" src="https://www.youtube.com/embed/zTY2ZHW46P8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                    </div>
@@ -432,7 +434,8 @@ class App extends React.Component {
                              <li className="text">Developed a Rails API with endpoints for Users, Recommendations, and Locations.</li>
                              <li className="text">Incorporated localStorage to persist a user on refresh.</li>
                           </ul>
-                   </div>  
+                   </div> 
+                   <button className="x" onClick={this.handleProjectClick}> x </button> 
             </div>
         </AwesomeSlider> : null}
          
