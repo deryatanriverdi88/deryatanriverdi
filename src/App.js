@@ -14,7 +14,8 @@ class App extends React.Component {
     bio: false, 
     project: false, 
     skill: false, 
-    contact: false
+    contact: false,
+    lightOn: true
   }
  
   componentDidMount() {
@@ -88,13 +89,31 @@ class App extends React.Component {
     })
   }
 
+  handleLightOn = () =>{
+    this.setState({
+      lightOn: !this.state.lightOn
+    })
+  }
+
   render(){
  
   
- console.log(this.state.date.getHours())
+ console.log(this.state)
     return (
       <div className="app">
          <div className="border">
+           {!this.state.lightOn ?  
+            <div className="light-off">
+            <button onClick={this.handleLightOn}>
+              Turn the light on!
+            </button>
+          </div> :
+            <div className="light-on">
+                  <button onClick={this.handleLightOn}>
+                    Turn the light off!
+                  </button>
+                  </div> 
+          } 
             <p className="myname">Derya Tanriverdi</p>
             <div className="css-art"> 
                  <p>Made by CSS with <span> ❤️ </span> </p>
@@ -123,14 +142,25 @@ class App extends React.Component {
                </div>
             </div>
             <div className="light"></div>
-            <div className="bulb"></div>
+            {!this.state.lightOn ? 
+            null :
+            <div className="bulb" ></div>  }
             <div className="chair"></div>
-            <div className="girl">
-              <div className="hair"></div>
-              <div className="head">
-                  <div className="left-eye-brow"></div>
-                  <div className="right-eye-brow"></div>
-                  <div className="left-eyelash">
+            {this.state.lightOn ?  
+             <div className="girl">
+             <div className="hair"></div>
+             <div className="head">
+                 <div className="left-eye-brow"></div>
+                 <div className="right-eye-brow"></div>
+                 <div className="left-eyelash">
+                    <ul>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                    </ul>
+                 </div>
+                 <div className="right-eyelash">
                      <ul>
                        <li></li>
                        <li></li>
@@ -138,34 +168,27 @@ class App extends React.Component {
                        <li></li>
                      </ul>
                   </div>
-                  <div className="right-eyelash">
-                      <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                      </ul>
-                   </div>
-                   <div className="left-eye">
+                  <div className="left-eye">
+                     <div className="cornea"></div>
+                  </div>
+                  <div className="right-eye">
                       <div className="cornea"></div>
-                   </div>
-                   <div className="right-eye">
-                       <div className="cornea"></div>
-                   </div>
-                   <div className="ears">
-                       <div className="left-ear">
-                       <div className='earing'></div>
-                   </div>
-                       <div className="right-ear">
-                          <div className='earing'></div>
-                       </div>
-                   </div>
-                   <div className="nose"></div>
-                   <div className="mouth"></div>
-              </div> 
-              <div className="neck"></div>
-              <div className="t-shirt"></div>
-            </div>
+                  </div>
+                  <div className="ears">
+                      <div className="left-ear">
+                      <div className='earing'></div>
+                  </div>
+                      <div className="right-ear">
+                         <div className='earing'></div>
+                      </div>
+                  </div>
+                  <div className="nose"></div>
+                  <div className="mouth"></div>
+             </div> 
+             <div className="neck"></div>
+             <div className="t-shirt"></div>
+           </div> : null}
+           
             <div className="computer">
                 <div className="apple-logo"></div>
             </div>
@@ -189,7 +212,7 @@ class App extends React.Component {
             <div className="table"></div>
             <div className="table-front"></div>
             <div className="garbage-can"></div>
-            <div className="dog">
+            {this.state.lightOn ?   <div className="dog">
                   <p>Pet me ❣️ </p>
                  <div className="dog-head">
                     <div className="dog-ear">
@@ -198,6 +221,7 @@ class App extends React.Component {
                          <li></li>
                        </ul>
                     </div>
+                   
                     <div className="dog-eyes">
                        <ul>
                          <li></li>
@@ -224,12 +248,14 @@ class App extends React.Component {
                        <li></li>
                     </ul>
                 </div>
-            </div>
-            <div className="coffee">
-                <div className="coffee-steam"></div>
-                <div className="coffee-cup"></div>
-                <div className="coffee-bottom"></div>
-            </div>
+            </div> : null}
+           
+            {this.state.lightOn ? 
+             <div className="coffee">
+             <div className="coffee-steam"></div>
+             <div className="coffee-cup"></div>
+             <div className="coffee-bottom"></div>
+         </div> : null}
             <div className="postits">
                 <div className="post-it-1">
                         <div className="flower">
