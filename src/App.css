@@ -6,7 +6,7 @@
 
 html, body {
   text-align: center;
-  z-index: -90;
+  z-index: -9;
   width: auto;
   height: auto;
   margin: 0;
@@ -166,6 +166,45 @@ ul li{
   left: 95px;
   background: #3B6A72;
   color: white;
+}
+
+.light{
+  width: 100px;
+  height: 50px;
+  background: white;
+  position: absolute;
+  left: 750px;
+  top:20px;
+  border-radius:90px 90px 0 0 ;
+  z-index: 6;
+}
+
+.light:before{
+  width: 5px;
+  height: 20px;
+  content: "";
+  display: inline-block;
+  background: black;
+  position: absolute;
+  top: -20px;
+  left: 47px;
+ 
+}
+
+.bulb{
+  content: "";
+  display: inline-block;
+  width: 50px;
+  height: 20px;
+  border-radius: 0 0 90px 90px;
+  position: absolute;
+  left: 775px;
+  top:53px;
+  background: yellow;
+  z-index: 2;
+  -webkit-box-shadow: 1px 10px 34px 13px rgba(192,196,78,1);
+-moz-box-shadow: 1px 10px 34px 13px rgba(192,196,78,1);
+box-shadow: 1px 10px 34px 13px rgba(192,196,78,1);
 }
 
 .chair{
