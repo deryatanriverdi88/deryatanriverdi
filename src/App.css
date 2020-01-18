@@ -1898,6 +1898,7 @@ box-shadow: 0px 0px 5px 1px rgba(173,163,173,1);
 .codepen{
   display: flex;
   flex-wrap: wrap;
+  padding-left: 30px; 
 }
 
 .codepen-div{
@@ -1912,6 +1913,7 @@ box-shadow: 0px 0px 5px 1px rgba(173,163,173,1);
   width: 100%;
   height:100%;
   opacity: 1;
+  border-radius: 40px;
 }
 
 .codepen-div:hover img{
@@ -1925,7 +1927,7 @@ box-shadow: 0px 0px 5px 1px rgba(173,163,173,1);
 }
 
 
-.codepen .middle-spot {
+.middle-spot {
   position: relative;
   top: -185px;
   left: 110px;
@@ -2229,6 +2231,15 @@ iframe{
      padding-top: 10em;
    }
 
+  .codepen-div{
+     height: 300px;
+   }
+
+  .middle-spot{
+    top: -170px;
+    left: 100px;
+  }
+
   .text-container{
     padding-top: 240px;
   }
@@ -2261,6 +2272,10 @@ iframe{
     top: 940px;
     left: 80px;
     height: 1120px !important;
+  }
+
+  .middle-spot{
+    top: -190px;
   }
 }
 
@@ -2516,6 +2531,16 @@ iframe{
   .project-div {
      padding-top: 5em;
    }
+  
+  .codepen-div{
+   width: 28%;
+   height: 250px;
+  }
+
+  .middle-spot{
+    left:60px;
+    top: -150px;
+  }
 
   .text-container{
     padding: 130px 0 20px 60px;
@@ -2609,8 +2634,9 @@ iframe{
   }
  
   .awssld, .bio-card, .contact-card{
+    width: 1100px !important;
     top: 865px;
-    left: 110px;
+    left: 50px;
   }
  
   .bio-img-container img{
@@ -2620,6 +2646,15 @@ iframe{
   
    .project-div{
      padding-top: 5em;
+   }
+
+   .codepen-div{
+     width: 30%;
+     height: 300px;
+   }
+
+   .middle-spot{
+     left: 100px;
    }
 
   .text-container{
@@ -2645,7 +2680,17 @@ iframe{
 
   .awssld, .bio-card, .contact-card{
     top: 875px;
-    left: 120px;
+    left: 50px;
+  }
+
+  .codepen-div{
+    width: 29%;
+    height: 300px;
+  }
+
+  .middle-spot{
+    top: -180px;
+    left: 80px;
   }
 
   iframe{
@@ -2666,7 +2711,7 @@ iframe{
 
   .awssld, .bio-card, .contact-card{
     top: 875px;
-    left: 115px;
+    left: 55px;
   }
 
   iframe{
@@ -2699,7 +2744,7 @@ iframe{
 
 .awssld, .bio-card, .contact-card{
   top: 840px;
-  left: 150px;
+  left: 50px;
 }
 
 .bio-img-container img{
@@ -2710,6 +2755,15 @@ iframe{
 .project-div{
    padding-top: 5em;
  }
+
+.codepen-div{
+  height: 300px;
+}
+
+.middle-spot{
+  left: 90px;
+  top: -170px;
+}
 
 .text-container{
   padding-top: 100px;
@@ -2757,6 +2811,10 @@ iframe{
 
   .bio-img-container img{
     margin-top: 30px;
+  }
+
+  .codepen-div{
+    width: 30%;
   }
 
   iframe{
@@ -3542,7 +3600,10 @@ iframe{
     line-height: 50px;
   }
   
-  
+  .codepen-div{
+    height: 400px;
+  }
+
   .contact-div{
     padding: 450px  100px;
   }
@@ -3944,6 +4005,9 @@ padding-top: 20px;
   line-height: 70px;
 }
 
+.codepen-div {
+  height: 650px;
+}
 
 .contact-div{
   padding: 800px  100px;
