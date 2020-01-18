@@ -464,6 +464,35 @@ class App extends React.Component {
                    </div> 
                    <button className="x" onClick={this.handleProjectClick}> x </button> 
             </div>
+            <div className="project-div">
+              <h3>CodePen Dashboard</h3>
+                <div className="codepen">
+                <div className="codepen-div">
+                    <img src="./img/CodePen/coffee.png
+                  "/>
+                    <div className="middle-spot">
+                    <a href="https://codepen.io/deryatanriverdi88/pen/xxbdVGe" target="_blank"> CodePen Link </a>
+                    </div>
+                </div>
+                <div className="codepen-div">
+                    <img src="./img/CodePen/xmas-tree.png
+                  "/>
+                  <div className="middle-spot">
+                  <a href="https://codepen.io/deryatanriverdi88/pen/rNawJad" target="_blank"> CodePen Link  </a>
+                  </div>
+               
+                </div>
+                <div className="codepen-div">
+                    <img src="./img/CodePen/heart.png
+                  "/>
+                  <div className="middle-spot">
+                  <a href="https://codepen.io/deryatanriverdi88/pen/LYEWKWL" target="_blank"> CodePen Link  </a>
+                  </div>
+               
+                </div>
+                </div>
+                   <button className="x" onClick={this.handleProjectClick}> x </button>
+            </div>
         </AwesomeSlider> : null}
          
       {this.state.skill ? 
@@ -472,23 +501,23 @@ class App extends React.Component {
           <div className="skill-slide">
             <h3> Frontend</h3>
               <div className="front-end">
-                <img className="react-img" src='./img/react.gif'/>
-                <img className="redux-img" src='./img/redux.png'/>
-                <img className="js-img" src='./img/javascript.jpg'/>
-                <img className="css-img" src='./img/css.png'/>
-                <img className="html-img" src='./img/html.png'/>
-                <img className="mq-img" src='./img/mq.png'/>
+                <img className="react-img" src='./img/Skills/react.gif'/>
+                <img className="redux-img" src='./img/Skills/redux.png'/>
+                <img className="js-img" src='./img/Skills/javascript.jpg'/>
+                <img className="css-img" src='./img/Skills/css.png'/>
+                <img className="html-img" src='./img/Skills/html.png'/>
+                <img className="mq-img" src='./img/Skills/mq.png'/>
                 <button className="x" onClick={this.handleSkillClick}> x </button>
               </div>
           </div>
           <div className="skill-slide">
             <h3> Backend</h3>
               <div className="back-end">
-                <img className="ruby-img" src='./img/ruby.jpg'/>
-                <img className="rails-img" src='./img/rails.png'/>
-                <img className="sqlite-img" src='./img/sqlite.png'/>
-                <img className="heroku-img" src='./img/heroku.png'/>
-                <img className="active-record-img" src='./img/active-record.png'/>
+                <img className="ruby-img" src='./img/Skills/ruby.jpg'/>
+                <img className="rails-img" src='./img/Skills/rails.png'/>
+                <img className="sqlite-img" src='./img/Skills/sqlite.png'/>
+                <img className="heroku-img" src='./img/Skills/heroku.png'/>
+                <img className="active-record-img" src='./img/Skills/active-record.png'/>
                 
                 <button className="x" onClick={this.handleSkillClick}> x </button>
               </div>
@@ -500,16 +529,16 @@ class App extends React.Component {
          <div className="contact-card">
            <div className="contact-div">
                <a href="https://www.linkedin.com/in/derya-tanr%C4%B1verdi-701a3489/" target="_blank">
-                  <img src="./img/linkedin.png"/>
+                  <img src="./img/SocialMedia/linkedin.png"/>
                </a>
                <a href="https://github.com/deryatanriverdi88" target="_blank">
-                  <img src="./img/github.png"/>
+                  <img src="./img/SocialMedia/github.png"/>
                </a>
                <a href="https://twitter.com/Derya_T88" target="_blank">
-                  <img src="./img/twitter.png"/>
+                  <img src="./img/SocialMedia/twitter.png"/>
                </a>
                <a href="https://medium.com/@deryatanriverdii" target="_blank">
-                  <img src="./img/medium.png"/>
+                  <img src="./img/SocialMedia/medium.png"/>
                </a>
            </div>
            <button className="x" onClick={this.handleContactClick}> x </button>
