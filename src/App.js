@@ -381,7 +381,7 @@ class App extends React.Component {
                     My coding journey began when my friend suggested to try coding due to my love of foreign languages; this connection piqued my curiosity. First I signed up for Codecademy and learned HTML and CSS. Then I learned Ruby through Udemy where I really found my passion for coding, and I just kept going! I love the challenge of learning new code and creating code to turn ideas into reality!
                     </p>
                     <button className="resume">
-                    <a href="./resume.zip"> Download my resume!</a>
+                    <a href="./img/me-2.jpg"> Download my resume!</a>
                     </button>
                 </div>
                 <button className="x" onClick={this.handleBioClick}> x </button>
