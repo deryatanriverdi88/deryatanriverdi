@@ -490,6 +490,22 @@ class App extends React.Component {
                   </div>
                
                 </div>
+                <div className="codepen-div">
+                    <img src="./img/CodePen/pencil-jar.png
+                  "/>
+                  <div className="middle-spot">
+                  <a href="https://codepen.io/deryatanriverdi88/pen/povWeqj" target="_blank"> CodePen Link  </a>
+                  </div>
+               
+                </div>
+                <div className="codepen-div">
+                    <img src="./img/CodePen/battery.png
+                  "/>
+                  <div className="middle-spot">
+                  <a href="https://codepen.io/deryatanriverdi88/pen/rNamxNm" target="_blank"> CodePen Link  </a>
+                  </div>
+               
+                </div>
                 </div>
                    <button className="x" onClick={this.handleProjectClick}> x </button>
             </div>
