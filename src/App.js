@@ -367,7 +367,7 @@ class App extends React.Component {
         <div className="bio-card"> 
             <div className="bio" >  
              <div className="bio-img-container">
-                     <img src="./img/me-2.jpg"/>
+                     <img src="./img/me-3.jpg"/>
                 </div>
                 <div className="text-container">
                     <h2 className="text h2">Who am I ?</h2>
@@ -504,7 +504,13 @@ class App extends React.Component {
                   <div className="middle-spot">
                   <a href="https://codepen.io/deryatanriverdi88/pen/rNamxNm" target="_blank"> CodePen Link  </a>
                   </div>
-               
+                </div>
+                <div className="codepen-div">
+                    <img src="./img/CodePen/bike.png
+                  "/>
+                  <div className="middle-spot">
+                  <a href="https://codepen.io/deryatanriverdi88/pen/VwYVjXv" target="_blank"> CodePen Link  </a>
+                  </div>
                 </div>
                 </div>
                    <button className="x" onClick={this.handleProjectClick}> x </button>
