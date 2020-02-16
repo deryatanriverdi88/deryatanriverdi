@@ -562,6 +562,9 @@ class App extends React.Component {
                <a href="https://medium.com/@deryatanriverdii" target="_blank">
                   <img src="./img/SocialMedia/medium.png"/>
                </a>
+               <a href="https://codepen.io/deryatanriverdi88" target="_blank">
+                  <img src="./img/SocialMedia/codepen.png"/>
+               </a>
            </div>
            <button className="x" onClick={this.handleContactClick}> x </button>
         </div> : null
