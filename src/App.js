@@ -17,8 +17,6 @@ class App extends React.Component {
     contact: false,
     lightOn: true
   }
- 
- m1
   
   month =()=> {
     let month = ""
