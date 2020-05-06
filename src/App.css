@@ -4081,6 +4081,15 @@ padding-top: 20px;
   animation: move-up-rope-5000 3s linear;
 }
 
+@keyframes move-up-rope-5000{
+  from {
+    top: 680px;
+  }
+  to {
+    top: 120px;
+  }
+}
+
 .land, .land:after{
     width: 420px;
 }
