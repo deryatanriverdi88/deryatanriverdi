@@ -4129,6 +4129,11 @@ padding-top: 20px;
   }
 }
 
+.curtain-close .curtain-handle{
+  animation: move-down-curtain-handle-5000 3s linear;
+  animation-fill-mode: forwards;
+}
+
 .land, .land:after{
     width: 420px;
 }
