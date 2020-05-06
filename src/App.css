@@ -1577,9 +1577,9 @@ transform: rotate(95deg);
   display: inline-block;
   position: absolute;
   top: 50px;
-  left: 142px;
-  width: 5px;
-  height: 20px;
+  left: 140px;
+  width: 10px;
+  height: 30px;
   background: black;
   z-index: 1;
   animation: move-up-rope 3s linear;
@@ -1596,10 +1596,10 @@ transform: rotate(95deg);
 
 .curtain-handle{
   position: relative;
-  width: 15px;
-  height: 15px;
-  top: 70px;
-  left: 137px;
+  width: 20px;
+  height: 20px;
+  top: 75px;
+  left: 135px;
   border-radius: 50%;
   border: 5px solid #ff9801;
   z-index: 3;
@@ -1608,10 +1608,10 @@ transform: rotate(95deg);
 
 @keyframes move-up-curtain-handle {
   from {
-    top: 295px;
+    top: 305px;
   }
   to{
-    top: 70px;
+    top: 75px;
   }
 }
 
@@ -1644,7 +1644,7 @@ transform: rotate(95deg);
 
 @keyframes move-down-curtain-handle{
   to{
-    top: 295px;
+    top: 305px;
   }
 }
 
@@ -3528,25 +3528,85 @@ iframe{
   .curtain{
       width: 570px;
       height: 120px;
-      
+      top: -560px;
+      animation: open-curtain-2500 3s linear;
   }
-  
-  .curtain:before{
-    height: 100px;
-     top: 120px;
-     left: 275px;
-     width: 10px;
-    
+
+  @keyframes open-curtain-2500 {
+    from {
+      height: 570px;
+    }
+    to {
+      height: 120px;
+    }
   }
-  
-  .curtain:after{
-     width: 20px;
-     height: 20px;
-     top: 210px;
-     left: 260px;
-     border: 10px solid #ff9801;
+
+  .curtain-rope{
+    left: 275px;
+    top: 120px;
+    animation: move-up-rope-2500 3s linear;
   }
-  
+
+  @keyframes move-up-rope-2500{
+    from {
+      top: 570px;
+    }
+    to {
+      top: 120px;
+    }
+  }
+
+  .curtain-handle{
+    width: 40px;
+    height: 40px;
+    top:140px;
+    left: 260px;
+    border-width: 10px;
+    animation: move-up-curtain-handle-2500 3s linear;
+  }
+
+  @keyframes move-up-curtain-handle-2500 {
+    from {
+      top: 590px;
+    }
+    to{
+      top: 140px;
+    }
+  }
+
+  .curtain-close{
+    animation: close-the-curtain-2500 3s linear;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes close-the-curtain-2500 {
+    to {
+      height: 570px;
+    }
+  }
+
+  .curtain-close .curtain-rope{
+    animation: move-down-curtain-rope-2500 3s linear;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes move-down-curtain-rope-2500{
+    to{
+      top: 570px;
+    }
+  }
+
+  .curtain-close .curtain-handle{
+    animation: move-down-curtain-handle-2500 3s linear;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes move-down-curtain-handle-2500{
+    to{
+      top: 590px;
+    }
+  }
+
   .moon{
       width: 100px;
       height: 100px;
@@ -3615,7 +3675,7 @@ iframe{
   
   .window-devide{
       left: 260px;
-      height: 450px;
+      height: 560px;
       width: 30px;
   }
   
@@ -4001,22 +4061,83 @@ padding-top: 20px;
 .curtain{
     width: 880px;
     height: 120px;
+    top: -680px;
+    animation: open-curtain-5000 3s linear;
 }
 
-.curtain:before{
-   height: 100px;
-   top: 115px;
-   left: 445px;
-   width: 10px;
-  
+@keyframes open-curtain-5000 {
+  from {
+    height: 680px;
+  }
+  to {
+    height: 120px;
+  }
 }
 
-.curtain:after{
-   width: 20px;
-   height: 20px;
-   top: 210px;
-   left: 430px;
-   border: 10px solid #ff9801;
+.curtain-rope{
+  width: 15px;
+  left: 442px;
+  top: 120px;
+  animation: move-up-rope-5000 3s linear;
+}
+
+@keyframes move-up-rope-5000{
+  from {
+    top: 680px;
+  }
+  to {
+    top: 120px;
+  }
+}
+
+.curtain-handle{
+  width: 60px;
+  height: 60px;
+  top:140px;
+  left: 420px;
+  border-width: 15px;
+  animation: move-up-curtain-handle-5000 3s linear;
+}
+
+@keyframes move-up-curtain-handle-5000 {
+  from {
+    top: 700px;
+  }
+  to{
+    top: 140px;
+  }
+}
+
+.curtain-close{
+  animation: close-the-curtain-5000 3s linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes close-the-curtain-5000 {
+  to {
+    height: 680px;
+  }
+}
+.curtain-close .curtain-rope{
+  animation: move-down-curtain-rope-5000 3s linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes move-down-curtain-rope-5000{
+  to{
+    top: 680px;
+  }
+}
+
+.curtain-close .curtain-handle{
+  animation: move-down-curtain-handle-5000 3s linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes move-down-curtain-handle-5000{
+  to{
+    top: 700px;
+  }
 }
 
 .land, .land:after{
@@ -4029,7 +4150,7 @@ padding-top: 20px;
 
 .window-devide{
     left: 430px;
-    height: 560px;
+    height: 670px;
     width: 30px;
 }
 
