@@ -15,7 +15,8 @@ class App extends React.Component {
     project: false, 
     skill: false, 
     contact: false,
-    lightOn: true
+    lightOn: true,
+    curtainClose: false
   }
   
   month =()=> {
