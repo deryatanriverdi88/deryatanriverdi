@@ -2447,7 +2447,7 @@ iframe{
   }
 } 
 
-@media only screen and (min-width: 520px){
+@media only screen and (min-width: 510px){
   .floor{
     top: 620px;
     width: 250%;
