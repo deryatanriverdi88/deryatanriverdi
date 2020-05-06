@@ -3601,6 +3601,12 @@ iframe{
     animation-fill-mode: forwards;
   }
 
+  @keyframes move-down-curtain-handle-2500{
+    to{
+      top: 590px;
+    }
+  }
+
   .moon{
       width: 100px;
       height: 100px;
