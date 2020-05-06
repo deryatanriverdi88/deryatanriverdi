@@ -1582,19 +1582,70 @@ transform: rotate(95deg);
   height: 20px;
   background: black;
   z-index: 1;
+  animation: move-up-rope 3s linear;
 }
 
-.curtain:after{
-  content: "";
-  display: inline-block;
-  position: absolute;
-  width: 10px;
-  height: 10px;
+@keyframes move-up-rope{
+  from {
+    top: 280px;
+  }
+  to {
+    top: 50px;
+  }
+}
+
+.curtain-handle{
+  position: relative;
+  width: 15px;
+  height: 15px;
   top: 70px;
   left: 137px;
   border-radius: 50%;
-  border: 3px solid #ff9801;
-  z-index: 1;
+  border: 5px solid #ff9801;
+  z-index: 3;
+ animation: move-up-curtain-handle 3s linear;
+}
+
+@keyframes move-up-curtain-handle {
+  from {
+    top: 295px;
+  }
+  to{
+    top: 70px;
+  }
+}
+
+.curtain-close{
+  animation: close-the-curtain 3s linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes close-the-curtain {
+  to {
+    height: 280px;
+  }
+}
+
+.curtain-close .curtain-rope{
+  animation: move-down-curtain-rope 3s linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes move-down-curtain-rope{
+  to{
+    top: 280px;
+  }
+}
+
+.curtain-close .curtain-handle{
+  animation: move-down-curtain-handle 3s linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes move-down-curtain-handle{
+  to{
+    top: 295px;
+  }
 }
 
 .cloud{
@@ -1715,7 +1766,7 @@ transform: rotate(95deg);
 
 .window-devide{
   width: 20px;
-  height: 230px;
+  height: 280px;
   background: white;
   position: relative;
   left: 130px;
@@ -1779,6 +1830,7 @@ transform: rotate(95deg);
 
 .stars{
   position: absolute;
+  top: -20px;
 }
 
 .stars ul li{
@@ -2073,11 +2125,13 @@ iframe{
 
 .x{
   position: absolute;
-  width: 60px;
-  height: 60px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   background: white;
-  font-size: 35px;
+  font-size: 20px;
+  vertical-align: middle;
+	line-height: 30px;
 }
 
 @media (prefers-reduced-motion: no-preference) {

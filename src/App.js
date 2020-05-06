@@ -15,7 +15,8 @@ class App extends React.Component {
     project: false, 
     skill: false, 
     contact: false,
-    lightOn: true
+    lightOn: true,
+    curtainClose: false
   }
   
   month =()=> {
@@ -85,6 +86,12 @@ class App extends React.Component {
   handleLightOn = () =>{
     this.setState({
       lightOn: !this.state.lightOn
+    })
+  }
+
+  handleCurtainClick = () =>{
+    this.setState({
+      curtainClose: !this.state.curtainClose
     })
   }
 
@@ -317,15 +324,25 @@ class App extends React.Component {
                 </div>
             </div>
             
-            {this.state.date.getHours() > 5 && this.state.date.getHours()  < 17 ? 
+            {this.state.date.getHours() > 5 && this.state.date.getHours()  < 20 ?
             <div className="window">
-                <div className="curtain"></div>
-                <div className="cloud">
+                 <div className="cloud">
                    <ul>
                      <li></li>
                      <li></li>
                    </ul>
                 </div>
+                <div className="window-devide"></div>
+                {!this.state.curtainClose ?
+                     <div className="curtain">
+                         <div className="curtain-rope"></div>
+                         <div className="curtain-handle" onClick={this.handleCurtainClick}></div>
+                     </div> :
+                     <div className="curtain curtain-close">
+                        <div className="curtain-rope"></div>
+                        <div className="curtain-handle" onClick={this.handleCurtainClick}></div>
+                     </div>
+                }
                 <div className="land">
                    <div className="tree">
                     <ul>
@@ -336,9 +353,9 @@ class App extends React.Component {
                     </ul>
                 </div>
                 </div>
-                <div className="window-devide"></div>
-            </div> : 
+            </div> :
             <div className="window" id="night">
+               <div className="window-devide"></div>
                <div className="moon"></div>
                <div className="stars">
                    <ul>
@@ -348,7 +365,16 @@ class App extends React.Component {
                        <li></li>
                   </ul>
                </div>
-               <div className="curtain"></div>
+               {!this.state.curtainClose ?
+                     <div className="curtain open-curtain">
+                         <div className="curtain-rope"></div>
+                         <div className="curtain-handle" onClick={this.handleCurtainClick}></div>
+                     </div> :
+                     <div className="curtain curtain-close">
+                        <div className="curtain-rope"></div>
+                        <div className="curtain-handle" onClick={this.handleCurtainClick}></div>
+                     </div>
+                }
                <div className="land" id="dark-green-land">
                    <div className="tree" id="dark-green-tree">
                        <ul>
@@ -359,10 +385,9 @@ class App extends React.Component {
                        </ul>
                    </div>
                </div>
-               <div className="window-devide"></div>
+               
             </div>
             }
-
             <div className="floor"></div>
         </div>
 
@@ -546,10 +571,65 @@ class App extends React.Component {
                           </div>
                      </div>
                      <div className="codepen-div">
-                         <img src="./img/CodePen/CurvedText.png
+                         <img src="./img/CodePen/Casette-Tape.png
                          "/>
                          <div className="middle-spot">
-                             <a href="https://codepen.io/deryatanriverdi88/pen/dyoGJay" target="_blank"> CodePen Link  </a>
+                             <a href="https://codepen.io/deryatanriverdi88/pen/yLNZJdd" target="_blank"> CodePen Link  </a>
+                         </div>
+                     </div>
+                     <div className="codepen-div">
+                         <img src="./img/CodePen/Drawing.png
+                         "/>
+                         <div className="middle-spot">
+                             <a href="https://codepen.io/deryatanriverdi88/pen/QWbZNqx" target="_blank"> CodePen Link  </a>
+                         </div>
+                     </div>
+                 </div>
+                 <button className="x" onClick={this.handleProjectClick}> x </button>
+          </div>
+          <div className="project-div">
+              <h3>CodePen Dashboard</h3>
+                 <div className="codepen">
+                     <div className="codepen-div">
+                         <img src="./img/CodePen/Brooklyn-Map.png
+                         "/>
+                         <div className="middle-spot">
+                             <a href="https://codepen.io/deryatanriverdi88/pen/zYGRBNQ" target="_blank"> CodePen Link  </a>
+                         </div>
+                     </div>
+                     <div className="codepen-div">
+                         <img src="./img/CodePen/Polar-Bear.png
+                         "/>
+                         <div className="middle-spot">
+                             <a href="https://codepen.io/deryatanriverdi88/pen/JjdOJaW" target="_blank"> CodePen Link  </a>
+                         </div>
+                     </div>
+                     <div className="codepen-div">
+                         <img src="./img/CodePen/Coloring-Book.png
+                         "/>
+                         <div className="middle-spot">
+                             <a href="https://codepen.io/deryatanriverdi88/pen/JjdqxKb" target="_blank"> CodePen Link  </a>
+                         </div>
+                     </div>
+                     <div className="codepen-div">
+                          <img src="./img/CodePen/Calculator.png
+                          "/>
+                          <div className="middle-spot">
+                             <a href="https://codepen.io/deryatanriverdi88/pen/gOaYmep" target="_blank"> CodePen Link  </a>
+                          </div>
+                     </div>
+                     <div className="codepen-div">
+                         <img src="./img/CodePen/Balloon-Popping.png
+                         "/>
+                         <div className="middle-spot">
+                             <a href="https://codepen.io/deryatanriverdi88/pen/RwWWzdo" target="_blank"> CodePen Link  </a>
+                         </div>
+                     </div>
+                     <div className="codepen-div">
+                         <img src="./img/CodePen/Hangman.png
+                         "/>
+                         <div className="middle-spot">
+                             <a href="https://codepen.io/deryatanriverdi88/pen/gOawOqY" target="_blank"> CodePen Link  </a>
                          </div>
                      </div>
                  </div>
