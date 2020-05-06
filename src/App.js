@@ -365,7 +365,16 @@ class App extends React.Component {
                        <li></li>
                   </ul>
                </div>
-               <div className="curtain"></div>
+               {!this.state.curtainClose ?
+                     <div className="curtain open-curtain">
+                         <div className="curtain-rope"></div>
+                         <div className="curtain-handle" onClick={this.handleCurtainClick}></div>
+                     </div> :
+                     <div className="curtain curtain-close">
+                        <div className="curtain-rope"></div>
+                        <div className="curtain-handle" onClick={this.handleCurtainClick}></div>
+                     </div>
+                }
                <div className="land" id="dark-green-land">
                    <div className="tree" id="dark-green-tree">
                        <ul>
