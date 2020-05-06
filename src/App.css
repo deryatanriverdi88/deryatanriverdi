@@ -1637,6 +1637,17 @@ transform: rotate(95deg);
   }
 }
 
+.curtain-close .curtain-handle{
+  animation: move-down-curtain-handle 3s linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes move-down-curtain-handle{
+  to{
+    top: 295px;
+  }
+}
+
 .cloud{
   position: relative;
   z-index: -1;
