@@ -3579,6 +3579,12 @@ iframe{
     animation-fill-mode: forwards;
   }
 
+  @keyframes close-the-curtain-2500 {
+    to {
+      height: 570px;
+    }
+  }
+
   .moon{
       width: 100px;
       height: 100px;
