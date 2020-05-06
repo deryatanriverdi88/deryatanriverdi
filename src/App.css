@@ -1608,10 +1608,10 @@ transform: rotate(95deg);
 
 @keyframes move-up-curtain-handle {
   from {
-    top: 295px;
+    top: 305px;
   }
   to{
-    top: 70px;
+    top: 75px;
   }
 }
 
