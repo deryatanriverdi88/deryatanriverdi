@@ -3556,6 +3556,15 @@ iframe{
     }
   }
 
+  .curtain-handle{
+    width: 40px;
+    height: 40px;
+    top:140px;
+    left: 260px;
+    border-width: 10px;
+    animation: move-up-curtain-handle-2500 3s linear;
+  }
+
   .moon{
       width: 100px;
       height: 100px;
