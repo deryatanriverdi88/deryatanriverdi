@@ -2149,8 +2149,6 @@ iframe{
 /* iPhone 5/SE => 320 x 568 # Vertical  done
    iPad Touch => 320 x 568  # Verrical  done*/
 @media only screen and (min-width: 300px){
-
-  
   .light-off{
     width: 395%;
     height: 430vh;
