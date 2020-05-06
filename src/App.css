@@ -1615,6 +1615,18 @@ transform: rotate(95deg);
   }
 }
 
+.curtain-close{
+  animation: close-the-curtain 3s linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes close-the-curtain {
+  to {
+    height: 280px;
+  }
+}
+
+
 .cloud{
   position: relative;
   z-index: -1;
