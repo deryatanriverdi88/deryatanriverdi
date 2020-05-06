@@ -3565,6 +3565,15 @@ iframe{
     animation: move-up-curtain-handle-2500 3s linear;
   }
 
+  @keyframes move-up-curtain-handle-2500 {
+    from {
+      top: 590px;
+    }
+    to{
+      top: 140px;
+    }
+  }
+
   .moon{
       width: 100px;
       height: 100px;
