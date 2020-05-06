@@ -1644,7 +1644,7 @@ transform: rotate(95deg);
 
 @keyframes move-down-curtain-handle{
   to{
-    top: 295px;
+    top: 305px;
   }
 }
 
