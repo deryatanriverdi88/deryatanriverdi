@@ -3541,6 +3541,12 @@ iframe{
     }
   }
 
+  .curtain-rope{
+    left: 275px;
+    top: 120px;
+    animation: move-up-rope-2500 3s linear;
+  }
+
   .moon{
       width: 100px;
       height: 100px;
