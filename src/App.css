@@ -4065,6 +4065,15 @@ padding-top: 20px;
     animation: open-curtain-5000 3s linear;
 }
 
+@keyframes open-curtain-5000 {
+  from {
+    height: 680px;
+  }
+  to {
+    height: 120px;
+  }
+}
+
 .land, .land:after{
     width: 420px;
 }
