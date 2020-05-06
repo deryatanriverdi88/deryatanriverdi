@@ -4123,6 +4123,12 @@ padding-top: 20px;
   animation-fill-mode: forwards;
 }
 
+@keyframes move-down-curtain-rope-5000{
+  to{
+    top: 680px;
+  }
+}
+
 .land, .land:after{
     width: 420px;
 }
