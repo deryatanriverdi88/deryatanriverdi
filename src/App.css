@@ -4099,6 +4099,15 @@ padding-top: 20px;
   animation: move-up-curtain-handle-5000 3s linear;
 }
 
+@keyframes move-up-curtain-handle-5000 {
+  from {
+    top: 700px;
+  }
+  to{
+    top: 140px;
+  }
+}
+
 .land, .land:after{
     width: 420px;
 }
