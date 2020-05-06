@@ -1559,9 +1559,20 @@ transform: rotate(95deg);
   height: 50px;
   position: relative;
   left: -5px;
+  top: -280px;
+  animation: open-curtain 3s linear;
 }
 
-.curtain:before{
+@keyframes open-curtain {
+  from {
+    height: 280px;
+  }
+  to {
+    height: 50px;
+  }
+}
+
+.curtain-rope{
   content: "";
   display: inline-block;
   position: absolute;
