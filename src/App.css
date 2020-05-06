@@ -228,8 +228,8 @@ ul li{
   background: yellow;
   z-index: 2;
   -webkit-box-shadow: 1px 10px 34px 13px rgba(192,196,78,1);
--moz-box-shadow: 1px 10px 34px 13px rgba(192,196,78,1);
-box-shadow: 1px 10px 34px 13px rgba(192,196,78,1);
+  -moz-box-shadow: 1px 10px 34px 13px rgba(192,196,78,1);
+  box-shadow: 1px 10px 34px 13px rgba(192,196,78,1);
 }
 
 #off{
@@ -262,8 +262,7 @@ box-shadow: 1px 10px 34px 13px rgba(192,196,78,1);
   background: #f8da67;
   left: 0px;
   top: 0px;
-  border-radius:90px 90px 35px 35px ;
-
+  border-radius:90px 90px 35px 35px;
 }
 
 .head{
