@@ -1830,6 +1830,7 @@ transform: rotate(95deg);
 
 .stars{
   position: absolute;
+  top: -20px;
 }
 
 .stars ul li{
