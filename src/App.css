@@ -1594,6 +1594,27 @@ transform: rotate(95deg);
   }
 }
 
+.curtain-handle{
+  position: relative;
+  width: 15px;
+  height: 15px;
+  top: 70px;
+  left: 137px;
+  border-radius: 50%;
+  border: 5px solid #ff9801;
+  z-index: 3;
+ animation: move-up-curtain-handle 3s linear;
+}
+
+@keyframes move-up-curtain-handle {
+  from {
+    top: 295px;
+  }
+  to{
+    top: 70px;
+  }
+}
+
 .cloud{
   position: relative;
   z-index: -1;
