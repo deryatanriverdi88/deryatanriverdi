@@ -332,6 +332,7 @@ class App extends React.Component {
                      <li></li>
                    </ul>
                 </div>
+                <div className="window-devide"></div>
                 <div className="land">
                    <div className="tree">
                     <ul>
@@ -342,9 +343,9 @@ class App extends React.Component {
                     </ul>
                 </div>
                 </div>
-                <div className="window-devide"></div>
             </div> : 
             <div className="window" id="night">
+               <div className="window-devide"></div>
                <div className="moon"></div>
                <div className="stars">
                    <ul>
