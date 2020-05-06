@@ -333,6 +333,16 @@ class App extends React.Component {
                    </ul>
                 </div>
                 <div className="window-devide"></div>
+                {!this.state.curtainClose ?
+                     <div className="curtain">
+                         <div className="curtain-rope"></div>
+                         <div className="curtain-handle" onClick={this.handleCurtainClick}></div>
+                     </div> :
+                     <div className="curtain curtain-close">
+                        <div className="curtain-rope"></div>
+                        <div className="curtain-handle" onClick={this.handleCurtainClick}></div>
+                     </div>
+                }
                 <div className="land">
                    <div className="tree">
                     <ul>
