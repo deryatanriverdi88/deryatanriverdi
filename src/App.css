@@ -2809,60 +2809,63 @@ iframe{
 /* iPad Pro => 1024 x 1366 # Vertical done, 
    iPad Air 1 & 2 => 1024 x 768 # Horizontal*/
  @media only screen and (min-width: 1000px){
+    .light-off{
+      width: 120%;
+      height: 150vh;
+    }
 
-  .light-off{
+  .myname{
+      left: 30px;
+    }
+
+  .floor{
     width: 120%;
-    height: 150vh;
+    height: 20vh;
   }
 
-.myname{
-    left: 30px;
+  .postits{
+    top:750px;
+    left: -200px;
   }
 
- .floor{
-   width: 120%;
-   height: 20vh;
- }
+  .awssld, .bio-card, .contact-card{
+    top: 840px;
+    left: 50px;
+  }
 
- .postits{
-   top:750px;
-   left: -200px;
- }
+  .bio-img-container img{
+    margin: 150px 100px;
+    width: 100%;
+  }
 
-.awssld, .bio-card, .contact-card{
-  top: 840px;
-  left: 50px;
+  .project-div{
+    padding-top: 5em;
+  }
+
+  .codepen-div{
+    height: 300px;
+  }
+
+  .middle-spot{
+    left: 90px;
+    top: -170px;
+  }
+
+  .text-container{
+    padding-top: 100px;
+    line-height: 40px;
+  }
+
+  iframe{
+    height: 30vh;
+  }
 }
 
-.bio-img-container img{
-  margin: 150px 100px;
-  width: 100%;
- }
-
-.project-div{
-   padding-top: 5em;
- }
-
-.codepen-div{
-  height: 300px;
+@media  only screen and (min-width: 1100px){
+  .myname{
+    left: -50px;
+  }
 }
-
-.middle-spot{
-  left: 90px;
-  top: -170px;
-}
-
-.text-container{
-  padding-top: 100px;
-  line-height: 40px;
-}
-
-iframe{
-  height: 30vh;
-}
-
-
-} 
 
 /* Samsung Galaxy Tab 10 => 1280 x 800 # Horizontal done*/
 @media  only screen and (min-width: 1280px){
