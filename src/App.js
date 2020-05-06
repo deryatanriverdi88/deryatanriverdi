@@ -326,8 +326,7 @@ class App extends React.Component {
             
             {this.state.date.getHours() > 5 && this.state.date.getHours()  < 20 ?
             <div className="window">
-                <div className="curtain"></div>
-                <div className="cloud">
+                 <div className="cloud">
                    <ul>
                      <li></li>
                      <li></li>
