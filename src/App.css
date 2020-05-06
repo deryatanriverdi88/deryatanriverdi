@@ -3585,6 +3585,11 @@ iframe{
     }
   }
 
+  .curtain-close .curtain-rope{
+    animation: move-down-curtain-rope-2500 3s linear;
+    animation-fill-mode: forwards;
+  }
+
   .moon{
       width: 100px;
       height: 100px;
