@@ -2125,11 +2125,13 @@ iframe{
 
 .x{
   position: absolute;
-  width: 60px;
-  height: 60px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   background: white;
-  font-size: 35px;
+  font-size: 20px;
+  vertical-align: middle;
+	line-height: 30px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
