@@ -2447,6 +2447,32 @@ iframe{
   }
 } 
 
+@media only screen and (min-width: 520px){
+  .floor{
+    top: 620px;
+    width: 250%;
+    height: 60vh;
+  }
+
+  .window{
+    left: 950px;
+  }
+
+  .postits{
+    left: -390px;
+    top:850px;
+  }
+
+  .awssld, .bio-card, .contact-card{
+    top: 950px;
+    left: 165px;
+  }
+
+  iframe{
+    height: 150vh;
+  }
+}
+
 /* Galaxy S5 => 640 x 360  # Horizontal done, 
    Galaxy s7 => 640 x 360 # Horizontal done, 
    iPhone 6/7/8 => 667 x 375 # Horizontal done*/
