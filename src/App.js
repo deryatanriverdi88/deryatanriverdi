@@ -89,6 +89,12 @@ class App extends React.Component {
     })
   }
 
+  handleCurtainClick = () =>{
+    this.setState({
+      curtainClose: !this.state.curtainClose
+    })
+  }
+
   render(){
  
   
