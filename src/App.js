@@ -18,6 +18,13 @@ class App extends React.Component {
     lightOn: true,
     curtainClose: false
   }
+
+  componentDidMount() {
+    setInterval(
+      () => this.setState({ date: new Date() }),
+      1000
+    );
+  }
   
   month =()=> {
     let month = ""
