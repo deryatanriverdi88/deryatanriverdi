@@ -3031,6 +3031,30 @@ iframe{
   }
 } 
 
+@media only screen and (min-width: 1500px){
+  .myname{
+    left: -230px;
+  }
+}
+
+@media only screen and (min-width: 1600px){
+  .myname{
+    left: -250px;
+  }
+}
+
+@media only screen and (min-width: 1700px){
+  .myname{
+    left: -300px;
+  }
+}
+
+@media only screen and (min-width: 1800px){
+  .myname{
+    left: -350px;
+  }
+}
+
 /* Del XPS 13 => 1920 x 1080 done */
  @media only screen and (min-width: 1900px){
   .light-off{
@@ -3120,6 +3144,12 @@ iframe{
     height: 35vh;
   }
 } 
+
+@media only screen and (min-width: 2000px){
+  .myname{
+    left: -470px;
+  }
+}
 
 /* Apple Macbook 13-inch => 2560 x 1600 done*/
  @media only screen and (min-width: 2500px){
