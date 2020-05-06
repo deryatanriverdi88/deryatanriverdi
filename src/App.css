@@ -3532,6 +3532,15 @@ iframe{
       animation: open-curtain-2500 3s linear;
   }
 
+  @keyframes open-curtain-2500 {
+    from {
+      height: 570px;
+    }
+    to {
+      height: 120px;
+    }
+  }
+
   .moon{
       width: 100px;
       height: 100px;
