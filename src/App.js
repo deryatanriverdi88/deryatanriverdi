@@ -342,11 +342,11 @@ class App extends React.Component {
                 <div className="window-devide"></div>
                 {!this.state.curtainClose ?
                      <div className="curtain">
-                         <div className="curtain-rope"></div>
+                         <div className="curtain-rope" onClick={this.handleCurtainClick}></div>
                          <div className="curtain-handle" onClick={this.handleCurtainClick}></div>
                      </div> :
                      <div className="curtain curtain-close">
-                        <div className="curtain-rope"></div>
+                        <div className="curtain-rope" onClick={this.handleCurtainClick}></div>
                         <div className="curtain-handle" onClick={this.handleCurtainClick}></div>
                      </div>
                 }
@@ -374,11 +374,11 @@ class App extends React.Component {
                </div>
                {!this.state.curtainClose ?
                      <div className="curtain open-curtain">
-                         <div className="curtain-rope"></div>
+                         <div className="curtain-rope" onClick={this.handleCurtainClick}></div>
                          <div className="curtain-handle" onClick={this.handleCurtainClick}></div>
                      </div> :
                      <div className="curtain curtain-close">
-                        <div className="curtain-rope"></div>
+                        <div className="curtain-rope" onClick={this.handleCurtainClick}></div>
                         <div className="curtain-handle" onClick={this.handleCurtainClick}></div>
                      </div>
                 }
