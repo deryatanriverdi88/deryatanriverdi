@@ -4134,6 +4134,12 @@ padding-top: 20px;
   animation-fill-mode: forwards;
 }
 
+@keyframes move-down-curtain-handle-5000{
+  to{
+    top: 700px;
+  }
+}
+
 .land, .land:after{
     width: 420px;
 }
