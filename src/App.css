@@ -4,7 +4,7 @@
   margin: 0;
 }
 
-html, body {
+body {
   text-align: center;
   z-index: -9;
   width: auto;
@@ -49,7 +49,6 @@ ul li{
   top: 400px;
   left: 900px;
 }
-
 
 .myname{
   position: absolute;
@@ -217,7 +216,6 @@ ul li{
   position: absolute;
   top: -20px;
   left: 47px;
- 
 }
 
 .bulb{
@@ -230,8 +228,8 @@ ul li{
   background: yellow;
   z-index: 2;
   -webkit-box-shadow: 1px 10px 34px 13px rgba(192,196,78,1);
--moz-box-shadow: 1px 10px 34px 13px rgba(192,196,78,1);
-box-shadow: 1px 10px 34px 13px rgba(192,196,78,1);
+  -moz-box-shadow: 1px 10px 34px 13px rgba(192,196,78,1);
+  box-shadow: 1px 10px 34px 13px rgba(192,196,78,1);
 }
 
 #off{
@@ -264,8 +262,7 @@ box-shadow: 1px 10px 34px 13px rgba(192,196,78,1);
   background: #f8da67;
   left: 0px;
   top: 0px;
-  border-radius:90px 90px 35px 35px ;
-
+  border-radius:90px 90px 35px 35px;
 }
 
 .head{
@@ -2152,8 +2149,6 @@ iframe{
 /* iPhone 5/SE => 320 x 568 # Vertical  done
    iPad Touch => 320 x 568  # Verrical  done*/
 @media only screen and (min-width: 300px){
-
-  
   .light-off{
     width: 395%;
     height: 430vh;
@@ -2451,6 +2446,32 @@ iframe{
     height: 150vh;
   }
 } 
+
+@media only screen and (min-width: 520px){
+  .floor{
+    top: 620px;
+    width: 250%;
+    height: 60vh;
+  }
+
+  .window{
+    left: 950px;
+  }
+
+  .postits{
+    left: -390px;
+    top:850px;
+  }
+
+  .awssld, .bio-card, .contact-card{
+    top: 950px;
+    left: 165px;
+  }
+
+  iframe{
+    height: 150vh;
+  }
+}
 
 /* Galaxy S5 => 640 x 360  # Horizontal done, 
    Galaxy s7 => 640 x 360 # Horizontal done, 
@@ -2788,60 +2809,63 @@ iframe{
 /* iPad Pro => 1024 x 1366 # Vertical done, 
    iPad Air 1 & 2 => 1024 x 768 # Horizontal*/
  @media only screen and (min-width: 1000px){
+    .light-off{
+      width: 120%;
+      height: 150vh;
+    }
 
-  .light-off{
+  .myname{
+      left: 30px;
+    }
+
+  .floor{
     width: 120%;
-    height: 150vh;
+    height: 20vh;
   }
 
-.myname{
-    left: 30px;
+  .postits{
+    top:750px;
+    left: -200px;
   }
 
- .floor{
-   width: 120%;
-   height: 20vh;
- }
+  .awssld, .bio-card, .contact-card{
+    top: 840px;
+    left: 50px;
+  }
 
- .postits{
-   top:750px;
-   left: -200px;
- }
+  .bio-img-container img{
+    margin: 150px 100px;
+    width: 100%;
+  }
 
-.awssld, .bio-card, .contact-card{
-  top: 840px;
-  left: 50px;
+  .project-div{
+    padding-top: 5em;
+  }
+
+  .codepen-div{
+    height: 300px;
+  }
+
+  .middle-spot{
+    left: 90px;
+    top: -170px;
+  }
+
+  .text-container{
+    padding-top: 100px;
+    line-height: 40px;
+  }
+
+  iframe{
+    height: 30vh;
+  }
 }
 
-.bio-img-container img{
-  margin: 150px 100px;
-  width: 100%;
- }
-
-.project-div{
-   padding-top: 5em;
- }
-
-.codepen-div{
-  height: 300px;
+@media  only screen and (min-width: 1100px){
+  .myname{
+    left: -50px;
+  }
 }
-
-.middle-spot{
-  left: 90px;
-  top: -170px;
-}
-
-.text-container{
-  padding-top: 100px;
-  line-height: 40px;
-}
-
-iframe{
-  height: 30vh;
-}
-
-
-} 
 
 /* Samsung Galaxy Tab 10 => 1280 x 800 # Horizontal done*/
 @media  only screen and (min-width: 1280px){
@@ -3007,6 +3031,30 @@ iframe{
   }
 } 
 
+@media only screen and (min-width: 1500px){
+  .myname{
+    left: -230px;
+  }
+}
+
+@media only screen and (min-width: 1600px){
+  .myname{
+    left: -250px;
+  }
+}
+
+@media only screen and (min-width: 1700px){
+  .myname{
+    left: -300px;
+  }
+}
+
+@media only screen and (min-width: 1800px){
+  .myname{
+    left: -350px;
+  }
+}
+
 /* Del XPS 13 => 1920 x 1080 done */
  @media only screen and (min-width: 1900px){
   .light-off{
@@ -3096,6 +3144,12 @@ iframe{
     height: 35vh;
   }
 } 
+
+@media only screen and (min-width: 2000px){
+  .myname{
+    left: -470px;
+  }
+}
 
 /* Apple Macbook 13-inch => 2560 x 1600 done*/
  @media only screen and (min-width: 2500px){
