@@ -4074,6 +4074,13 @@ padding-top: 20px;
   }
 }
 
+.curtain-rope{
+  width: 15px;
+  left: 442px;
+  top: 120px;
+  animation: move-up-rope-5000 3s linear;
+}
+
 .land, .land:after{
     width: 420px;
 }
