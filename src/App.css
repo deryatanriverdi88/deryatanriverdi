@@ -1582,19 +1582,16 @@ transform: rotate(95deg);
   height: 20px;
   background: black;
   z-index: 1;
+  animation: move-up-rope 3s linear;
 }
 
-.curtain:after{
-  content: "";
-  display: inline-block;
-  position: absolute;
-  width: 10px;
-  height: 10px;
-  top: 70px;
-  left: 137px;
-  border-radius: 50%;
-  border: 3px solid #ff9801;
-  z-index: 1;
+@keyframes move-up-rope{
+  from {
+    top: 280px;
+  }
+  to {
+    top: 50px;
+  }
 }
 
 .cloud{
