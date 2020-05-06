@@ -4113,6 +4113,12 @@ padding-top: 20px;
   animation-fill-mode: forwards;
 }
 
+@keyframes close-the-curtain-5000 {
+  to {
+    height: 680px;
+  }
+}
+
 .land, .land:after{
     width: 420px;
 }
