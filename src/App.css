@@ -3596,6 +3596,11 @@ iframe{
     }
   }
 
+  .curtain-close .curtain-handle{
+    animation: move-down-curtain-handle-2500 3s linear;
+    animation-fill-mode: forwards;
+  }
+
   .moon{
       width: 100px;
       height: 100px;
