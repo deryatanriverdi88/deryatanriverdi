@@ -3547,6 +3547,15 @@ iframe{
     animation: move-up-rope-2500 3s linear;
   }
 
+  @keyframes move-up-rope-2500{
+    from {
+      top: 570px;
+    }
+    to {
+      top: 120px;
+    }
+  }
+
   .moon{
       width: 100px;
       height: 100px;
