@@ -2157,7 +2157,7 @@ iframe{
 
   .myname{
    top: 550px;
-   left: 530px;
+   left: 540px;
   }
 
   .css-art p{
@@ -2495,7 +2495,7 @@ iframe{
   }
 
   .myname{
-    left: 200px;
+    left: 400px;
   }
 
   .css-art p{
@@ -3054,7 +3054,7 @@ iframe{
   }
 
   .myname{
-    left: -400px;
+    left: 400px;
   }
 
   .css-art p{
@@ -3149,11 +3149,11 @@ iframe{
     top: 610px;
     left: 1320px;
   }
-  
+
   .myname{
     font-size: 80px;
-    left: -660px;
     top: 1200px;
+    left: 340px;
   }
 
   .css-art p{
