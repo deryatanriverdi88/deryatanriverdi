@@ -2329,11 +2329,6 @@ iframe{
    iPhone XS => 375 x 812 # Vertical done,
    Galaxy s7 => 360 x 640  # Vertical done*/
 @media only screen and (min-width: 375px){
- 
-  .myname{
-    left: 500px;
-  }
-
   .floor{
     width: 350%;
   }
@@ -2394,10 +2389,6 @@ iframe{
 
   .light-off button{
     left: 620px;
-  }
-
-  .myname{
-    left: 420px;
   }
 
   .css-art p{
@@ -2462,10 +2453,6 @@ iframe{
   .light-off{
     width: 220%;
     height: 640vh;
-  }
-
-  .myname{
-    left: 380px;
   }
 
   .floor{
@@ -2750,10 +2737,6 @@ iframe{
     height: 500vh;
   }
 
-  .myname{
-   left: 140px;
-  }
-
   .awssld, .bio-card, .contact-card{
     top: 875px;
     left: 50px;
@@ -2776,11 +2759,6 @@ iframe{
 
 /* iPhone XR => 896 x 414 # Horizontal done*/
 @media only screen and (min-width: 896px){
-  
-  .myname{
-    left: 100px;
-  }
-
   .floor{
     width: 135%;
   }
@@ -2798,14 +2776,10 @@ iframe{
 /* iPad Pro => 1024 x 1366 # Vertical done, 
    iPad Air 1 & 2 => 1024 x 768 # Horizontal*/
  @media only screen and (min-width: 1000px){
-    .light-off{
-      width: 120%;
-      height: 150vh;
-    }
-
-  .myname{
-      left: 30px;
-    }
+  .light-off{
+    width: 120%;
+    height: 150vh;
+  }
 
   .floor{
     width: 120%;
@@ -2850,15 +2824,8 @@ iframe{
   }
 }
 
-@media  only screen and (min-width: 1100px){
-  .myname{
-    left: -50px;
-  }
-}
-
 /* Samsung Galaxy Tab 10 => 1280 x 800 # Horizontal done*/
 @media  only screen and (min-width: 1280px){
-
   .light-off{
     width: 120%;
     height:220vh;
@@ -2868,9 +2835,6 @@ iframe{
     left: 610px;
   }
 
-  .myname{
-    left: -115px;
-  }
   .css-art p{
     left:470px;
   }
@@ -2987,10 +2951,6 @@ iframe{
     width: 100%;
   }
 
-  .myname{
-    left: -160px;
-  }
-
   .css-art p{
     left: 470px;
   }
@@ -3016,34 +2976,10 @@ iframe{
   iframe{
     height: 45vh;
   }
-} 
-
-@media only screen and (min-width: 1500px){
-  .myname{
-    left: -230px;
-  }
-}
-
-@media only screen and (min-width: 1600px){
-  .myname{
-    left: -250px;
-  }
-}
-
-@media only screen and (min-width: 1700px){
-  .myname{
-    left: -300px;
-  }
-}
-
-@media only screen and (min-width: 1800px){
-  .myname{
-    left: -350px;
-  }
 }
 
 /* Del XPS 13 => 1920 x 1080 done */
- @media only screen and (min-width: 1900px){
+@media only screen and (min-width: 1900px){
   .light-off{
     height: 120vh;
   }
@@ -3126,21 +3062,14 @@ iframe{
   .contact-div{
     padding: 350px  100px;
   }
-  
+
   iframe{
     height: 35vh;
-  }
-} 
-
-@media only screen and (min-width: 2000px){
-  .myname{
-    left: -470px;
   }
 }
 
 /* Apple Macbook 13-inch => 2560 x 1600 done*/
- @media only screen and (min-width: 2500px){
-
+@media only screen and (min-width: 2500px){
   .light-off{
     height: 150vh;
   }
@@ -3773,29 +3702,28 @@ iframe{
   .contact-div{
     padding: 450px  100px;
   }
-  
+
   iframe{
     height: 40vh;
   }
+
  .front-end{
    padding-left: 140px;
- }
-  
+  }
+
  .back-end{
   padding-left: 380px;
- }
-} 
+  }
+}
 
 /* Apple Macbook Pro 15-inch => 2880 x 1800 done */
- @media only screen and (min-width: 2800px){  
-
+@media only screen and (min-width: 2800px){
   .light-off{
     height: 130vh;
   }
-  
+
   .myname{
     top: 1100px;
-    left: -840px;
   }
 
   .css-art p{
