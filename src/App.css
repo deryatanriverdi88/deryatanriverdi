@@ -2584,8 +2584,8 @@ iframe{
   }
 
   .bio-img-container img{
-    margin: 200px 100px;
-    width: 100%;
+    margin: 150px auto;
+    width: 160%;
    }
 
   .project-div {
@@ -2625,8 +2625,8 @@ iframe{
   }
 
   .bio-img-container img{
-    margin: 150px 100px;
-    width: 100%;
+    margin: 130px auto;
+    width: 160%;
   }
 
   .project-div{
