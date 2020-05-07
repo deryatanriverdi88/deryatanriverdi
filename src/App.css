@@ -224,9 +224,9 @@ ul li{
   top:53px;
   background: yellow;
   z-index: 2;
-  -webkit-box-shadow: 1px 10px 34px 13px rgba(192,196,78,1);
-  -moz-box-shadow: 1px 10px 34px 13px rgba(192,196,78,1);
-  box-shadow: 1px 10px 34px 13px rgba(192,196,78,1);
+  -webkit-box-shadow: 1px 25px 34px 23px rgba(192,196,78,1);
+  -moz-box-shadow: 1px 25px 34px 23px rgba(192,196,78,1);
+  box-shadow: 1px 25px 34px 23px rgba(192,196,78,1);
 }
 
 #off{
@@ -2267,8 +2267,8 @@ iframe{
   }
 
   .bio-img-container img{
-    margin: 240px 100px;
-    width: 100%;
+    margin: 250px auto;
+    width: 150%;
   }
 
   .x{
@@ -2614,7 +2614,7 @@ iframe{
 
  /* Samsung Galaxy S8 / S8+ => 740 x 360 # Horizontal done,
     Samsung Galaxy S9 / S9+ => 740 x 360 # Horizontal done*/
- @media only screen and (min-width: 740px){
+@media only screen and (min-width: 740px){
   .light-off{
     height: 490vh;
   }
@@ -2646,7 +2646,7 @@ iframe{
 /* iPad => 768 x 1024 # Vertical done, 
    iPad Mini => 768 x 1024 # Vertical done,
    iPad Air 1 & 2 => 768 x 1024  # Vertical done*/
- @media only screen and (min-width: 760px){
+@media only screen and (min-width: 760px){
   .light-off{
     width: 150%;
     height: 180vh;
@@ -2670,8 +2670,8 @@ iframe{
   }
 
   .bio-img-container img{
-    margin: 140px 100px;
-    width: 100%;
+    margin: 140px auto;
+    width: 160%;
   }
 
   .project-div{
@@ -2705,8 +2705,8 @@ iframe{
   }
  
   .bio-img-container img{
-    margin: 180px 100px;
-    width: 100%;
+    margin: 100px auto;
+    width: 150%;
   }
 
   .project-div{
@@ -2778,7 +2778,7 @@ iframe{
 
 /* iPad Pro => 1024 x 1366 # Vertical done, 
    iPad Air 1 & 2 => 1024 x 768 # Horizontal*/
- @media only screen and (min-width: 1000px){
+@media only screen and (min-width: 1000px){
   .light-off{
     width: 120%;
     height: 150vh;
@@ -2800,8 +2800,8 @@ iframe{
   }
 
   .bio-img-container img{
-    margin: 150px 100px;
-    width: 100%;
+    margin: 130px auto;
+    width: 150%;
   }
 
   .project-div{
@@ -2897,7 +2897,7 @@ iframe{
   }
 
   .bio-img-container img{
-    margin-top: 30px;
+    margin: 100px auto;
   }
 
   .skill-slide{
@@ -2964,8 +2964,7 @@ iframe{
   }
 
   .bio-img-container img{
-    margin: 150px 100px;
-    width: 100%;
+    margin: 100px auto;
   }
 
   .project-div{
@@ -2973,7 +2972,7 @@ iframe{
   }
 
   .bio .text-container{
-    padding-top: 200px;
+    padding-top: 100px;
   }
 
   iframe{
@@ -3048,8 +3047,8 @@ iframe{
   }
 
   .bio-img-container img{
-    margin: 130px 100px;
-    width: 80%;
+    margin: 100px auto;
+    width: 140%;
    }
 
   .project-div{
@@ -3203,7 +3202,7 @@ iframe{
   }
 
   .left-eye{
-      left: 25px;
+    left: 25px;
   }
 
   .right-eye{
@@ -3211,28 +3210,28 @@ iframe{
   }
 
   .right-ear{
-     left: 102px;
+    left: 102px;
   }
 
   .nose{
-     left:50px;
+    left:50px;
   }
 
   .mouth{
-     left: 40px;
+    left: 40px;
   }
 
   .head:after{
-     width: 60px;
-     left: 25px;
+    width: 60px;
+    left: 25px;
   }
 
   .neck{
-      width: 50px;
-      height: 30px;
-      border-radius: 0 0 90px 90px;
-      top: 760px;
-      left: 1105px;
+    width: 50px;
+    height: 30px;
+    border-radius: 0 0 90px 90px;
+    top: 760px;
+    left: 1105px;
   }
 
   .t-shirt{
@@ -3251,52 +3250,52 @@ iframe{
   }
 
   .computer{
-      top: 1030px;
-      left: 490px;
-      width: 220px;
-      height: 120px;
+    top: 1030px;
+    left: 490px;
+    width: 220px;
+    height: 120px;
   }
 
   .pencil-jar{
-      top: 995px;
-      left: 850px;
+    top: 995px;
+    left: 850px;
   }
 
   .plant-div{
-      top: 855px;
-      left: 250px;
+    top: 855px;
+    left: 250px;
   }
 
   .plant{
-      top: 75px;
-      left:20px;
+    top: 75px;
+    left:20px;
   }
   
   .plant ul li{
-     top: -4px;
-     left: 0px;
-     width: 50px;
-     height: 50px;
+    top: -4px;
+    left: 0px;
+    width: 50px;
+    height: 50px;
   }
 
   .plant ul li:nth-child(2){
-      top: -60px;
-      left: 20px;
+    top: -60px;
+    left: 20px;
   }
 
   .vase-top{
-      width: 90px;
+    width: 90px;
   }
 
   .vase{
-      width: 80px;
-      height: 100px;
+    width: 80px;
+    height: 100px;
   }
 
   .vase-top:before{
-      width: 90px;
-      height: 20px;
-      top: -25px;
+    width: 90px;
+    height: 20px;
+    top: -25px;
   }
 
   .table{
@@ -3314,30 +3313,30 @@ iframe{
   }
 
   .table-front:before, .table-front:after {
-      width: 30px;
-      height: 30px;
+    width: 30px;
+    height: 30px;
   }
 
   .table-front:before{
-      top: 400px;
-      left: 10px;
+    top: 400px;
+    left: 10px;
   }
 
   .table-front:after {
-      top:400px;
-      left: 640px;
+    top:400px;
+    left: 640px;
   }
 
   .garbage-can{
-      top: 1320px;
-      left: 100px;
-      width: 150px;
-      height: 190px;
+    top: 1320px;
+    left: 100px;
+    width: 150px;
+    height: 190px;
   }
 
   .garbage-can:before{
-     width: 150px;
-     height: 15px;
+    width: 150px;
+    height: 15px;
   }
 
   .dog{
@@ -3429,45 +3428,45 @@ iframe{
   }
 
   .coffee{
-      top: 995px;
-      left: 400px;
+    top: 995px;
+    left: 400px;
   }
 
   .coffee-cup{
-      width: 45px;
-      height: 30px;
+    width: 45px;
+    height: 30px;
   }
 
   .coffee-cup:after{
-      width: 13px;
-      height: 13px;
-      left: 28px;
-      top: 5px;
+    width: 13px;
+    height: 13px;
+    left: 28px;
+    top: 5px;
   }
 
   .coffee-bottom{
-      width: 70px;
-      height: 7px;
+    width: 70px;
+    height: 7px;
   }
 
   .coffee-steam, .coffee-steam:before{
-     border: 10px;
-     left: 25px;
-     border-width: 3px;
-     border-style: solid;
-     border-color:transparent transparent transparent 
-     #828083;
+    border: 10px;
+    left: 25px;
+    border-width: 3px;
+    border-style: solid;
+    border-color:transparent transparent transparent 
+    #828083;
   }
 
   .coffee-steam:before{
-      top: -15px;
-      left: -5px;
-      border-color:  transparent  #828083 transparent transparent;
+    top: -15px;
+    left: -5px;
+    border-color:  transparent  #828083 transparent transparent;
   }
-  
+
   .postits{
-      top: 100px;
-      left: 620px;
+    top: 100px;
+    left: 620px;
   }
 
   .postits p{
@@ -3476,37 +3475,38 @@ iframe{
   }
 
   .post-it-1, .post-it-2, .post-it-3, .post-it-4,  .post-it-1:after,.post-it-2:after, .post-it-3:after, .post-it-4:after {
-      width: 400px;
-      height: 400px;
+    width: 400px;
+    height: 400px;
   }
 
   .post-it-2, .post-it-4{
-      left: 850px;
+    left: 850px;
   }
 
   .post-it-3, .post-it-4{
-      top: 630px;
+    top: 630px;
   }
 
   .window{
-      top: 300px;
-      left: 1900px;
-      width: 600px;
-      height: 600px;
-      border: 20px solid white;
+    top: 300px;
+    left: 1900px;
+    width: 600px;
+    height: 600px;
+    border: 20px solid white;
   } 
 
   .curtain{
-      width: 570px;
-      height: 120px;
-      top: -560px;
-      animation: open-curtain-2500 3s linear;
+    width: 570px;
+    height: 120px;
+    top: -560px;
+    animation: open-curtain-2500 3s linear;
   }
 
   @keyframes open-curtain-2500 {
     from {
       height: 570px;
     }
+
     to {
       height: 120px;
     }
@@ -3522,6 +3522,7 @@ iframe{
     from {
       top: 570px;
     }
+
     to {
       top: 120px;
     }
@@ -3540,6 +3541,7 @@ iframe{
     from {
       top: 590px;
     }
+
     to{
       top: 140px;
     }
@@ -3579,92 +3581,92 @@ iframe{
   }
 
   .moon{
-      width: 100px;
-      height: 100px;
-      top: 200px;
-      left: 100px;
+    width: 100px;
+    height: 100px;
+    top: 200px;
+    left: 100px;
   }
 
   .moon:after{
-      width: 90px;
-      height: 90px;
+    width: 90px;
+    height: 90px;
   }
 
   .stars{
-      top: 100px;
-      left: 200px;
+    top: 100px;
+    left: 200px;
   }
 
   .stars ul li{
-      left: 10px;
+    left: 10px;
   }
 
   .stars ul li:nth-child(2){
-      left: 120px;
+    left: 120px;
   }
 
   .stars ul li:nth-child(3){
-      left: 250px;
+    left: 250px;
   }
 
   .stars ul li:nth-child(4){
-      top: 200px;
-      left: 300px;
+    top: 200px;
+    left: 300px;
   }
 
   .land, .land:after{
-      width: 420px;
-      height: 230px;
-      border-radius: 50% 50% 0 0;
+    width: 420px;
+    height: 230px;
+    border-radius: 50% 50% 0 0;
   }
 
   .land:after{
-      width: 260px;
-      height: 200px;
-      left: 300px;
+    width: 260px;
+    height: 200px;
+    left: 300px;
   }
 
   .tree ul li{
-      top:-20px;
-      left: 100px;
+    top:-20px;
+    left: 100px;
   }
 
   .tree ul li:nth-child(2){
-      top:-60px;
-      left: 190px;
+    top:-60px;
+    left: 190px;
   }
 
   .tree ul li:nth-child(3){
-      top:-50px;
-      left: 380px;
+    top:-50px;
+    left: 380px;
   }
 
   .tree ul li:nth-child(4){
-      top:-70px;
-      left: 470px;
+    top:-70px;
+    left: 470px;
   }
 
   .window-devide{
-      left: 260px;
-      height: 560px;
-      width: 30px;
+    left: 260px;
+    height: 560px;
+    width: 30px;
   }
 
   .window-devide:before, .window-devide:after{
-       width: 60px;
-       height: 40px;
-       left: -50px;
-       top: 230px;
+    width: 60px;
+    height: 40px;
+    left: -50px;
+    top: 230px;
   }
 
   .window-devide:after{
-      left: 10px;
+    left: 10px;
   }
 
   .floor{
-      top:1150px;
-      width:120%;
-      height:50vh;
+    top:1150px;
+    width:120%;
+    height:50vh;
    }
 
   .awssld, .bio-card, .contact-card{
@@ -3684,12 +3686,12 @@ iframe{
   }
 
   .bio-img-container img{
-    margin: 100px 100px;
-    width: 100%;
+    margin: 150px auto;
+    width: 140%;
   }
 
   .project-div{
-     padding-top: 5em;
+    padding-top: 5em;
   }
 
   .project-div .text-container{
@@ -3867,7 +3869,8 @@ iframe{
   }
 
   .bio-img-container img{
-    margin: 150px 100px;
+    margin: 150px auto;
+    width: 140%;
   }
 
   .project-div{
@@ -4148,8 +4151,8 @@ iframe{
   }
 
   .bio-img-container img{
-    margin: 180px 100px;
-    width: 100%;
+    margin: 180px auto;
+    width: 140%;
   }
 
   .project-div{
