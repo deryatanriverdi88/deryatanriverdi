@@ -51,9 +51,9 @@ ul li{
 }
 
 .myname{
+  width: fit-content;
   position: absolute;
   z-index: 6;
-  width: 100%;
   font-family: 'Parisienne', cursive;
   font-size: 45px;
   font-weight: bold;
