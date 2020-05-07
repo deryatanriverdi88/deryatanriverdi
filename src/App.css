@@ -3019,7 +3019,6 @@ iframe{
     top: 370px;
   }
 
-
   .post-it-1:after, .post-it-2:after, .post-it-3:after, .post-it-4:after{
     width: 250px;
     height: 250px;
@@ -3044,16 +3043,16 @@ iframe{
     padding-top: 105px;
     line-height: 40px;
   }
-  
+
   .bio-img-container img{
     margin: 130px 100px;
     width: 80%;
    }
-  
+
   .project-div{
      padding-top: 5em;
    }
-  
+
   .text-container{
     padding: 300px 0 20px 60px;
     line-height: 55px;
