@@ -34,20 +34,23 @@ ul li{
 
 .light-on button, .light-off button {
   position: absolute;
+  border: 1px solid transparent;
   top: 20px;
   left: 600px;
   width: 100px;
   height: 50px;
+  background: rgba(248,248,248, .5);
   border-radius: 90px;
-  background: white;
   font-weight: bold;
   padding: 10px;
   outline:none;
+  box-shadow: -5px -5px 10px 3px gray inset;
 }
 
 .light-off button{
   top: 400px;
   left: 900px;
+  box-shadow: -5px -5px 10px 3px #02427f inset;
 }
 
 .myname{
