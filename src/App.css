@@ -1647,7 +1647,7 @@ transform: rotate(95deg);
 
 .cloud ul li{
   position: absolute;
-  top: 40px;
+  top: 70px;
   left: 25px;
   width: 85px;
   height: 30px;
@@ -1658,7 +1658,7 @@ transform: rotate(95deg);
 .cloud ul li:nth-child(2){
   width: 30px;
   height: 20px;
-  left: 160px;
+  left: 180px;
 }
 
 .cloud ul li:before,  .cloud ul li:nth-child(2):before, .cloud ul li:nth-child(2):after{
@@ -2141,18 +2141,10 @@ iframe{
     height: 430vh;
   }
 
-  .light-off button {
-    top: 830px;
-    left: 540px;
+  .light-off button, .light-on button  {
+    left: 500px;
     width: 200px;
     height: 100px;
-    font-size: 20px;
-  }
-
-  .light-on button{
-    width: 150px;
-    height: 75px;
-    left: 500px;
     font-size: 20px;
   }
 
@@ -2388,10 +2380,6 @@ iframe{
     height: 650vh;
   }
 
-  .light-off button{
-    left: 620px;
-  }
-
   .css-art p{
     left: 620px;
   }
@@ -2476,10 +2464,6 @@ iframe{
   .light-off{
     width: 150%;
     height: 450vh;
-  }
-
-  .light-off button{
-    left: 480px;
   }
 
   .myname{
@@ -2832,10 +2816,6 @@ iframe{
     height:220vh;
   }
 
-  .light-off button {
-    left: 610px;
-  }
-
   .css-art p{
     left:470px;
   }
@@ -2984,11 +2964,6 @@ iframe{
     height: 120vh;
   }
 
-  .light-off button{
-    top: 400px;
-    left: 850px;
-  }
-
   .myname{
     left: 400px;
   }
@@ -3071,11 +3046,6 @@ iframe{
 @media only screen and (min-width: 2500px){
   .light-off{
     height: 150vh;
-  }
-
-  .light-off button{
-    top: 610px;
-    left: 1320px;
   }
 
   .myname{
@@ -3893,11 +3863,6 @@ iframe{
 @media only screen and (min-width: 5000px){
   .light-off{
     height: 103vh;
-  }
-
-  .light-off button {
-    top: 720px;
-    left: 2720px;
   }
 
   .myname{
