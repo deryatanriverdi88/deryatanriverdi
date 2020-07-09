@@ -1647,7 +1647,7 @@ transform: rotate(95deg);
 
 .cloud ul li{
   position: absolute;
-  top: 40px;
+  top: 70px;
   left: 25px;
   width: 85px;
   height: 30px;
@@ -1658,7 +1658,7 @@ transform: rotate(95deg);
 .cloud ul li:nth-child(2){
   width: 30px;
   height: 20px;
-  left: 160px;
+  left: 180px;
 }
 
 .cloud ul li:before,  .cloud ul li:nth-child(2):before, .cloud ul li:nth-child(2):after{
