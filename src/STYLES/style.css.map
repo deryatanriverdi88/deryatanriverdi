@@ -42,7 +42,7 @@
         "_min_width_1000px.scss",
         "_min_width_1280px.scss",
         "_min_width_1336px.scss",
-        "_min_width_1400px.scss"
+        "_min_width_1366px.scss"
     ],
     "names": [],
     "file": "style.css"
