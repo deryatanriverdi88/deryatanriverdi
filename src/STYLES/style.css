@@ -189,6 +189,19 @@
   left: 47px;
 }
 
+.bulb {
+  width: 50px;
+  height: 20px;
+  border-radius: 0 0 90px 90px;
+  position: absolute;
+  left: 775px;
+  top: 53px;
+  background: yellow;
+  z-index: 2;
+  -webkit-box-shadow: 1px 25px 34px 23px #c0c44e;
+          box-shadow: 1px 25px 34px 23px #c0c44e;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
