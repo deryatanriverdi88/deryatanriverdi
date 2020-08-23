@@ -2356,6 +2356,131 @@
   }
 }
 
+/* iPhone 5/SE => 320 x 568 # Vertical  done
+   iPad Touch => 320 x 568  # Verrical  done*/
+@media only screen and (min-width: 300px) {
+  .light-buttons .light-off {
+    width: 395%;
+    height: 430vh;
+  }
+  .light-buttons .light-off button, .light-buttons .light-on button {
+    left: 500px;
+    width: 200px;
+    height: 100px;
+    font-size: 20px;
+  }
+  .myname {
+    top: 550px;
+    left: 540px;
+  }
+  .css-art p {
+    font-size: 20px;
+    top: 580px;
+    left: 610px;
+  }
+  .floor {
+    height: 35vh;
+    width: 395%;
+    left: 0;
+  }
+  .postits {
+    left: -410px;
+    top: 850px;
+  }
+  .postits p {
+    padding-top: 200px;
+  }
+  .postits .post-it-1, .postits .post-it-2, .postits .post-it-3, .postits .post-it-4 {
+    width: 500px;
+    height: 500px;
+    left: 500px;
+  }
+  .postits .post-it-1:after, .postits .post-it-2:after, .postits .post-it-3:after, .postits .post-it-4:after {
+    width: 500px;
+    height: 500px;
+    top: -15px;
+    left: -1px;
+    -webkit-box-shadow: 2px 15px 5px rgba(0, 0, 0, 0.4);
+            box-shadow: 2px 15px 5px rgba(0, 0, 0, 0.4);
+  }
+  .postits .post-it-2 {
+    left: 1100px;
+  }
+  .postits .post-it-3 {
+    top: 700px;
+  }
+  .postits .post-it-4 {
+    left: 1100px;
+    top: 700px;
+  }
+  .table {
+    left: 450px;
+  }
+  .table-front {
+    left: 460px;
+  }
+  .chair {
+    left: 600px;
+  }
+  .pencil-jar {
+    left: 850px;
+  }
+  .dog {
+    left: 950px;
+  }
+  .girl {
+    left: 620px;
+  }
+  .computer {
+    left: 620px;
+  }
+  .coffee {
+    left: 530px;
+  }
+  .plant-div {
+    left: 450px;
+  }
+  .garbage-can {
+    left: 350px;
+  }
+  .shelf {
+    left: 300px;
+  }
+  .window {
+    left: 930px;
+  }
+  .awssld, .bio-card, .contact-card {
+    top: 940px;
+    left: 90px;
+    width: 1110px !important;
+    height: 1110px !important;
+  }
+  .bio-img-container img {
+    margin: 250px auto;
+    width: 150%;
+  }
+  .x {
+    top: 10px;
+    left: 10px;
+  }
+  .project-div {
+    padding-top: 10em;
+  }
+  .project-div .codepen-div {
+    height: 300px;
+  }
+  .project-div .codepen-div .middle-spot {
+    top: -170px;
+    left: 100px;
+  }
+  .text-container {
+    padding-top: 240px;
+  }
+  .contact-div {
+    padding: 450px  100px;
+  }
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
