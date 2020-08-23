@@ -703,6 +703,52 @@
           clip-path: polygon(0 0, 100% 0, 92% 65%, 8% 65%);
 }
 
+.table {
+  width: 470px;
+  height: 40px;
+  background-color: #d4bf82;
+  background-image: url("https://www.transparenttextures.com/patterns/wood-pattern.png");
+  position: absolute;
+  left: 140px;
+  top: 470px;
+  z-index: 1;
+  -webkit-box-shadow: 0px 13px 10px -3px rgba(0, 0, 0, 0.6);
+          box-shadow: 0px 13px 10px -3px rgba(0, 0, 0, 0.6);
+}
+
+.table-front {
+  width: 450px;
+  height: 230px;
+  position: absolute;
+  top: 505px;
+  left: 150px;
+  background-color: #d4bf82;
+  background-image: url("https://www.transparenttextures.com/patterns/wood-pattern.png");
+  -webkit-box-shadow: 5px 14px 12px -3px rgba(0, 0, 0, 0.6);
+          box-shadow: 5px 14px 12px -3px rgba(0, 0, 0, 0.6);
+}
+
+.table-front:before, .table-front:after {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 15px;
+  position: absolute;
+  top: 230px;
+  left: 410px;
+  background: black;
+  border-radius: 5px;
+  background: #141414;
+  background: -webkit-gradient(left top, right top, color-stop(0%, #141414), color-stop(18%, #3d3c3d), color-stop(32%, #131313), color-stop(40%, #131313));
+  background: -webkit-gradient(linear, left top, right top, from(#141414), color-stop(18%, #3d3c3d), color-stop(32%, #131313), color-stop(40%, #131313));
+  background: linear-gradient(to right, #141414 0%, #3d3c3d 18%, #131313 32%, #131313 40%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#141414', endColorstr='#131313', GradientType=1 );
+}
+
+.table-front:after {
+  left: 50px;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
