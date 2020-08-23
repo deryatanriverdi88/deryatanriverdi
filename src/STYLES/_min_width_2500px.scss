@@ -1,0 +1,597 @@
+/* Apple Macbook 13-inch => 2560 x 1600 done*/
+@media only screen and (min-width: 2500px){
+    .light-off{
+        height: 150vh;
+    }
+
+    .myname{
+        font-size: 80px;
+        top: 1200px;
+        left: 340px;
+    }
+
+    .css-art p{
+        font-size: 30px;
+        top: 1250px;
+        left: 550px;
+    }
+
+    .clock{
+        width: 300px;
+        height: 300px;
+        .react-clock{
+            width: 270px !important;
+            height: 270px !important;
+        }
+    }
+
+    .calendar{
+        top: 400px;
+        .month{
+         padding-top: 10px;
+         width:200px;
+         height: 50px;
+         font-size: 30px;
+        }
+        .day{
+          padding-top: 10px;
+          width: 200px;
+          height: 80px;
+          font-size: 50px;
+        }
+    }
+
+    .shelf{
+        width: 260px;
+        height: 40px;
+        top: 650px;
+        left: 40px;
+        .book-holder{
+            li{
+                width: 40px;
+                height: 70px;
+                top: -68px;
+                border-top: 0 solid transparent;
+                border-right:20px solid #5B8C8C;
+                border-bottom: 20px solid #5B8C8C;
+                border-left: 0 solid transparent;
+                &:nth-child(2){
+                    left: 210px;
+                    top: -137px;
+                    border-top: 0 solid transparent;
+                    border-left:20px solid #5B8C8C;
+                    border-bottom: 20px solid #5B8C8C;
+                    border-right: 0 solid transparent;
+                }
+              }
+        }
+        .book{
+            li{
+                width: 30px;
+                height: 70px;
+                top: -215px;
+                left: 70px;
+                font-size: 15px;
+                &:nth-child(2){
+                    top: -285px;
+                    left: 105px;
+                }
+                &:nth-child(3){
+                    top: -355px;
+                    left: 140px;
+                }
+                &:nth-child(4){
+                    top: -425px;
+                    left: 170px;
+                }
+            }
+        }
+    }
+
+    .chair{
+        width: 260px;
+        height: 200px;
+        top: 850px;
+        left: 460px;
+    }
+
+    .girl{
+        position: absolute;
+        top: -250px;
+        left: -535px;
+        .hair{
+           top:920px;
+           left: 1058px;
+        }
+        .head{
+            width: 108px;
+            top: 768px;
+            left: 1075px;
+            &:after{
+                width: 60px;
+                left: 25px;
+            }
+            .left-eye-brow{
+                left: 20px;
+            }
+            .right-eye-brow{
+                left: 65px;
+            }
+            .left-eye{
+                left: 25px;
+            }
+            .right-eye{
+                left: 70px;
+            }
+            .right-ear{
+                left: 102px;
+            }
+            .nose{
+                left:50px;
+            }
+            .mouth{
+                left: 40px;
+            }
+        }
+        .neck{
+            width: 50px;
+            height: 30px;
+            border-radius: 0 0 90px 90px;
+            top: 760px;
+            left: 1105px;
+        }
+        .t-shirt{
+            width: 170px;
+            height: 200px;
+            top: 740px;
+            left: 1050px;
+            &:before{
+                left: 130px;
+            }
+            &:after{
+                left: 50px;
+            }
+
+        }
+    }
+
+    .computer{
+        top: 1030px;
+        left: 490px;
+        width: 220px;
+        height: 120px;
+    }
+
+    .pencil-jar{
+        top: 995px;
+        left: 850px;
+    }
+
+    .plant-div{
+        top: 855px;
+        left: 250px;
+        .plant{
+            top: 75px;
+            left:20px;
+            li{
+                top: -4px;
+                left: 0px;
+                width: 50px;
+                height: 50px;
+                &:nth-child(2){
+                    top: -60px;
+                    left: 20px;
+                }
+            }
+        }
+        .vase-top{
+           width: 90px;
+           &:before{
+                width: 90px;
+                height: 20px;
+                top: -25px;
+           }
+        }
+        .vase{
+            width: 80px;
+            height: 100px;
+        }
+    }
+
+    .table{
+        left: 250px;
+        width: 700px;
+        height: 70px;
+        top: 1050px;
+    }
+
+    .table-front{
+        left: 260px;
+        top: 1120px;
+        width: 680px;
+        height: 400px;
+        &:before, &:after{
+            width: 30px;
+            height: 30px;
+        }
+        &:before{
+            top: 400px;
+            left: 10px;
+        }
+        &:after{
+            top:400px;
+            left: 640px;
+        }
+    }
+
+    .garbage-can{
+        top: 1320px;
+        left: 100px;
+        width: 150px;
+        height: 190px;
+        &:before{
+            width: 150px;
+            height: 15px;
+        }
+    }
+
+    .dog{
+        top: 1050px;
+        left: 2000px;
+        .dog-head{
+            width: 85px;
+            height: 80px;
+            .dog-ear{
+                li{
+                    width: 25px;
+                    left: 10px;
+                    &:nth-child(2){
+                        left: 50px;
+                    }
+                }
+            }
+            .dog-eyes{
+                li{
+                    width: 13px;
+                    height: 13px;
+                    left: 15px;
+                    &:before{
+                        width: 7px;
+                        height: 7px;
+                        left: 1px;
+                        top: -3px;      width: 7px;
+                        height: 7px;
+                        left: 1px;
+                        top: -3px;
+                    }
+                    &:after{
+                        width: 3px;
+                        height: 3px;
+                        top: -6px;
+                        left: -5px;
+                    }
+                    &:nth-child(2){
+                        top: -48px;
+                        left: 50px;
+                    }
+                }
+            }
+            .dog-nose{
+               left: 35px;
+            }
+            .dog-mouth{
+                li{
+                    left: 20px;
+                    &:nth-child(2){
+                        left: 40px;
+                    }
+                }
+            }
+            .dog-tongue{
+               left: 32px;
+            }
+        }
+        .dog-body{
+            width: 90px;
+            height: 100px;
+            .collar{
+                top: -4px;
+                left: 15px;
+                width: 60px;
+            }
+        }
+        .dog-legs{
+            li{
+                top: -50px;
+                width: 30px;
+                height: 40px;
+                &:before{
+                    width: 27px;
+                    height: 16px;
+                    top: 20px;
+                }
+                &:nth-child(2){
+                    top: -90px;
+                    left: 60px;
+                }
+            }
+        }
+    }
+
+    .coffee{
+        top: 995px;
+        left: 400px;
+        .coffee-steam, .coffee-steam:before{
+            border: 10px;
+            left: 25px;
+            border-width: 3px;
+            border-style: solid;
+            border-color:transparent transparent transparent
+            #828083;
+        }
+        .coffee-steam:before{
+            top: -15px;
+            left: -5px;
+            border-color:  transparent  #828083 transparent transparent;
+        }
+        .coffee-cup{
+            width: 45px;
+            height: 30px;
+            &:after{
+                width: 13px;
+                height: 13px;
+                left: 28px;
+                top: 5px;
+            }
+        }
+        .coffee-bottom{
+              width: 70px;
+              height: 7px;
+            }
+    }
+
+   .postits{
+        top: 100px;
+        left: 620px;
+        p{
+            padding-top: 150px;
+            font-size: 50px;
+        }
+        .post-it-1, .post-it-2, .post-it-3, .post-it-4{
+            width: 400px;
+            height: 400px;
+            &:after{
+                width: 400px;
+                height: 400px;
+            }
+        }
+
+        .post-it-2, .post-it-4{
+            left: 850px;
+        }
+        .post-it-3, .post-it-4{
+            top: 630px;
+        }
+    }
+
+    .window{
+        top: 300px;
+        left: 1900px;
+        width: 600px;
+        height: 600px;
+        border: 20px solid white;
+        .land, .land:after{
+            width: 420px;
+            height: 230px;
+            border-radius: 50% 50% 0 0;
+          }
+
+          .land:after{
+            width: 260px;
+            height: 200px;
+            left: 300px;
+          }
+
+          .tree{
+              li{
+                  top:-20px;
+                  left: 100px;
+                  &:nth-child(2){
+                      top:-60px;
+                      left: 190px;
+                  }
+                  &:nth-child(3){
+                      top:-50px;
+                      left: 380px;
+                  }
+                  &:nth-child(4){
+                      top:-70px;
+                      left: 470px;
+                  }
+              }
+          }
+    }
+
+    .curtain{
+        width: 570px;
+        height: 120px;
+        top: -560px;
+        animation: open-curtain-2500 3s linear;
+    }
+
+    .curtain-rope{
+        left: 275px;
+        top: 120px;
+        animation: move-up-rope-2500 3s linear;
+    }
+
+    .curtain-handle{
+        width: 40px;
+        height: 40px;
+        top:140px;
+        left: 260px;
+        border-width: 10px;
+        animation: move-up-curtain-handle-2500 3s linear;
+    }
+
+    .curtain-close{
+        animation: close-the-curtain-2500 3s linear;
+        animation-fill-mode: forwards;
+    }
+
+    .curtain-close .curtain-rope{
+        animation: move-down-curtain-rope-2500 3s linear;
+        animation-fill-mode: forwards;
+    }
+
+    .curtain-close .curtain-handle{
+        animation: move-down-curtain-handle-2500 3s linear;
+        animation-fill-mode: forwards;
+    }
+
+    .moon{
+        width: 100px;
+        height: 100px;
+        top: 200px;
+        left: 100px;
+        &:after{
+            width: 90px;
+            height: 90px;
+        }
+    }
+
+    .stars{
+        top: 100px;
+        left: 200px;
+        li{
+            left: 10px;
+            &:nth-child(2){
+                left: 120px;
+            }
+            &:nth-child(3){
+                left: 250px;
+            }
+            &:nth-child(4){
+                top: 200px;
+                left: 300px;
+            }
+        }
+    }
+
+    .window-devide{
+      left: 260px;
+      height: 560px;
+      width: 30px;
+      &:before, &:after{
+          width: 60px;
+          height: 40px;
+          left: -50px;
+          top: 230px;
+      }
+      &:after{
+         left: 10px;
+      }
+    }
+
+    .floor{
+        top:1150px;
+        width:120%;
+        height:50vh;
+    }
+
+    .awssld, .bio-card, .contact-card{
+        top: 130px;
+        left: 360px;
+        width: 2000px !important;
+        height: 1400px !important;
+    }
+
+    .bio .text-container{
+        padding-top: 155px;
+        line-height: 70px;
+    }
+
+    .text{
+        font-size: 40px;
+    }
+
+    .bio-img-container img{
+        margin: 150px auto;
+        width: 140%;
+    }
+
+    .project-div{
+        padding-top: 5em;
+        .text-container{
+            padding-top:30px;
+            line-height: 50px;
+        }
+        .codepen-div{
+            height: 400px;
+        }
+    }
+
+    .contact-div{
+         padding: 450px  100px;
+    }
+
+    iframe{
+        height: 40vh;
+    }
+
+   .front-end{
+        padding-left: 140px;
+    }
+
+   .back-end{
+        padding-left: 380px;
+    }
+
+    @keyframes open-curtain-2500 {
+        from {
+            height: 570px;
+        }
+
+        to {
+            height: 120px;
+        }
+    }
+
+    @keyframes move-up-rope-2500{
+        from {
+            top: 570px;
+        }
+
+        to {
+            top: 120px;
+        }
+    }
+
+    @keyframes move-up-curtain-handle-2500 {
+        from {
+            top: 590px;
+        }
+
+        to{
+            top: 140px;
+        }
+    }
+
+    @keyframes close-the-curtain-2500 {
+        to {
+            height: 570px;
+        }
+    }
+
+    @keyframes move-down-curtain-rope-2500{
+        to{
+            top: 570px;
+        }
+    }
+
+    @keyframes move-down-curtain-handle-2500{
+        to{
+            top: 590px;
+        }
+    }
+}
