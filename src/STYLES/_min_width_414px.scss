@@ -1,0 +1,12 @@
+/* iPhone 6/7/8 plus => 414 x 736 # Vertical done,
+   iPhone XR => 414 x 896 # Vertical done */
+@media screen and (min-width: 414px){
+    .floor{
+      width: 310%;
+    }
+
+    .awssld, .bio-card, .contact-card{
+      top: 950px;
+      left: 90px;
+    }
+}
