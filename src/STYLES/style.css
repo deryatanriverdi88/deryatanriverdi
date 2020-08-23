@@ -3069,6 +3069,31 @@
   }
 }
 
+/* iPad Pro => 1366 x 1024 # Horizontal done */
+@media only screen and (min-width: 1366px) {
+  .light-off {
+    height: 200vh;
+  }
+  .postits {
+    left: -100px;
+  }
+  .awssld, .bio-card, .contact-card {
+    top: 820px;
+  }
+  .bio .text-container {
+    padding-top: 100px;
+  }
+  .bio-img-container img {
+    margin-top: 30px;
+  }
+  iframe {
+    height: 40vh;
+  }
+  .front-end img, .back-end img {
+    height: 20vh;
+  }
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
