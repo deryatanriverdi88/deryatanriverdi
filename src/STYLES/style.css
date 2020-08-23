@@ -2526,8 +2526,8 @@
   }
 }
 
-/* iPhone 6/7/8 plus => 414 x 736 # Vertical done,
-   iPhone XR => 414 x 896 # Vertical done */
+/* Pixel 2 => 411 x 731 # Vertical done,
+   Pixel 2 XL => 411 x 823 # Vertical done */
 @media screen and (min-width: 411px) {
   .light-off {
     width: 310%;
