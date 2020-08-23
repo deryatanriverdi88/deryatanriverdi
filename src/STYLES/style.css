@@ -3003,6 +3003,43 @@
   }
 }
 
+/* Samsung Galaxy Tab 10 => 1280 x 800 # Horizontal done*/
+@media only screen and (min-width: 1280px) {
+  .light-off {
+    width: 120%;
+    height: 220vh;
+  }
+  .css-art p {
+    left: 470px;
+  }
+  .postits {
+    left: -120px;
+  }
+  .window {
+    left: 900px;
+  }
+  .awssld, .bio-card, .contact-card {
+    top: 845px;
+    left: 150px;
+    width: 1200px !important;
+  }
+  .bio-img-container img {
+    margin-top: 30px;
+  }
+  .codepen-div {
+    width: 30%;
+  }
+  iframe {
+    height: 50vh;
+  }
+  .back-end {
+    padding-left: 200px;
+  }
+  .front-end img, .back-end img {
+    height: 25vh;
+  }
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
