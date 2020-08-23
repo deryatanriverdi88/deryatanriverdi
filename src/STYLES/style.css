@@ -3123,6 +3123,73 @@
   }
 }
 
+/* Del XPS 13 => 1920 x 1080 done */
+@media only screen and (min-width: 1900px) {
+  .light-off {
+    height: 120vh;
+  }
+  .myname {
+    left: 400px;
+  }
+  .css-art p {
+    left: 480px;
+  }
+  .floor {
+    height: 65vh;
+  }
+  .postits {
+    top: -20px;
+    left: 600px;
+  }
+  .postits:after {
+    width: 250px;
+    height: 250px;
+  }
+  .postits p {
+    padding-top: 100px;
+  }
+  .postits .post-it-1, .postits .post-it-2, .postits .post-it-3, .postits .post-it-4 {
+    width: 250px;
+    height: 250px;
+  }
+  .postits .post-it-2, .postits .post-it-4 {
+    left: 650px;
+  }
+  .postits .post-it-3, .postits .post-it-4 {
+    top: 370px;
+  }
+  .window {
+    top: 200px;
+    left: 1550px;
+  }
+  .awssld, .bio-card, .contact-card {
+    top: 80px;
+    left: 300px;
+    width: 1210px !important;
+  }
+  .bio .text-container {
+    padding-top: 105px;
+    line-height: 40px;
+  }
+  .bio-img-container img {
+    margin: 100px auto;
+    width: 140%;
+  }
+  .project-div {
+    padding-top: 5em;
+  }
+  .text-container {
+    padding: 300px 0 20px 60px;
+    line-height: 55px;
+  }
+  .contact-div {
+    padding: 350px  100px;
+  }
+  iframe {
+    height: 35vh;
+  }
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
