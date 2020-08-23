@@ -3907,6 +3907,299 @@
   }
 }
 
+/* Apple iMac 27-inch => 5120 x 2880 done*/
+@media only screen and (min-width: 5000px) {
+  .light-off {
+    height: 103vh;
+  }
+  .myname {
+    left: 880px;
+    top: 1450px;
+  }
+  .css-art p {
+    top: 1520px;
+    left: 1080px;
+  }
+  .month {
+    padding-top: 20px;
+    width: 250px;
+    height: 80px;
+    font-size: 30px;
+  }
+  .day {
+    padding-top: 30px;
+    width: 250px;
+    height: 150px;
+    font-size: 50px;
+  }
+  .shelf {
+    width: 260px;
+    height: 40px;
+    top: 900px;
+    left: 1500px;
+  }
+  .chair {
+    top: 1100px;
+    left: 1000px;
+  }
+  .girl {
+    left: 0px;
+    top: 20px;
+  }
+  .computer {
+    top: 1180px;
+    left: 1020px;
+  }
+  .pencil-jar {
+    top: 1240px;
+    left: 1350px;
+  }
+  .plant-div {
+    top: 1105px;
+    left: 700px;
+  }
+  .table {
+    width: 950px;
+    height: 70px;
+    top: 1300px;
+    left: 600px;
+  }
+  .table-front {
+    top: 1350px;
+    left: 615px;
+    width: 920px;
+    height: 500px;
+  }
+  .table-front:before {
+    top: 500px;
+    left: 10px;
+  }
+  .table-front:after {
+    top: 500px;
+    left: 880px;
+  }
+  .garbage-can {
+    top: 1450px;
+    left: 450px;
+  }
+  .dog {
+    top: 1400px;
+    left: 4000px;
+  }
+  .coffee {
+    top: 1245px;
+    left: 900px;
+  }
+  .postits {
+    top: -50px;
+    left: 1700px;
+  }
+  .postits p {
+    padding-top: 250px;
+    font-size: 60px;
+  }
+  .postits .post-it-1, .postits .post-it-2, .postits .post-it-3, .postits .post-it-4 {
+    width: 700px;
+    height: 700px;
+  }
+  .postits .post-it-1:after, .postits .post-it-2:after, .postits .post-it-3:after, .postits .post-it-4:after {
+    width: 700px;
+    height: 700px;
+  }
+  .postits .post-it-2, .postits .post-it-4 {
+    left: 1200px;
+  }
+  .postits .post-it-3, .postits .post-it-4 {
+    top: 830px;
+  }
+  .window {
+    top: 500px;
+    left: 4000px;
+    width: 900px;
+    height: 700px;
+  }
+  .window .land, .window .land:after {
+    width: 420px;
+  }
+  .window .land:after {
+    width: 550px;
+  }
+  .curtain {
+    width: 880px;
+    height: 120px;
+    top: -680px;
+    -webkit-animation: open-curtain-5000 3s linear;
+            animation: open-curtain-5000 3s linear;
+  }
+  .curtain-rope {
+    width: 15px;
+    left: 442px;
+    top: 120px;
+    -webkit-animation: move-up-rope-5000 3s linear;
+            animation: move-up-rope-5000 3s linear;
+  }
+  .curtain-handle {
+    width: 60px;
+    height: 60px;
+    top: 140px;
+    left: 420px;
+    border-width: 15px;
+    -webkit-animation: move-up-curtain-handle-5000 3s linear;
+            animation: move-up-curtain-handle-5000 3s linear;
+  }
+  .curtain-close {
+    -webkit-animation: close-the-curtain-5000 3s linear;
+            animation: close-the-curtain-5000 3s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+  }
+  .curtain-close .curtain-rope {
+    -webkit-animation: move-down-curtain-rope-5000 3s linear;
+            animation: move-down-curtain-rope-5000 3s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+  }
+  .curtain-close .curtain-handle {
+    -webkit-animation: move-down-curtain-handle-5000 3s linear;
+            animation: move-down-curtain-handle-5000 3s linear;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+  }
+  .window-devide {
+    left: 430px;
+    height: 670px;
+    width: 30px;
+  }
+  .floor {
+    top: 1500px;
+    width: 100%;
+    height: 50%;
+  }
+  .awssld, .bio-card, .contact-card {
+    top: 180px;
+    left: 360px;
+    width: 3600px !important;
+    height: 2500px !important;
+  }
+  .bio .text-container {
+    padding-top: 555px;
+    line-height: 100px;
+  }
+  .bio .text {
+    font-size: 70px;
+  }
+  .text {
+    font-size: 60px;
+  }
+  .bio-img-container img {
+    margin: 180px auto;
+    width: 140%;
+  }
+  .project-div {
+    padding-top: 10em;
+  }
+  .project-div .text-container {
+    padding-top: 200px;
+    line-height: 70px;
+  }
+  .project-div .codepen-div {
+    height: 650px;
+  }
+  .contact-div {
+    padding: 800px  100px;
+  }
+  iframe {
+    height: 50vh;
+  }
+  .front-end {
+    padding-left: 300px;
+  }
+  .back-end {
+    padding-left: 720px;
+  }
+  .active-record-img {
+    margin-left: 700px;
+  }
+  @-webkit-keyframes open-curtain-5000 {
+    from {
+      height: 680px;
+    }
+    to {
+      height: 120px;
+    }
+  }
+  @keyframes open-curtain-5000 {
+    from {
+      height: 680px;
+    }
+    to {
+      height: 120px;
+    }
+  }
+  @-webkit-keyframes move-up-rope-5000 {
+    from {
+      top: 680px;
+    }
+    to {
+      top: 120px;
+    }
+  }
+  @keyframes move-up-rope-5000 {
+    from {
+      top: 680px;
+    }
+    to {
+      top: 120px;
+    }
+  }
+  @-webkit-keyframes move-up-curtain-handle-5000 {
+    from {
+      top: 700px;
+    }
+    to {
+      top: 140px;
+    }
+  }
+  @keyframes move-up-curtain-handle-5000 {
+    from {
+      top: 700px;
+    }
+    to {
+      top: 140px;
+    }
+  }
+  @-webkit-keyframes close-the-curtain-5000 {
+    to {
+      height: 680px;
+    }
+  }
+  @keyframes close-the-curtain-5000 {
+    to {
+      height: 680px;
+    }
+  }
+  @-webkit-keyframes move-down-curtain-rope-5000 {
+    to {
+      top: 680px;
+    }
+  }
+  @keyframes move-down-curtain-rope-5000 {
+    to {
+      top: 680px;
+    }
+  }
+  @-webkit-keyframes move-down-curtain-handle-5000 {
+    to {
+      top: 700px;
+    }
+  }
+  @keyframes move-down-curtain-handle-5000 {
+    to {
+      top: 700px;
+    }
+  }
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
