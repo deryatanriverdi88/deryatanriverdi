@@ -504,6 +504,29 @@
   left: 30px;
 }
 
+.computer {
+  width: 145px;
+  height: 100px;
+  padding-top: 10px;
+  background: #BFC0C0;
+  position: absolute;
+  left: 330px;
+  top: 370px;
+  -webkit-box-shadow: inset 10px 0 50px #464046, inset -60px 0 120px #999c9c;
+          box-shadow: inset 10px 0 50px #464046, inset -60px 0 120px #999c9c;
+  border-radius: 10px;
+}
+
+.computer .apple-logo {
+  margin: 0px auto;
+  width: 70px;
+  height: 70px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-image: url("https://www.transparentpng.com/thumb/apple-logo/AoKYpC-apple-logo-png-icon.png");
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
