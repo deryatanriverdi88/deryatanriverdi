@@ -1,0 +1,22 @@
+/* iPhone 6/7/8 => 375 x 667 # Vertical done,
+   iPhone X => 375 x 812 # Vertical done,
+   iPhone XS => 375 x 812 # Vertical done,
+   Galaxy s7 => 360 x 640  # Vertical done*/
+@media only screen and (min-width: 375px){
+    .floor{
+      width: 350%;
+    }
+
+    .postits{
+      left: -400px;
+    }
+
+    .awssld, .bio-card, .contact-card{
+      top: 950px;
+      left: 100px;
+    }
+
+    iframe{
+      height: 70vh;
+    }
+}
