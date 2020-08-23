@@ -1,0 +1,36 @@
+/* iPhone 5/SE => 568 x 320 # Horizontal done
+   iPad Touch =>  568 x 320 # Horizontal done*/
+@media only screen and (min-width: 500px){
+    .light-off{
+      width: 240%;
+      height: 650vh;
+    }
+
+    .css-art p{
+      left: 620px;
+    }
+
+    .floor{
+      top: 620px;
+      width: 240%;
+      height: 60vh;
+    }
+
+    .window{
+      left: 1000px;
+    }
+
+    .postits{
+      left: -330px;
+      top:850px;
+    }
+
+    .awssld, .bio-card, .contact-card{
+      top: 950px;
+      left: 165px;
+    }
+
+    iframe{
+      height: 150vh;
+    }
+}
