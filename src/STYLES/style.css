@@ -53,4 +53,23 @@
   z-index: 6;
   font-weight: bold;
 }
+
+.clock {
+  width: 150px;
+  height: 150px;
+  border: 15px solid #e0494a;
+  background: white;
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  border-radius: 50%;
+  -webkit-box-shadow: -2px 5px 14px -3px rgba(0, 0, 0, 0.75);
+          box-shadow: -2px 5px 14px -3px rgba(0, 0, 0, 0.75);
+}
+
+.clock .react-clock {
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
 /*# sourceMappingURL=style.css.map */
