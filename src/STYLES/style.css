@@ -2481,6 +2481,31 @@
   }
 }
 
+/* Galaxy S5 => 360 x 640 # Vertical done,
+   Samsung Galaxy S9 / S9+ => 360 x 740 # Vertical done,
+   Samsung Galaxy S8 / S8+ => 360 x 740 # Vertical done */
+@media only screen and (min-width: 350px) {
+  .light-off {
+    width: 350%;
+    height: 350vh;
+  }
+  .floor {
+    width: 350%;
+  }
+  .postits {
+    left: -420px;
+    top: 850px;
+  }
+  .awssld, .bio-card, .contact-card {
+    top: 940px;
+    left: 80px;
+    height: 1120px !important;
+  }
+  .middle-spot {
+    top: -190px;
+  }
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
