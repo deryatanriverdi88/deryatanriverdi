@@ -59,7 +59,7 @@
         left: 25px;
         transform: rotate(25deg);
         z-index: -1;
-        &before, &:after{
+        &:before, &:after{
             content: "";
             display:inline-block;
             width: 0;
