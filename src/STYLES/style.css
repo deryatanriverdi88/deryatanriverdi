@@ -3094,6 +3094,35 @@
   }
 }
 
+/* Apple Macbook Air 13-inch => 1440 x 900 done */
+@media only screen and (min-width: 1400px) {
+  .light-off {
+    height: 230vh;
+  }
+  .floor {
+    width: 100%;
+  }
+  .css-art p {
+    left: 470px;
+  }
+  .awssld, .bio-card, .contact-card {
+    top: 800px;
+    left: 100px;
+  }
+  .bio-img-container img {
+    margin: 100px auto;
+  }
+  .project-div {
+    padding-top: 3em;
+  }
+  .bio .text-container {
+    padding-top: 100px;
+  }
+  iframe {
+    height: 45vh;
+  }
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
