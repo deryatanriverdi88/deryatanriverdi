@@ -1,5 +1,9 @@
-@mixin box-shadow($browser, $n1, $n2, $n3, $n4){
-    $browser-box-shadow: $n1px $n2px $n3px $n4px rgba(0,0,0,0.6);
+@mixin box-shadow($browser, $one, $two, $three, $four){
+    $browser-box-shadow: $one $two $three $four rgba(0,0,0,0.6);
+}
+
+@mixin shadow($one, $two, $three, $four){
+   box-shadow: $one $two $three $four rgba(0,0,0,0.6);
 }
 
 .table{
@@ -11,9 +15,9 @@
     left: 140px;
     top: 470px;
     z-index: 1;
-    box-shadow: 0px 13px 10px -3px rgba(0,0,0,0.6);
-    @include box-shadow(-webkit, 0, 13, 10, -3);
-    @include box-shadow(-moz, 0, 13, 10, -3);
+    @include shadow(0px, 13px, 10px, -3px);
+    @include box-shadow(-webkit, 0px, 13px, 10px, -3px);
+    @include box-shadow(-moz, 0px, 13px, 10px, -3px);
   }
 
   .table-front{
@@ -24,9 +28,9 @@
     left: 150px;
     background-color: #d4bf82;
     background-image: url("https://www.transparenttextures.com/patterns/wood-pattern.png");
-    box-shadow: 5px 14px 12px -3px rgba(0,0,0,0.6);
-    @include box-shadow(-webkit, 5, 14, 12, -3);
-    @include box-shadow(-moz, 5, 14, 12, -3);
+    @include shadow(5px, 14px, 12px, -3px);
+    @include box-shadow(-webkit, 5px, 14px, 12px, -3px);
+    @include box-shadow(-moz, 5px, 14px, 12px, -3px);
     &:before, &:after{
         content: "";
         display: inline-block;
