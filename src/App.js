@@ -110,18 +110,20 @@ class App extends React.Component {
     return (
       <div className="app">
          <div className="border">
-            {!this.state.lightOn ?  
-            <div className="light-off">
-                <button onClick={this.handleLightOn}>
-                        Turn the light on!
-                </button>
-            </div> :
-            <div className="light-on">
-                <button onClick={this.handleLightOn}>
-                    Turn the light off!
-                  </button>
-            </div> 
-            } 
+            <div className="light-buttons">
+                {!this.state.lightOn ?
+                <div className="light-off">
+                    <button onClick={this.handleLightOn}>
+                            Turn the light on!
+                    </button>
+                </div> :
+                <div className="light-on">
+                    <button onClick={this.handleLightOn}>
+                        Turn the light off!
+                    </button>
+                </div>
+                }
+            </div>
             <p className="myname">Derya Tanriverdi</p>
             <div className="css-art"> 
                  <p>Made by CSS with <span> ❤️ </span> </p>
