@@ -2053,6 +2053,309 @@
   background-size: cover;
 }
 
+.awssld, .bio-card, .contact-card {
+  position: absolute !important;
+  width: 60% !important;
+  z-index: 6 !important;
+  left: 400px;
+  max-width: none !important;
+}
+
+.awssld__container, .bio, .contact-div, .skill-slide, .project-div {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.awssld__content, .bio, .contact-div {
+  background-color: #2E9497 !important;
+  border-radius: 15px;
+}
+
+.awssld__bullets {
+  position: relative !important;
+  bottom: 40px !important;
+}
+
+.awssld__controls {
+  visibility: visible !important;
+}
+
+.bio, .project-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  margin: 0;
+  padding: 4em;
+  position: absolute;
+}
+
+.resume {
+  width: 100px;
+  height: 50px;
+  margin-left: 100px;
+  border-radius: 90px;
+  background: white;
+}
+
+.resume a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.bio-img-container {
+  width: 30%;
+}
+
+.bio-img-container img {
+  margin: 40px auto;
+  width: 80%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.text-container {
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 60%;
+  height: auto;
+  padding: 70px 0 0 60px;
+  line-height: 40px;
+}
+
+.text, .project-div h3 {
+  font-style: italic;
+  font-size: 20px;
+  font-family: 'El Messiri', sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  text-align: center;
+  color: white;
+  padding-left: 5em;
+}
+
+.project-div {
+  display: block;
+  padding: 0 5em;
+}
+
+.project-div .video-container {
+  padding-top: 0;
+  width: 50%;
+}
+
+.project-div .video-container iframe {
+  height: 80vh;
+  width: 190%;
+  margin: 0 0 0 20px;
+}
+
+.project-div .text-container {
+  width: 100%;
+  padding: 40px 10px 0 30px;
+  text-align: center;
+  line-height: 20px;
+}
+
+.project-div .text-container .text {
+  padding: 5px 10px;
+  width: auto;
+}
+
+.project-div .text-container h2, .project-div .text-container h3 {
+  margin: 10px auto;
+}
+
+.project-div .text-container ul {
+  list-style: square;
+}
+
+.project-div .text-container .link-ul {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.project-div .text-container .list-style {
+  -webkit-padding-start: 20px;
+          padding-inline-start: 20px;
+}
+
+.project-div .text-container .list-style li {
+  list-style: circle;
+}
+
+.project-div .codepen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-left: 30px;
+}
+
+.project-div .codepen img {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  border-radius: 40px;
+}
+
+.project-div .codepen .codepen-div {
+  width: 30%;
+  height: 30vh;
+  max-height: 100%;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+.project-div .codepen .codepen-div:hover img {
+  opacity: 0.3;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+.project-div .codepen .codepen-div:hover .middle-spot {
+  opacity: 1;
+}
+
+.project-div .codepen .codepen-div .middle-spot {
+  position: relative;
+  top: -185px;
+  left: 110px;
+  opacity: 0;
+  width: 100px;
+  height: auto;
+  background: white;
+  padding: 10px;
+  border-radius: 15px;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+.project-div .codepen .codepen-div a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+}
+
+.skill-slide h3 {
+  padding-top: 60px;
+  font-size: 50px;
+  font-family: 'El Messiri', sans-serif;
+  color: white;
+  letter-spacing: 20px;
+  text-decoration: underline;
+}
+
+.skill-slide .front-end, .skill-slide .back-end {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-top: 40px;
+  padding-left: 100px;
+  padding-right: 20px;
+  padding-bottom: 100px !important;
+}
+
+.skill-slide .front-end img {
+  width: 45%;
+  height: 40%;
+  border-radius: 15px;
+}
+
+.skill-slide .back-end img {
+  width: 35%;
+  height: 40%;
+}
+
+.skill-slide .react-img, .skill-slide .js-img, .skill-slide .html-img {
+  margin-right: 30px;
+}
+
+.skill-slide .rails-img, .skill-slide .heroku-img {
+  margin-left: 150px;
+}
+
+.skill-slide .html-img, .skill-slide .mq-img, .skill-slide .active-record-img, .skill-slide .heroku-img, .skill-slide .sqlite-img {
+  margin-top: 40px;
+}
+
+.skill-slide .active-record-img {
+  margin-left: 260px;
+}
+
+.contact-div {
+  position: absolute;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact-div a {
+  width: 20%;
+}
+
+.contact-div a img {
+  width: 100%;
+}
+
+.x {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: white;
+  font-size: 20px;
+  vertical-align: middle;
+  line-height: 30px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .linked-in-div a img:hover {
+    -webkit-animation: img-spin infinite 1s linear;
+            animation: img-spin infinite 1s linear;
+  }
+}
+
+@-webkit-keyframes img-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes img-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
