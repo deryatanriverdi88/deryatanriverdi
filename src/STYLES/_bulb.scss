@@ -1,0 +1,17 @@
+@mixin box-shadow($browser){
+    $browser-box-shadow: 1px 25px 34px 23px rgba(192,196,78,1);
+}
+
+.bulb{
+    width: 50px;
+    height: 20px;
+    border-radius: 0 0 90px 90px;
+    position: absolute;
+    left: 775px;
+    top:53px;
+    background: yellow;
+    z-index: 2;
+    box-shadow: 1px 25px 34px 23px rgba(192,196,78,1);
+    @include box-shadow(-webkit);
+    @include box-shadow(-moz);
+  }
