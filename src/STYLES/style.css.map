@@ -23,8 +23,7 @@
         "_coffee.scss",
         "_post_its.scss",
         "_window.scss",
-        "_floor.scss",
-        "_react_awesome_slider.scss"
+        "_floor.scss"
     ],
     "names": [],
     "file": "style.css"
