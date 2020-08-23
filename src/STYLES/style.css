@@ -2961,6 +2961,48 @@
   }
 }
 
+/* iPad Pro => 1024 x 1366 # Vertical done,
+   iPad Air 1 & 2 => 1024 x 768 # Horizontal*/
+@media only screen and (min-width: 1000px) {
+  .light-off {
+    width: 120%;
+    height: 150vh;
+  }
+  .floor {
+    width: 120%;
+    height: 20vh;
+  }
+  .postits {
+    top: 750px;
+    left: -200px;
+  }
+  .awssld, .bio-card, .contact-card {
+    top: 840px;
+    left: 50px;
+  }
+  .bio-img-container img {
+    margin: 130px auto;
+    width: 150%;
+  }
+  .project-div {
+    padding-top: 5em;
+  }
+  .project-div .codepen-div {
+    height: 300px;
+  }
+  .project-div .codepen-div .middle-spot {
+    left: 90px;
+    top: -170px;
+  }
+  .text-container {
+    padding-top: 100px;
+    line-height: 40px;
+  }
+  iframe {
+    height: 30vh;
+  }
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
