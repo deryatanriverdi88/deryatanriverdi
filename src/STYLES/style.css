@@ -2923,30 +2923,6 @@
   }
 }
 
-/* iPhone XS => 812 x 375 # Horizontal done,
-   iPhone X => 812 x 375 # Horizontal done,
-   Pixel 2 XL => 823 x 411 # Horizontal done*/
-@media only screen and (min-width: 812px) {
-  .light-off {
-    height: 500vh;
-  }
-  .awssld, .bio-card, .contact-card {
-    top: 875px;
-    left: 50px;
-  }
-  .codepen-div {
-    width: 29%;
-    height: 300px;
-  }
-  .middle-spot {
-    top: -180px;
-    left: 80px;
-  }
-  iframe {
-    height: 80vh;
-  }
-}
-
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
