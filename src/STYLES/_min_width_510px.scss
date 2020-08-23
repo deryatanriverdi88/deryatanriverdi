@@ -1,0 +1,25 @@
+@media only screen and (min-width: 510px){
+    .floor{
+      top: 620px;
+      width: 250%;
+      height: 60vh;
+    }
+
+    .window{
+      left: 950px;
+    }
+
+    .postits{
+      left: -390px;
+      top:850px;
+    }
+
+    .awssld, .bio-card, .contact-card{
+      top: 950px;
+      left: 165px;
+    }
+
+    iframe{
+      height: 150vh;
+    }
+}
