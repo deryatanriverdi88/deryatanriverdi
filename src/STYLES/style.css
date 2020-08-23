@@ -167,6 +167,28 @@
   color: white;
 }
 
+.light {
+  width: 100px;
+  height: 50px;
+  background: white;
+  position: absolute;
+  left: 750px;
+  top: 20px;
+  border-radius: 90px 90px 0 0;
+  z-index: 6;
+}
+
+.light:before {
+  width: 5px;
+  height: 20px;
+  content: "";
+  display: inline-block;
+  background: black;
+  position: absolute;
+  top: -20px;
+  left: 47px;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
