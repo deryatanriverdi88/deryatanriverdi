@@ -128,7 +128,7 @@ class App extends React.Component {
             </div>
             <p className="myname">Derya Tanriverdi</p>
             <div className="css-art"> 
-                 <p>Made by CSS with <span> ❤️ </span> </p>
+                 <p>Made by CSS with <span role="img" aria-label="heart"> ❤️ </span> </p>
             </div>
             <div className="clock">
                 <Clock className="react-clock" value={this.state.date}/>
@@ -138,7 +138,7 @@ class App extends React.Component {
                 <div className="day">{this.state.day}</div>
             </div>
             {this.state.windowSize < 1280 ?
-                <p className="notification">This page is made with CSS art❤️ I specifically wanted
+                <p className="notification">This page is made with CSS art <span role="img" aria-label="heart"> ❤️ </span>I specifically wanted
                 to have it bigger than page itself, because the screen size is {this.state.windowSize}px and it would be so unfair to shrink all the art in such a small place.
                 <img src="./img/pinchToZoom.gif"/>
                 </p> :
@@ -239,7 +239,7 @@ class App extends React.Component {
 
             {this.state.lightOn ?   
             <div className="dog">
-                 <p>Pet me ❣️ </p>
+                 <p>Pet me <span role="img" aria-label="heart"> ❣️ </span></p>
                  <div className="dog-head">
                       <div className="dog-ear">
                          <ul>
