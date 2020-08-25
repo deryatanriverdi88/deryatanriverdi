@@ -452,31 +452,32 @@
         animation-fill-mode: forwards;
     }
 
-    .moon{
-        width: 100px;
-        height: 100px;
-        top: 200px;
-        left: 100px;
-        &:after{
-            width: 90px;
-            height: 90px;
+    #night{
+        .stars{
+            top: 100px;
+            left: 200px;
+            li{
+                left: 10px;
+                &:nth-child(2){
+                    left: 120px;
+                }
+                &:nth-child(3){
+                    left: 250px;
+                }
+                &:nth-child(4){
+                    top: 200px;
+                    left: 300px;
+                }
+            }
         }
-    }
-
-    .stars{
-        top: 100px;
-        left: 200px;
-        li{
-            left: 10px;
-            &:nth-child(2){
-                left: 120px;
-            }
-            &:nth-child(3){
-                left: 250px;
-            }
-            &:nth-child(4){
-                top: 200px;
-                left: 300px;
+        .moon{
+            width: 100px;
+            height: 100px;
+            top: 200px;
+            left: 100px;
+            &:after{
+                width: 90px;
+                height: 90px;
             }
         }
     }
@@ -498,8 +499,8 @@
 
     .floor{
         top:1150px;
-        width:120%;
-        height:50vh;
+        width: 2560px;
+        height:500px;
     }
 
     .awssld, .bio-card, .contact-card{
