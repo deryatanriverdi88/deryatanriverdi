@@ -2,27 +2,37 @@
    Samsung Galaxy S9 / S9+ => 360 x 740 # Vertical done,
    Samsung Galaxy S8 / S8+ => 360 x 740 # Vertical done */
 @media only screen and (min-width: 350px){
-    .light-off{
-      width: 350%;
-      height: 350vh;
+    .light-buttons{
+      .light-off{
+        width: 1240px;
+        height: 2210px;
+      }
     }
 
     .floor{
-      width: 350%;
+      width: 1240px;
     }
 
     .postits{
       left: -420px;
-      top:850px;
+      top:800px;
     }
 
     .awssld, .bio-card, .contact-card{
-      top: 940px;
-      left: 80px;
+      top: 890px;
+      left: 70px;
       height: 1120px !important;
     }
 
     .middle-spot{
       top: -190px;
     }
+}
+
+@media only screen and (min-width: 350px) and (height:740px){
+  .light-buttons{
+    .light-off{
+      height: 2550px;
+    }
+  }
 }
