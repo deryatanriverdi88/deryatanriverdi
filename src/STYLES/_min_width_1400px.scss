@@ -1,20 +1,26 @@
 /* Apple Macbook Air 13-inch => 1440 x 900 done */
 @media only screen and (min-width: 1400px){
-    .light-off{
-        height: 230vh;
+    .light-buttons{
+        .light-off{
+            width: 1450px;
+        }
     }
 
     .floor{
-        width: 100%;
+        width: 1450px;
     }
 
     .css-art p{
         left: 470px;
     }
 
+    .postits{
+        left:-300px;
+    }
+
     .awssld, .bio-card, .contact-card{
-        top: 800px;
-        left: 100px;
+        left: 120px;
+        height: 1200px !important;
     }
 
     .bio-img-container img{

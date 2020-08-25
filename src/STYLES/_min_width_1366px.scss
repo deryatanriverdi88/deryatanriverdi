@@ -1,15 +1,23 @@
 /* iPad Pro => 1366 x 1024 # Horizontal done */
 @media only screen and (min-width: 1366px){
-    .light-off{
-        height:200vh;
+    .light-buttons{
+        .light-off{
+            width: 1366px;
+        }
+    }
+
+    .floor{
+        width: 1366px;
     }
 
     .postits{
-        left: -100px;
+        left: -350px;
+        top:750px;
     }
 
     .awssld, .bio-card, .contact-card{
-        top: 820px;
+        top: 850px;
+        left: 100px;
     }
 
     .bio .text-container{
