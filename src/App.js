@@ -141,7 +141,7 @@ class App extends React.Component {
             {this.state.windowSize < 1280 ?
                 <p className="notification">This page is made with CSS art❤️ I specifically wanted
                 to have it bigger than page itself, because the screen size is {this.state.windowSize}px and it would be so unfair to shrink all the art in such a small place.
-                <img src="./img/pinch.gif"/>
+                <img src="./img/pinchToZoom.gif"/>
                 </p> :
                 null
             }
