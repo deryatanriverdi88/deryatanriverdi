@@ -1,0 +1,53 @@
+.book-holder{
+    li{
+        width: 25px;
+        height: 45px;
+        position: relative;
+        top: -45px;
+        left: 5px;
+        border-top: 0 solid transparent;
+        border-right: 10px solid #5B8C8C;
+        border-bottom: 10px solid #5B8C8C;
+        border-left: 0 solid transparent;
+    }
+    li:nth-child(2){
+        left: 120px;
+        top: -90px;
+        border-right: 0 solid transparent;
+        border-bottom: 10px solid #5B8C8C;
+        border-left: 10px solid #5B8C8C;
+    }
+}
+
+.book{
+    li{
+        position: relative;
+        top: -145px;
+        left: 44px;
+        width:15px;
+        height: 55px;
+        background: #FFDB82;
+        border-radius: 3px;
+        transform: rotate(205deg);
+        writing-mode: vertical-lr;
+        font-size: 10px;
+        padding-left: 3px;
+    }
+    li:nth-child(2){
+        top: -200px;
+        left: 61px;
+        color: white;
+        background: #F2636A
+    }
+    li:nth-child(3){
+        top: -255px;
+        left: 78px;
+        background: #FF8E8E;
+    }
+    li:nth-child(4){
+        top: -310px;
+        left: 95px;
+        background: #3B6A72;
+        color: white;
+    }
+}

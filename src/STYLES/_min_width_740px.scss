@@ -1,0 +1,28 @@
+ /* Samsung Galaxy S8 / S8+ => 740 x 360 # Horizontal done,
+    Samsung Galaxy S9 / S9+ => 740 x 360 # Horizontal done*/
+@media only screen and (min-width: 740px){
+    .awssld, .bio-card, .contact-card{
+        top: 850px;
+        left: 30px;
+        height: 1150px !important;
+        width: 150% !important;
+    }
+
+    .bio-img-container img{
+        margin: 130px auto;
+        width: 160%;
+    }
+
+    .project-div{
+        padding-top: 5em;
+    }
+
+    .text-container{
+        padding: 100px 0 20px 60px;
+        line-height: 35px;
+    }
+
+    iframe{
+        height: 110vh;
+    }
+}

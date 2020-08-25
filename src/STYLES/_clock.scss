@@ -1,0 +1,22 @@
+@mixin box-shadow($browser){
+    $browser-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
+}
+.clock{
+    width: 180px;
+    height: 180px;
+    border: 15px solid #e0494a;
+    background: white;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    border-radius: 50%;
+    box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
+    @include box-shadow(-webkit);
+    @include box-shadow(-moz);
+    .react-clock{
+      position: relative;
+      left: 0px;
+      top: 0px;
+    }
+}
+  

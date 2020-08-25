@@ -1,0 +1,179 @@
+/* Apple Macbook Pro 15-inch => 2880 x 1800 done */
+@media only screen and (min-width: 2800px){
+    .light-buttons{
+        .light-off{
+            width: 2880px;
+            height: 1800px;
+        }
+    }
+
+    .myname{
+        top: 1100px;
+    }
+
+    .css-art p{
+        top: 1200px;
+    }
+
+    .table{
+        top: 950px;
+    }
+
+    .table-front{
+        top: 1000px;
+    }
+
+    .plant-div{
+        top: 752px;
+    }
+
+    .coffee{
+        top: 893px;
+    }
+
+    .chair{
+        top: 800px;
+        left: 470px;
+    }
+
+    .girl{
+        top: -300px;
+        left: -525px;
+    }
+
+    .computer{
+        top: 830px;
+    }
+
+    .pencil-jar{
+        top: 895px;
+    }
+
+    .garbage-can{
+        top: 1200px;
+    }
+
+    .dog{
+        top: 1000px;
+        left: 2000px;
+    }
+
+    .postits{
+        top: 40px;
+        left: 650px;
+    }
+
+    .window{
+        left: 1950px;
+        .land:after{
+            width: 260px;
+            height: 200px;
+            .tree{
+                li{
+                    &:nth-child(3){
+                        left: 430px;
+                    }
+                    &:nth-child(4){
+                        left: 500px;
+                    }
+                }
+            }
+        }
+    }
+
+    .curtain{
+        width: 570px;
+        &:before{
+            left: 295px;
+        }
+        &:after{
+            left: 284px;
+        }
+    }
+
+    .curtain-rope{
+        left: 295px;
+        top: 120px;
+        animation: move-up-rope-2500 3s linear;
+    }
+
+    .curtain-handle{
+        width: 40px;
+        height: 40px;
+        top:140px;
+        left: 280px;
+        border-width: 10px;
+        animation: move-up-curtain-handle-2500 3s linear;
+    }
+
+    .stars{
+        top: 100px;
+        left: 70px;
+        li{
+            left: 60px;
+            &:nth-child(2){
+                left: 130px;
+            }
+            &:nth-child(3){
+                left:270px;
+            }
+            &:nth-child(4){
+                top: 200px;
+                left: 400px;
+            }
+        }
+    }
+
+    .window-devide{
+      left: 280px;
+      &:before, &:after{
+          width: 60px;
+          height: 40px;
+          left: -50px;
+          top: 230px;
+      }
+      &:after{
+          left: 10px;
+      }
+    }
+
+    .floor{
+        width: 2880px;
+        height:650px;
+    }
+
+   .awssld, .bio-card, .contact-card{
+        top: 130px;
+        left: 360px;
+    }
+
+    .bio .text-container{
+        padding-top: 155px;
+        line-height: 70px;
+    }
+
+    .text{
+        font-size: 40px;
+    }
+
+    .bio-img-container img{
+        margin: 150px auto;
+        width: 140%;
+    }
+
+    .project-div{
+        padding-top: 5em;
+        .text-container{
+            padding-top:50px;
+            line-height: 50px;
+        }
+    }
+
+    .contact-div{
+        padding: 550px  100px;
+    }
+
+    iframe{
+        height: 35vh;
+    }
+}

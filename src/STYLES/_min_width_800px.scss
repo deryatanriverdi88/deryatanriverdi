@@ -1,0 +1,49 @@
+/* Samsung Galaxy Tab 10 => 800x 1280 # Vertical done */
+@media only screen and (min-width: 800px){
+    .light-buttons{
+        .light-off{
+            width: 1200px;
+        }
+    }
+
+    .postits{
+        top: 830px;
+        left: -440px;
+    }
+
+    .floor{
+        width: 1200px;
+    }
+
+    .awssld, .bio-card, .contact-card{
+        width: 1120px !important;
+        height: 1130px !important;
+        top: 930px;
+        left: 50px;
+    }
+
+    .bio-img-container img{
+        margin: 100px auto;
+        width: 150%;
+    }
+
+    .project-div{
+        padding-top: 5em;
+        .codepen-div{
+            width: 30%;
+            height: 300px;
+            .middle-spot{
+                left: 100px;
+            }
+        }
+    }
+
+    .text-container{
+        padding: 80px 0 20px 60px;
+        line-height: 35px;
+    }
+
+    iframe{
+      height: 30vh;
+    }
+}

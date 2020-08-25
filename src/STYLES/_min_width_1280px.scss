@@ -1,0 +1,50 @@
+/* Samsung Galaxy Tab 10 => 1280 x 800 # Horizontal done*/
+@media  only screen and (min-width: 1280px){
+    .light-buttons{
+        .light-off{
+            width: 1300px;
+        }
+    }
+
+    .css-art p{
+        left:470px;
+    }
+
+    .floor{
+        width: 1300px;
+    }
+
+    .postits{
+        left: -420px;
+    }
+
+    .window{
+        left: 900px;
+    }
+
+    .awssld, .bio-card, .contact-card{
+        top:845px;
+        left: 50px;
+        width: 1200px !important;
+    }
+
+    .bio-img-container img{
+        margin-top: 30px;
+    }
+
+    .codepen-div{
+        width: 30%;
+    }
+
+    iframe{
+        height: 50vh;
+    }
+
+    .back-end{
+        padding-left: 200px;
+    }
+
+    .front-end img, .back-end img{
+        height: 25vh;
+    }
+}

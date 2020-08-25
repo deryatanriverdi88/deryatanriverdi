@@ -1,0 +1,67 @@
+@import './light_buttons';
+@import './myname';
+@import './css_art';
+@import './clock';
+@import './shelf';
+@import './calendar';
+@import './book_holder';
+@import './light';
+@import './bulb';
+@import './chair';
+@import './girl';
+@import './computer';
+@import './pencil_jar';
+@import './plant_div';
+@import './table';
+@import './garbage_can';
+@import './dog';
+@import './coffee';
+@import './post_its';
+@import './window';
+@import './floor';
+@import './react_awesome_slider';
+@import './min_width_300px';
+@import './min_width_350px';
+@import './min_width_375px';
+@import './min_width_411px';
+@import './min_width_414px';
+@import './min_width_500px';
+@import './min_width_510px';
+@import './min_width_600px';
+@import './min_width_730px';
+@import './min_width_740px';
+@import './min_width_760px';
+@import './min_width_800px';
+@import './min_width_812px';
+@import './min_width_896px';
+@import './min_width_1000px';
+@import './min_width_1024px';
+@import './min_width_1280px';
+@import './min_width_1336px';
+@import './min_width_1366px';
+@import './min_width_1400px';
+@import './min_width_1900px';
+@import './min_width_2500px';
+@import './min_width_2800px';
+@import './min_width_5000px';
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    text-align: center;
+    z-index: -9;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background:#84cce4;
+}
+
+ul li{
+    list-style: none;
+}

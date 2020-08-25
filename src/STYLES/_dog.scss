@@ -1,0 +1,224 @@
+.dog{
+    position: absolute;
+    left: 620px;
+    top: 600px;
+    p{
+        position: absolute;
+        bottom: 220px;
+        left: 30px;
+        font-weight: bold;
+        color: #EB194B;
+        font-family: 'Cute Font', cursive;
+    }
+    .dog-head{
+        width:65px;
+        height: 70px;
+        position: relative;
+        left: 15px;
+        background: #ddc78e;
+        border-radius:50% 50% 40% 40% ;
+        &:hover{
+            cursor: pointer;
+        }
+        &:hover >.dog-tongue{
+            animation-name: dog-tongue;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+        }
+        .dog-ear{
+            li{
+                position: relative;
+                background: #ddc78e;
+                width: 15px;
+                height: 30px;
+                left: 10px;
+                top: -10px;
+                border-radius: 40%;
+                &:before{
+                    content: "";
+                    display: inline-block;
+                    background:rgba(70,64,49, 0.8);
+                    width: 5px;
+                    height: 10px;
+                    border-radius: 40%;
+                }
+                &:nth-child(2){
+                    left: 40px;
+                    top: -40px;
+                }
+            }
+        }
+        .dog-eyes{
+            li{
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                background: white;
+                position: relative;
+                top: -33px;
+                left: 12px;
+                &:before{
+                    content: "";
+                    display: inline-block;
+                    width: 7px;
+                    height: 7px;
+                    border-radius: 50%;
+                    background: black;
+                    position: relative;
+                    top: -6px;
+                    left: 2px;
+                }
+                &:after{
+                    content: "";
+                    display: inline-block;
+                    width: 3px;
+                    height: 3px;
+                    background: white;
+                    position: relative;
+                    top: -10px;
+                    left: -4px;
+                    border-radius: 50%;
+                }
+                &:nth-child(2){
+                    left: 42px;
+                    top: -43px;
+                }
+            }
+        }
+        .dog-nose{
+            width: 10px;
+            height: 10px;
+            background: black;
+            border-radius: 50%;
+            position: relative;
+            top: -40px;
+            left: 26px;
+            z-index: 2;
+        }
+        .dog-mouth{
+            li{
+                position: relative;
+                top: -55px;
+                left: 13px;
+                width: 20px;
+                height: 20px;
+                border-bottom: 2px solid black;
+                border-radius: 50%;
+                transform: rotate(15deg);
+                background: #ddc78e;
+                z-index: 1;
+                &:nth-child(2){
+                    left: 30px;
+                    top: -75px;
+                    transform: rotate(-15deg);
+                }
+            }
+        }
+        .dog-tongue{
+            width: 15px;
+            height: 20px;
+            position: relative;
+            background: #9e5662;
+            top: -85px;
+            left: 25px;
+            border-radius: 0 0 50% 50%;
+        }
+    }
+    .dog-body{
+        width: 70px;
+        height: 80px;
+        background: #ddc78e;
+        position: relative;
+        left: 12px;
+        top: -20px;
+        border-radius: 50% 50% 40% 40%;
+        z-index: -1;
+        -webkit-box-shadow: -3px 4px 14px -3px rgba(0,0,0,0.75);
+        -moz-box-shadow: -3px 4px 14px -3px rgba(0,0,0,0.75);
+        box-shadow: -3px 4px 14px -3px rgba(0,0,0,0.75);
+        .collar{
+            width:50px;
+            height: 30px;
+            border-top: 0 solid transparent;
+            border-right: 0 solid transparent;
+            border-bottom: 5px solid red;
+            border-left: 0 solid transparent;
+            border-radius: 50%;
+            position: relative;
+            left: 10px;
+            top: -5px;
+            &:before{
+                content: "";
+                display: inline-block;
+                width: 13px;
+                height: 13px;
+                background: white;
+                position: absolute;
+                top: 30px;
+                left: 21px;
+                border-radius: 50%;
+            }
+            .heart{
+                width:7px;
+                height: 7px;
+                background: red;
+                position: relative;
+                top: 34px;
+                left: 24px;
+                transform: rotate(-45deg);
+                &:before, &:after{
+                    content: "";
+                    display: inline-block;
+                    width: 7px;
+                    height: 7px;
+                    position: absolute;
+                    top: -3px;
+                    left: 0px;
+                    background: red;
+                    border-radius: 50%;
+                }
+                &:after{
+                    top: 0px;
+                    left: 3px;
+                }
+            }
+        }
+    }
+    .dog-legs{
+        li{
+            position: relative;
+            top: -45px;
+            left: 25px;
+            width: 20px;
+            height: 30px;
+            background: #ddc78e;
+            border-radius: 0 0 40px 40px;
+            border-width: 2px;
+            border-style: solid;
+            border-color: transparent rgba(70,64,49, 0.6) rgba(70,64,49, 0.6) rgba(70,64,49, 0.6);
+            &:nth-child(2){
+                position: relative;
+                left: 50px;
+                top: -75px;
+            }
+            &:before{
+                content: "";
+                display: inline-block;
+                position: absolute;
+                top: 17px;
+                left: -1px;
+                background: rgba(70,64,49, 0.9);
+                width: 18px;
+                height: 10px;
+                border-radius: 50%;
+            }
+        }
+    }
+}
+
+@keyframes dog-tongue{
+   0% {height: 20px;}
+   20% {height: 15px;}
+   30% {height: 10px;}
+   40% {height: 5px;}
+}

@@ -1,0 +1,28 @@
+/* iPhone XS => 812 x 375 # Horizontal done,
+   iPhone X => 812 x 375 # Horizontal done,
+   Pixel 2 XL => 823 x 411 # Horizontal done*/
+@media only screen and (min-width: 812px){
+    .postits{
+        top: 750px;
+        left: -445px;
+    }
+
+    .awssld, .bio-card, .contact-card{
+        top: 845px;
+        left: 45px;
+    }
+
+    .codepen-div{
+        width: 29%;
+        height: 300px;
+    }
+
+    .middle-spot{
+        top: -180px;
+        left: 80px;
+    }
+
+    iframe{
+        height: 80vh;
+    }
+}

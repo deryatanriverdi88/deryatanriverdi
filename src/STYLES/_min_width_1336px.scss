@@ -1,0 +1,42 @@
+/* Acer Chromebook => 1336 x 768 */
+@media only screen and (min-width: 1336px){
+    .light-buttons{
+        .light-off{
+            width: 1336px;
+        }
+    }
+
+    .floor{
+        width: 1336px;
+    }
+
+    .postits{
+        left: -370px;
+        top: 770px;
+    }
+
+    .awssld, .bio-card, .contact-card{
+        top: 870px;
+        left: 70px;
+    }
+
+    .bio .text-container{
+        padding-top: 100px;
+    }
+
+    .bio-img-container img{
+        margin: 100px auto;
+    }
+
+    .skill-slide{
+        height: auto !important;
+    }
+
+    iframe{
+        height:60vh;
+    }
+
+    .front-end img, .back-end img{
+        height: 30vh;
+    }
+}

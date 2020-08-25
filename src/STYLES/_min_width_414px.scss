@@ -1,0 +1,27 @@
+/* iPhone 6/7/8 plus => 414 x 736 # Vertical done,
+   iPhone XR => 414 x 896 # Vertical done */
+@media screen and (min-width: 414px){
+    .light-buttons{
+      .light-off{
+        height: 2250px;
+      }
+    }
+
+    .postits{
+      left: -430px;
+      top: 800px;
+    }
+
+    .awssld, .bio-card, .contact-card{
+      top: 900px;
+      left: 70px;
+    }
+}
+
+@media screen and (min-width: 414px) and (height: 896px){
+  .light-buttons{
+    .light-off{
+      height: 2700px;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+@mixin box-shadow($browser){
+    $browser-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
+}
+
+.garbage-can{
+    width: 100px;
+    height: 130px;
+    background: #393e41;
+    position: absolute;
+    left: 40px;
+    top: 550px;
+    border-radius: 5px 5px 20px 20px;
+    box-shadow: -3px 4px 14px -3px rgba(0,0,0,0.75);
+    @include box-shadow(-webkit);
+    @include box-shadow(-moz);
+    &:before{
+        display: inline-block;
+        content: '';
+        background: rgba(0,0,0, 0.5);
+        width:95px;
+        height: 7px;
+        border-radius: 50%;
+        position: absolute;
+        top: -2px;
+        left: 1px;
+    }
+}

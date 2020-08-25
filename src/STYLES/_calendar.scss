@@ -1,0 +1,28 @@
+@mixin box-shadow($browser){
+    $browser-box-shadow: -2px 5px 14px -3px rgba(0,0,0,0.75);
+}
+
+.calendar{
+    position: absolute;
+    top: 220px;
+    left: 75px;
+    box-shadow: -5px 3px 14px -3px rgba(0,0,0,0.75);
+    @include box-shadow(-webkit);
+    @include box-shadow(-moz);
+    .month{
+        width: 100px;
+        height: 25px;
+        background:  #e0494a;
+        color: white;
+        font-weight: bold;
+        padding-top: 3px;
+      }
+      .day{
+        width: 100px;
+        height: 50px;
+        background: white;
+        font-weight: bold;
+        padding-top: 10px;
+        font-size: 25px;
+      }
+  }
