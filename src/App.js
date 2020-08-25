@@ -23,11 +23,15 @@ class App extends React.Component {
 
   componentDidMount() {
     setInterval(
-      () => this.setState({ date: new Date() }),
+      () => this.setState({
+          date: new Date(),
+          windowSize: window.innerWidth
+        }),
       1000
     );
   }
-  
+
+
   month =()=> {
     let month = ""
     if(this.state.month === 0){
