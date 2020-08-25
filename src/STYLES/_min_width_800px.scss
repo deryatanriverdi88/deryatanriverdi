@@ -1,16 +1,24 @@
 /* Samsung Galaxy Tab 10 => 800x 1280 # Vertical done */
 @media only screen and (min-width: 800px){
-    .light-off{
-        height: 150vh;
+    .light-buttons{
+        .light-off{
+            width: 1200px;
+        }
+    }
+
+    .postits{
+        top: 830px;
+        left: -440px;
     }
 
     .floor{
-        width: 150%;
+        width: 1200px;
     }
 
     .awssld, .bio-card, .contact-card{
-        width: 1100px !important;
-        top: 865px;
+        width: 1120px !important;
+        height: 1130px !important;
+        top: 930px;
         left: 50px;
     }
 
