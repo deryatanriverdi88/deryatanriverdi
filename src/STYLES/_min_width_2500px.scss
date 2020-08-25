@@ -1,7 +1,10 @@
 /* Apple Macbook 13-inch => 2560 x 1600 done*/
 @media only screen and (min-width: 2500px){
-    .light-off{
-        height: 150vh;
+    .light-buttons{
+        .light-off{
+            width: 2560px;
+            height: 1650px;
+        }
     }
 
     .myname{
@@ -12,7 +15,7 @@
 
     .css-art p{
         font-size: 30px;
-        top: 1250px;
+        top: 1300px;
         left: 550px;
     }
 
@@ -156,7 +159,7 @@
     }
 
     .computer{
-        top: 1030px;
+        top: 930px;
         left: 490px;
         width: 220px;
         height: 120px;
