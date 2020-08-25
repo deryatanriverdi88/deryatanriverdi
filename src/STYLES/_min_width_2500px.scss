@@ -383,36 +383,36 @@
         width: 600px;
         height: 600px;
         border: 20px solid white;
+        .land{
+            .tree{
+                li{
+                    top:-20px;
+                    left: 100px;
+                    &:nth-child(2){
+                        top:-60px;
+                        left: 190px;
+                    }
+                     &:nth-child(3){
+                        top:-70px;
+                        left: 380px;
+                    }
+                    &:nth-child(4){
+                        top:-90px;
+                        left: 470px;
+                    }
+                }
+            }
+        }
         .land, .land:after{
             width: 420px;
             height: 230px;
             border-radius: 50% 50% 0 0;
-          }
-
-          .land:after{
+        }
+        .land:after{
             width: 260px;
             height: 200px;
             left: 300px;
-          }
-
-          .tree{
-              li{
-                  top:-20px;
-                  left: 100px;
-                  &:nth-child(2){
-                      top:-60px;
-                      left: 190px;
-                  }
-                  &:nth-child(3){
-                      top:-50px;
-                      left: 380px;
-                  }
-                  &:nth-child(4){
-                      top:-70px;
-                      left: 470px;
-                  }
-              }
-          }
+        }
     }
 
     .curtain{
