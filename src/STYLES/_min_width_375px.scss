@@ -3,20 +3,30 @@
    iPhone XS => 375 x 812 # Vertical done,
    Galaxy s7 => 360 x 640  # Vertical done*/
 @media only screen and (min-width: 375px){
-    .floor{
-      width: 350%;
+    .light-buttons{
+      .light-off{
+         height: 2250px;
+      }
     }
 
     .postits{
-      left: -400px;
+      left: -430px;
     }
 
     .awssld, .bio-card, .contact-card{
-      top: 950px;
-      left: 100px;
+      top: 900px;
+      left: 70px;
     }
 
     iframe{
       height: 70vh;
     }
+}
+
+@media only screen and (min-width: 375px) and (height: 812px){
+  .light-buttons{
+    .light-off{
+       height: 2750px;
+    }
+  }
 }
