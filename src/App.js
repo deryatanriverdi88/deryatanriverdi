@@ -17,7 +17,8 @@ class App extends React.Component {
     skill: false, 
     contact: false,
     lightOn: true,
-    curtainClose: false
+    curtainClose: false,
+    windowSize: window.innerWidth
   }
 
   componentDidMount() {
