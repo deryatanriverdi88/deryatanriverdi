@@ -1,7 +1,10 @@
 /* Apple iMac 27-inch => 5120 x 2880 done*/
 @media only screen and (min-width: 5000px){
-    .light-off{
-        height: 103vh;
+    .light-buttons{
+        .light-off{
+            width: 5120px;
+            height: 2880px;
+        }
     }
 
     .myname{
@@ -179,8 +182,8 @@
 
     .floor{
         top:1500px;
-        width: 100%;
-        height:50%;
+        width: 5120px;
+        height: 1400px;
     }
 
     .awssld, .bio-card, .contact-card{
