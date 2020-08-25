@@ -1,18 +1,28 @@
 /* Pixel 2 => 411 x 731 # Vertical done,
    Pixel 2 XL => 411 x 823 # Vertical done */
 @media screen and (min-width: 411px){
-    .light-off{
-      width: 310%;
-      height: 310vh;
+    .light-buttons{
+      .light-off{
+        width: 1245px;
+        height: 2500px;
+      }
     }
 
-    .floor{
-      width: 310%;
+    .postits{
+      left: -420px;
     }
 
     .awssld, .bio-card, .contact-card{
-      top: 950px;
-      left: 90px;
+      top: 900px;
+      left: 70px;
       width: 1115px !important;
     }
+}
+
+@media screen and (min-width: 411px) and (height: 731px){
+  .light-buttons{
+    .light-off{
+      height: 2250px;
+    }
+  }
 }
