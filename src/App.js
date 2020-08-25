@@ -17,16 +17,21 @@ class App extends React.Component {
     skill: false, 
     contact: false,
     lightOn: true,
-    curtainClose: false
+    curtainClose: false,
+    windowSize: window.innerWidth
   }
 
   componentDidMount() {
     setInterval(
-      () => this.setState({ date: new Date() }),
+      () => this.setState({
+          date: new Date(),
+          windowSize: window.innerWidth
+        }),
       1000
     );
   }
-  
+
+
   month =()=> {
     let month = ""
     if(this.state.month === 0){
@@ -104,9 +109,7 @@ class App extends React.Component {
   }
 
   render(){
- 
-  
-//  console.log(this.state)
+ console.log(this.state.windowSize)
     return (
       <div className="app">
          <div className="border">
@@ -135,6 +138,13 @@ class App extends React.Component {
                 <div className="month">{this.month()}</div>
                 <div className="day">{this.state.day}</div>
             </div>
+            {this.state.windowSize < 1280 ?
+                <p className="notification">This page is made with CSS art❤️ I specifically wanted
+                to have it bigger than page itself, because the screen size is {this.state.windowSize}px and it would be so unfair to shrink all the art in such a small place.
+                <img src="./img/pinch.gif"/>
+                </p> :
+                null
+            }
             <div className="shelf">
                 <div className="book-holder">
                      <ul>

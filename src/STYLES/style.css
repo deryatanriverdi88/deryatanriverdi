@@ -71,6 +71,21 @@
   top: 0px;
 }
 
+.notification {
+  position: absolute;
+  top: 320px;
+  left: 40px;
+  width: 200px;
+  height: auto;
+  background: rgba(2, 151, 219, 0.4);
+  padding: 20px 20px 0 20px;
+  border-radius: 20px;
+}
+
+.notification img {
+  width: 40%;
+}
+
 .shelf {
   width: 150px;
   height: 20px;
@@ -2630,8 +2645,8 @@
   }
 }
 
-/* Galaxy S5 => 640 x 360  # Horizontal done, 
-   Galaxy s7 => 640 x 360 # Horizontal done, 
+/* Galaxy S5 => 640 x 360  # Horizontal done,
+   Galaxy s7 => 640 x 360 # Horizontal done,
    iPhone 6/7/8 => 667 x 375 # Horizontal done*/
 @media only screen and (min-width: 600px) {
   .light-buttons .light-off {
