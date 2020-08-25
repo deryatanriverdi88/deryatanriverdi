@@ -2356,10 +2356,10 @@
 
 /* iPhone 5/SE => 320 x 568 # Vertical  done
    iPad Touch => 320 x 568  # Verrical  done*/
-@media only screen and (min-width: 300px) {
+@media only screen and (min-width: 280px) {
   .light-buttons .light-off {
-    width: 395%;
-    height: 430vh;
+    width: 1270px;
+    height: 2260px;
   }
   .light-buttons .light-off button, .light-buttons .light-on button {
     left: 500px;
@@ -2373,12 +2373,12 @@
   }
   .css-art p {
     font-size: 20px;
-    top: 580px;
-    left: 610px;
+    top: 620px;
+    left: 650px;
   }
   .floor {
-    height: 35vh;
-    width: 395%;
+    height: 200px;
+    width: 1270px;
     left: 0;
   }
   .postits {
