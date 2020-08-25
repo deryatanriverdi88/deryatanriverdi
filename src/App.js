@@ -31,44 +31,43 @@ class App extends React.Component {
     );
   }
 
-
   month =()=> {
-    let month = ""
+    let m = ""
     if(this.state.month === 0){
-     return month = "January"
+     return m = "January"
     }
     else if (this.state.month === 1){
-      return month = "February"
+      return m = "February"
     }
     else if (this.state.month === 2){
-      return month = "March"
+      return m = "March"
     }
     else if (this.state.month === 3){
-      return month = "April"
+      return m = "April"
     }
     else if (this.state.month === 4){
-      return month = "May"
+      return m = "May"
     }
     else if (this.state.month === 5){
-      return month = "June"
+      return m = "June"
     }
     else if (this.state.month === 6){
-      return month = "July"
+      return m = "July"
     }
     else if (this.state.month === 7){
-      return month = "August"
+      return m = "August"
     }
     else if (this.state.month ===8){
-      return month = "September"
+      return m = "September"
     }
     else if (this.state.month === 9){
-      return month = "October"
+      return m = "October"
     }
     else if (this.state.month === 10){
-      return month = "November"
+      return m = "November"
     }
     else {
-      return month = "December"
+      return m = "December"
     }
   }
 
@@ -129,7 +128,7 @@ class App extends React.Component {
             </div>
             <p className="myname">Derya Tanriverdi</p>
             <div className="css-art"> 
-                 <p>Made by CSS with <span> ❤️ </span> </p>
+                 <p>Made by CSS with <span role="img" aria-label="heart"> ❤️ </span> </p>
             </div>
             <div className="clock">
                 <Clock className="react-clock" value={this.state.date}/>
@@ -139,9 +138,9 @@ class App extends React.Component {
                 <div className="day">{this.state.day}</div>
             </div>
             {this.state.windowSize < 1280 ?
-                <p className="notification">This page is made with CSS art❤️ I specifically wanted
+                <p className="notification">This page is made with CSS art <span role="img" aria-label="heart"> ❤️ </span>I specifically wanted
                 to have it bigger than page itself, because the screen size is {this.state.windowSize}px and it would be so unfair to shrink all the art in such a small place.
-                <img src="./img/pinchToZoom.gif"/>
+                <img src="./img/pinchToZoom.gif" alt="pinch-to-zoom"/>
                 </p> :
                 null
             }
@@ -240,7 +239,7 @@ class App extends React.Component {
 
             {this.state.lightOn ?   
             <div className="dog">
-                 <p>Pet me ❣️ </p>
+                 <p>Pet me <span role="img" aria-label="heart"> ❣️ </span></p>
                  <div className="dog-head">
                       <div className="dog-ear">
                          <ul>
@@ -415,7 +414,7 @@ class App extends React.Component {
         <div className="bio-card"> 
             <div className="bio" >  
                 <div className="bio-img-container">
-                   <img src="./img/me-3.jpg"/>
+                   <img src="./img/me-3.jpg" alt="me"/>
                 </div>
                 <div className="text-container">
                     <h2 className="text h2">Who am I ?</h2>
@@ -440,7 +439,7 @@ class App extends React.Component {
         <AwesomeSlider cssModule={AwesomeSliderStyles}>
           <div className="project-div">
               <div className="video-container">
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/yVvnaz8s6Tk" frameborder="0"      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/yVvnaz8s6Tk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="nutri-track-demo" allowfullscreen></iframe>
               </div>
               <div className="text-container">
                   <h2 className="text h2">NutriTrack</h2>
@@ -470,7 +469,7 @@ class App extends React.Component {
           </div>
           <div className="project-div">
               <div className="video-container">
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/FWPfYNnCwCY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/FWPfYNnCwCY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="doggodoption-demo" allowfullscreen></iframe>
               </div>
               <div className="text-container">
                  <h2 className="text h2">DoggoDoption</h2>
@@ -494,7 +493,7 @@ class App extends React.Component {
           </div>
           <div className="project-div">
               <div className="video-container">
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/zTY2ZHW46P8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/zTY2ZHW46P8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="me-recommends-demo" allowfullscreen></iframe>
               </div>
               <div className="text-container">
                   <h2 className="text h2">MeRecommends</h2>
@@ -516,44 +515,44 @@ class App extends React.Component {
               <div className="codepen">
                  <div className="codepen-div">
                      <img src="./img/CodePen/BabyYoda.png
-                     "/>
+                     " alt="Baby-Yoda"/>
                      <div className="middle-spot">
-                         <a href="https://codepen.io/deryatanriverdi88/pen/RwNELzd" target="_blank"> CodePen Link </a>
+                         <a href="https://codepen.io/deryatanriverdi88/pen/RwNELzd" target="_blank" rel="noopener noreferrer"> CodePen Link </a>
                      </div>
                  </div>
                  <div className="codepen-div">
                       <img src="./img/CodePen/Eric-Cartman.png
-                      "/>
+                      " alt="Eric-Cartman"/>
                       <div className="middle-spot">
-                         <a href="https://codepen.io/deryatanriverdi88/pen/dyPBNzW" target="_blank"> CodePen Link  </a>
+                         <a href="https://codepen.io/deryatanriverdi88/pen/dyPBNzW" target="_blank" rel="noopener noreferrer"> CodePen Link  </a>
                       </div>
                  </div>
                  <div className="codepen-div">
                      <img src="./img/CodePen/bike.png
-                     "/>
+                     " alt="Bike"/>
                      <div className="middle-spot">
-                         <a href="https://codepen.io/deryatanriverdi88/pen/VwYVjXv" target="_blank"> CodePen Link  </a>
+                         <a href="https://codepen.io/deryatanriverdi88/pen/VwYVjXv" target="_blank" rel="noopener noreferrer"> CodePen Link  </a>
                      </div>
                 </div>
                  <div className="codepen-div">
                       <img src="./img/CodePen/coffee.png
-                      "/>
+                      " alt="Coffee"/>
                       <div className="middle-spot">
-                         <a href="https://codepen.io/deryatanriverdi88/pen/xxbdVGe" target="_blank"> CodePen Link </a>
+                         <a href="https://codepen.io/deryatanriverdi88/pen/xxbdVGe" target="_blank" rel="noopener noreferrer"> CodePen Link </a>
                       </div>
                  </div>
                  <div className="codepen-div">
                       <img src="./img/CodePen/xmas-tree.png
-                      "/>
+                      " alt="X-Mas-Tree"/>
                       <div className="middle-spot">
-                         <a href="https://codepen.io/deryatanriverdi88/pen/rNawJad" target="_blank"> CodePen Link  </a>
+                         <a href="https://codepen.io/deryatanriverdi88/pen/rNawJad" target="_blank" rel="noopener noreferrer"> CodePen Link  </a>
                       </div>
                  </div>
                  <div className="codepen-div">
                       <img src="./img/CodePen/ValentinesDay.png
-                      "/>
+                      " alt="Valentines-Day"/>
                       <div className="middle-spot">
-                          <a href="https://codepen.io/deryatanriverdi88/pen/MWwKOre" target="_blank"> CodePen Link  </a>
+                          <a href="https://codepen.io/deryatanriverdi88/pen/MWwKOre" target="_blank" rel="noopener noreferrer"> CodePen Link  </a>
                       </div>
                  </div>
               </div>
@@ -564,44 +563,44 @@ class App extends React.Component {
                  <div className="codepen">
                      <div className="codepen-div">
                          <img src="./img/CodePen/pencil-jar.png
-                         "/>
+                         " alt="Pencil-Jar"/>
                          <div className="middle-spot">
-                             <a href="https://codepen.io/deryatanriverdi88/pen/povWeqj" target="_blank"> CodePen Link  </a>
+                             <a href="https://codepen.io/deryatanriverdi88/pen/povWeqj" target="_blank" rel="noopener noreferrer"> CodePen Link  </a>
                          </div>
                      </div>
                      <div className="codepen-div">
                          <img src="./img/CodePen/battery.png
-                         "/>
+                         " alt="Battery"/>
                          <div className="middle-spot">
-                             <a href="https://codepen.io/deryatanriverdi88/pen/rNamxNm" target="_blank"> CodePen Link  </a>
+                             <a href="https://codepen.io/deryatanriverdi88/pen/rNamxNm" target="_blank" rel="noopener noreferrer"> CodePen Link  </a>
                          </div>
                      </div>
                      <div className="codepen-div">
                          <img src="./img/CodePen/heart.png
-                         "/>
+                         " alt="Heart"/>
                          <div className="middle-spot">
-                             <a href="https://codepen.io/deryatanriverdi88/pen/LYEWKWL" target="_blank"> CodePen Link  </a>
+                             <a href="https://codepen.io/deryatanriverdi88/pen/LYEWKWL" target="_blank" rel="noopener noreferrer"> CodePen Link  </a>
                          </div>
                      </div>
                      <div className="codepen-div">
                           <img src="./img/CodePen/Regain.png
-                          "/>
+                          " alt="Regain"/>
                           <div className="middle-spot">
-                             <a href="https://codepen.io/deryatanriverdi88/pen/WNvrExo" target="_blank"> CodePen Link  </a>
+                             <a href="https://codepen.io/deryatanriverdi88/pen/WNvrExo" target="_blank" rel="noopener noreferrer"> CodePen Link  </a>
                           </div>
                      </div>
                      <div className="codepen-div">
                          <img src="./img/CodePen/Casette-Tape.png
-                         "/>
+                         " alt="Casette-Tape"/>
                          <div className="middle-spot">
-                             <a href="https://codepen.io/deryatanriverdi88/pen/yLNZJdd" target="_blank"> CodePen Link  </a>
+                             <a href="https://codepen.io/deryatanriverdi88/pen/yLNZJdd" target="_blank" rel="noopener noreferrer"> CodePen Link  </a>
                          </div>
                      </div>
                      <div className="codepen-div">
                          <img src="./img/CodePen/Drawing.png
-                         "/>
+                         " alt="Drawing"/>
                          <div className="middle-spot">
-                             <a href="https://codepen.io/deryatanriverdi88/pen/QWbZNqx" target="_blank"> CodePen Link  </a>
+                             <a href="https://codepen.io/deryatanriverdi88/pen/QWbZNqx" target="_blank" rel="noopener noreferrer"> CodePen Link  </a>
                          </div>
                      </div>
                  </div>
@@ -612,44 +611,44 @@ class App extends React.Component {
                  <div className="codepen">
                      <div className="codepen-div">
                          <img src="./img/CodePen/Brooklyn-Map.png
-                         "/>
+                         " alt="Brooklyn-Map"/>
                          <div className="middle-spot">
-                             <a href="https://codepen.io/deryatanriverdi88/pen/zYGRBNQ" target="_blank"> CodePen Link  </a>
+                             <a href="https://codepen.io/deryatanriverdi88/pen/zYGRBNQ" target="_blank" rel="noopener noreferrer"> CodePen Link  </a>
                          </div>
                      </div>
                      <div className="codepen-div">
                          <img src="./img/CodePen/Polar-Bear.png
-                         "/>
+                         " alt="Polar-Bear"/>
                          <div className="middle-spot">
-                             <a href="https://codepen.io/deryatanriverdi88/pen/JjdOJaW" target="_blank"> CodePen Link  </a>
+                             <a href="https://codepen.io/deryatanriverdi88/pen/JjdOJaW" target="_blank" rel="noopener noreferrer"> CodePen Link  </a>
                          </div>
                      </div>
                      <div className="codepen-div">
                          <img src="./img/CodePen/Coloring-Book.png
-                         "/>
+                         " alt="Coloring-Book"/>
                          <div className="middle-spot">
-                             <a href="https://codepen.io/deryatanriverdi88/pen/JjdqxKb" target="_blank"> CodePen Link  </a>
+                             <a href="https://codepen.io/deryatanriverdi88/pen/JjdqxKb" target="_blank" rel="noopener noreferrer"> CodePen Link  </a>
                          </div>
                      </div>
                      <div className="codepen-div">
                           <img src="./img/CodePen/Calculator.png
-                          "/>
+                          " alt="Calculator"/>
                           <div className="middle-spot">
-                             <a href="https://codepen.io/deryatanriverdi88/pen/gOaYmep" target="_blank"> CodePen Link  </a>
+                             <a href="https://codepen.io/deryatanriverdi88/pen/gOaYmep" target="_blank" rel="noopener noreferrer"> CodePen Link  </a>
                           </div>
                      </div>
                      <div className="codepen-div">
                          <img src="./img/CodePen/Balloon-Popping.png
-                         "/>
+                         " alt="Ballon-Popping"/>
                          <div className="middle-spot">
-                             <a href="https://codepen.io/deryatanriverdi88/pen/RwWWzdo" target="_blank"> CodePen Link  </a>
+                             <a href="https://codepen.io/deryatanriverdi88/pen/RwWWzdo" target="_blank" rel="noopener noreferrer"> CodePen Link  </a>
                          </div>
                      </div>
                      <div className="codepen-div">
                          <img src="./img/CodePen/Hangman.png
-                         "/>
+                         " alt="Hangman"/>
                          <div className="middle-spot">
-                             <a href="https://codepen.io/deryatanriverdi88/pen/gOawOqY" target="_blank"> CodePen Link  </a>
+                             <a href="https://codepen.io/deryatanriverdi88/pen/gOawOqY" target="_blank" rel="noopener noreferrer"> CodePen Link  </a>
                          </div>
                      </div>
                  </div>
@@ -662,23 +661,23 @@ class App extends React.Component {
           <div className="skill-slide">
              <h3> Frontend</h3>
              <div className="front-end">
-                  <img className="react-img" src='./img/Skills/react.gif'/>
-                  <img className="redux-img" src='./img/Skills/redux.png'/>
-                  <img className="js-img" src='./img/Skills/javascript.jpg'/>
-                  <img className="css-img" src='./img/Skills/css.png'/>
-                  <img className="html-img" src='./img/Skills/html.png'/>
-                  <img className="mq-img" src='./img/Skills/mq.png'/>
+                  <img className="react-img" src='./img/Skills/react.gif' alt="React"/>
+                  <img className="redux-img" src='./img/Skills/redux.png'alt="Redux"/>
+                  <img className="js-img" src='./img/Skills/javascript.jpg' alt="JavaScript"/>
+                  <img className="css-img" src='./img/Skills/css.png' alt="CSS"/>
+                  <img className="html-img" src='./img/Skills/html.png'alt="HTML"/>
+                  <img className="mq-img" src='./img/Skills/mq.png' alt="Media-Queries"/>
                   <button className="x" onClick={this.handleSkillClick}> x </button>
              </div>
           </div>
           <div className="skill-slide">
               <h3> Backend</h3>
               <div className="back-end">
-                 <img className="ruby-img" src='./img/Skills/ruby.jpg'/>
-                 <img className="rails-img" src='./img/Skills/rails.png'/>
-                 <img className="sqlite-img" src='./img/Skills/sqlite.png'/>
-                 <img className="heroku-img" src='./img/Skills/heroku.png'/>
-                 <img className="active-record-img" src='./img/Skills/active-record.png'/>
+                 <img className="ruby-img" src='./img/Skills/ruby.jpg' alt="Ruby"/>
+                 <img className="rails-img" src='./img/Skills/rails.png' alt="Rails"/>
+                 <img className="sqlite-img" src='./img/Skills/sqlite.png' alt="SQlite"/>
+                 <img className="heroku-img" src='./img/Skills/heroku.png'alt="Heroku"/>
+                 <img className="active-record-img" src='./img/Skills/active-record.png' alt="Active-Record"/>
                  <button className="x" onClick={this.handleSkillClick}> x </button>
               </div>
           </div>
@@ -687,20 +686,20 @@ class App extends React.Component {
         {this.state.contact ? 
         <div className="contact-card">
              <div className="contact-div">
-                 <a href="https://www.linkedin.com/in/derya-tanr%C4%B1verdi-701a3489/" target="_blank">
-                     <img src="./img/SocialMedia/linkedin.png"/>
+                 <a href="https://www.linkedin.com/in/derya-tanr%C4%B1verdi-701a3489/" target="_blank" rel="noopener noreferrer">
+                     <img src="./img/SocialMedia/linkedin.png" alt="LinkedIn"/>
                  </a>
-                 <a href="https://github.com/deryatanriverdi88" target="_blank">
-                     <img src="./img/SocialMedia/github.png"/>
+                 <a href="https://github.com/deryatanriverdi88" target="_blank" rel="noopener noreferrer">
+                     <img src="./img/SocialMedia/github.png" alt="GitHub"/>
                  </a>
-                 <a href="https://twitter.com/Derya_T88" target="_blank">
-                     <img src="./img/SocialMedia/twitter.png"/>
+                 <a href="https://twitter.com/Derya_T88" target="_blank" rel="noopener noreferrer">
+                     <img src="./img/SocialMedia/twitter.png" alt="Twitter"/>
                  </a>
-                 <a href="https://medium.com/@deryatanriverdii" target="_blank">
-                     <img src="./img/SocialMedia/medium.png"/>
+                 <a href="https://medium.com/@deryatanriverdii" target="_blank" rel="noopener noreferrer">
+                     <img src="./img/SocialMedia/medium.png" alt="Medium"/>
                  </a>
-                 <a href="https://medium.com/@deryatanriverdii" target="_blank">
-                     <img src="./img/SocialMedia/codepen.png"/>
+                 <a href="https://medium.com/@deryatanriverdii" target="_blank" rel="noopener noreferrer">
+                     <img src="./img/SocialMedia/codepen.png" alt="Codepen"/>
                  </a>
              </div>
              <button className="x" onClick={this.handleContactClick}> x </button>
