@@ -1,25 +1,30 @@
 @media only screen and (min-width: 510px){
-    .floor{
-      top: 620px;
-      width: 250%;
-      height: 60vh;
+    .light-buttons{
+        .light-off{
+            height: 2100px;
+        }
     }
+    // .floor{
+    //   top: 620px;
+    //   width: 225%;
+    //   height: 60vh;
+    // }
 
-    .window{
-      left: 950px;
-    }
+    // .window{
+    //   left: 950px;
+    // }
 
     .postits{
-      left: -390px;
-      top:850px;
+      left: -400px;
+      top:750px;
     }
 
     .awssld, .bio-card, .contact-card{
-      top: 950px;
-      left: 165px;
+      top: 850px;
+      left: 95px;
     }
 
-    iframe{
-      height: 150vh;
-    }
+    // iframe{
+    //   height: 150vh;
+    // }
 }
