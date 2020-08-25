@@ -2479,28 +2479,40 @@
   }
 }
 
+@media only screen and (min-width: 280px) and (height: 653px) {
+  .light-buttons .light-off {
+    height: 2610px;
+  }
+}
+
 /* Galaxy S5 => 360 x 640 # Vertical done,
    Samsung Galaxy S9 / S9+ => 360 x 740 # Vertical done,
    Samsung Galaxy S8 / S8+ => 360 x 740 # Vertical done */
 @media only screen and (min-width: 350px) {
-  .light-off {
-    width: 350%;
-    height: 350vh;
+  .light-buttons .light-off {
+    width: 1240px;
+    height: 2210px;
   }
   .floor {
-    width: 350%;
+    width: 1240px;
   }
   .postits {
     left: -420px;
-    top: 850px;
+    top: 800px;
   }
   .awssld, .bio-card, .contact-card {
-    top: 940px;
-    left: 80px;
+    top: 890px;
+    left: 70px;
     height: 1120px !important;
   }
   .middle-spot {
     top: -190px;
+  }
+}
+
+@media only screen and (min-width: 350px) and (height: 740px) {
+  .light-buttons .light-off {
+    height: 2550px;
   }
 }
 
@@ -2509,64 +2521,84 @@
    iPhone XS => 375 x 812 # Vertical done,
    Galaxy s7 => 360 x 640  # Vertical done*/
 @media only screen and (min-width: 375px) {
-  .floor {
-    width: 350%;
+  .light-buttons .light-off {
+    height: 2250px;
   }
   .postits {
-    left: -400px;
+    left: -430px;
   }
   .awssld, .bio-card, .contact-card {
-    top: 950px;
-    left: 100px;
+    top: 900px;
+    left: 70px;
   }
   iframe {
     height: 70vh;
   }
 }
 
+@media only screen and (min-width: 375px) and (height: 812px) {
+  .light-buttons .light-off {
+    height: 2750px;
+  }
+}
+
 /* Pixel 2 => 411 x 731 # Vertical done,
    Pixel 2 XL => 411 x 823 # Vertical done */
 @media screen and (min-width: 411px) {
-  .light-off {
-    width: 310%;
-    height: 310vh;
+  .light-buttons .light-off {
+    width: 1245px;
+    height: 2500px;
   }
-  .floor {
-    width: 310%;
+  .postits {
+    left: -420px;
   }
   .awssld, .bio-card, .contact-card {
-    top: 950px;
-    left: 90px;
+    top: 900px;
+    left: 70px;
     width: 1115px !important;
+  }
+}
+
+@media screen and (min-width: 411px) and (height: 731px) {
+  .light-buttons .light-off {
+    height: 2250px;
   }
 }
 
 /* iPhone 6/7/8 plus => 414 x 736 # Vertical done,
    iPhone XR => 414 x 896 # Vertical done */
 @media screen and (min-width: 414px) {
-  .floor {
-    width: 310%;
+  .light-buttons .light-off {
+    height: 2250px;
+  }
+  .postits {
+    left: -430px;
+    top: 800px;
   }
   .awssld, .bio-card, .contact-card {
-    top: 950px;
-    left: 90px;
+    top: 900px;
+    left: 70px;
+  }
+}
+
+@media screen and (min-width: 414px) and (height: 896px) {
+  .light-buttons .light-off {
+    height: 2700px;
   }
 }
 
 /* iPhone 5/SE => 568 x 320 # Horizontal done
    iPad Touch =>  568 x 320 # Horizontal done*/
 @media only screen and (min-width: 500px) {
-  .light-off {
-    width: 240%;
-    height: 650vh;
+  .light-buttons .light-off {
+    width: 1350px;
   }
   .css-art p {
     left: 620px;
   }
   .floor {
     top: 620px;
-    width: 240%;
-    height: 60vh;
+    width: 1350px;
   }
   .window {
     left: 1000px;
@@ -2585,141 +2617,45 @@
 }
 
 @media only screen and (min-width: 510px) {
-  .floor {
-    top: 620px;
-    width: 250%;
-    height: 60vh;
-  }
-  .window {
-    left: 950px;
+  .light-buttons .light-off {
+    height: 2100px;
   }
   .postits {
-    left: -390px;
-    top: 850px;
+    left: -400px;
+    top: 750px;
   }
   .awssld, .bio-card, .contact-card {
-    top: 950px;
-    left: 165px;
-  }
-  iframe {
-    height: 150vh;
+    top: 850px;
+    left: 95px;
   }
 }
 
-/* Pixel 2 => 731 x 411 # Horizontal done, 
-   iPhone 6/7/8 plus => 736 x 414 # Horizontal done*/
-@media only screen and (min-width: 730px) {
-  .light-off {
-    width: 150%;
-    height: 450vh;
-  }
-  .myname {
-    left: 400px;
-  }
-  .css-art p {
-    left: 470px;
-  }
-  .floor {
-    width: 150%;
-  }
-  .plant-div {
-    left: 300px;
-  }
-  .coffee {
-    left: 380px;
-  }
-  .table {
-    left: 300px;
-  }
-  .table-front {
-    left: 310px;
-  }
-  .chair {
-    left: 440px;
-  }
-  .girl {
-    left: 460px;
-  }
-  .computer {
-    left: 460px;
-  }
-  .pencil-jar {
-    left: 700px;
-  }
-  .dog {
-    left: 800px;
-  }
-  .window {
-    left: 760px;
-  }
-  .garbage-can {
-    left: 150px;
+/* Galaxy S5 => 640 x 360  # Horizontal done, 
+   Galaxy s7 => 640 x 360 # Horizontal done, 
+   iPhone 6/7/8 => 667 x 375 # Horizontal done*/
+@media only screen and (min-width: 600px) {
+  .light-buttons .light-off {
+    width: 1350px;
+    height: 2100px;
   }
   .postits {
-    left: -230px;
-    top: 780px;
-  }
-  .postits p {
-    padding-top: 180px;
-  }
-  .post-it-1, .post-it-2, .post-it-3, .post-it-4 {
-    width: 400px;
-    height: 400px;
-    left: 350px;
-  }
-  .post-it-1:after, .post-it-2:after, .post-it-3:after, .post-it-4:after {
-    width: 200px;
-    height: 200px;
-    top: -15px;
-    left: -1px;
-  }
-  .post-it-3 {
-    top: 550px;
-    left: 350px;
-  }
-  .post-it-2 {
-    left: 850px;
-  }
-  .post-it-4 {
-    left: 850px;
-    top: 550px;
+    top: 750px;
+    left: -350px;
   }
   .awssld, .bio-card, .contact-card {
-    top: 880px;
-    left: 110px;
-    width: 915px !important;
-    height: 900px !important;
-  }
-  .bio-img-container img {
-    margin: 150px auto;
-    width: 160%;
-  }
-  .project-div {
-    padding-top: 5em;
-  }
-  .project-div .codepen-div {
-    width: 28%;
-    height: 250px;
-  }
-  .project-div .codepen-div .middle-spot {
-    left: 60px;
-    top: -150px;
-  }
-  .text-container {
-    padding: 130px 0 20px 60px;
-    line-height: 35px;
+    top: 840px;
+    left: 140px;
   }
   iframe {
-    height: 80vh;
+    height: 140vh;
   }
 }
 
 /* Pixel 2 => 731 x 411 # Horizontal done,
    iPhone 6/7/8 plus => 736 x 414 # Horizontal done*/
 @media only screen and (min-width: 730px) {
-  .light-off {
-    width: 150%;
-    height: 450vh;
+  .light-buttons .light-off {
+    width: 1150px;
   }
   .myname {
     left: 400px;
@@ -2728,7 +2664,7 @@
     left: 470px;
   }
   .floor {
-    width: 150%;
+    width: 1150px;
   }
   .plant-div {
     left: 300px;
@@ -2764,7 +2700,7 @@
     left: 150px;
   }
   .postits {
-    left: -230px;
+    left: -470px;
     top: 780px;
   }
   .postits p {
@@ -2794,9 +2730,9 @@
   }
   .awssld, .bio-card, .contact-card {
     top: 880px;
-    left: 110px;
-    width: 915px !important;
-    height: 900px !important;
+    left: 30px;
+    width: 1100px !important;
+    height: 1100px !important;
   }
   .bio-img-container img {
     margin: 150px auto;
@@ -2825,12 +2761,11 @@
 /* Samsung Galaxy S8 / S8+ => 740 x 360 # Horizontal done,
     Samsung Galaxy S9 / S9+ => 740 x 360 # Horizontal done*/
 @media only screen and (min-width: 740px) {
-  .light-off {
-    height: 490vh;
-  }
   .awssld, .bio-card, .contact-card {
     top: 850px;
-    left: 110px;
+    left: 30px;
+    height: 1150px !important;
+    width: 150% !important;
   }
   .bio-img-container img {
     margin: 130px auto;
@@ -2852,22 +2787,21 @@
    iPad Mini => 768 x 1024 # Vertical done,
    iPad Air 1 & 2 => 768 x 1024  # Vertical done*/
 @media only screen and (min-width: 760px) {
-  .light-off {
-    width: 150%;
-    height: 180vh;
-  }
   .myname {
     left: 390px;
   }
   .css-art p {
     left: 460px;
   }
-  .floor {
-    width: 150%;
+  .postits {
+    left: -470px;
+    top: 750px;
   }
   .awssld, .bio-card, .contact-card {
-    top: 875px;
-    left: 120px;
+    top: 850px;
+    left: 10px;
+    width: 1130px !important;
+    height: 1100px !important;
   }
   .bio-img-container img {
     margin: 140px auto;
@@ -2877,7 +2811,7 @@
     padding-top: 5em;
   }
   .text-container {
-    padding: 110px 0 20px 60px;
+    padding: 110px 0 20px 100px;
     line-height: 35px;
   }
   iframe {
@@ -2887,15 +2821,20 @@
 
 /* Samsung Galaxy Tab 10 => 800x 1280 # Vertical done */
 @media only screen and (min-width: 800px) {
-  .light-off {
-    height: 150vh;
+  .light-buttons .light-off {
+    width: 1200px;
+  }
+  .postits {
+    top: 830px;
+    left: -440px;
   }
   .floor {
-    width: 150%;
+    width: 1200px;
   }
   .awssld, .bio-card, .contact-card {
-    width: 1100px !important;
-    top: 865px;
+    width: 1120px !important;
+    height: 1130px !important;
+    top: 930px;
     left: 50px;
   }
   .bio-img-container img {
@@ -2925,12 +2864,13 @@
    iPhone X => 812 x 375 # Horizontal done,
    Pixel 2 XL => 823 x 411 # Horizontal done*/
 @media only screen and (min-width: 812px) {
-  .light-off {
-    height: 500vh;
+  .postits {
+    top: 750px;
+    left: -445px;
   }
   .awssld, .bio-card, .contact-card {
-    top: 875px;
-    left: 50px;
+    top: 845px;
+    left: 45px;
   }
   .codepen-div {
     width: 29%;
@@ -2947,9 +2887,6 @@
 
 /* iPhone XR => 896 x 414 # Horizontal done*/
 @media only screen and (min-width: 896px) {
-  .floor {
-    width: 135%;
-  }
   .awssld, .bio-card, .contact-card {
     top: 875px;
     left: 55px;
@@ -2962,17 +2899,12 @@
 /* iPad Pro => 1024 x 1366 # Vertical done,
    iPad Air 1 & 2 => 1024 x 768 # Horizontal*/
 @media only screen and (min-width: 1000px) {
-  .light-off {
-    width: 120%;
-    height: 150vh;
-  }
-  .floor {
-    width: 120%;
-    height: 20vh;
-  }
   .postits {
     top: 750px;
-    left: -200px;
+    left: -440px;
+  }
+  .floor {
+    width: 1200px;
   }
   .awssld, .bio-card, .contact-card {
     top: 840px;
@@ -3001,24 +2933,43 @@
   }
 }
 
+@media only screen and (min-width: 1024px) and (height: 768px) {
+  .light-buttons .light-off {
+    width: 1160px;
+  }
+  .floor {
+    width: 1160px;
+  }
+  .postits {
+    top: 750px;
+    left: -465px;
+  }
+  .awssld, .bio-card, .contact-card {
+    top: 840px;
+    left: 20px;
+  }
+}
+
 /* Samsung Galaxy Tab 10 => 1280 x 800 # Horizontal done*/
 @media only screen and (min-width: 1280px) {
-  .light-off {
-    width: 120%;
-    height: 220vh;
+  .light-buttons .light-off {
+    width: 1300px;
   }
   .css-art p {
     left: 470px;
   }
+  .floor {
+    width: 1300px;
+  }
   .postits {
-    left: -120px;
+    left: -420px;
   }
   .window {
     left: 900px;
   }
   .awssld, .bio-card, .contact-card {
     top: 845px;
-    left: 150px;
+    left: 50px;
     width: 1200px !important;
   }
   .bio-img-container img {
@@ -3040,15 +2991,19 @@
 
 /* Acer Chromebook => 1336 x 768 */
 @media only screen and (min-width: 1336px) {
-  .light-off {
-    height: 230vh;
+  .light-buttons .light-off {
+    width: 1336px;
+  }
+  .floor {
+    width: 1336px;
   }
   .postits {
-    left: -100px;
+    left: -370px;
+    top: 770px;
   }
   .awssld, .bio-card, .contact-card {
-    top: 820px;
-    left: 200px;
+    top: 870px;
+    left: 70px;
   }
   .bio .text-container {
     padding-top: 100px;
@@ -3069,14 +3024,19 @@
 
 /* iPad Pro => 1366 x 1024 # Horizontal done */
 @media only screen and (min-width: 1366px) {
-  .light-off {
-    height: 200vh;
+  .light-buttons .light-off {
+    width: 1366px;
+  }
+  .floor {
+    width: 1366px;
   }
   .postits {
-    left: -100px;
+    left: -350px;
+    top: 750px;
   }
   .awssld, .bio-card, .contact-card {
-    top: 820px;
+    top: 850px;
+    left: 100px;
   }
   .bio .text-container {
     padding-top: 100px;
@@ -3094,18 +3054,21 @@
 
 /* Apple Macbook Air 13-inch => 1440 x 900 done */
 @media only screen and (min-width: 1400px) {
-  .light-off {
-    height: 230vh;
+  .light-buttons .light-off {
+    width: 1450px;
   }
   .floor {
-    width: 100%;
+    width: 1450px;
   }
   .css-art p {
     left: 470px;
   }
+  .postits {
+    left: -300px;
+  }
   .awssld, .bio-card, .contact-card {
-    top: 800px;
-    left: 100px;
+    left: 120px;
+    height: 1200px !important;
   }
   .bio-img-container img {
     margin: 100px auto;
@@ -3123,8 +3086,9 @@
 
 /* Del XPS 13 => 1920 x 1080 done */
 @media only screen and (min-width: 1900px) {
-  .light-off {
-    height: 120vh;
+  .light-buttons .light-off {
+    width: 2000px;
+    height: 1130px;
   }
   .myname {
     left: 400px;
@@ -3133,20 +3097,22 @@
     left: 480px;
   }
   .floor {
-    height: 65vh;
+    height: 510px;
+    width: 2000px;
   }
   .postits {
     top: -20px;
     left: 600px;
   }
-  .postits:after {
-    width: 250px;
-    height: 250px;
-  }
   .postits p {
     padding-top: 100px;
   }
   .postits .post-it-1, .postits .post-it-2, .postits .post-it-3, .postits .post-it-4 {
+    width: 250px;
+    height: 250px;
+    left: 350px;
+  }
+  .postits .post-it-1:after, .postits .post-it-2:after, .postits .post-it-3:after, .postits .post-it-4:after {
     width: 250px;
     height: 250px;
   }
@@ -3164,6 +3130,7 @@
     top: 80px;
     left: 300px;
     width: 1210px !important;
+    height: 1000px !important;
   }
   .bio .text-container {
     padding-top: 105px;
@@ -3190,8 +3157,9 @@
 
 /* Apple Macbook 13-inch => 2560 x 1600 done*/
 @media only screen and (min-width: 2500px) {
-  .light-off {
-    height: 150vh;
+  .light-buttons .light-off {
+    width: 2560px;
+    height: 1650px;
   }
   .myname {
     font-size: 80px;
@@ -3200,7 +3168,7 @@
   }
   .css-art p {
     font-size: 30px;
-    top: 1250px;
+    top: 1300px;
     left: 550px;
   }
   .clock {
@@ -3333,7 +3301,7 @@
     left: 50px;
   }
   .computer {
-    top: 1030px;
+    top: 930px;
     left: 490px;
     width: 220px;
     height: 120px;
@@ -3540,6 +3508,22 @@
     height: 600px;
     border: 20px solid white;
   }
+  .window .land .tree li {
+    top: -20px;
+    left: 100px;
+  }
+  .window .land .tree li:nth-child(2) {
+    top: -60px;
+    left: 190px;
+  }
+  .window .land .tree li:nth-child(3) {
+    top: -70px;
+    left: 380px;
+  }
+  .window .land .tree li:nth-child(4) {
+    top: -90px;
+    left: 470px;
+  }
   .window .land, .window .land:after {
     width: 420px;
     height: 230px;
@@ -3549,22 +3533,6 @@
     width: 260px;
     height: 200px;
     left: 300px;
-  }
-  .window .tree li {
-    top: -20px;
-    left: 100px;
-  }
-  .window .tree li:nth-child(2) {
-    top: -60px;
-    left: 190px;
-  }
-  .window .tree li:nth-child(3) {
-    top: -50px;
-    left: 380px;
-  }
-  .window .tree li:nth-child(4) {
-    top: -70px;
-    left: 470px;
   }
   .curtain {
     width: 570px;
@@ -3606,32 +3574,32 @@
     -webkit-animation-fill-mode: forwards;
             animation-fill-mode: forwards;
   }
-  .moon {
+  #night .stars {
+    top: 100px;
+    left: 200px;
+  }
+  #night .stars li {
+    left: 10px;
+  }
+  #night .stars li:nth-child(2) {
+    left: 120px;
+  }
+  #night .stars li:nth-child(3) {
+    left: 250px;
+  }
+  #night .stars li:nth-child(4) {
+    top: 200px;
+    left: 300px;
+  }
+  #night .moon {
     width: 100px;
     height: 100px;
     top: 200px;
     left: 100px;
   }
-  .moon:after {
+  #night .moon:after {
     width: 90px;
     height: 90px;
-  }
-  .stars {
-    top: 100px;
-    left: 200px;
-  }
-  .stars li {
-    left: 10px;
-  }
-  .stars li:nth-child(2) {
-    left: 120px;
-  }
-  .stars li:nth-child(3) {
-    left: 250px;
-  }
-  .stars li:nth-child(4) {
-    top: 200px;
-    left: 300px;
   }
   .window-devide {
     left: 260px;
@@ -3649,8 +3617,8 @@
   }
   .floor {
     top: 1150px;
-    width: 120%;
-    height: 50vh;
+    width: 2560px;
+    height: 500px;
   }
   .awssld, .bio-card, .contact-card {
     top: 130px;
@@ -3773,14 +3741,15 @@
 
 /* Apple Macbook Pro 15-inch => 2880 x 1800 done */
 @media only screen and (min-width: 2800px) {
-  .light-off {
-    height: 130vh;
+  .light-buttons .light-off {
+    width: 2880px;
+    height: 1800px;
   }
   .myname {
     top: 1100px;
   }
   .css-art p {
-    top: 1150px;
+    top: 1200px;
   }
   .table {
     top: 950px;
@@ -3841,6 +3810,21 @@
   .curtain:after {
     left: 284px;
   }
+  .curtain-rope {
+    left: 295px;
+    top: 120px;
+    -webkit-animation: move-up-rope-2500 3s linear;
+            animation: move-up-rope-2500 3s linear;
+  }
+  .curtain-handle {
+    width: 40px;
+    height: 40px;
+    top: 140px;
+    left: 280px;
+    border-width: 10px;
+    -webkit-animation: move-up-curtain-handle-2500 3s linear;
+            animation: move-up-curtain-handle-2500 3s linear;
+  }
   .stars {
     top: 100px;
     left: 70px;
@@ -3871,9 +3855,8 @@
     left: 10px;
   }
   .floor {
-    top: 1110px;
-    width: 120%;
-    height: 65vh;
+    width: 2880px;
+    height: 650px;
   }
   .awssld, .bio-card, .contact-card {
     top: 130px;
@@ -3907,8 +3890,9 @@
 
 /* Apple iMac 27-inch => 5120 x 2880 done*/
 @media only screen and (min-width: 5000px) {
-  .light-off {
-    height: 103vh;
+  .light-buttons .light-off {
+    width: 5120px;
+    height: 2880px;
   }
   .myname {
     left: 880px;
@@ -4070,8 +4054,8 @@
   }
   .floor {
     top: 1500px;
-    width: 100%;
-    height: 50%;
+    width: 5120px;
+    height: 1400px;
   }
   .awssld, .bio-card, .contact-card {
     top: 180px;
