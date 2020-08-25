@@ -31,44 +31,43 @@ class App extends React.Component {
     );
   }
 
-
   month =()=> {
-    let month = ""
+    let m = ""
     if(this.state.month === 0){
-     return month = "January"
+     return m = "January"
     }
     else if (this.state.month === 1){
-      return month = "February"
+      return m = "February"
     }
     else if (this.state.month === 2){
-      return month = "March"
+      return m = "March"
     }
     else if (this.state.month === 3){
-      return month = "April"
+      return m = "April"
     }
     else if (this.state.month === 4){
-      return month = "May"
+      return m = "May"
     }
     else if (this.state.month === 5){
-      return month = "June"
+      return m = "June"
     }
     else if (this.state.month === 6){
-      return month = "July"
+      return m = "July"
     }
     else if (this.state.month === 7){
-      return month = "August"
+      return m = "August"
     }
     else if (this.state.month ===8){
-      return month = "September"
+      return m = "September"
     }
     else if (this.state.month === 9){
-      return month = "October"
+      return m = "October"
     }
     else if (this.state.month === 10){
-      return month = "November"
+      return m = "November"
     }
     else {
-      return month = "December"
+      return m = "December"
     }
   }
 
