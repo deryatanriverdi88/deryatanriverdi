@@ -2,11 +2,6 @@
    iPad Mini => 768 x 1024 # Vertical done,
    iPad Air 1 & 2 => 768 x 1024  # Vertical done*/
 @media only screen and (min-width: 760px){
-    .light-off{
-        width: 150%;
-        height: 180vh;
-    }
-
     .myname{
         left: 390px;
     }
@@ -15,13 +10,16 @@
         left: 460px;
     }
 
-    .floor{
-        width: 150%;
+    .postits{
+        left:-470px;
+        top: 750px;
     }
 
     .awssld, .bio-card, .contact-card{
-        top: 875px;
-        left: 120px;
+        top: 850px;
+        left: 10px;
+        width: 1130px !important;
+        height: 1100px !important;
     }
 
     .bio-img-container img{
@@ -34,7 +32,7 @@
     }
 
     .text-container{
-        padding: 110px 0 20px 60px;
+        padding: 110px 0 20px 100px;
         line-height: 35px;
     }
 
