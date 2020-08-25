@@ -1,131 +1,25 @@
-/* Pixel 2 => 731 x 411 # Horizontal done, 
-   iPhone 6/7/8 plus => 736 x 414 # Horizontal done*/
-@media only screen and (min-width: 730px){
-    .light-off{
-        width: 150%;
-        height: 450vh;
-    }
-
-    .myname{
-        left: 400px;
-    }
-
-    .css-art p{
-         left: 470px;
-    }
-
-    .floor{
-        width: 150%;
-    }
-
-    .plant-div{
-        left: 300px;
-    }
-
-    .coffee{
-         left: 380px;
-    }
-
-    .table{
-        left: 300px;
-    }
-
-    .table-front{
-        left: 310px;
-    }
-
-    .chair{
-        left: 440px;
-    }
-
-    .girl{
-        left: 460px;
-    }
-
-    .computer{
-        left: 460px;
-    }
-
-    .pencil-jar{
-         left: 700px;
-    }
-
-    .dog{
-         left: 800px;
-    }
-
-    .window{
-         left: 760px;
-    }
-
-    .garbage-can{
-        left: 150px;
+/* Galaxy S5 => 640 x 360  # Horizontal done,
+   Galaxy s7 => 640 x 360 # Horizontal done,
+   iPhone 6/7/8 => 667 x 375 # Horizontal done*/
+@media only screen and (min-width: 600px){
+    .light-buttons{
+        .light-off{
+            width: 1350px;
+            height: 2100px;
+        }
     }
 
     .postits{
-        left:-230px;
-        top:780px;
-        p{
-            padding-top: 180px;
-        }
-    }
-
-    .post-it-1, .post-it-2, .post-it-3, .post-it-4{
-        width:400px;
-        height: 400px;
-        left: 350px;
-        &:after{
-            width: 200px;
-            height: 200px;
-            top: -15px;
-            left: -1px;
-        }
-    }
-
-    .post-it-3{
-        top: 550px;
-        left: 350px;
-    }
-
-    .post-it-2{
-        left: 850px;
-    }
-
-    .post-it-4{
-        left: 850px;
-        top: 550px;
+        top: 750px;
+        left:-350px;
     }
 
     .awssld, .bio-card, .contact-card{
-      top: 880px;
-      left: 110px;
-      width: 915px !important;
-      height: 900px !important;
-    }
-
-    .bio-img-container img{
-      margin: 150px auto;
-      width: 160%;
-    }
-
-    .project-div {
-       padding-top: 5em;
-       .codepen-div{
-            width: 28%;
-            height: 250px;
-            .middle-spot{
-              left:60px;
-              top: -150px;
-            }
-        }
-    }
-
-    .text-container{
-      padding: 130px 0 20px 60px;
-      line-height: 35px;
+        top: 840px;
+        left: 140px;
     }
 
     iframe{
-      height: 80vh;
+         height: 140vh;
     }
 }
