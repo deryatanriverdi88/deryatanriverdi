@@ -2463,7 +2463,7 @@
     left: 930px;
   }
   .awssld, .bio-card, .contact-card {
-    top: 940px;
+    top: 790px;
     left: 90px;
     width: 1110px !important;
     height: 1110px !important;
@@ -2516,7 +2516,7 @@
     top: 750px;
   }
   .awssld, .bio-card, .contact-card {
-    top: 890px;
+    top: 840px;
     left: 70px;
     height: 1120px !important;
   }
@@ -2544,7 +2544,7 @@
     left: -430px;
   }
   .awssld, .bio-card, .contact-card {
-    top: 900px;
+    top: 800px;
     left: 70px;
   }
   iframe {
@@ -2570,7 +2570,7 @@
     left: -420px;
   }
   .awssld, .bio-card, .contact-card {
-    top: 900px;
+    top: 800px;
     left: 70px;
     width: 1115px !important;
   }
@@ -2593,7 +2593,7 @@
     top: 700px;
   }
   .awssld, .bio-card, .contact-card {
-    top: 900px;
+    top: 800px;
     left: 70px;
   }
 }
@@ -2815,7 +2815,7 @@
     top: 700px;
   }
   .awssld, .bio-card, .contact-card {
-    top: 850px;
+    top: 800px;
     left: 10px;
     width: 1130px !important;
     height: 1100px !important;
@@ -2851,7 +2851,7 @@
   .awssld, .bio-card, .contact-card {
     width: 1120px !important;
     height: 1130px !important;
-    top: 930px;
+    top: 800px;
     left: 50px;
   }
   .bio-img-container img {
@@ -2924,7 +2924,7 @@
     width: 1200px;
   }
   .awssld, .bio-card, .contact-card {
-    top: 840px;
+    top: 790px;
     left: 50px;
   }
   .bio-img-container img {
