@@ -2398,7 +2398,7 @@
   }
   .postits {
     left: -410px;
-    top: 850px;
+    top: 700px;
   }
   .postits p {
     padding-top: 200px;
@@ -2513,7 +2513,7 @@
   }
   .postits {
     left: -420px;
-    top: 800px;
+    top: 750px;
   }
   .awssld, .bio-card, .contact-card {
     top: 890px;
@@ -2540,6 +2540,7 @@
     height: 2250px;
   }
   .postits {
+    top: 700px;
     left: -430px;
   }
   .awssld, .bio-card, .contact-card {
@@ -2565,6 +2566,7 @@
     height: 2500px;
   }
   .postits {
+    top: 700px;
     left: -420px;
   }
   .awssld, .bio-card, .contact-card {
@@ -2588,7 +2590,7 @@
   }
   .postits {
     left: -430px;
-    top: 800px;
+    top: 700px;
   }
   .awssld, .bio-card, .contact-card {
     top: 900px;
@@ -2810,7 +2812,7 @@
   }
   .postits {
     left: -470px;
-    top: 750px;
+    top: 700px;
   }
   .awssld, .bio-card, .contact-card {
     top: 850px;
@@ -2840,7 +2842,7 @@
     width: 1200px;
   }
   .postits {
-    top: 830px;
+    top: 700px;
     left: -440px;
   }
   .floor {
@@ -2915,7 +2917,7 @@
    iPad Air 1 & 2 => 1024 x 768 # Horizontal*/
 @media only screen and (min-width: 1000px) {
   .postits {
-    top: 750px;
+    top: 700px;
     left: -440px;
   }
   .floor {
