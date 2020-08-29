@@ -2057,8 +2057,6 @@
 }
 
 .floor {
-  width: 100%;
-  height: 40vh;
   position: absolute;
   background-image: url("../images/wooden-floor.jpg");
   z-index: -10;
@@ -2392,13 +2390,13 @@
     left: 650px;
   }
   .floor {
-    height: 200px;
+    height: 150px;
     width: 1270px;
     left: 0;
   }
   .postits {
     left: -410px;
-    top: 850px;
+    top: 700px;
   }
   .postits p {
     padding-top: 200px;
@@ -2463,7 +2461,7 @@
     left: 930px;
   }
   .awssld, .bio-card, .contact-card {
-    top: 940px;
+    top: 790px;
     left: 90px;
     width: 1110px !important;
     height: 1110px !important;
@@ -2513,10 +2511,10 @@
   }
   .postits {
     left: -420px;
-    top: 800px;
+    top: 750px;
   }
   .awssld, .bio-card, .contact-card {
-    top: 890px;
+    top: 840px;
     left: 70px;
     height: 1120px !important;
   }
@@ -2540,10 +2538,11 @@
     height: 2250px;
   }
   .postits {
+    top: 700px;
     left: -430px;
   }
   .awssld, .bio-card, .contact-card {
-    top: 900px;
+    top: 800px;
     left: 70px;
   }
   iframe {
@@ -2565,10 +2564,11 @@
     height: 2500px;
   }
   .postits {
+    top: 700px;
     left: -420px;
   }
   .awssld, .bio-card, .contact-card {
-    top: 900px;
+    top: 800px;
     left: 70px;
     width: 1115px !important;
   }
@@ -2588,10 +2588,10 @@
   }
   .postits {
     left: -430px;
-    top: 800px;
+    top: 700px;
   }
   .awssld, .bio-card, .contact-card {
-    top: 900px;
+    top: 800px;
     left: 70px;
   }
 }
@@ -2810,10 +2810,10 @@
   }
   .postits {
     left: -470px;
-    top: 750px;
+    top: 700px;
   }
   .awssld, .bio-card, .contact-card {
-    top: 850px;
+    top: 800px;
     left: 10px;
     width: 1130px !important;
     height: 1100px !important;
@@ -2840,7 +2840,7 @@
     width: 1200px;
   }
   .postits {
-    top: 830px;
+    top: 700px;
     left: -440px;
   }
   .floor {
@@ -2849,7 +2849,7 @@
   .awssld, .bio-card, .contact-card {
     width: 1120px !important;
     height: 1130px !important;
-    top: 930px;
+    top: 800px;
     left: 50px;
   }
   .bio-img-container img {
@@ -2915,14 +2915,14 @@
    iPad Air 1 & 2 => 1024 x 768 # Horizontal*/
 @media only screen and (min-width: 1000px) {
   .postits {
-    top: 750px;
+    top: 700px;
     left: -440px;
   }
   .floor {
     width: 1200px;
   }
   .awssld, .bio-card, .contact-card {
-    top: 840px;
+    top: 790px;
     left: 50px;
   }
   .bio-img-container img {
