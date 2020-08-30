@@ -2583,6 +2583,9 @@
   .light-buttons .light-off {
     height: 2250px;
   }
+  .floor {
+    width: 1240px;
+  }
   .postits {
     left: -400px;
     top: 700px;
