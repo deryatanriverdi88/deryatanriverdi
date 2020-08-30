@@ -106,12 +106,7 @@
         width: 100%;
     }
 
-    .bio .text-container{
-        padding-top: 100px;
-    }
-
     .project-div {
-        padding-top: 5em;
         .codepen-div{
             width: 28%;
             height: 250px;
@@ -120,10 +115,9 @@
             top: -150px;
             }
         }
-    }
-
-    iframe{
-      height: 80vh;
+        .text-container{
+            line-height: 25px;
+        }
     }
 
     .x{
