@@ -759,7 +759,7 @@
 }
 
 .table-front:after {
-  left: 50px;
+  left: 20px;
 }
 
 .garbage-can {
@@ -2095,9 +2095,9 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: left;
-      -ms-flex-pack: left;
-          justify-content: left;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin: 0;
   padding: 30px;
   position: absolute;
@@ -2106,7 +2106,6 @@
 .resume {
   width: 100px;
   height: 50px;
-  margin-left: 100px;
   border-radius: 90px;
   background: white;
 }
@@ -2131,7 +2130,7 @@
   position: relative;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  width: 50%;
+  width: 60%;
   height: auto;
   padding: 30px 0 30px 30px;
   line-height: 40px;
@@ -2380,20 +2379,20 @@
   }
   .myname {
     top: 550px;
-    left: 540px;
+    left: 340px;
   }
   .css-art p {
     font-size: 20px;
     top: 620px;
-    left: 650px;
+    left: 450px;
   }
   .floor {
     height: 150px;
-    width: 1270px;
+    width: 1150px;
     left: 0;
   }
   .postits {
-    left: -410px;
+    left: -470px;
     top: 700px;
   }
   .postits p {
@@ -2423,44 +2422,44 @@
     top: 600px;
   }
   .table {
-    left: 450px;
+    left: 250px;
   }
   .table-front {
-    left: 460px;
+    left: 260px;
   }
   .chair {
-    left: 600px;
+    left: 400px;
   }
   .pencil-jar {
-    left: 850px;
+    left: 650px;
   }
   .dog {
-    left: 950px;
+    left: 750px;
   }
   .girl {
-    left: 620px;
+    left: 420px;
   }
   .computer {
-    left: 620px;
+    left: 420px;
   }
   .coffee {
-    left: 530px;
+    left: 330px;
   }
   .plant-div {
-    left: 450px;
+    left: 250px;
   }
   .garbage-can {
-    left: 350px;
+    left: 150px;
   }
   .shelf {
-    left: 300px;
+    left: 230px;
   }
   .window {
-    left: 930px;
+    left: 750px;
   }
   .awssld, .bio-card, .contact-card {
     top: 790px;
-    left: 185px;
+    left: 125px;
     width: 910px !important;
     height: 910px !important;
   }
@@ -2505,16 +2504,19 @@
     height: 2210px;
   }
   .floor {
-    width: 1250px;
+    width: 1100px;
   }
   .postits {
-    left: -420px;
+    left: -500px;
     top: 700px;
   }
   .awssld, .bio-card, .contact-card {
     top: 800px;
-    left: 180px;
+    left: 100px;
     height: 900px !important;
+  }
+  .bio .text-container {
+    padding-top: 100px;
   }
   .middle-spot {
     top: -190px;
@@ -2537,11 +2539,11 @@
   }
   .postits {
     top: 700px;
-    left: -430px;
+    left: -490px;
   }
   .awssld, .bio-card, .contact-card {
     top: 800px;
-    left: 165px;
+    left: 105px;
   }
   iframe {
     height: 70vh;
@@ -2563,11 +2565,9 @@
   }
   .postits {
     top: 700px;
-    left: -420px;
   }
   .awssld, .bio-card, .contact-card {
     top: 800px;
-    left: 175px;
   }
 }
 
@@ -2583,11 +2583,7 @@
   .light-buttons .light-off {
     height: 2250px;
   }
-  .floor {
-    width: 1240px;
-  }
   .postits {
-    left: -400px;
     top: 700px;
   }
   .postits p {
@@ -2595,7 +2591,6 @@
   }
   .awssld, .bio-card, .contact-card {
     top: 800px;
-    left: 200px;
   }
 }
 
@@ -2611,18 +2606,7 @@
   .light-buttons .light-off {
     width: 1350px;
   }
-  .css-art p {
-    left: 620px;
-  }
-  .floor {
-    top: 620px;
-    width: 1350px;
-  }
-  .window {
-    left: 1000px;
-  }
   .postits {
-    left: -330px;
     top: 850px;
   }
   .awssld, .bio-card, .contact-card {
@@ -2639,38 +2623,42 @@
     height: 2100px;
   }
   .postits {
-    left: -300px;
-    top: 700px;
+    left: -350px;
+    top: 750px;
   }
   .postits p {
-    padding-top: 150px;
+    padding-top: 100px;
   }
   .postits .post-it-1, .postits .post-it-2, .postits .post-it-3, .postits .post-it-4 {
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
   }
   .postits .post-it-1:after, .postits .post-it-2:after, .postits .post-it-3:after, .postits .post-it-4:after {
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
   }
   .postits .post-it-2 {
-    left: 1000px;
+    left: 950px;
   }
   .postits .post-it-3 {
-    top: 490px;
+    top: 400px;
   }
   .postits .post-it-4 {
-    left: 1000px;
-    top: 490px;
+    left: 950px;
+    top: 400px;
   }
   .awssld, .bio-card, .contact-card {
     top: 800px;
-    left: 300px;
+    left: 200px;
     width: 750px !important;
-    height: 750px !important;
+    height: 600px !important;
   }
   .bio-card .text-container {
     line-height: normal;
+    padding: 20px 0 10px 40px;
+  }
+  .bio-img-container img {
+    margin-top: 100px;
   }
   .x {
     left: 700px;
@@ -2687,11 +2675,15 @@
   }
   .postits {
     top: 700px;
-    left: -280px;
+    left: -350px;
   }
   .awssld, .bio-card, .contact-card {
     top: 800px;
-    left: 320px;
+    left: 180px;
+    height: 550px !important;
+  }
+  .bio .text-container {
+    padding: 0;
   }
   iframe {
     height: 140vh;
@@ -2786,6 +2778,9 @@
     margin: 80px auto;
     width: 100%;
   }
+  .bio .text-container {
+    padding-top: 100px;
+  }
   .project-div {
     padding-top: 5em;
   }
@@ -2846,6 +2841,12 @@
   .text-container {
     padding: 10px 0 10px 10px;
   }
+  .bio-img-container img {
+    margin-top: 40px;
+  }
+  .bio .text-container {
+    padding-top: 20px;
+  }
   iframe {
     height: 110vh;
   }
@@ -2894,6 +2895,9 @@
   }
   .bio-img-container img {
     margin: 140px auto;
+  }
+  .bio .text-container {
+    padding-top: 140px;
   }
   .project-div {
     padding-top: 5em;
@@ -3174,6 +3178,9 @@
   .bio-img-container img {
     margin-top: 30px;
   }
+  .bio .text-container {
+    line-height: 45px;
+  }
   .codepen-div {
     width: 30%;
   }
@@ -3261,7 +3268,7 @@
     left: 100px;
   }
   .bio .text-container {
-    padding-top: 100px;
+    padding-top: 150px;
     line-height: 50px;
   }
   .bio-img-container img {
@@ -3384,7 +3391,7 @@
   }
   .bio .text-container {
     padding-top: 105px;
-    line-height: 40px;
+    line-height: 55px;
   }
   .bio-img-container img {
     margin: 100px auto;
