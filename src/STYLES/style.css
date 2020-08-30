@@ -1163,7 +1163,6 @@
 .postits p {
   font-family: 'Cute Font', cursive;
   font-size: 30px;
-  padding-top: 80px;
   font-weight: bold;
   color: #EB194B;
 }
@@ -2121,7 +2120,6 @@
 }
 
 .bio-img-container img {
-  margin: 40px auto;
   height: auto;
   border-radius: 10px 50% 10px 50%;
 }
@@ -2132,7 +2130,6 @@
           box-sizing: border-box;
   width: 60%;
   height: auto;
-  padding: 30px 0 30px 30px;
   line-height: 40px;
 }
 
@@ -2149,25 +2146,20 @@
 
 .project-div {
   display: block;
-  padding: 0 5em;
 }
 
 .project-div .video-container {
-  padding-top: 0;
   width: 50%;
+  margin: 0 auto;
 }
 
 .project-div .video-container iframe {
-  height: 80vh;
-  width: 190%;
-  margin: 0 0 0 20px;
+  width: 100%;
 }
 
 .project-div .text-container {
   width: 100%;
-  padding: 40px 10px 0 30px;
   text-align: center;
-  line-height: 20px;
 }
 
 .project-div .text-container .text {
@@ -2220,9 +2212,8 @@
 
 .project-div .codepen .codepen-div {
   width: 30%;
-  height: 30vh;
-  max-height: 100%;
-  margin-right: 30px;
+  height: 250px;
+  margin-right: 20px;
   margin-top: 30px;
 }
 
@@ -2240,7 +2231,7 @@
 
 .project-div .codepen .codepen-div .middle-spot {
   position: relative;
-  top: -185px;
+  top: -165px;
   left: 110px;
   opacity: 0;
   width: 100px;
@@ -2457,6 +2448,9 @@
   .window {
     left: 750px;
   }
+  .postits p {
+    padding-top: 150px;
+  }
   .awssld, .bio-card, .contact-card {
     top: 790px;
     left: 125px;
@@ -2465,6 +2459,9 @@
   }
   .bio {
     padding: 30px;
+  }
+  .bio .text-container {
+    padding-top: 100px;
   }
   .bio-img-container img {
     margin: 150px auto;
@@ -2475,14 +2472,20 @@
     left: 850px;
   }
   .project-div {
-    padding-top: 10em;
+    padding: 40px 5em;
   }
-  .project-div .codepen-div {
+  .project-div .codepen {
+    padding-top: 30px;
+  }
+  .project-div .codepen .codepen-div {
     height: 300px;
   }
-  .project-div .codepen-div .middle-spot {
+  .project-div .codepen .codepen-div .middle-spot {
     top: -170px;
     left: 100px;
+  }
+  .project-div .text-container {
+    line-height: 35px;
   }
   .contact-div {
     padding: 450px  100px;
@@ -2545,8 +2548,11 @@
     top: 800px;
     left: 105px;
   }
-  iframe {
-    height: 70vh;
+  .bio .text-container {
+    padding-top: 150px;
+  }
+  .bio-img-container img {
+    margin-top: 200px;
   }
 }
 
@@ -2613,9 +2619,6 @@
     top: 950px;
     left: 165px;
   }
-  iframe {
-    height: 150vh;
-  }
 }
 
 @media only screen and (min-width: 510px) {
@@ -2649,19 +2652,28 @@
   }
   .awssld, .bio-card, .contact-card {
     top: 800px;
-    left: 200px;
-    width: 750px !important;
+    left: 80px;
+    width: 950px !important;
     height: 600px !important;
   }
   .bio-card .text-container {
     line-height: normal;
-    padding: 20px 0 10px 40px;
+    padding-top: 50px;
   }
   .bio-img-container img {
-    margin-top: 100px;
+    margin-top: 30px;
+  }
+  .project-div .codepen .codepen-div {
+    height: 200px;
+  }
+  .project-div .text-container {
+    line-height: 20px;
   }
   .x {
-    left: 700px;
+    left: 900px;
+  }
+  iframe {
+    height: 200px;
   }
 }
 
@@ -2679,17 +2691,31 @@
   }
   .awssld, .bio-card, .contact-card {
     top: 800px;
-    left: 180px;
+    left: 50px;
+    width: 1000px !important;
     height: 550px !important;
   }
   .bio .text-container {
-    padding: 0;
+    padding-top: 50px;
+  }
+  .bio-img-container img {
+    margin-top: 0;
+  }
+  .project-div {
+    padding: 20px 4em;
+  }
+  .project-div .text-container {
+    line-height: 15px;
+  }
+  .project-div .codepen-div {
+    height: 200px;
   }
   iframe {
-    height: 140vh;
+    height: 200px;
+    width: 300px;
   }
   .x {
-    left: 700px;
+    left: 950px;
   }
 }
 
@@ -2778,12 +2804,6 @@
     margin: 80px auto;
     width: 100%;
   }
-  .bio .text-container {
-    padding-top: 100px;
-  }
-  .project-div {
-    padding-top: 5em;
-  }
   .project-div .codepen-div {
     width: 28%;
     height: 250px;
@@ -2792,8 +2812,8 @@
     left: 60px;
     top: -150px;
   }
-  iframe {
-    height: 80vh;
+  .project-div .text-container {
+    line-height: 25px;
   }
   .x {
     left: 800px;
@@ -2832,23 +2852,21 @@
   }
   .awssld, .bio-card, .contact-card {
     top: 790px;
-    left: 160px;
+    left: 80px;
     height: 560px !important;
-  }
-  .project-div {
-    padding-top: 5em;
-  }
-  .text-container {
-    padding: 10px 0 10px 10px;
+    width: 1000px !important;
   }
   .bio-img-container img {
-    margin-top: 40px;
+    margin-top: 0px;
   }
   .bio .text-container {
-    padding-top: 20px;
+    padding-top: 0px;
   }
-  iframe {
-    height: 110vh;
+  .project-div .text-container {
+    line-height: 20px;
+  }
+  .x {
+    left: 950px;
   }
 }
 
@@ -2899,18 +2917,17 @@
   .bio .text-container {
     padding-top: 140px;
   }
-  .project-div {
-    padding-top: 5em;
+  .project-div .text-container {
+    line-height: 25px;
   }
-  .text-container {
-    padding: 110px 0 20px 100px;
-    line-height: 35px;
-  }
-  iframe {
-    height: 35vh;
+  .project-div .codepen .codepen-div {
+    height: 260px;
   }
   .x {
     left: 880px;
+  }
+  iframe {
+    height: 300px;
   }
 }
 
@@ -2956,22 +2973,25 @@
   .bio-img-container img {
     margin: 200px auto;
   }
-  .project-div {
-    padding-top: 5em;
+  .project-div .codepen {
+    padding-left: 50px;
   }
-  .project-div .codepen-div {
+  .project-div .codepen .codepen-div {
     width: 30%;
-    height: 300px;
+    height: 400px;
   }
-  .project-div .codepen-div .middle-spot {
+  .project-div .codepen .codepen-div .middle-spot {
     left: 100px;
+  }
+  .project-div .text-container {
+    line-height: 40px;
   }
   .bio .text-container {
     padding: 100px 0 20px 60px;
     line-height: 55px;
   }
   iframe {
-    height: 30vh;
+    height: 450px;
   }
   .x {
     left: 1050px;
@@ -3014,23 +3034,29 @@
     width: 1000px !important;
     height: 560px !important;
   }
+  .bio {
+    padding: 10px;
+  }
   .bio .text-container {
-    padding: 20px 0 10px 10px;
+    padding-top: 60px;
     line-height: normal;
   }
   .bio-img-container img {
     margin: 0px auto;
   }
-  .codepen-div {
+  .project-div .codepen .codepen-div {
     width: 29%;
-    height: 300px;
+    height: 200px;
+  }
+  .project-div .text-container {
+    line-height: 20px;
   }
   .middle-spot {
     top: -180px;
     left: 80px;
   }
   iframe {
-    height: 80vh;
+    height: 200px;
   }
   .x {
     left: 950px;
@@ -3069,8 +3095,8 @@
     top: 775px;
     left: 130px;
   }
-  iframe {
-    height: 80vh;
+  .bio .text-container {
+    padding-top: 90px;
   }
 }
 
@@ -3110,13 +3136,13 @@
     left: 100px;
     height: 750px !important;
   }
-  .project-div {
-    padding-top: 5em;
+  .project-div .codepen {
+    padding-left: 50px;
   }
-  .project-div .codepen-div {
-    height: 300px;
+  .project-div .codepen .codepen-div {
+    height: 250px;
   }
-  .project-div .codepen-div .middle-spot {
+  .project-div .codepen .codepen-div .middle-spot {
     left: 90px;
     top: -170px;
   }
@@ -3129,9 +3155,6 @@
   .text-container {
     padding-top: 100px;
     line-height: 40px;
-  }
-  iframe {
-    height: 30vh;
   }
 }
 
@@ -3150,6 +3173,9 @@
   .awssld, .bio-card, .contact-card {
     top: 890px;
     left: 80px;
+  }
+  .bio .text-container {
+    padding-top: 170px;
   }
 }
 
@@ -3179,13 +3205,10 @@
     margin-top: 30px;
   }
   .bio .text-container {
-    line-height: 45px;
+    line-height: 40px;
   }
   .codepen-div {
     width: 30%;
-  }
-  iframe {
-    height: 50vh;
   }
   .back-end {
     padding-left: 200px;
@@ -3195,6 +3218,9 @@
   }
   .x {
     left: 1150px;
+  }
+  iframe {
+    height: 300px;
   }
 }
 
@@ -3217,11 +3243,11 @@
   .bio .text-container {
     padding-top: 100px;
   }
+  .project-div .codepen {
+    padding-left: 80px;
+  }
   .skill-slide {
     height: auto !important;
-  }
-  iframe {
-    height: 60vh;
   }
   .front-end img, .back-end img {
     height: 30vh;
@@ -3274,8 +3300,14 @@
   .bio-img-container img {
     margin-top: 150px;
   }
+  .project-div .codepen {
+    padding-left: 100px;
+  }
+  .project-div .codepen .codepen-div {
+    height: 370px;
+  }
   iframe {
-    height: 40vh;
+    height: 500px;
   }
   .front-end img, .back-end img {
     height: 20vh;
@@ -3298,34 +3330,34 @@
     left: 470px;
   }
   .postits {
-    left: -70px;
+    left: 0px;
     top: 850px;
   }
   .postits p {
     padding-top: 160px;
   }
   .postits .post-it-1, .postits .post-it-2, .postits .post-it-3, .postits .post-it-4 {
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
   }
   .postits .post-it-1:after, .postits .post-it-2:after, .postits .post-it-3:after, .postits .post-it-4:after {
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
   }
   .postits .post-it-2 {
-    left: 850px;
+    left: 800px;
   }
   .postits .post-it-3 {
-    top: 550px;
+    top: 500px;
   }
   .postits .post-it-4 {
-    left: 850px;
-    top: 550px;
+    left: 800px;
+    top: 500px;
   }
   .awssld, .bio-card, .contact-card {
     left: 120px;
     top: 920px;
-    height: 900px !important;
+    height: 800px !important;
   }
   .bio-img-container img {
     margin: 100px auto;
@@ -3333,11 +3365,14 @@
   .project-div {
     padding-top: 3em;
   }
+  .project-div .codepen .codepen-div {
+    height: 300px;
+  }
   .bio .text-container {
     padding-top: 100px;
   }
   iframe {
-    height: 45vh;
+    height: 350px;
   }
 }
 
@@ -3396,18 +3431,14 @@
   .bio-img-container img {
     margin: 100px auto;
   }
-  .project-div {
-    padding-top: 5em;
-  }
   .text-container {
-    padding: 300px 0 20px 60px;
     line-height: 55px;
   }
   .contact-div {
     padding: 350px  100px;
   }
   iframe {
-    height: 35vh;
+    height: 400px;
   }
 }
 
@@ -3888,7 +3919,7 @@
     height: 1400px !important;
   }
   .bio .text-container {
-    padding-top: 155px;
+    padding-top: 255px;
     line-height: 70px;
   }
   .text {
@@ -3904,14 +3935,11 @@
     padding-top: 30px;
     line-height: 50px;
   }
-  .project-div .codepen-div {
-    height: 400px;
+  .project-div .codepen .codepen-div {
+    height: 550px;
   }
   .contact-div {
     padding: 450px  100px;
-  }
-  iframe {
-    height: 40vh;
   }
   .front-end {
     padding-left: 140px;
@@ -4139,8 +4167,8 @@
   .bio-img-container img {
     margin: 150px auto;
   }
-  .project-div {
-    padding-top: 5em;
+  .project-div .codepen {
+    padding-left: 140px;
   }
   .project-div .text-container {
     padding-top: 50px;
@@ -4354,14 +4382,14 @@
     padding-top: 200px;
     line-height: 70px;
   }
-  .project-div .codepen-div {
-    height: 650px;
+  .project-div .codepen {
+    padding-left: 400px;
+  }
+  .project-div .codepen .codepen-div {
+    height: 950px;
   }
   .contact-div {
     padding: 800px  100px;
-  }
-  iframe {
-    height: 50vh;
   }
   .front-end {
     padding-left: 300px;
