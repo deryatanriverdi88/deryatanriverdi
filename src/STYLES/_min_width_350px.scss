@@ -10,23 +10,28 @@
     }
 
     .floor{
-      width: 1250px;
+      width: 1100px;
     }
 
     .postits{
-      left: -420px;
+      left: -500px;
       top:700px;
     }
 
     .awssld, .bio-card, .contact-card{
       top: 800px;
-      left: 180px;
+      left: 100px;
       height: 900px !important;
+    }
+
+    .bio .text-container{
+      padding-top: 100px;
     }
 
     .middle-spot{
       top: -190px;
     }
+
 }
 
 @media only screen and (min-width: 350px) and (height:740px){
