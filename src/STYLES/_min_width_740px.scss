@@ -1,6 +1,11 @@
  /* Samsung Galaxy S8 / S8+ => 740 x 360 # Horizontal done,
     Samsung Galaxy S9 / S9+ => 740 x 360 # Horizontal done*/
 @media only screen and (min-width: 740px){
+    .light-buttons{
+        .light-off{
+            height: 1370px;
+        }
+    }
     .postits{
         left:-50px;
         top:700px;
