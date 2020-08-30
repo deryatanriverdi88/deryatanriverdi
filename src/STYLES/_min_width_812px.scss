@@ -39,17 +39,28 @@
         height: 560px !important;
     }
 
+    .bio{
+        padding: 10px;
+    }
     .bio .text-container{
-        padding: 20px 0 10px 10px;
+        padding-top: 60px;
         line-height: normal;
     }
 
     .bio-img-container img{
         margin: 0px auto;
     }
-    .codepen-div{
-        width: 29%;
-        height: 300px;
+
+    .project-div{
+        .codepen{
+            .codepen-div{
+                width: 29%;
+                height: 200px;
+            }
+        }
+        .text-container{
+            line-height: 20px;
+        }
     }
 
     .middle-spot{
@@ -58,7 +69,7 @@
     }
 
     iframe{
-        height: 80vh;
+        height: 200px;
     }
 
     .x{

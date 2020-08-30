@@ -161,7 +161,9 @@
     }
 
     .project-div{
-        padding-top: 5em;
+        .codepen{
+            padding-left: 140px;
+        }
         .text-container{
             padding-top:50px;
             line-height: 50px;

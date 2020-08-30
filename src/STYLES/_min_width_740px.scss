@@ -34,27 +34,26 @@
 
     .awssld, .bio-card, .contact-card{
         top:790px;
-        left: 160px;
+        left: 80px;
         height: 560px !important;
-    }
-
-    .project-div{
-        padding-top: 5em;
-    }
-
-    .text-container{
-        padding: 10px 0 10px 10px;
+        width: 1000px !important;
     }
 
     .bio-img-container img{
-        margin-top: 40px;
+        margin-top: 0px;
     }
 
     .bio .text-container {
-        padding-top: 20px;
+        padding-top: 0px;
     }
 
-    iframe{
-        height: 110vh;
+    .project-div{
+        .text-container{
+            line-height: 20px;
+        }
+    }
+
+    .x{
+        left: 950px;
     }
 }

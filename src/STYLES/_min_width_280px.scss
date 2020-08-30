@@ -111,6 +111,11 @@
         left: 750px;
     }
 
+    .postits{
+        p{
+            padding-top: 150px;
+        }
+    }
     .awssld, .bio-card, .contact-card{
         top: 790px;
         left: 125px;
@@ -120,6 +125,9 @@
 
     .bio{
         padding: 30px;
+        .text-container{
+            padding-top: 100px;
+        }
     }
 
     .bio-img-container img{
@@ -133,18 +141,20 @@
     }
 
     .project-div{
-        padding-top: 10em;
-        .codepen-div{
-            height: 300px;
-           .middle-spot{
-                top: -170px;
-                left: 100px;
-           }
+        padding: 40px 5em;
+        .codepen{
+            padding-top: 30px;
+            .codepen-div{
+                height: 300px;
+               .middle-spot{
+                    top: -170px;
+                    left: 100px;
+               }
+            }
         }
-    }
-
-    .text-container{
-    //   padding-top: 240px;
+        .text-container{
+            line-height: 35px;
+        }
     }
 
     .contact-div{

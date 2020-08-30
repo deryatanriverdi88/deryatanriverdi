@@ -33,21 +33,36 @@
 
     .awssld, .bio-card, .contact-card{
       top: 800px;
-      left:200px;
-      width: 750px !important;
+      left:80px;
+      width: 950px !important;
       height: 600px !important;
     }
 
     .bio-card .text-container{
       line-height: normal;
-      padding:20px 0 10px 40px;
+      padding-top: 50px;
     }
 
     .bio-img-container img{
-        margin-top: 100px;
+        margin-top: 30px;
+    }
+
+    .project-div{
+        .codepen{
+            .codepen-div{
+                height: 200px;
+            }
+        }
+        .text-container{
+            line-height: 20px;
+        }
     }
 
     .x{
-        left: 700px;
+        left: 900px;
+    }
+
+    iframe{
+        height: 200px;
     }
 }

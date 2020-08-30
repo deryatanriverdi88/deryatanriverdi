@@ -38,12 +38,14 @@
     }
 
     .project-div{
-        padding-top: 5em;
-        .codepen-div{
-            height: 300px;
-            .middle-spot{
-                left: 90px;
-                top: -170px;
+        .codepen{
+            padding-left: 50px;
+            .codepen-div{
+                height: 250px;
+                .middle-spot{
+                    left: 90px;
+                    top: -170px;
+                }
             }
         }
     }
@@ -59,9 +61,5 @@
     .text-container{
         padding-top: 100px;
         line-height: 40px;
-    }
-
-    iframe{
-          height: 30vh;
     }
 }

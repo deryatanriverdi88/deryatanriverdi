@@ -50,20 +50,23 @@
     .bio .text-container{
         padding-top: 140px;
     }
+
     .project-div{
-        padding-top: 5em;
-    }
-
-    .text-container{
-        padding: 110px 0 20px 100px;
-        line-height: 35px;
-    }
-
-    iframe{
-        height: 35vh;
+        .text-container{
+            line-height: 25px;
+        }
+        .codepen{
+            .codepen-div{
+                height: 260px;
+            }
+        }
     }
 
     .x{
         left: 880px;
+    }
+
+    iframe{
+        height: 300px;
     }
 }

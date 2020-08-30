@@ -33,15 +33,11 @@
     }
 
     .bio .text-container{
-         line-height: 45px;
+        line-height: 40px;
     }
 
     .codepen-div{
         width: 30%;
-    }
-
-    iframe{
-        height: 50vh;
     }
 
     .back-end{
@@ -54,5 +50,9 @@
 
     .x{
         left: 1150px;
+    }
+
+    iframe{
+        height: 300px;
     }
 }
