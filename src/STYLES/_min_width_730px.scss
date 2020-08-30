@@ -64,49 +64,46 @@
     }
 
     .postits{
-        left:-470px;
-        top:780px;
+        left:-100px;
+        top:700px;
         p{
-            padding-top: 180px;
+            padding-top: 120px;
         }
-    }
-
-    .post-it-1, .post-it-2, .post-it-3, .post-it-4{
-        width:400px;
-        height: 400px;
-        left: 350px;
-        &:after{
-            width: 200px;
-            height: 200px;
-            top: -15px;
-            left: -1px;
+        .post-it-1, .post-it-2, .post-it-3, .post-it-4{
+            width:300px;
+            height: 300px;
+            left: 350px;
+            &:after{
+                width: 300px;
+                height: 300px;
+            }
         }
-    }
 
-    .post-it-3{
-        top: 550px;
-        left: 350px;
-    }
+        .post-it-3{
+            top: 420px;
+            left: 350px;
+        }
 
-    .post-it-2{
-        left: 850px;
-    }
+        .post-it-2{
+            left: 700px;
+        }
 
-    .post-it-4{
-        left: 850px;
-        top: 550px;
+        .post-it-4{
+            left: 700px;
+            top: 420px;
+        }
     }
 
     .awssld, .bio-card, .contact-card{
-        top: 880px;
-        left: 30px;
-        width: 1100px !important;
-        height: 1100px !important;
+        top: 800px;
+        left: 170px;
+        width: 850px !important;
+        height: 630px !important;
     }
 
     .bio-img-container img{
-        margin: 150px auto;
-        width: 160%;
+        margin: 80px auto;
+        width: 100%;
     }
 
     .project-div {
@@ -119,11 +116,6 @@
             top: -150px;
             }
         }
-    }
-
-    .text-container{
-      padding: 130px 0 20px 60px;
-      line-height: 35px;
     }
 
     iframe{
