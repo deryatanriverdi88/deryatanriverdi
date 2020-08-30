@@ -10,9 +10,9 @@
 
         .light-off button, .light-on button  {
             left: 500px;
-            width: 200px;
-            height: 100px;
-            font-size: 20px;
+            width: 100px;
+            height: 60px;
+            font-size: 15px;
         }
     }
 
@@ -40,12 +40,12 @@
             padding-top: 200px;
         }
         .post-it-1, .post-it-2, .post-it-3, .post-it-4{
-           width:500px;
-           height: 500px;
-           left: 500px;
+           width:400px;
+           height: 400px;
+           left: 600px;
            &:after{
-                width:500px;
-                height: 500px;
+                width:400px;
+                height: 400px;
                 top: -15px;
                 left: -1px;
                 box-shadow:2px 15px 5px rgba(0, 0, 0, 0.40);
@@ -55,11 +55,11 @@
             left: 1100px;
         }
         .post-it-3{
-            top: 700px;
+            top: 600px;
         }
         .post-it-4{
             left: 1100px;
-            top: 700px;
+            top:600px;
         }
     }
 
@@ -113,14 +113,18 @@
 
     .awssld, .bio-card, .contact-card{
         top: 790px;
-        left: 90px;
-        width: 1110px !important;
-        height: 1110px !important;
+        left: 185px;
+        width: 910px !important;
+        height: 910px !important;
+    }
+
+    .bio{
+        padding: 30px;
     }
 
     .bio-img-container img{
-        margin: 250px auto;
-        width: 150%;
+        margin:150px auto;
+        width: 100%;
     }
 
     .x{
@@ -140,7 +144,7 @@
     }
 
     .text-container{
-      padding-top: 240px;
+    //   padding-top: 240px;
     }
 
     .contact-div{
