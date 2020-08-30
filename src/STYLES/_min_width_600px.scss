@@ -16,19 +16,35 @@
 
     .awssld, .bio-card, .contact-card{
         top: 800px;
-        left: 180px;
+        left: 50px;
+        width: 1000px !important;
         height: 550px !important;
     }
 
     .bio .text-container{
-        padding: 0;
+        padding-top: 50px;
+    }
+
+    .bio-img-container img{
+        margin-top: 0;
+    }
+
+    .project-div{
+        padding: 20px 4em;
+        .text-container{
+            line-height: 15px;
+        }
+        .codepen-div{
+            height: 200px;
+        }
     }
 
     iframe{
-         height: 140vh;
+         height: 200px;
+         width: 300px;
     }
 
     .x{
-        left: 700px;
+        left: 950px;
     }
 }
