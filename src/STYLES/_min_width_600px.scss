@@ -33,8 +33,13 @@
         .text-container{
             line-height: 15px;
         }
-        .codepen-div{
-            height: 200px;
+        .codepen{
+            .codepen-div{
+                height: 200px;
+                .middle-spot{
+                    left: 80px;
+                }
+            }
         }
     }
 

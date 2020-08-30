@@ -2482,7 +2482,7 @@
   }
   .project-div .codepen .codepen-div .middle-spot {
     top: -170px;
-    left: 100px;
+    left: 60px;
   }
   .project-div .text-container {
     line-height: 35px;
@@ -2654,6 +2654,10 @@
   .project-div .codepen .codepen-div {
     height: 200px;
   }
+  .project-div .codepen .codepen-div .middle-spot {
+    top: -130px;
+    left: 70px;
+  }
   .project-div .text-container {
     line-height: 20px;
   }
@@ -2694,8 +2698,11 @@
   .project-div .text-container {
     line-height: 15px;
   }
-  .project-div .codepen-div {
+  .project-div .codepen .codepen-div {
     height: 200px;
+  }
+  .project-div .codepen .codepen-div .middle-spot {
+    left: 80px;
   }
   iframe {
     height: 200px;
@@ -2792,12 +2799,12 @@
     margin: 80px auto;
     width: 100%;
   }
-  .project-div .codepen-div {
+  .project-div .codepen .codepen-div {
     width: 28%;
     height: 250px;
   }
-  .project-div .codepen-div .middle-spot {
-    left: 60px;
+  .project-div .codepen .codepen-div .middle-spot {
+    left: 50px;
     top: -150px;
   }
   .project-div .text-container {
@@ -2855,6 +2862,9 @@
   }
   .project-div .text-container {
     line-height: 20px;
+  }
+  .project-div .codepen .codepen-div .middle-spot {
+    left: 70px;
   }
   .x {
     left: 950px;
@@ -2977,6 +2987,7 @@
   }
   .project-div .codepen .codepen-div .middle-spot {
     left: 100px;
+    top: -210px;
   }
   .project-div .text-container {
     line-height: 40px;
@@ -3045,6 +3056,10 @@
   .project-div .codepen .codepen-div {
     width: 29%;
     height: 200px;
+  }
+  .project-div .codepen .codepen-div .middle-spot {
+    left: 70px;
+    top: -130px;
   }
   .project-div .text-container {
     line-height: 20px;
@@ -3143,8 +3158,7 @@
     height: 250px;
   }
   .project-div .codepen .codepen-div .middle-spot {
-    left: 90px;
-    top: -170px;
+    top: -160px;
   }
   .bio .text-container {
     padding: 100px 0 20px 60px;
@@ -3209,8 +3223,11 @@
   .bio .text-container {
     line-height: 40px;
   }
-  .codepen-div {
+  .project-div .codepen .codepen-div {
     width: 30%;
+  }
+  .project-div .codepen .codepen-div .middle-spot {
+    left: 110px;
   }
   .back-end {
     padding-left: 200px;
@@ -3309,6 +3326,10 @@
   .project-div .codepen .codepen-div {
     height: 370px;
   }
+  .project-div .codepen .codepen-div .middle-spot {
+    top: -210px;
+    left: 100px;
+  }
   iframe {
     height: 500px;
   }
@@ -3371,6 +3392,9 @@
   }
   .project-div .codepen .codepen-div {
     height: 300px;
+  }
+  .project-div .codepen .codepen-div .middle-spot {
+    top: -180px;
   }
   .bio .text-container {
     padding-top: 100px;
@@ -3942,6 +3966,15 @@
   .project-div .codepen .codepen-div {
     height: 550px;
   }
+  .project-div .codepen .codepen-div .middle-spot {
+    top: -310px;
+    left: 160px;
+    width: 250px;
+    height: 100px;
+    font-size: 40px;
+    vertical-align: middle;
+    line-height: 80px;
+  }
   .contact-div {
     padding: 450px  100px;
   }
@@ -4174,6 +4207,15 @@
   .project-div .codepen {
     padding-left: 140px;
   }
+  .project-div .codepen .codepen-div .middle-spot {
+    top: -300px;
+    left: 125px;
+    width: 300px;
+    height: 100px;
+    font-size: 40px;
+    vertical-align: middle;
+    line-height: 80px;
+  }
   .project-div .text-container {
     padding-top: 50px;
     line-height: 50px;
@@ -4391,6 +4433,15 @@
   }
   .project-div .codepen .codepen-div {
     height: 950px;
+  }
+  .project-div .codepen .codepen-div .middle-spot {
+    top: -500px;
+    left: 300px;
+    width: 350px;
+    height: 100px;
+    font-size: 40px;
+    vertical-align: middle;
+    line-height: 80px;
   }
   .contact-div {
     padding: 800px  100px;
