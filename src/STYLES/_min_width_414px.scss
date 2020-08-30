@@ -7,14 +7,21 @@
       }
     }
 
+    .floor{
+      width: 1300px;
+    }
+
     .postits{
-      left: -430px;
+      left: -400px;
       top: 700px;
+      p{
+        padding-top: 170px;
+      }
     }
 
     .awssld, .bio-card, .contact-card{
       top: 800px;
-      left: 165px;
+      left: 200px;
     }
 }
 
