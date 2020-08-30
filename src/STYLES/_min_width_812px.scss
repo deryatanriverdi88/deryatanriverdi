@@ -2,6 +2,11 @@
    iPhone X => 812 x 375 # Horizontal done,
    Pixel 2 XL => 823 x 411 # Horizontal done*/
 @media only screen and (min-width: 812px){
+    .light-buttons{
+        .light-off{
+            height: 1400px;
+        }
+    }
     .postits{
         left:-20px;
         top:720px;
