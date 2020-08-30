@@ -1,16 +1,41 @@
  /* Samsung Galaxy S8 / S8+ => 740 x 360 # Horizontal done,
     Samsung Galaxy S9 / S9+ => 740 x 360 # Horizontal done*/
 @media only screen and (min-width: 740px){
-    .awssld, .bio-card, .contact-card{
-        top: 850px;
-        left: 30px;
-        height: 1150px !important;
-        width: 150% !important;
+    .postits{
+        left:-50px;
+        top:700px;
+        p{
+            padding-top: 100px;
+        }
+        .post-it-1, .post-it-2, .post-it-3, .post-it-4{
+            width:250px;
+            height: 250px;
+            left: 350px;
+            &:after{
+                width: 250px;
+                height: 250px;
+            }
+        }
+
+        .post-it-3{
+            top: 400px;
+            left: 350px;
+        }
+
+        .post-it-2{
+            left: 650px;
+        }
+
+        .post-it-4{
+            left: 650px;
+            top: 400px;
+        }
     }
 
-    .bio-img-container img{
-        margin: 130px auto;
-        width: 160%;
+    .awssld, .bio-card, .contact-card{
+        top:790px;
+        left: 160px;
+        height: 560px !important;
     }
 
     .project-div{
@@ -18,8 +43,7 @@
     }
 
     .text-container{
-        padding: 100px 0 20px 60px;
-        line-height: 35px;
+        padding: 10px 0 10px 10px;
     }
 
     iframe{
