@@ -27,7 +27,7 @@
 
 .bio, .project-div{
     display: flex;
-    justify-content: left;
+    justify-content: space-between;
     margin: 0;
     padding: 30px;
     position: absolute;
@@ -36,7 +36,7 @@
 .resume {
     width: 100px;
     height: 50px;
-    margin-left: 100px;
+    // margin-left: 100px;
     border-radius: 90px;
     background: white;
     a{
@@ -59,7 +59,7 @@
 .text-container{
     position: relative;
     box-sizing: border-box;
-    width: 50%;
+    width: 60%;
     height: auto;
     padding: 30px 0 30px 30px;
     line-height: 40px;
