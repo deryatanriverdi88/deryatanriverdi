@@ -24,12 +24,14 @@
         padding-top: 100px;
     }
 
-    .skill-slide{
-        height: auto !important;
+    .project-div{
+        .codepen{
+            padding-left: 80px;
+        }
     }
 
-    iframe{
-        height:60vh;
+    .skill-slide{
+        height: auto !important;
     }
 
     .front-end img, .back-end img{
