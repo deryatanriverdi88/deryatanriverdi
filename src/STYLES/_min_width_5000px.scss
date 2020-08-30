@@ -221,17 +221,17 @@
             padding-top:200px;
             line-height: 70px;
         }
-        .codepen-div {
-            height: 650px;
+
+        .codepen{
+            padding-left:400px;
+            .codepen-div {
+                height: 950px;
+            }
         }
     }
 
     .contact-div{
         padding: 800px  100px;
-    }
-
-    iframe{
-        height: 50vh;
     }
 
     .front-end{
