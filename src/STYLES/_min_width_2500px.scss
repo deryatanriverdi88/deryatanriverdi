@@ -516,7 +516,7 @@
     }
 
     .bio .text-container{
-        padding-top: 155px;
+        padding-top: 255px;
         line-height: 70px;
     }
 
@@ -534,17 +534,15 @@
             padding-top:30px;
             line-height: 50px;
         }
-        .codepen-div{
-            height: 400px;
+        .codepen{
+            .codepen-div{
+                height: 550px;
+            }
         }
     }
 
     .contact-div{
          padding: 450px  100px;
-    }
-
-    iframe{
-        height: 40vh;
     }
 
    .front-end{
