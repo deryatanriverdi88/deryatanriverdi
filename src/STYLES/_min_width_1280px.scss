@@ -36,8 +36,15 @@
         line-height: 40px;
     }
 
-    .codepen-div{
-        width: 30%;
+    .project-div{
+        .codepen{
+            .codepen-div{
+                width: 30%;
+                .middle-spot{
+                    left: 110px;
+                }
+            }
+        }
     }
 
     .back-end{
