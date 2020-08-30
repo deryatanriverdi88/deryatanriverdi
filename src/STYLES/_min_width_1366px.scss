@@ -8,24 +8,48 @@
 
     .floor{
         width: 1366px;
+        height: 405px;
     }
 
     .postits{
-        left: -350px;
-        top:750px;
+        left: -170px;
+        top:950px;
+        p{
+            padding-top: 190px;
+        }
+        .post-it-1, .post-it-2, .post-it-3, .post-it-4{
+           width:450px;
+           height: 450px;
+           &:after{
+                width:450px;
+                height: 450px;
+            }
+        }
+        .post-it-2{
+            left: 850px;
+        }
+        .post-it-3{
+            top: 650px;
+        }
+        .post-it-4{
+            left: 850px;
+            top:650px;
+        }
     }
 
     .awssld, .bio-card, .contact-card{
-        top: 850px;
+        top: 1050px;
+        height: 1000px !important;
         left: 100px;
     }
 
     .bio .text-container{
         padding-top: 100px;
+        line-height: 50px;
     }
 
     .bio-img-container img{
-        margin-top: 30px;
+        margin-top: 150px;
     }
 
     iframe{
