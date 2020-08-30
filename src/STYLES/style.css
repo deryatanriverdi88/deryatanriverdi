@@ -2099,7 +2099,7 @@
       -ms-flex-pack: left;
           justify-content: left;
   margin: 0;
-  padding: 4em;
+  padding: 30px;
   position: absolute;
 }
 
@@ -2118,23 +2118,22 @@
 }
 
 .bio-img-container {
-  width: 30%;
+  width: 40%;
 }
 
 .bio-img-container img {
   margin: 40px auto;
-  width: 80%;
   height: auto;
-  border-radius: 15px;
+  border-radius: 10px 50% 10px 50%;
 }
 
 .text-container {
   position: relative;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  width: 60%;
+  width: 50%;
   height: auto;
-  padding: 70px 0 0 60px;
+  padding: 30px 0 30px 30px;
   line-height: 40px;
 }
 
@@ -2147,7 +2146,6 @@
   margin: 0;
   text-align: center;
   color: white;
-  padding-left: 5em;
 }
 
 .project-div {
@@ -2376,9 +2374,9 @@
   }
   .light-buttons .light-off button, .light-buttons .light-on button {
     left: 500px;
-    width: 200px;
-    height: 100px;
-    font-size: 20px;
+    width: 100px;
+    height: 60px;
+    font-size: 15px;
   }
   .myname {
     top: 550px;
@@ -2402,13 +2400,13 @@
     padding-top: 200px;
   }
   .postits .post-it-1, .postits .post-it-2, .postits .post-it-3, .postits .post-it-4 {
-    width: 500px;
-    height: 500px;
-    left: 500px;
+    width: 400px;
+    height: 400px;
+    left: 600px;
   }
   .postits .post-it-1:after, .postits .post-it-2:after, .postits .post-it-3:after, .postits .post-it-4:after {
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     top: -15px;
     left: -1px;
     -webkit-box-shadow: 2px 15px 5px rgba(0, 0, 0, 0.4);
@@ -2418,11 +2416,11 @@
     left: 1100px;
   }
   .postits .post-it-3 {
-    top: 700px;
+    top: 600px;
   }
   .postits .post-it-4 {
     left: 1100px;
-    top: 700px;
+    top: 600px;
   }
   .table {
     left: 450px;
@@ -2462,13 +2460,16 @@
   }
   .awssld, .bio-card, .contact-card {
     top: 790px;
-    left: 90px;
-    width: 1110px !important;
-    height: 1110px !important;
+    left: 185px;
+    width: 910px !important;
+    height: 910px !important;
+  }
+  .bio {
+    padding: 30px;
   }
   .bio-img-container img {
-    margin: 250px auto;
-    width: 150%;
+    margin: 150px auto;
+    width: 100%;
   }
   .x {
     top: 10px;
@@ -2483,9 +2484,6 @@
   .project-div .codepen-div .middle-spot {
     top: -170px;
     left: 100px;
-  }
-  .text-container {
-    padding-top: 240px;
   }
   .contact-div {
     padding: 450px  100px;
@@ -2507,16 +2505,16 @@
     height: 2210px;
   }
   .floor {
-    width: 1240px;
+    width: 1250px;
   }
   .postits {
     left: -420px;
-    top: 750px;
+    top: 700px;
   }
   .awssld, .bio-card, .contact-card {
-    top: 840px;
-    left: 70px;
-    height: 1120px !important;
+    top: 800px;
+    left: 180px;
+    height: 900px !important;
   }
   .middle-spot {
     top: -190px;
@@ -2543,7 +2541,7 @@
   }
   .awssld, .bio-card, .contact-card {
     top: 800px;
-    left: 70px;
+    left: 165px;
   }
   iframe {
     height: 70vh;
@@ -2569,8 +2567,7 @@
   }
   .awssld, .bio-card, .contact-card {
     top: 800px;
-    left: 70px;
-    width: 1115px !important;
+    left: 175px;
   }
 }
 
@@ -2592,7 +2589,7 @@
   }
   .awssld, .bio-card, .contact-card {
     top: 800px;
-    left: 70px;
+    left: 165px;
   }
 }
 
@@ -2636,12 +2633,38 @@
     height: 2100px;
   }
   .postits {
-    left: -400px;
-    top: 750px;
+    left: -300px;
+    top: 700px;
+  }
+  .postits p {
+    padding-top: 150px;
+  }
+  .postits .post-it-1, .postits .post-it-2, .postits .post-it-3, .postits .post-it-4 {
+    width: 350px;
+    height: 350px;
+  }
+  .postits .post-it-1:after, .postits .post-it-2:after, .postits .post-it-3:after, .postits .post-it-4:after {
+    width: 350px;
+    height: 350px;
+  }
+  .postits .post-it-2 {
+    left: 1000px;
+  }
+  .postits .post-it-3 {
+    top: 490px;
+  }
+  .postits .post-it-4 {
+    left: 1000px;
+    top: 490px;
   }
   .awssld, .bio-card, .contact-card {
-    top: 850px;
-    left: 95px;
+    top: 800px;
+    left: 300px;
+    width: 750px !important;
+    height: 750px !important;
+  }
+  .bio-card .text-container {
+    line-height: normal;
   }
 }
 
@@ -2654,12 +2677,12 @@
     height: 2100px;
   }
   .postits {
-    top: 750px;
-    left: -350px;
+    top: 700px;
+    left: -280px;
   }
   .awssld, .bio-card, .contact-card {
-    top: 840px;
-    left: 140px;
+    top: 800px;
+    left: 320px;
   }
   iframe {
     height: 140vh;
@@ -2715,43 +2738,41 @@
     left: 150px;
   }
   .postits {
-    left: -470px;
-    top: 780px;
+    left: -100px;
+    top: 700px;
   }
   .postits p {
-    padding-top: 180px;
+    padding-top: 120px;
   }
-  .post-it-1, .post-it-2, .post-it-3, .post-it-4 {
-    width: 400px;
-    height: 400px;
+  .postits .post-it-1, .postits .post-it-2, .postits .post-it-3, .postits .post-it-4 {
+    width: 300px;
+    height: 300px;
     left: 350px;
   }
-  .post-it-1:after, .post-it-2:after, .post-it-3:after, .post-it-4:after {
-    width: 200px;
-    height: 200px;
-    top: -15px;
-    left: -1px;
+  .postits .post-it-1:after, .postits .post-it-2:after, .postits .post-it-3:after, .postits .post-it-4:after {
+    width: 300px;
+    height: 300px;
   }
-  .post-it-3 {
-    top: 550px;
+  .postits .post-it-3 {
+    top: 420px;
     left: 350px;
   }
-  .post-it-2 {
-    left: 850px;
+  .postits .post-it-2 {
+    left: 700px;
   }
-  .post-it-4 {
-    left: 850px;
-    top: 550px;
+  .postits .post-it-4 {
+    left: 700px;
+    top: 420px;
   }
   .awssld, .bio-card, .contact-card {
-    top: 880px;
-    left: 30px;
-    width: 1100px !important;
-    height: 1100px !important;
+    top: 800px;
+    left: 170px;
+    width: 850px !important;
+    height: 630px !important;
   }
   .bio-img-container img {
-    margin: 150px auto;
-    width: 160%;
+    margin: 80px auto;
+    width: 100%;
   }
   .project-div {
     padding-top: 5em;
@@ -2764,10 +2785,6 @@
     left: 60px;
     top: -150px;
   }
-  .text-container {
-    padding: 130px 0 20px 60px;
-    line-height: 35px;
-  }
   iframe {
     height: 80vh;
   }
@@ -2776,22 +2793,43 @@
 /* Samsung Galaxy S8 / S8+ => 740 x 360 # Horizontal done,
     Samsung Galaxy S9 / S9+ => 740 x 360 # Horizontal done*/
 @media only screen and (min-width: 740px) {
-  .awssld, .bio-card, .contact-card {
-    top: 850px;
-    left: 30px;
-    height: 1150px !important;
-    width: 150% !important;
+  .postits {
+    left: -50px;
+    top: 700px;
   }
-  .bio-img-container img {
-    margin: 130px auto;
-    width: 160%;
+  .postits p {
+    padding-top: 100px;
+  }
+  .postits .post-it-1, .postits .post-it-2, .postits .post-it-3, .postits .post-it-4 {
+    width: 250px;
+    height: 250px;
+    left: 350px;
+  }
+  .postits .post-it-1:after, .postits .post-it-2:after, .postits .post-it-3:after, .postits .post-it-4:after {
+    width: 250px;
+    height: 250px;
+  }
+  .postits .post-it-3 {
+    top: 400px;
+    left: 350px;
+  }
+  .postits .post-it-2 {
+    left: 650px;
+  }
+  .postits .post-it-4 {
+    left: 650px;
+    top: 400px;
+  }
+  .awssld, .bio-card, .contact-card {
+    top: 790px;
+    left: 160px;
+    height: 560px !important;
   }
   .project-div {
     padding-top: 5em;
   }
   .text-container {
-    padding: 100px 0 20px 60px;
-    line-height: 35px;
+    padding: 10px 0 10px 10px;
   }
   iframe {
     height: 110vh;
@@ -2809,18 +2847,38 @@
     left: 460px;
   }
   .postits {
-    left: -470px;
+    left: -170px;
     top: 700px;
+  }
+  .postits p {
+    padding-top: 150px;
+  }
+  .postits .post-it-1, .postits .post-it-2, .postits .post-it-3, .postits .post-it-4 {
+    width: 350px;
+    height: 350px;
+  }
+  .postits .post-it-1:after, .postits .post-it-2:after, .postits .post-it-3:after, .postits .post-it-4:after {
+    width: 350px;
+    height: 350px;
+  }
+  .postits .post-it-2 {
+    left: 800px;
+  }
+  .postits .post-it-3 {
+    top: 490px;
+  }
+  .postits .post-it-4 {
+    left: 800px;
+    top: 490px;
   }
   .awssld, .bio-card, .contact-card {
     top: 800px;
-    left: 10px;
-    width: 1130px !important;
-    height: 1100px !important;
+    left: 120px;
+    width: 930px !important;
+    height: 750px !important;
   }
   .bio-img-container img {
     margin: 140px auto;
-    width: 160%;
   }
   .project-div {
     padding-top: 5em;
@@ -2840,21 +2898,41 @@
     width: 1200px;
   }
   .postits {
+    left: -270px;
     top: 700px;
-    left: -440px;
+  }
+  .postits p {
+    padding-top: 200px;
+  }
+  .postits .post-it-1, .postits .post-it-2, .postits .post-it-3, .postits .post-it-4 {
+    width: 500px;
+    height: 500px;
+  }
+  .postits .post-it-1:after, .postits .post-it-2:after, .postits .post-it-3:after, .postits .post-it-4:after {
+    width: 500px;
+    height: 500px;
+  }
+  .postits .post-it-2 {
+    left: 900px;
+  }
+  .postits .post-it-3 {
+    top: 650px;
+  }
+  .postits .post-it-4 {
+    left: 900px;
+    top: 650px;
   }
   .floor {
     width: 1200px;
   }
   .awssld, .bio-card, .contact-card {
     width: 1120px !important;
-    height: 1130px !important;
+    height: 1050px !important;
     top: 800px;
     left: 50px;
   }
   .bio-img-container img {
-    margin: 100px auto;
-    width: 150%;
+    margin: 200px auto;
   }
   .project-div {
     padding-top: 5em;
@@ -2866,9 +2944,9 @@
   .project-div .codepen-div .middle-spot {
     left: 100px;
   }
-  .text-container {
-    padding: 80px 0 20px 60px;
-    line-height: 35px;
+  .bio .text-container {
+    padding: 100px 0 20px 60px;
+    line-height: 55px;
   }
   iframe {
     height: 30vh;
@@ -2880,12 +2958,43 @@
    Pixel 2 XL => 823 x 411 # Horizontal done*/
 @media only screen and (min-width: 812px) {
   .postits {
-    top: 750px;
-    left: -445px;
+    left: -20px;
+    top: 720px;
+  }
+  .postits p {
+    padding-top: 100px;
+  }
+  .postits .post-it-1, .postits .post-it-2, .postits .post-it-3, .postits .post-it-4 {
+    width: 250px;
+    height: 250px;
+    left: 350px;
+  }
+  .postits .post-it-1:after, .postits .post-it-2:after, .postits .post-it-3:after, .postits .post-it-4:after {
+    width: 250px;
+    height: 250px;
+  }
+  .postits .post-it-3 {
+    top: 390px;
+  }
+  .postits .post-it-2 {
+    left: 650px;
+  }
+  .postits .post-it-4 {
+    left: 650px;
+    top: 390px;
   }
   .awssld, .bio-card, .contact-card {
-    top: 845px;
-    left: 45px;
+    top: 800px;
+    left: 120px;
+    width: 1000px !important;
+    height: 560px !important;
+  }
+  .bio .text-container {
+    padding: 20px 0 10px 10px;
+    line-height: normal;
+  }
+  .bio-img-container img {
+    margin: 0px auto;
   }
   .codepen-div {
     width: 29%;
@@ -2902,9 +3011,35 @@
 
 /* iPhone XR => 896 x 414 # Horizontal done*/
 @media only screen and (min-width: 896px) {
+  .postits {
+    left: -20px;
+    top: 690px;
+  }
+  .postits p {
+    padding-top: 100px;
+  }
+  .postits .post-it-1, .postits .post-it-2, .postits .post-it-3, .postits .post-it-4 {
+    width: 250px;
+    height: 250px;
+    left: 350px;
+  }
+  .postits .post-it-1:after, .postits .post-it-2:after, .postits .post-it-3:after, .postits .post-it-4:after {
+    width: 250px;
+    height: 250px;
+  }
+  .postits .post-it-3 {
+    top: 390px;
+  }
+  .postits .post-it-2 {
+    left: 650px;
+  }
+  .postits .post-it-4 {
+    left: 650px;
+    top: 390px;
+  }
   .awssld, .bio-card, .contact-card {
-    top: 875px;
-    left: 55px;
+    top: 775px;
+    left: 130px;
   }
   iframe {
     height: 80vh;
@@ -2915,19 +3050,37 @@
    iPad Air 1 & 2 => 1024 x 768 # Horizontal*/
 @media only screen and (min-width: 1000px) {
   .postits {
+    left: -170px;
     top: 700px;
-    left: -440px;
+  }
+  .postits p {
+    padding-top: 150px;
+  }
+  .postits .post-it-1, .postits .post-it-2, .postits .post-it-3, .postits .post-it-4 {
+    width: 350px;
+    height: 350px;
+  }
+  .postits .post-it-1:after, .postits .post-it-2:after, .postits .post-it-3:after, .postits .post-it-4:after {
+    width: 350px;
+    height: 350px;
+  }
+  .postits .post-it-2 {
+    left: 800px;
+  }
+  .postits .post-it-3 {
+    top: 490px;
+  }
+  .postits .post-it-4 {
+    left: 800px;
+    top: 490px;
   }
   .floor {
     width: 1200px;
   }
   .awssld, .bio-card, .contact-card {
     top: 790px;
-    left: 50px;
-  }
-  .bio-img-container img {
-    margin: 130px auto;
-    width: 150%;
+    left: 100px;
+    height: 750px !important;
   }
   .project-div {
     padding-top: 5em;
@@ -2938,6 +3091,12 @@
   .project-div .codepen-div .middle-spot {
     left: 90px;
     top: -170px;
+  }
+  .bio .text-container {
+    padding: 100px 0 20px 60px;
+  }
+  .bio-img-container img {
+    margin: 80px auto;
   }
   .text-container {
     padding-top: 100px;
@@ -2977,13 +3136,13 @@
     width: 1300px;
   }
   .postits {
-    left: -420px;
+    left: -100px;
   }
   .window {
     left: 900px;
   }
   .awssld, .bio-card, .contact-card {
-    top: 845px;
+    top: 790px;
     left: 50px;
     width: 1200px !important;
   }
@@ -3013,18 +3172,15 @@
     width: 1336px;
   }
   .postits {
-    left: -370px;
-    top: 770px;
+    left: -70px;
+    top: 700px;
   }
   .awssld, .bio-card, .contact-card {
-    top: 870px;
+    top: 790px;
     left: 70px;
   }
   .bio .text-container {
     padding-top: 100px;
-  }
-  .bio-img-container img {
-    margin: 100px auto;
   }
   .skill-slide {
     height: auto !important;
@@ -3044,20 +3200,44 @@
   }
   .floor {
     width: 1366px;
+    height: 405px;
   }
   .postits {
-    left: -350px;
-    top: 750px;
+    left: -170px;
+    top: 950px;
+  }
+  .postits p {
+    padding-top: 190px;
+  }
+  .postits .post-it-1, .postits .post-it-2, .postits .post-it-3, .postits .post-it-4 {
+    width: 450px;
+    height: 450px;
+  }
+  .postits .post-it-1:after, .postits .post-it-2:after, .postits .post-it-3:after, .postits .post-it-4:after {
+    width: 450px;
+    height: 450px;
+  }
+  .postits .post-it-2 {
+    left: 850px;
+  }
+  .postits .post-it-3 {
+    top: 650px;
+  }
+  .postits .post-it-4 {
+    left: 850px;
+    top: 650px;
   }
   .awssld, .bio-card, .contact-card {
-    top: 850px;
+    top: 1050px;
+    height: 1000px !important;
     left: 100px;
   }
   .bio .text-container {
     padding-top: 100px;
+    line-height: 50px;
   }
   .bio-img-container img {
-    margin-top: 30px;
+    margin-top: 150px;
   }
   iframe {
     height: 40vh;
@@ -3074,16 +3254,40 @@
   }
   .floor {
     width: 1450px;
+    height: 280px;
   }
   .css-art p {
     left: 470px;
   }
   .postits {
-    left: -300px;
+    left: -70px;
+    top: 850px;
+  }
+  .postits p {
+    padding-top: 160px;
+  }
+  .postits .post-it-1, .postits .post-it-2, .postits .post-it-3, .postits .post-it-4 {
+    width: 400px;
+    height: 400px;
+  }
+  .postits .post-it-1:after, .postits .post-it-2:after, .postits .post-it-3:after, .postits .post-it-4:after {
+    width: 400px;
+    height: 400px;
+  }
+  .postits .post-it-2 {
+    left: 850px;
+  }
+  .postits .post-it-3 {
+    top: 550px;
+  }
+  .postits .post-it-4 {
+    left: 850px;
+    top: 550px;
   }
   .awssld, .bio-card, .contact-card {
     left: 120px;
-    height: 1200px !important;
+    top: 920px;
+    height: 900px !important;
   }
   .bio-img-container img {
     margin: 100px auto;
@@ -3145,7 +3349,7 @@
     top: 80px;
     left: 300px;
     width: 1210px !important;
-    height: 1000px !important;
+    height: 900px !important;
   }
   .bio .text-container {
     padding-top: 105px;
@@ -3153,7 +3357,6 @@
   }
   .bio-img-container img {
     margin: 100px auto;
-    width: 140%;
   }
   .project-div {
     padding-top: 5em;
@@ -3175,6 +3378,11 @@
   .light-buttons .light-off {
     width: 2560px;
     height: 1650px;
+  }
+  .light-buttons .light-off button, .light-buttons .light-on button {
+    width: 150px;
+    height: 100px;
+    font-size: 20px;
   }
   .myname {
     font-size: 80px;
@@ -3650,7 +3858,6 @@
   }
   .bio-img-container img {
     margin: 150px auto;
-    width: 140%;
   }
   .project-div {
     padding-top: 5em;
@@ -3886,7 +4093,6 @@
   }
   .bio-img-container img {
     margin: 150px auto;
-    width: 140%;
   }
   .project-div {
     padding-top: 5em;
@@ -3908,6 +4114,11 @@
   .light-buttons .light-off {
     width: 5120px;
     height: 2880px;
+  }
+  .light-buttons .light-off button, .light-buttons .light-on button {
+    width: 200px;
+    height: 150px;
+    font-size: 25px;
   }
   .myname {
     left: 880px;
@@ -4090,7 +4301,6 @@
   }
   .bio-img-container img {
     margin: 180px auto;
-    width: 140%;
   }
   .project-div {
     padding-top: 10em;

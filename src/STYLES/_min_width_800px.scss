@@ -7,8 +7,29 @@
     }
 
     .postits{
-        top: 700px;
-        left: -440px;
+        left: -270px;
+        top:700px;
+        p{
+            padding-top: 200px;
+        }
+        .post-it-1, .post-it-2, .post-it-3, .post-it-4{
+           width:500px;
+           height: 500px;
+           &:after{
+                width:500px;
+                height: 500px;
+            }
+        }
+        .post-it-2{
+            left: 900px;
+        }
+        .post-it-3{
+            top: 650px;
+        }
+        .post-it-4{
+            left: 900px;
+            top:650px;
+        }
     }
 
     .floor{
@@ -17,14 +38,13 @@
 
     .awssld, .bio-card, .contact-card{
         width: 1120px !important;
-        height: 1130px !important;
+        height: 1050px !important;
         top: 800px;
         left: 50px;
     }
 
     .bio-img-container img{
-        margin: 100px auto;
-        width: 150%;
+        margin: 200px auto;
     }
 
     .project-div{
@@ -38,9 +58,9 @@
         }
     }
 
-    .text-container{
-        padding: 80px 0 20px 60px;
-        line-height: 35px;
+    .bio .text-container{
+        padding: 100px 0 20px 60px;
+        line-height: 55px;
     }
 
     iframe{

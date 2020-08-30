@@ -4,27 +4,42 @@
             height: 2100px;
         }
     }
-    // .floor{
-    //   top: 620px;
-    //   width: 225%;
-    //   height: 60vh;
-    // }
-
-    // .window{
-    //   left: 950px;
-    // }
 
     .postits{
-      left: -400px;
-      top:750px;
+      left: -300px;
+      top:700px;
+      p{
+          padding-top: 150px;
+      }
+      .post-it-1, .post-it-2, .post-it-3, .post-it-4{
+         width:350px;
+         height: 350px;
+         &:after{
+              width:350px;
+              height: 350px;
+          }
+      }
+      .post-it-2{
+          left: 1000px;
+      }
+      .post-it-3{
+          top: 490px;
+      }
+      .post-it-4{
+          left: 1000px;
+          top:490px;
+      }
     }
 
     .awssld, .bio-card, .contact-card{
-      top: 850px;
-      left: 95px;
+      top: 800px;
+      left: 300px;
+      width: 750px !important;
+      height: 750px !important;
     }
 
-    // iframe{
-    //   height: 150vh;
-    // }
+    .bio-card .text-container{
+      line-height: normal;
+      // padding:25px 0 10px 25px;
+    }
 }

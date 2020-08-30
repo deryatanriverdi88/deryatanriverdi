@@ -1,8 +1,38 @@
 /* iPhone XR => 896 x 414 # Horizontal done*/
 @media only screen and (min-width: 896px){
+    .postits{
+        left:-20px;
+        top:690px;
+        p{
+            padding-top: 100px;
+        }
+        .post-it-1, .post-it-2, .post-it-3, .post-it-4{
+            width:250px;
+            height: 250px;
+            left: 350px;
+            &:after{
+                width: 250px;
+                height: 250px;
+            }
+        }
+
+        .post-it-3{
+            top: 390px;
+        }
+
+        .post-it-2{
+            left: 650px;
+        }
+
+        .post-it-4{
+            left: 650px;
+            top: 390px;
+        }
+    }
+
     .awssld, .bio-card, .contact-card{
-        top: 875px;
-        left: 55px;
+        top: 775px;
+        left: 130px;
     }
 
     iframe{

@@ -5,6 +5,11 @@
             width: 2560px;
             height: 1650px;
         }
+        .light-off button, .light-on button  {
+            width: 150px;
+            height: 100px;
+            font-size: 20px;
+        }
     }
 
     .myname{
@@ -521,7 +526,6 @@
 
     .bio-img-container img{
         margin: 150px auto;
-        width: 140%;
     }
 
     .project-div{

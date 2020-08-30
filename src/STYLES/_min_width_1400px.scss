@@ -8,6 +8,7 @@
 
     .floor{
         width: 1450px;
+        height: 280px;
     }
 
     .css-art p{
@@ -15,12 +16,35 @@
     }
 
     .postits{
-        left:-300px;
+        left: -70px;
+        top:850px;
+        p{
+            padding-top: 160px;
+        }
+        .post-it-1, .post-it-2, .post-it-3, .post-it-4{
+           width:400px;
+           height: 400px;
+           &:after{
+                width:400px;
+                height: 400px;
+            }
+        }
+        .post-it-2{
+            left: 850px;
+        }
+        .post-it-3{
+            top: 550px;
+        }
+        .post-it-4{
+            left: 850px;
+            top:550px;
+        }
     }
 
     .awssld, .bio-card, .contact-card{
         left: 120px;
-        height: 1200px !important;
+        top: 920px;
+        height: 900px !important;
     }
 
     .bio-img-container img{
