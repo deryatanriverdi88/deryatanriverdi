@@ -11,12 +11,17 @@
 
     .postits{
         top: 700px;
-        left:-280px;
+        left:-350px;
     }
 
     .awssld, .bio-card, .contact-card{
         top: 800px;
-        left: 320px;
+        left: 180px;
+        height: 550px !important;
+    }
+
+    .bio .text-container{
+        padding: 0;
     }
 
     iframe{
