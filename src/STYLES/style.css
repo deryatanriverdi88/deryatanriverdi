@@ -2327,13 +2327,13 @@
 
 .x {
   position: absolute;
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   background: white;
   font-size: 20px;
+  line-height: 20px;
   vertical-align: middle;
-  line-height: 30px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -2473,7 +2473,7 @@
   }
   .x {
     top: 10px;
-    left: 10px;
+    left: 850px;
   }
   .project-div {
     padding-top: 10em;
@@ -2669,6 +2669,9 @@
   .bio-card .text-container {
     line-height: normal;
   }
+  .x {
+    left: 700px;
+  }
 }
 
 /* Galaxy S5 => 640 x 360  # Horizontal done,
@@ -2689,6 +2692,9 @@
   }
   iframe {
     height: 140vh;
+  }
+  .x {
+    left: 700px;
   }
 }
 
@@ -2790,6 +2796,9 @@
   }
   iframe {
     height: 80vh;
+  }
+  .x {
+    left: 800px;
   }
 }
 
@@ -2893,6 +2902,9 @@
   iframe {
     height: 35vh;
   }
+  .x {
+    left: 880px;
+  }
 }
 
 /* Samsung Galaxy Tab 10 => 800x 1280 # Vertical done */
@@ -2954,6 +2966,9 @@
   iframe {
     height: 30vh;
   }
+  .x {
+    left: 1050px;
+  }
 }
 
 /* iPhone XS => 812 x 375 # Horizontal done,
@@ -3009,6 +3024,9 @@
   }
   iframe {
     height: 80vh;
+  }
+  .x {
+    left: 950px;
   }
 }
 
@@ -3116,14 +3134,15 @@
   }
   .floor {
     width: 1160px;
+    height: 250px;
   }
   .postits {
-    top: 750px;
-    left: -465px;
+    top: 800px;
+    left: -165px;
   }
   .awssld, .bio-card, .contact-card {
-    top: 840px;
-    left: 20px;
+    top: 890px;
+    left: 80px;
   }
 }
 
@@ -3164,6 +3183,9 @@
   .front-end img, .back-end img {
     height: 25vh;
   }
+  .x {
+    left: 1150px;
+  }
 }
 
 /* Acer Chromebook => 1336 x 768 */
@@ -3176,10 +3198,10 @@
   }
   .postits {
     left: -70px;
-    top: 700px;
+    top: 800px;
   }
   .awssld, .bio-card, .contact-card {
-    top: 790px;
+    top: 890px;
     left: 70px;
   }
   .bio .text-container {
@@ -3247,6 +3269,9 @@
   }
   .front-end img, .back-end img {
     height: 20vh;
+  }
+  .x {
+    left: 1150px;
   }
 }
 
@@ -3884,6 +3909,13 @@
   .back-end {
     padding-left: 380px;
   }
+  .x {
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    line-height: 30px;
+    left: 1920px;
+  }
   @-webkit-keyframes open-curtain-2500 {
     from {
       height: 570px;
@@ -4407,6 +4439,13 @@
     to {
       top: 700px;
     }
+  }
+  .x {
+    width: 80px;
+    height: 80px;
+    font-size: 40px;
+    line-height: 40px;
+    left: 3500px;
   }
 }
 
