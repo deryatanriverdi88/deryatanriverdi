@@ -1,6 +1,10 @@
-/* iPad Pro => 1024 x 1366 # Vertical done,
-   iPad Air 1 & 2 => 1024 x 768 # Horizontal*/
+/* iPad Pro => 1024 x 1366 # Vertical done */
 @media only screen and (min-width: 1000px){
+    .light-buttons{
+        .light-off{
+            height: 1600px;
+        }
+    }
     .postits{
         left: -170px;
         top:700px;
