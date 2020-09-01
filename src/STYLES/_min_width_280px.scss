@@ -124,15 +124,11 @@
     }
 
     .bio{
-        padding: 30px;
-        .text-container{
-            padding-top: 100px;
+        .bio-img-container{
+            img{
+                margin-top: 180px;
+            }
         }
-    }
-
-    .bio-img-container img{
-        margin:150px auto;
-        width: 100%;
     }
 
     .x{
@@ -157,9 +153,21 @@
         }
     }
 
-    .contact-div{
-      padding: 450px  100px;
+    .skill-slide{
+        .front-end{
+            padding: 80px 20px;
+            img{
+                width: 30%;
+            }
+        }
+        .back-end{
+            padding: 120px 20px;
+            img{
+                width: 35%;
+            }
+        }
     }
+
 }
 
 @media only screen and  (min-width: 280px) and (height: 653px){

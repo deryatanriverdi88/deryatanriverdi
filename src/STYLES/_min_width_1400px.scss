@@ -9,7 +9,7 @@
 
     .floor{
         width: 1450px;
-        height: 280px;
+        height: 200px;
     }
 
     .css-art p{
@@ -17,39 +17,45 @@
     }
 
     .postits{
-        left: 0px;
-        top:850px;
+        left: 50px;
+        top:750px;
         p{
-            padding-top: 160px;
+            padding-top: 130px;
         }
         .post-it-1, .post-it-2, .post-it-3, .post-it-4{
-           width:350px;
-           height: 350px;
+           width:300px;
+           height: 300px;
            &:after{
-                width:350px;
-                height: 350px;
+                width:300px;
+                height: 300px;
             }
         }
         .post-it-2{
-            left: 800px;
+            left: 750px;
         }
         .post-it-3{
             top: 500px;
+            margin-bottom: 10px;
         }
         .post-it-4{
-            left: 800px;
+            left: 750px;
             top:500px;
+            margin-bottom: 10px;
         }
     }
 
     .awssld, .bio-card, .contact-card{
         left: 120px;
-        top: 920px;
-        height: 800px !important;
+        top: 850px;
+        height: 700px !important;
     }
 
-    .bio-img-container img{
-        margin: 100px auto;
+    .bio{
+        .bio-img-container {
+            img{
+                margin-top: 20px;
+            }
+        }
     }
 
     .project-div{
@@ -62,10 +68,6 @@
                 }
             }
         }
-    }
-
-    .bio .text-container{
-        padding-top: 100px;
     }
 
     iframe{

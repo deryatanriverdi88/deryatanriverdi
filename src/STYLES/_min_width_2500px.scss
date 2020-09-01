@@ -515,17 +515,16 @@
         height: 1400px !important;
     }
 
-    .bio .text-container{
-        padding-top: 255px;
-        line-height: 70px;
-    }
-
     .text{
         font-size: 40px;
     }
 
-    .bio-img-container img{
-        margin: 150px auto;
+    .bio{
+        .bio-img-container{
+            img{
+               margin-top: 150px;
+           }
+        }
     }
 
     .project-div{
@@ -550,16 +549,12 @@
         }
     }
 
-    .contact-div{
-         padding: 450px  100px;
-    }
-
-   .front-end{
-        padding-left: 140px;
-    }
-
-   .back-end{
-        padding-left: 380px;
+    .skill-slide{
+        .front-end, .back-end{
+            img{
+                height: 300px;
+            }
+        }
     }
 
     .x{

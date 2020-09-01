@@ -661,23 +661,25 @@ class App extends React.Component {
           <div className="skill-slide">
              <h3> Frontend</h3>
              <div className="front-end">
-                  <img className="react-img" src='./img/Skills/react.gif' alt="React"/>
-                  <img className="redux-img" src='./img/Skills/redux.png'alt="Redux"/>
-                  <img className="js-img" src='./img/Skills/javascript.jpg' alt="JavaScript"/>
-                  <img className="css-img" src='./img/Skills/css.png' alt="CSS"/>
-                  <img className="html-img" src='./img/Skills/html.png'alt="HTML"/>
-                  <img className="mq-img" src='./img/Skills/mq.png' alt="Media-Queries"/>
+                  <img className="react-img" src='./img/Skills/Front-End/react.svg' alt="React"/>
+                  <img className="redux-img" src='./img/Skills/Front-End/redux.svg'alt="Redux"/>
+                  <img className="js-img" src='./img/Skills/Front-End/javascript.svg' alt="JavaScript"/>
+                  <img className="css-img" src='./img/Skills/Front-End/css.svg' alt="CSS"/>
+                  <img className="sass-img" src='./img/Skills/Front-End/sass.svg' alt="SASS"/>
+                  <img className="svg-img" src="./img/Skills/Front-End/svg.svg" alt="SVG"/>
+                  <img className="html-img" src='./img/Skills/Front-End/html.svg'alt="HTML"/>
+                  <img className="figma-img" src='./img/Skills/Front-End/figma.svg'alt="Figma"/>
+                  <img className="mq-img" src='./img/Skills/Front-End/mq.svg' alt="Media-Queries"/>
                   <button className="x" onClick={this.handleSkillClick}> x </button>
              </div>
           </div>
           <div className="skill-slide">
               <h3> Backend</h3>
               <div className="back-end">
-                 <img className="ruby-img" src='./img/Skills/ruby.jpg' alt="Ruby"/>
-                 <img className="rails-img" src='./img/Skills/rails.png' alt="Rails"/>
-                 <img className="sqlite-img" src='./img/Skills/sqlite.png' alt="SQlite"/>
-                 <img className="heroku-img" src='./img/Skills/heroku.png'alt="Heroku"/>
-                 <img className="active-record-img" src='./img/Skills/active-record.png' alt="Active-Record"/>
+                 <img className="ruby-img" src='./img/Skills/Back-End/ruby.svg' alt="Ruby"/>
+                 <img className="sqlite-img" src='./img/Skills/Back-End/sqlite.svg' alt="SQlite"/>
+                 <img className="heroku-img" src='./img/Skills/Back-End/heroku.svg'alt="Heroku"/>
+                 <img className="active-record-img" src='./img/Skills/Back-End/active-record.svg' alt="Active-Record"/>
                  <button className="x" onClick={this.handleSkillClick}> x </button>
               </div>
           </div>

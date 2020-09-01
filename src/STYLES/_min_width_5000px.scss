@@ -198,21 +198,19 @@
         height: 2500px !important;
     }
 
-    .bio .text-container{
-        padding-top: 555px;
-        line-height: 100px;
-    }
-
-    .bio .text{
-        font-size: 70px;
+    .bio {
+        .bio-img-container {
+            img{
+                margin-top: 200px;
+            }
+        }
+        .text{
+            font-size: 70px;
+        }
     }
 
     .text{
         font-size: 60px;
-    }
-
-    .bio-img-container img{
-        margin: 180px auto;
     }
 
     .project-div{
@@ -239,20 +237,12 @@
         }
     }
 
-    .contact-div{
-        padding: 800px  100px;
-    }
-
-    .front-end{
-        padding-left: 300px;
-    }
-
-    .back-end{
-        padding-left: 720px;
-    }
-
-    .active-record-img{
-        margin-left: 700px;
+    .skill-slide{
+        .front-end, .back-end{
+            img{
+                height: 550px;
+            }
+        }
     }
 
     @keyframes open-curtain-5000 {

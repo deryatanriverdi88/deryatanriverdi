@@ -77,6 +77,17 @@
         left: 80px;
     }
 
+    .skill-slide{
+        .front-end{
+            padding-top: 0px;
+        }
+        .front-end, .back-end{
+            img{
+                height: 100px;
+            }
+        }
+    }
+
     iframe{
         height: 200px;
     }

@@ -44,13 +44,12 @@
         left: 100px;
     }
 
-    .bio .text-container{
-        padding-top: 150px;
-        line-height: 50px;
-    }
-
-    .bio-img-container img{
-        margin-top: 150px;
+    .bio{
+        .bio-img-container{
+            img{
+               margin-top: 150px;
+           }
+        }
     }
 
     .project-div{
@@ -66,12 +65,16 @@
         }
     }
 
-    iframe{
-        height:500px;
+    .skill-slide{
+        .front-end, .back-end{
+            img{
+                height: 220px;
+            }
+        }
     }
 
-    .front-end img, .back-end img{
-        height: 20vh;
+    iframe{
+        height:500px;
     }
 
     .x{

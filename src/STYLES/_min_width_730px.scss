@@ -102,9 +102,12 @@
         height: 630px !important;
     }
 
-    .bio-img-container img{
-        margin: 80px auto;
-        width: 100%;
+    .bio{
+        .bio-img-container{
+            img{
+               margin-top: 40px;
+           }
+        }
     }
 
     .project-div {

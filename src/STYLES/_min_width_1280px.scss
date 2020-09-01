@@ -28,12 +28,12 @@
         width: 1200px !important;
     }
 
-    .bio-img-container img{
-        margin-top: 30px;
-    }
-
-    .bio .text-container{
-        line-height: 40px;
+    .bio{
+        .bio-img-container{
+            img{
+                margin-top: 80px;
+            }
+        }
     }
 
     .project-div{
@@ -45,14 +45,6 @@
                 }
             }
         }
-    }
-
-    .back-end{
-        padding-left: 200px;
-    }
-
-    .front-end img, .back-end img{
-        height: 25vh;
     }
 
     .x{
