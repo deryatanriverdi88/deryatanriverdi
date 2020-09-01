@@ -211,10 +211,14 @@
 }
 
 .contact-div{
+    height: 100%;
     position: absolute;
     justify-content: space-between;
     display: flex;
     a{
+        margin: auto 5px;
+        display: block;
+        height: auto;
         width: 20%;
         img{
             width: 100%;
@@ -231,6 +235,7 @@
     font-size: 20px;
     line-height:20px;
     vertical-align: middle;
+    border: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
