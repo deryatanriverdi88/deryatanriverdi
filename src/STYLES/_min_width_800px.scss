@@ -72,9 +72,12 @@
         }
     }
 
-    .bio .text-container{
-        padding: 100px 0 20px 60px;
-        line-height: 55px;
+    .skill-slide{
+        .front-end, .back-end{
+            img{
+                height: 200px;
+            }
+        }
     }
 
     iframe{

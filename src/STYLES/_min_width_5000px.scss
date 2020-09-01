@@ -237,20 +237,12 @@
         }
     }
 
-    .contact-div{
-        padding: 800px  100px;
-    }
-
-    .front-end{
-        padding-left: 300px;
-    }
-
-    .back-end{
-        padding-left: 720px;
-    }
-
-    .active-record-img{
-        margin-left: 700px;
+    .skill-slide{
+        .front-end, .back-end{
+            img{
+                height: 550px;
+            }
+        }
     }
 
     @keyframes open-curtain-5000 {

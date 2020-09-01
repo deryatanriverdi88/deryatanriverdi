@@ -65,12 +65,16 @@
         }
     }
 
-    iframe{
-        height:500px;
+    .skill-slide{
+        .front-end, .back-end{
+            img{
+                height: 220px;
+            }
+        }
     }
 
-    .front-end img, .back-end img{
-        height: 20vh;
+    iframe{
+        height:500px;
     }
 
     .x{

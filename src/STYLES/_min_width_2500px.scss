@@ -549,16 +549,12 @@
         }
     }
 
-    .contact-div{
-         padding: 450px  100px;
-    }
-
-   .front-end{
-        padding-left: 140px;
-    }
-
-   .back-end{
-        padding-left: 380px;
+    .skill-slide{
+        .front-end, .back-end{
+            img{
+                height: 300px;
+            }
+        }
     }
 
     .x{
