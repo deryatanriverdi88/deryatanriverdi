@@ -176,37 +176,19 @@
     }
     .front-end, .back-end{
         display: flex;
+        justify-content: space-around;
         flex-wrap: wrap;
-        padding-top:40px;
-        padding-left: 100px;
-        padding-right: 20px;
-        padding-bottom: 100px !important;
     }
+
     .front-end img{
-        width: 45%;
-        height: 40%;
+        height: 150px;
         border-radius: 15px;
+        margin-bottom: 1em;
     }
 
     .back-end img{
-        width: 35%;
-        height: 40%;
-    }
-
-    .react-img, .js-img, .html-img{
-        margin-right: 30px;
-    }
-
-    .rails-img, .heroku-img{
-        margin-left: 150px;
-    }
-
-    .html-img, .mq-img, .active-record-img, .heroku-img, .sqlite-img{
-        margin-top:40px;
-    }
-
-    .active-record-img{
-        margin-left: 260px;
+        height: 150px;
+        margin-bottom: 5em;
     }
 }
 
