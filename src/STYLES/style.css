@@ -2071,12 +2071,12 @@
   max-width: none !important;
 }
 
-.awssld__container, .bio, .contact-div, .skill-slide, .project-div {
+.awssld__container, .bio, .contact-card, .skill-slide, .project-div {
   width: 100% !important;
   height: 100% !important;
 }
 
-.awssld__content, .bio, .contact-div {
+.awssld__content, .bio, .contact-card {
   background-color: #2E9497 !important;
   border-radius: 15px;
 }
@@ -2097,14 +2097,15 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin: 0;
   padding: 30px;
   position: absolute;
 }
 
 .resume {
   width: 100px;
-  height: 50px;
+  height: auto;
+  border: none;
+  padding: 10px;
   border-radius: 90px;
   background: white;
 }
@@ -2113,15 +2114,26 @@
   text-decoration: none;
   color: black;
   font-weight: bold;
+  vertical-align: middle;
+}
+
+.bio .text-container {
+  padding: 10px;
+  height: auto;
+  margin: auto 5px;
+  vertical-align: middle;
 }
 
 .bio-img-container {
   width: 40%;
+  height: 100%;
 }
 
 .bio-img-container img {
+  width: 100%;
   height: auto;
   border-radius: 10px 50% 10px 50%;
+  margin: 0 5px;
 }
 
 .text-container {
@@ -2130,7 +2142,6 @@
           box-sizing: border-box;
   width: 60%;
   height: auto;
-  line-height: 40px;
 }
 
 .text, .project-div h3 {
@@ -2249,8 +2260,12 @@
   color: black;
 }
 
+.skill-slide {
+  margin: auto 0;
+}
+
 .skill-slide h3 {
-  padding-top: 60px;
+  padding: .5em 0 .5em 0;
   font-size: 50px;
   font-family: 'El Messiri', sans-serif;
   color: white;
@@ -2262,42 +2277,25 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  padding-top: 40px;
-  padding-left: 100px;
-  padding-right: 20px;
-  padding-bottom: 100px !important;
 }
 
 .skill-slide .front-end img {
-  width: 45%;
-  height: 40%;
+  height: 150px;
   border-radius: 15px;
+  margin-bottom: 1em;
 }
 
 .skill-slide .back-end img {
-  width: 35%;
-  height: 40%;
-}
-
-.skill-slide .react-img, .skill-slide .js-img, .skill-slide .html-img {
-  margin-right: 30px;
-}
-
-.skill-slide .rails-img, .skill-slide .heroku-img {
-  margin-left: 150px;
-}
-
-.skill-slide .html-img, .skill-slide .mq-img, .skill-slide .active-record-img, .skill-slide .heroku-img, .skill-slide .sqlite-img {
-  margin-top: 40px;
-}
-
-.skill-slide .active-record-img {
-  margin-left: 260px;
+  height: 150px;
+  margin-bottom: 5em;
 }
 
 .contact-div {
+  height: 100%;
   position: absolute;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -2308,6 +2306,9 @@
 }
 
 .contact-div a {
+  margin: auto 5px;
+  display: block;
+  height: auto;
   width: 20%;
 }
 
@@ -2324,6 +2325,7 @@
   font-size: 20px;
   line-height: 20px;
   vertical-align: middle;
+  border: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -2457,15 +2459,8 @@
     width: 910px !important;
     height: 910px !important;
   }
-  .bio {
-    padding: 30px;
-  }
-  .bio .text-container {
-    padding-top: 100px;
-  }
-  .bio-img-container img {
-    margin: 150px auto;
-    width: 100%;
+  .bio .bio-img-container img {
+    margin-top: 180px;
   }
   .x {
     top: 10px;
@@ -2487,8 +2482,17 @@
   .project-div .text-container {
     line-height: 35px;
   }
-  .contact-div {
-    padding: 450px  100px;
+  .skill-slide .front-end {
+    padding: 80px 20px;
+  }
+  .skill-slide .front-end img {
+    width: 30%;
+  }
+  .skill-slide .back-end {
+    padding: 120px 20px;
+  }
+  .skill-slide .back-end img {
+    width: 35%;
   }
 }
 
@@ -2518,9 +2522,6 @@
     left: 100px;
     height: 900px !important;
   }
-  .bio .text-container {
-    padding-top: 100px;
-  }
   .middle-spot {
     top: -190px;
   }
@@ -2547,12 +2548,6 @@
   .awssld, .bio-card, .contact-card {
     top: 800px;
     left: 105px;
-  }
-  .bio .text-container {
-    padding-top: 150px;
-  }
-  .bio-img-container img {
-    margin-top: 200px;
   }
 }
 
@@ -2607,8 +2602,6 @@
 
 /* iPhone 5/SE => 568 x 320 # Horizontal done
    iPad Touch =>  568 x 320 # Horizontal done*/
-/* iPhone 5/SE => 568 x 320 # Horizontal done
-   iPad Touch =>  568 x 320 # Horizontal done*/
 @media only screen and (min-width: 510px) {
   .light-buttons .light-off {
     height: 1450px;
@@ -2644,12 +2637,8 @@
     width: 950px !important;
     height: 600px !important;
   }
-  .bio-card .text-container {
-    line-height: normal;
-    padding-top: 50px;
-  }
-  .bio-img-container img {
-    margin-top: 30px;
+  .bio .bio-img-container img {
+    margin-top: 20px;
   }
   .project-div .codepen .codepen-div {
     height: 200px;
@@ -2660,6 +2649,18 @@
   }
   .project-div .text-container {
     line-height: 20px;
+  }
+  .skill-slide .front-end {
+    padding-top: 50px;
+  }
+  .skill-slide .front-end img {
+    height: 100px;
+  }
+  .skill-slide .back-end {
+    padding-top: 100px;
+  }
+  .skill-slide .back-end img {
+    height: 100px;
   }
   .x {
     left: 900px;
@@ -2686,10 +2687,7 @@
     width: 1000px !important;
     height: 550px !important;
   }
-  .bio .text-container {
-    padding-top: 50px;
-  }
-  .bio-img-container img {
+  .bio .bio-img-container img {
     margin-top: 0;
   }
   .project-div {
@@ -2795,9 +2793,8 @@
     width: 850px !important;
     height: 630px !important;
   }
-  .bio-img-container img {
-    margin: 80px auto;
-    width: 100%;
+  .bio .bio-img-container img {
+    margin-top: 40px;
   }
   .project-div .codepen .codepen-div {
     width: 28%;
@@ -2854,11 +2851,8 @@
     height: 560px !important;
     width: 1000px !important;
   }
-  .bio-img-container img {
+  .bio .bio-img-container img {
     margin-top: 0px;
-  }
-  .bio .text-container {
-    padding-top: 0px;
   }
   .project-div .text-container {
     line-height: 20px;
@@ -2915,17 +2909,23 @@
     width: 930px !important;
     height: 750px !important;
   }
-  .bio-img-container img {
-    margin: 140px auto;
-  }
-  .bio .text-container {
-    padding-top: 140px;
+  .bio .bio-img-container img {
+    margin-top: 140px;
   }
   .project-div .text-container {
     line-height: 25px;
   }
   .project-div .codepen .codepen-div {
     height: 260px;
+  }
+  .skill-slide .front-end {
+    margin-top: 30px;
+  }
+  .skill-slide .front-end img {
+    height: 130px;
+  }
+  .skill-slide .back-end img {
+    height: 150px;
   }
   .x {
     left: 880px;
@@ -2975,8 +2975,11 @@
     top: 800px;
     left: 50px;
   }
-  .bio-img-container img {
-    margin: 200px auto;
+  .bio .bio-img-container img {
+    margin-top: 200px;
+  }
+  .bio .text-container {
+    line-height: 55px;
   }
   .project-div .codepen {
     padding-left: 50px;
@@ -2992,9 +2995,8 @@
   .project-div .text-container {
     line-height: 40px;
   }
-  .bio .text-container {
-    padding: 100px 0 20px 60px;
-    line-height: 55px;
+  .skill-slide .front-end img, .skill-slide .back-end img {
+    height: 200px;
   }
   iframe {
     height: 450px;
@@ -3068,6 +3070,12 @@
     top: -180px;
     left: 80px;
   }
+  .skill-slide .front-end {
+    padding-top: 0px;
+  }
+  .skill-slide .front-end img, .skill-slide .back-end img {
+    height: 100px;
+  }
   iframe {
     height: 200px;
   }
@@ -3107,9 +3115,6 @@
   .awssld, .bio-card, .contact-card {
     top: 775px;
     left: 130px;
-  }
-  .bio .text-container {
-    padding-top: 90px;
   }
 }
 
@@ -3151,6 +3156,9 @@
     left: 100px;
     height: 750px !important;
   }
+  .bio .bio-img-container img {
+    margin-top: 130px;
+  }
   .project-div .codepen {
     padding-left: 50px;
   }
@@ -3160,11 +3168,8 @@
   .project-div .codepen .codepen-div .middle-spot {
     top: -160px;
   }
-  .bio .text-container {
-    padding: 100px 0 20px 60px;
-  }
-  .bio-img-container img {
-    margin: 80px auto;
+  .skill-slide .front-end img, .skill-slide .back-end img {
+    height: 150px;
   }
   .text-container {
     padding-top: 100px;
@@ -3190,9 +3195,6 @@
     top: 890px;
     left: 80px;
   }
-  .bio .text-container {
-    padding-top: 170px;
-  }
 }
 
 /* Samsung Galaxy Tab 10 => 1280 x 800 # Horizontal done*/
@@ -3217,23 +3219,14 @@
     left: 50px;
     width: 1200px !important;
   }
-  .bio-img-container img {
-    margin-top: 30px;
-  }
-  .bio .text-container {
-    line-height: 40px;
+  .bio .bio-img-container img {
+    margin-top: 80px;
   }
   .project-div .codepen .codepen-div {
     width: 30%;
   }
   .project-div .codepen .codepen-div .middle-spot {
     left: 110px;
-  }
-  .back-end {
-    padding-left: 200px;
-  }
-  .front-end img, .back-end img {
-    height: 25vh;
   }
   .x {
     left: 1150px;
@@ -3259,17 +3252,8 @@
     top: 890px;
     left: 70px;
   }
-  .bio .text-container {
-    padding-top: 100px;
-  }
   .project-div .codepen {
     padding-left: 80px;
-  }
-  .skill-slide {
-    height: auto !important;
-  }
-  .front-end img, .back-end img {
-    height: 30vh;
   }
 }
 
@@ -3313,11 +3297,7 @@
     height: 1000px !important;
     left: 100px;
   }
-  .bio .text-container {
-    padding-top: 150px;
-    line-height: 50px;
-  }
-  .bio-img-container img {
+  .bio .bio-img-container img {
     margin-top: 150px;
   }
   .project-div .codepen {
@@ -3330,11 +3310,11 @@
     top: -210px;
     left: 100px;
   }
+  .skill-slide .front-end img, .skill-slide .back-end img {
+    height: 220px;
+  }
   iframe {
     height: 500px;
-  }
-  .front-end img, .back-end img {
-    height: 20vh;
   }
   .x {
     left: 1150px;
@@ -3349,43 +3329,45 @@
   }
   .floor {
     width: 1450px;
-    height: 280px;
+    height: 200px;
   }
   .css-art p {
     left: 470px;
   }
   .postits {
-    left: 0px;
-    top: 850px;
+    left: 50px;
+    top: 750px;
   }
   .postits p {
-    padding-top: 160px;
+    padding-top: 130px;
   }
   .postits .post-it-1, .postits .post-it-2, .postits .post-it-3, .postits .post-it-4 {
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
   }
   .postits .post-it-1:after, .postits .post-it-2:after, .postits .post-it-3:after, .postits .post-it-4:after {
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
   }
   .postits .post-it-2 {
-    left: 800px;
+    left: 750px;
   }
   .postits .post-it-3 {
     top: 500px;
+    margin-bottom: 10px;
   }
   .postits .post-it-4 {
-    left: 800px;
+    left: 750px;
     top: 500px;
+    margin-bottom: 10px;
   }
   .awssld, .bio-card, .contact-card {
     left: 120px;
-    top: 920px;
-    height: 800px !important;
+    top: 850px;
+    height: 700px !important;
   }
-  .bio-img-container img {
-    margin: 100px auto;
+  .bio .bio-img-container img {
+    margin-top: 20px;
   }
   .project-div {
     padding-top: 3em;
@@ -3395,9 +3377,6 @@
   }
   .project-div .codepen .codepen-div .middle-spot {
     top: -180px;
-  }
-  .bio .text-container {
-    padding-top: 100px;
   }
   iframe {
     height: 350px;
@@ -3452,15 +3431,8 @@
     width: 1210px !important;
     height: 900px !important;
   }
-  .bio .text-container {
-    padding-top: 105px;
-    line-height: 55px;
-  }
-  .bio-img-container img {
-    margin: 100px auto;
-  }
-  .text-container {
-    line-height: 55px;
+  .bio .bio-img-container img {
+    margin-top: 150px;
   }
   .contact-div {
     padding: 350px  100px;
@@ -3946,15 +3918,11 @@
     width: 2000px !important;
     height: 1400px !important;
   }
-  .bio .text-container {
-    padding-top: 255px;
-    line-height: 70px;
-  }
   .text {
     font-size: 40px;
   }
-  .bio-img-container img {
-    margin: 150px auto;
+  .bio .bio-img-container img {
+    margin-top: 150px;
   }
   .project-div {
     padding-top: 5em;
@@ -3975,14 +3943,8 @@
     vertical-align: middle;
     line-height: 80px;
   }
-  .contact-div {
-    padding: 450px  100px;
-  }
-  .front-end {
-    padding-left: 140px;
-  }
-  .back-end {
-    padding-left: 380px;
+  .skill-slide .front-end img, .skill-slide .back-end img {
+    height: 300px;
   }
   .x {
     width: 60px;
@@ -4194,14 +4156,10 @@
     top: 130px;
     left: 360px;
   }
-  .bio .text-container {
-    padding-top: 155px;
-    line-height: 70px;
-  }
   .text {
     font-size: 40px;
   }
-  .bio-img-container img {
+  .bio .bio-img-container img {
     margin: 150px auto;
   }
   .project-div .codepen {
@@ -4219,9 +4177,6 @@
   .project-div .text-container {
     padding-top: 50px;
     line-height: 50px;
-  }
-  .contact-div {
-    padding: 550px  100px;
   }
   iframe {
     height: 35vh;
@@ -4408,18 +4363,14 @@
     width: 3600px !important;
     height: 2500px !important;
   }
-  .bio .text-container {
-    padding-top: 555px;
-    line-height: 100px;
+  .bio .bio-img-container img {
+    margin-top: 200px;
   }
   .bio .text {
     font-size: 70px;
   }
   .text {
     font-size: 60px;
-  }
-  .bio-img-container img {
-    margin: 180px auto;
   }
   .project-div {
     padding-top: 10em;
@@ -4443,17 +4394,8 @@
     vertical-align: middle;
     line-height: 80px;
   }
-  .contact-div {
-    padding: 800px  100px;
-  }
-  .front-end {
-    padding-left: 300px;
-  }
-  .back-end {
-    padding-left: 720px;
-  }
-  .active-record-img {
-    margin-left: 700px;
+  .skill-slide .front-end img, .skill-slide .back-end img {
+    height: 550px;
   }
   @-webkit-keyframes open-curtain-5000 {
     from {
