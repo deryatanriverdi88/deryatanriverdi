@@ -147,17 +147,16 @@
         left: 360px;
     }
 
-    .bio .text-container{
-        padding-top: 155px;
-        line-height: 70px;
-    }
-
     .text{
         font-size: 40px;
     }
 
-    .bio-img-container img{
-        margin: 150px auto;
+    .bio{
+        .bio-img-container{
+            img{
+               margin: 150px auto;
+           }
+        }
     }
 
     .project-div{

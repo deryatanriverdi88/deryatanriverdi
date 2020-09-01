@@ -44,13 +44,12 @@
         left: 100px;
     }
 
-    .bio .text-container{
-        padding-top: 150px;
-        line-height: 50px;
-    }
-
-    .bio-img-container img{
-        margin-top: 150px;
+    .bio{
+        .bio-img-container{
+            img{
+               margin-top: 150px;
+           }
+        }
     }
 
     .project-div{

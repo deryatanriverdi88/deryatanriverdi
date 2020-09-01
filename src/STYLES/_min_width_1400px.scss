@@ -48,8 +48,12 @@
         height: 800px !important;
     }
 
-    .bio-img-container img{
-        margin: 100px auto;
+    .bio{
+        .bio-img-container {
+            img{
+                margin-top: 20px;
+            }
+        }
     }
 
     .project-div{
@@ -62,10 +66,6 @@
                 }
             }
         }
-    }
-
-    .bio .text-container{
-        padding-top: 100px;
     }
 
     iframe{

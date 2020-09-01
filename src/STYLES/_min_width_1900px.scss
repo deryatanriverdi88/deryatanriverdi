@@ -55,17 +55,12 @@
         height: 900px !important;
     }
 
-    .bio .text-container{
-        padding-top: 105px;
-        line-height: 55px;
-    }
-
-    .bio-img-container img{
-        margin: 100px auto;
-    }
-
-    .text-container{
-        line-height: 55px;
+    .bio{
+        .bio-img-container {
+            img{
+                margin-top: 150px;
+            }
+        }
     }
 
     .contact-div{

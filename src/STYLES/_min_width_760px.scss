@@ -48,12 +48,12 @@
         height: 750px !important;
     }
 
-    .bio-img-container img{
-        margin: 140px auto;
-    }
-
-    .bio .text-container{
-        padding-top: 140px;
+    .bio{
+        .bio-img-container {
+                img{
+                margin-top: 140px;
+            }
+        }
     }
 
     .project-div{
