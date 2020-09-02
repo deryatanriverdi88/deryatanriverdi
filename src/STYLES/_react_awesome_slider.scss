@@ -37,7 +37,6 @@
     height: auto;
     border: none;
     padding: 10px;
-    // margin-left: 100px;
     border-radius: 90px;
     background: white;
     a{
@@ -53,18 +52,18 @@
         padding: 10px;
         height: auto;
         margin: auto 5px;
-        vertical-align: middle;
     }
 }
 
 .bio-img-container{
     width: 40%;
     height: 100%;
+    display: flex;
     img{
         width: 100%;
         height: auto;
         border-radius:10px 50% 10px 50%;
-        margin: 0 5px;
+        margin: auto 5px;
     }
 }
 

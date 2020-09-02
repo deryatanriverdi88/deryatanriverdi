@@ -199,10 +199,8 @@
     }
 
     .bio {
-        .bio-img-container {
-            img{
-                margin-top: 200px;
-            }
+        .text-container{
+            line-height: normal;
         }
         .text{
             font-size: 70px;
