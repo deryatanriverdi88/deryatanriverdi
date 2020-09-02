@@ -60,11 +60,12 @@
 .bio-img-container{
     width: 40%;
     height: 100%;
+    display: flex;
     img{
         width: 100%;
         height: auto;
         border-radius:10px 50% 10px 50%;
-        margin: 0 5px;
+        margin: auto 5px;
     }
 }
 
