@@ -2227,9 +2227,9 @@
   transition: .5s ease-in-out;
 }
 
-.project-div .codepen .codepen-div:hover .middle-spot {
-  opacity: 0.3;
-  z-index: 2;
+.project-div .codepen .codepen-div:hover .middle-spot a {
+  opacity: 1;
+  z-index: 1;
 }
 
 .project-div .codepen .codepen-div .img-div {
@@ -2253,10 +2253,10 @@
   display: -ms-flexbox;
   display: flex;
   margin: auto;
-  opacity: 1;
 }
 
 .project-div .codepen .codepen-div a {
+  opacity: 0;
   font-size: large;
   padding: 10px;
   background: #f8f8f8;
