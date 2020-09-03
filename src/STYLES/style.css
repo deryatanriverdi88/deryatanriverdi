@@ -2144,9 +2144,6 @@
 }
 
 .project-div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   height: 100%;
   width: 100%;
   -ms-flex-wrap: wrap;
@@ -2192,6 +2189,7 @@
 .project-div .codepen-h3 {
   margin: 0 auto;
   height: 10%;
+  font-size: 3rem;
 }
 
 .project-div .codepen {
@@ -2222,7 +2220,7 @@
 }
 
 .project-div .codepen .codepen-div:hover img {
-  opacity: 0.3;
+  opacity: 0.4;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
   -webkit-transition: .5s ease-in-out;
@@ -2230,27 +2228,45 @@
 }
 
 .project-div .codepen .codepen-div:hover .middle-spot {
+  opacity: 0.3;
+  z-index: 2;
+}
+
+.project-div .codepen .codepen-div .img-div {
+  position: absolute;
+  width: 27%;
+  height: 31%;
+}
+
+.project-div .codepen .codepen-div .middle-spot-div {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.project-div .codepen .codepen-div .middle-spot-div .middle-spot {
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
   opacity: 1;
 }
 
-.project-div .codepen .codepen-div .middle-spot {
-  position: relative;
-  top: -165px;
-  left: 110px;
-  opacity: 0;
-  width: 100px;
-  height: auto;
-  background: white;
-  padding: 10px;
-  border-radius: 15px;
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
-}
-
 .project-div .codepen .codepen-div a {
+  font-size: large;
+  padding: 10px;
+  background: #f8f8f8;
+  border-radius: 15px;
   display: inline-block;
   text-decoration: none;
   color: black;
+  margin: auto;
+  height: auto;
+  margin: auto;
 }
 
 .skill-slide {
@@ -2456,10 +2472,6 @@
     top: 10px;
     left: 850px;
   }
-  .project-div .codepen .codepen-div .middle-spot {
-    top: -170px;
-    left: 60px;
-  }
   .skill-slide .front-end {
     padding: 80px 20px;
   }
@@ -2499,9 +2511,6 @@
     top: 800px;
     left: 100px;
     height: 900px !important;
-  }
-  .middle-spot {
-    top: -190px;
   }
 }
 
@@ -2615,10 +2624,6 @@
     width: 950px !important;
     height: 600px !important;
   }
-  .project-div .codepen .codepen-div .middle-spot {
-    top: -130px;
-    left: 70px;
-  }
   .skill-slide .front-end {
     padding-top: 50px;
   }
@@ -2652,9 +2657,6 @@
     left: 50px;
     width: 1000px !important;
     height: 550px !important;
-  }
-  .project-div .codepen .codepen-div .middle-spot {
-    left: 80px;
   }
   .x {
     left: 950px;
@@ -2743,10 +2745,6 @@
     width: 850px !important;
     height: 630px !important;
   }
-  .project-div .codepen .codepen-div .middle-spot {
-    left: 50px;
-    top: -150px;
-  }
   .x {
     left: 800px;
   }
@@ -2790,9 +2788,6 @@
     left: 80px;
     height: 560px !important;
     width: 1000px !important;
-  }
-  .project-div .codepen .codepen-div .middle-spot {
-    left: 70px;
   }
   .x {
     left: 950px;
@@ -2955,10 +2950,6 @@
     left: 70px;
     top: -130px;
   }
-  .middle-spot {
-    top: -180px;
-    left: 80px;
-  }
   .skill-slide .front-end {
     padding-top: 0px;
   }
@@ -3042,9 +3033,6 @@
     left: 100px;
     height: 750px !important;
   }
-  .project-div .codepen .codepen-div .middle-spot {
-    top: -160px;
-  }
   .skill-slide .front-end img, .skill-slide .back-end img {
     height: 150px;
   }
@@ -3091,9 +3079,6 @@
     top: 790px;
     left: 50px;
     width: 1200px !important;
-  }
-  .project-div .codepen .codepen-div .middle-spot {
-    left: 110px;
   }
   .x {
     left: 1150px;
@@ -3158,10 +3143,6 @@
     height: 1000px !important;
     left: 100px;
   }
-  .project-div .codepen .codepen-div .middle-spot {
-    top: -210px;
-    left: 100px;
-  }
   .skill-slide .front-end img, .skill-slide .back-end img {
     height: 220px;
   }
@@ -3214,9 +3195,6 @@
     left: 120px;
     top: 850px;
     height: 700px !important;
-  }
-  .project-div .codepen .codepen-div .middle-spot {
-    top: -180px;
   }
   .skill-slide .front-end img, .skill-slide .back-end img {
     height: 130px;
@@ -3752,14 +3730,11 @@
   .text {
     font-size: 40px;
   }
-  .project-div .codepen .codepen-div .middle-spot {
-    top: -310px;
-    left: 160px;
-    width: 250px;
-    height: 100px;
-    font-size: 40px;
-    vertical-align: middle;
-    line-height: 80px;
+  .project-div .codepen-h3 {
+    font-size: 4rem;
+  }
+  .project-div .codepen .codepen-div .middle-spot-div .middle-spot a {
+    font-size: 3rem;
   }
   .skill-slide .front-end img, .skill-slide .back-end img {
     height: 300px;
@@ -3977,15 +3952,6 @@
   .text {
     font-size: 40px;
   }
-  .project-div .codepen .codepen-div .middle-spot {
-    top: -300px;
-    left: 125px;
-    width: 300px;
-    height: 100px;
-    font-size: 40px;
-    vertical-align: middle;
-    line-height: 80px;
-  }
 }
 
 /* Apple iMac 27-inch => 5120 x 2880 done*/
@@ -4177,14 +4143,11 @@
   .text {
     font-size: 60px;
   }
-  .project-div .codepen .codepen-div .middle-spot {
-    top: -500px;
-    left: 300px;
-    width: 350px;
-    height: 100px;
-    font-size: 40px;
-    vertical-align: middle;
-    line-height: 80px;
+  .project-div .codepen-h3 {
+    font-size: 6rem;
+  }
+  .project-div .codepen .codepen-div .middle-spot-div .middle-spot a {
+    font-size: 5rem;
   }
   .skill-slide .front-end img, .skill-slide .back-end img {
     height: 550px;
