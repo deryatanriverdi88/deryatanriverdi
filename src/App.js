@@ -439,7 +439,7 @@ class App extends React.Component {
         <AwesomeSlider cssModule={AwesomeSliderStyles}>
           <div className="project-div">
               <div className="video-container">
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/yVvnaz8s6Tk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="nutri-track-demo" allowfullscreen></iframe>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/yVvnaz8s6Tk" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="nutri-track-demo" allowFullScreen></iframe>
               </div>
               <div className="text-container">
                   <h2 className="text h2">NutriTrack</h2>
@@ -469,7 +469,7 @@ class App extends React.Component {
           </div>
           <div className="project-div">
               <div className="video-container">
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/FWPfYNnCwCY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="doggodoption-demo" allowfullscreen></iframe>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/FWPfYNnCwCY" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="doggodoption-demo" allowFullScreen></iframe>
               </div>
               <div className="text-container">
                  <h2 className="text h2">DoggoDoption</h2>
@@ -493,7 +493,7 @@ class App extends React.Component {
           </div>
           <div className="project-div">
               <div className="video-container">
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/zTY2ZHW46P8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="me-recommends-demo" allowfullscreen></iframe>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/zTY2ZHW46P8" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="me-recommends-demo" allowFullScreen></iframe>
               </div>
               <div className="text-container">
                   <h2 className="text h2">MeRecommends</h2>
