@@ -211,17 +211,16 @@
         font-size: 60px;
     }
 
-    .project-div{
+   .project-div{
+       .codepen-h3{
+           font-size: 6rem;
+       }
         .codepen{
-            .codepen-div {
-                .middle-spot{
-                    top: -500px;
-                    left: 300px;
-                    width: 350px;
-                    height: 100px;
-                    font-size: 40px;
-                    vertical-align: middle;
-                    line-height: 80px;
+            .codepen-div{
+                .middle-spot-div{
+                    .middle-spot a{
+                        font-size: 5rem;
+                    }
                 }
             }
         }
