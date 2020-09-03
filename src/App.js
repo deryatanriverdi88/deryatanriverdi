@@ -162,14 +162,14 @@ class App extends React.Component {
             </div>
             <div className="light"></div>
 
-            {!this.state.lightOn ? 
+            {!this.state.lightOn ?
             null :
             <div className="bulb" ></div>
             }
 
             <div className="chair"></div>
 
-            {this.state.lightOn ?  
+            {this.state.lightOn ?
             <div className="girl">
                <div className="hair"></div>
                <div className="head">
@@ -410,7 +410,7 @@ class App extends React.Component {
             <div className="floor"></div>
         </div>
 
-        { this.state.bio ?  
+        { this.state.bio ?
         <div className="bio-card"> 
             <div className="bio" >  
                 <div className="bio-img-container">
@@ -656,7 +656,7 @@ class App extends React.Component {
           </div>
       </AwesomeSlider> : null}
          
-        {this.state.skill ? 
+        {this.state.skill ?
         <AwesomeSlider cssModule={AwesomeSliderStyles} >
           <div className="skill-slide">
              <h3> Frontend</h3>
@@ -685,7 +685,7 @@ class App extends React.Component {
           </div>
       </AwesomeSlider> : null}
 
-        {this.state.contact ? 
+        {this.state.contact ?
         <div className="contact-card">
              <div className="contact-div">
                  <a href="https://www.linkedin.com/in/derya-tanr%C4%B1verdi-701a3489/" target="_blank" rel="noopener noreferrer">
