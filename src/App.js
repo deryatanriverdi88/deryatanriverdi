@@ -511,7 +511,7 @@ class App extends React.Component {
               <button className="x" onClick={this.handleProjectClick}> x </button> 
           </div>
           <div className="project-div">
-              <h3>CodePen Dashboard</h3>
+              <h3 class="codepen-h3">CodePen Dashboard</h3>
               <div className="codepen">
                  <div className="codepen-div">
                      <img src="./img/CodePen/BabyYoda.png
@@ -559,7 +559,7 @@ class App extends React.Component {
               <button className="x" onClick={this.handleProjectClick}> x </button>
           </div>
           <div className="project-div">
-              <h3>CodePen Dashboard</h3>
+              <h3 class="codepen-h3">CodePen Dashboard</h3>
                  <div className="codepen">
                      <div className="codepen-div">
                          <img src="./img/CodePen/pencil-jar.png
@@ -607,7 +607,7 @@ class App extends React.Component {
                  <button className="x" onClick={this.handleProjectClick}> x </button>
           </div>
           <div className="project-div">
-              <h3>CodePen Dashboard</h3>
+              <h3 class="codepen-h3">CodePen Dashboard</h3>
                  <div className="codepen">
                      <div className="codepen-div">
                          <img src="./img/CodePen/Brooklyn-Map.png
