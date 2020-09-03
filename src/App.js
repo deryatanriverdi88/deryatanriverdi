@@ -435,7 +435,7 @@ class App extends React.Component {
             </div>
         </div> : null }
 
-        {this.state.project ? 
+        {this.state.project ?
         <AwesomeSlider cssModule={AwesomeSliderStyles}>
           <div className="project-div">
               <div className="video-container">
