@@ -285,7 +285,7 @@ class App extends React.Component {
             }
 
             <div className="postits">
-                <div className="post-it-1">
+                <div className="post-it-1" id="postit-1">
                     <p onClick={this.handleBioClick}> About me</p>
                     <div className="flower">
                         <div className="middle"></div>
