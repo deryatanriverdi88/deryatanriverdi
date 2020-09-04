@@ -1,9 +1,9 @@
 import React from 'react';
-// import './App.css';
 import './STYLES/style.css';
 import AwesomeSlider from 'react-awesome-slider';
 import AwesomeSliderStyles from 'react-awesome-slider/src/styled/cube-animation';
 import Clock from 'react-clock';
+import ScrollIntoView from 'react-scroll-into-view'
 
 
 class App extends React.Component {
