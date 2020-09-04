@@ -1,9 +1,9 @@
 import React from 'react';
-// import './App.css';
 import './STYLES/style.css';
 import AwesomeSlider from 'react-awesome-slider';
 import AwesomeSliderStyles from 'react-awesome-slider/src/styled/cube-animation';
 import Clock from 'react-clock';
+import ScrollIntoView from 'react-scroll-into-view'
 
 
 class App extends React.Component {
@@ -285,7 +285,7 @@ class App extends React.Component {
             }
 
             <div className="postits">
-                <div className="post-it-1">
+                <div className="post-it-1" id="postit-1">
                     <p onClick={this.handleBioClick}> About me</p>
                     <div className="flower">
                         <div className="middle"></div>
@@ -408,6 +408,11 @@ class App extends React.Component {
             </div>
             }
             <div className="floor"></div>
+                <ScrollIntoView selector="#postit-1">
+                    <div className="mdl-button mdl-js-button mdl-button--raised">
+                        <img src="./img/scroll.gif"/>
+                    </div>
+                </ScrollIntoView>
         </div>
 
         { this.state.bio ?

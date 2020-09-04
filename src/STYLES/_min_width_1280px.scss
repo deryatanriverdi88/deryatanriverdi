@@ -2,7 +2,7 @@
 @media  only screen and (min-width: 1280px){
     .light-buttons{
         .light-off{
-            width: 1300px;
+            width: 100%;
         }
     }
 
@@ -11,7 +11,13 @@
     }
 
     .floor{
-        width: 1300px;
+        width: 100%;
+    }
+
+    .mdl-button{
+        display: block;
+        left: 350px;
+        top: 550px;
     }
 
     .postits{

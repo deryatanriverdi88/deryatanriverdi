@@ -2,14 +2,16 @@
 @media only screen and (min-width: 1400px){
     .light-buttons{
         .light-off{
-            width: 1450px;
             height: 1600px;
         }
     }
 
     .floor{
-        width: 1450px;
         height: 200px;
+    }
+
+    .mdl-button{
+        top: 550px;
     }
 
     .css-art p{
@@ -35,12 +37,12 @@
         }
         .post-it-3{
             top: 500px;
-            margin-bottom: 10px;
+            margin-bottom: 100px;
         }
         .post-it-4{
             left: 750px;
             top:500px;
-            margin-bottom: 10px;
+            margin-bottom: 50px;
         }
     }
 

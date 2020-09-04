@@ -2393,6 +2393,9 @@
     width: 1150px;
     left: 0;
   }
+  .mdl-button {
+    display: none;
+  }
   .postits {
     left: -470px;
     top: 700px;
@@ -2593,6 +2596,15 @@
   .light-buttons .light-off {
     height: 1450px;
   }
+  .mdl-button {
+    display: block;
+    left: 850px;
+    top: 500px;
+    width: 30%;
+  }
+  .mdl-button img {
+    width: 100%;
+  }
   .postits {
     left: -350px;
     top: 750px;
@@ -2756,6 +2768,12 @@
   .light-buttons .light-off {
     height: 1370px;
   }
+  .mdl-button {
+    top: 420px;
+  }
+  .mdl-button img {
+    width: 100%;
+  }
   .postits {
     left: -50px;
     top: 700px;
@@ -2806,6 +2824,9 @@
   }
   .css-art p {
     left: 460px;
+  }
+  .mdl-button {
+    display: none;
   }
   .postits {
     left: -170px;
@@ -2911,6 +2932,11 @@
   .light-buttons .light-off {
     height: 1400px;
   }
+  .mdl-button {
+    display: block;
+    left: 850px;
+    top: 410px;
+  }
   .postits {
     left: -20px;
     top: 720px;
@@ -3000,6 +3026,9 @@
   .light-buttons .light-off {
     height: 1600px;
   }
+  .mdl-button {
+    display: none;
+  }
   .postits {
     left: -170px;
     top: 700px;
@@ -3048,6 +3077,11 @@
     width: 1160px;
     height: 250px;
   }
+  .mdl-button {
+    display: block;
+    left: 390px;
+    top: 580px;
+  }
   .postits {
     top: 800px;
     left: -165px;
@@ -3061,13 +3095,18 @@
 /* Samsung Galaxy Tab 10 => 1280 x 800 # Horizontal done*/
 @media only screen and (min-width: 1280px) {
   .light-buttons .light-off {
-    width: 1300px;
+    width: 100%;
   }
   .css-art p {
     left: 470px;
   }
   .floor {
-    width: 1300px;
+    width: 100%;
+  }
+  .mdl-button {
+    display: block;
+    left: 350px;
+    top: 550px;
   }
   .postits {
     left: -100px;
@@ -3087,12 +3126,6 @@
 
 /* Acer Chromebook => 1336 x 768 */
 @media only screen and (min-width: 1336px) {
-  .light-buttons .light-off {
-    width: 1336px;
-  }
-  .floor {
-    width: 1336px;
-  }
   .postits {
     left: -70px;
     top: 800px;
@@ -3106,12 +3139,13 @@
 /* iPad Pro => 1366 x 1024 # Horizontal done */
 @media only screen and (min-width: 1366px) {
   .light-buttons .light-off {
-    width: 1366px;
     height: 2050px;
   }
   .floor {
-    width: 1366px;
     height: 405px;
+  }
+  .mdl-button {
+    top: 700px;
   }
   .postits {
     left: -170px;
@@ -3154,12 +3188,13 @@
 /* Apple Macbook Air 13-inch => 1440 x 900 done */
 @media only screen and (min-width: 1400px) {
   .light-buttons .light-off {
-    width: 1450px;
     height: 1600px;
   }
   .floor {
-    width: 1450px;
     height: 200px;
+  }
+  .mdl-button {
+    top: 550px;
   }
   .css-art p {
     left: 470px;
@@ -3184,12 +3219,12 @@
   }
   .postits .post-it-3 {
     top: 500px;
-    margin-bottom: 10px;
+    margin-bottom: 100px;
   }
   .postits .post-it-4 {
     left: 750px;
     top: 500px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
   }
   .awssld, .bio-card, .contact-card {
     left: 120px;
@@ -3204,7 +3239,6 @@
 /* Del XPS 13 => 1920 x 1080 done */
 @media only screen and (min-width: 1900px) {
   .light-buttons .light-off {
-    width: 2000px;
     height: 1130px;
   }
   .myname {
@@ -3215,7 +3249,9 @@
   }
   .floor {
     height: 510px;
-    width: 2000px;
+  }
+  .mdl-button {
+    display: none;
   }
   .postits {
     top: -20px;
@@ -3254,7 +3290,6 @@
 /* Apple Macbook 13-inch => 2560 x 1600 done*/
 @media only screen and (min-width: 2500px) {
   .light-buttons .light-off {
-    width: 2560px;
     height: 1650px;
   }
   .light-buttons .light-off button, .light-buttons .light-on button {
@@ -3718,7 +3753,6 @@
   }
   .floor {
     top: 1150px;
-    width: 2560px;
     height: 500px;
   }
   .awssld, .bio-card, .contact-card {
@@ -3829,7 +3863,6 @@
 /* Apple Macbook Pro 15-inch => 2880 x 1800 done */
 @media only screen and (min-width: 2800px) {
   .light-buttons .light-off {
-    width: 2880px;
     height: 1800px;
   }
   .myname {
@@ -3942,7 +3975,6 @@
     left: 10px;
   }
   .floor {
-    width: 2880px;
     height: 650px;
   }
   .awssld, .bio-card, .contact-card {
@@ -3957,7 +3989,6 @@
 /* Apple iMac 27-inch => 5120 x 2880 done*/
 @media only screen and (min-width: 5000px) {
   .light-buttons .light-off {
-    width: 5120px;
     height: 2880px;
   }
   .light-buttons .light-off button, .light-buttons .light-on button {
@@ -4125,7 +4156,6 @@
   }
   .floor {
     top: 1500px;
-    width: 5120px;
     height: 1400px;
   }
   .awssld, .bio-card, .contact-card {
@@ -4258,5 +4288,10 @@ body {
 
 ul li {
   list-style: none;
+}
+
+.mdl-button {
+  position: absolute;
+  z-index: 2;
 }
 /*# sourceMappingURL=style.css.map */
