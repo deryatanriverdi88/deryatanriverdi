@@ -65,3 +65,8 @@ body {
 ul li{
     list-style: none;
 }
+
+.mdl-button{
+    position: absolute;
+    z-index:2;
+}

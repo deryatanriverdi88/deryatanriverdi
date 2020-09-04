@@ -2393,6 +2393,9 @@
     width: 1150px;
     left: 0;
   }
+  .mdl-button {
+    display: none;
+  }
   .postits {
     left: -470px;
     top: 700px;
@@ -2593,6 +2596,15 @@
   .light-buttons .light-off {
     height: 1450px;
   }
+  .mdl-button {
+    display: block;
+    left: 850px;
+    top: 500px;
+    width: 30%;
+  }
+  .mdl-button img {
+    width: 100%;
+  }
   .postits {
     left: -350px;
     top: 750px;
@@ -2756,6 +2768,12 @@
   .light-buttons .light-off {
     height: 1370px;
   }
+  .mdl-button {
+    top: 420px;
+  }
+  .mdl-button img {
+    width: 100%;
+  }
   .postits {
     left: -50px;
     top: 700px;
@@ -2806,6 +2824,9 @@
   }
   .css-art p {
     left: 460px;
+  }
+  .mdl-button {
+    display: none;
   }
   .postits {
     left: -170px;
@@ -2911,6 +2932,11 @@
   .light-buttons .light-off {
     height: 1400px;
   }
+  .mdl-button {
+    display: block;
+    left: 850px;
+    top: 410px;
+  }
   .postits {
     left: -20px;
     top: 720px;
@@ -3000,6 +3026,9 @@
   .light-buttons .light-off {
     height: 1600px;
   }
+  .mdl-button {
+    display: none;
+  }
   .postits {
     left: -170px;
     top: 700px;
@@ -3048,6 +3077,11 @@
     width: 1160px;
     height: 250px;
   }
+  .mdl-button {
+    display: block;
+    left: 390px;
+    top: 580px;
+  }
   .postits {
     top: 800px;
     left: -165px;
@@ -3068,6 +3102,11 @@
   }
   .floor {
     width: 100%;
+  }
+  .mdl-button {
+    display: block;
+    left: 350px;
+    top: 550px;
   }
   .postits {
     left: -100px;
@@ -3104,6 +3143,9 @@
   }
   .floor {
     height: 405px;
+  }
+  .mdl-button {
+    top: 700px;
   }
   .postits {
     left: -170px;
@@ -3151,6 +3193,9 @@
   .floor {
     height: 200px;
   }
+  .mdl-button {
+    top: 550px;
+  }
   .css-art p {
     left: 470px;
   }
@@ -3174,12 +3219,12 @@
   }
   .postits .post-it-3 {
     top: 500px;
-    margin-bottom: 10px;
+    margin-bottom: 100px;
   }
   .postits .post-it-4 {
     left: 750px;
     top: 500px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
   }
   .awssld, .bio-card, .contact-card {
     left: 120px;
@@ -3204,6 +3249,9 @@
   }
   .floor {
     height: 510px;
+  }
+  .mdl-button {
+    display: none;
   }
   .postits {
     top: -20px;
@@ -4240,5 +4288,10 @@ body {
 
 ul li {
   list-style: none;
+}
+
+.mdl-button {
+  position: absolute;
+  z-index: 2;
 }
 /*# sourceMappingURL=style.css.map */
