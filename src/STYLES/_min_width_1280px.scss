@@ -16,8 +16,16 @@
 
     .mdl-button{
         display: block;
-        left: 350px;
-        top: 550px;
+        width: 25%;
+    }
+
+    @keyframes arrow-up-and-down {
+        from {
+          top: 500px
+        }
+        to {
+          top: 550px;
+        }
     }
 
     .postits{
