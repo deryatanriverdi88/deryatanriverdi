@@ -10,10 +10,19 @@
     .mdl-button{
         display: block;
         left: 850px;
-        top: 500px;
+        animation: arrow-up-and-down 1s linear 1s infinite alternate;
         width: 30%;
         img{
-            width: 100%;
+            width: 80%;
+        }
+    }
+
+    @keyframes arrow-up-and-down {
+        from {
+          top: 450px
+        }
+        to {
+          top: 480px;
         }
     }
 
