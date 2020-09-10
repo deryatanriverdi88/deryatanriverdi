@@ -2196,13 +2196,15 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   height: 80%;
   width: auto;
   margin: 0 30px 0 30px;
-  overflow-x: scroll;
+  overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
-  -ms-scroll-snap-type: x mandatory;
-      scroll-snap-type: x mandatory;
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
 }
 
 .project-div .codepen::-webkit-scrollbar {
@@ -2211,6 +2213,7 @@
 
 .project-div .codepen::-webkit-scrollbar-thumb {
   width: 50px;
+  height: 50px;
   border-radius: 40px;
   background-color: rgba(0, 0, 0, 0.5);
   box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
@@ -2229,10 +2232,7 @@
   overflow: scroll;
   width: 100%;
   height: 100%;
-  margin-right: 15px;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 100%;
-          flex: 0 0 100%;
+  margin-bottom: 15px;
   scroll-snap-align: center;
 }
 
@@ -2809,9 +2809,6 @@
   .light-buttons .light-off {
     height: 1370px;
   }
-  .mdl-button {
-    top: 420px;
-  }
   .mdl-button img {
     width: 50%;
   }
@@ -2976,7 +2973,22 @@
   .mdl-button {
     display: block;
     left: 850px;
-    top: 410px;
+  }
+  @-webkit-keyframes arrow-up-and-down {
+    from {
+      top: 420px;
+    }
+    to {
+      top: 460px;
+    }
+  }
+  @keyframes arrow-up-and-down {
+    from {
+      top: 420px;
+    }
+    to {
+      top: 460px;
+    }
   }
   .postits {
     left: -20px;
@@ -3120,8 +3132,22 @@
   }
   .mdl-button {
     display: block;
-    left: 390px;
-    top: 580px;
+  }
+  @-webkit-keyframes arrow-up-and-down {
+    from {
+      top: 500px;
+    }
+    to {
+      top: 550px;
+    }
+  }
+  @keyframes arrow-up-and-down {
+    from {
+      top: 500px;
+    }
+    to {
+      top: 550px;
+    }
   }
   .postits {
     top: 800px;
@@ -3146,8 +3172,23 @@
   }
   .mdl-button {
     display: block;
-    left: 350px;
-    top: 550px;
+    width: 25%;
+  }
+  @-webkit-keyframes arrow-up-and-down {
+    from {
+      top: 500px;
+    }
+    to {
+      top: 550px;
+    }
+  }
+  @keyframes arrow-up-and-down {
+    from {
+      top: 500px;
+    }
+    to {
+      top: 550px;
+    }
   }
   .postits {
     left: -100px;
@@ -3184,9 +3225,6 @@
   }
   .floor {
     height: 405px;
-  }
-  .mdl-button {
-    top: 700px;
   }
   .postits {
     left: -170px;
@@ -3235,7 +3273,6 @@
     height: 200px;
   }
   .mdl-button {
-    top: 550px;
     left: 850px;
   }
   .css-art p {

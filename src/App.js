@@ -524,7 +524,8 @@ class App extends React.Component {
           <div className="project-div">
               <h3 class="codepen-h3">CodePen Dashboard</h3>
               <div className="codepen">
-              {this.state.codepen.map(pen => {
+              {this.state.codepen.length > 0 ?
+                this.state.codepen.map(pen => {
                 let url = `./img/CodePen/${pen.name}.png`
                 return  <div className="codepen-div">
                             <div className="img-div">
@@ -537,7 +538,7 @@ class App extends React.Component {
                                 </div>
                             </div>
                         </div>
-                    })
+                    }) : null
                }
               </div>
               <button className="x" onClick={this.handleProjectClick}> x </button>
