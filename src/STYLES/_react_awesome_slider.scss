@@ -176,6 +176,8 @@
                 }
             }
             .middle-spot-div{
+                position: absolute;
+                top: 0;
                 height: 100%;
                 width: 100%;
                 display: flex;
@@ -196,7 +198,6 @@
                 color: black;
                 margin: auto;
                 height: auto;
-                margin: auto;
             }
         }
     }
