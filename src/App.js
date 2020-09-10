@@ -524,72 +524,21 @@ class App extends React.Component {
           <div className="project-div">
               <h3 class="codepen-h3">CodePen Dashboard</h3>
               <div className="codepen">
-                 <div className="codepen-div">
-                     <div className="img-div">
-                        <img src="./img/CodePen/BabyYoda.png
-                        " alt="Baby-Yoda"/>
-                     </div>
-                     <div className="middle-spot-div">
-                        <div className="middle-spot">
-                            <a href="https://codepen.io/deryatanriverdi88/pen/RwNELzd" target="_blank" rel="noopener noreferrer"> CodePen Link </a>
+              {this.state.codepen.map(pen => {
+                let url = `./img/CodePen/${pen.name}.png`
+                return  <div className="codepen-div">
+                            <div className="img-div">
+                                <img src={url}
+                                    alt={pen.name}/>
+                            </div>
+                            <div className="middle-spot-div">
+                                <div className="middle-spot">
+                                    <a href={pen.url} target="_blank" rel="noopener noreferrer"> CodePen Link </a>
+                                </div>
+                            </div>
                         </div>
-                     </div>
-                 </div>
-                 <div className="codepen-div">
-                     <div className="img-div">
-                        <img src="./img/CodePen/Eric-Cartman.png
-                        " alt="Eric-Cartman"/>
-                     </div>
-                     <div className="middle-spot-div">
-                        <div className="middle-spot">
-                            <a href="https://codepen.io/deryatanriverdi88/pen/dyPBNzW" target="_blank" rel="noopener noreferrer"> CodePen Link  </a>
-                        </div>
-                     </div>
-                 </div>
-                 <div className="codepen-div">
-                    <div className="img-div">
-                        <img src="./img/CodePen/bike.png
-                        " alt="Bike"/>
-                    </div>
-                    <div className="middle-spot-div">
-                        <div className="middle-spot">
-                            <a href="https://codepen.io/deryatanriverdi88/pen/VwYVjXv" target="_blank" rel="noopener noreferrer"> CodePen Link  </a>
-                        </div>
-                    </div>
-                </div>
-                 <div className="codepen-div">
-                    <div className="img-div">
-                        <img src="./img/CodePen/coffee.png
-                        " alt="Coffee"/>
-                    </div>
-                    <div className="middle-spot-div">
-                      <div className="middle-spot">
-                         <a href="https://codepen.io/deryatanriverdi88/pen/xxbdVGe" target="_blank" rel="noopener noreferrer"> CodePen Link </a>
-                      </div>=
-                    </div>
-                 </div>
-                 <div className="codepen-div">
-                     <div className="img-div">
-                        <img src="./img/CodePen/xmas-tree.png
-                        " alt="X-Mas-Tree"/>
-                     </div>
-                     <div className="middle-spot-div">
-                        <div className="middle-spot">
-                            <a href="https://codepen.io/deryatanriverdi88/pen/rNawJad" target="_blank" rel="noopener noreferrer"> CodePen Link  </a>
-                        </div>
-                     </div>
-                 </div>
-                 <div className="codepen-div">
-                     <div className="img-div">
-                        <img src="./img/CodePen/ValentinesDay.png
-                        " alt="Valentines-Day"/>
-                     </div>
-                     <div className="middle-spot-div">
-                        <div className="middle-spot">
-                            <a href="https://codepen.io/deryatanriverdi88/pen/MWwKOre" target="_blank" rel="noopener noreferrer"> CodePen Link  </a>
-                        </div>
-                     </div>
-                 </div>
+                    })
+               }
               </div>
               <button className="x" onClick={this.handleProjectClick}> x </button>
           </div>
