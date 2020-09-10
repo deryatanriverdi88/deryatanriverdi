@@ -416,7 +416,7 @@ class App extends React.Component {
             <div className="floor"></div>
                 <ScrollIntoView selector="#postit-1">
                     <div className="mdl-button mdl-js-button mdl-button--raised">
-                        <img src="./img/scroll.gif"/>
+                        <img src="./img/arrow-down.png"/>
                     </div>
                 </ScrollIntoView>
         </div>
