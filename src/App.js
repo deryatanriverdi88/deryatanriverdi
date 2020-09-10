@@ -23,6 +23,12 @@ class App extends React.Component {
   }
 
   componentDidMount() {
+    fetch("https://codepen-personal-api.herokuapp.com/codepens")
+    .then(res=> res.json())
+    .then(obj =>
+        this.setState({
+            codepen: obj
+    }))
     setInterval(
       () => this.setState({
           date: new Date(),
