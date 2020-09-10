@@ -2196,24 +2196,25 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   height: 80%;
   width: auto;
   margin: 0 30px 0 30px;
-  overflow-y: scroll;
+  overflow-x: scroll;
   -webkit-overflow-scrolling: touch;
-  -ms-scroll-snap-type: y mandatory;
-      scroll-snap-type: y mandatory;
+  -ms-scroll-snap-type: x mandatory;
+      scroll-snap-type: x mandatory;
 }
 
 .project-div .codepen::-webkit-scrollbar {
   -webkit-appearance: none;
 }
 
+.project-div .codepen::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+
 .project-div .codepen::-webkit-scrollbar-thumb {
   width: 50px;
-  height: 50px;
   border-radius: 40px;
   background-color: rgba(0, 0, 0, 0.5);
   box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
@@ -2232,7 +2233,10 @@
   overflow: scroll;
   width: 100%;
   height: 100%;
-  margin-bottom: 15px;
+  margin-right: 15px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
   scroll-snap-align: center;
 }
 
