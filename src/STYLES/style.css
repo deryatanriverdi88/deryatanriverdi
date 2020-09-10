@@ -2196,30 +2196,46 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   height: 80%;
+  width: auto;
   margin: 0 30px 0 30px;
+  overflow-x: scroll;
+  -ms-scroll-snap-type: x mandatory;
+      scroll-snap-type: x mandatory;
 }
 
-.project-div .codepen img {
-  width: 100%;
-  height: 100%;
-  opacity: 1;
+.project-div .codepen::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+.project-div .codepen::-webkit-scrollbar-thumb {
+  width: 50px;
   border-radius: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+}
+
+.project-div .codepen::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 5px grey;
+          box-shadow: inset 0 0 5px grey;
+  background: white;
+  border-radius: 10px;
 }
 
 .project-div .codepen .codepen-div {
-  width: 30%;
-  height: 40%;
-  margin-right: 5px;
-  margin-top: 10px;
+  position: relative;
+  overflow: scroll;
+  width: 100%;
+  height: 100%;
+  margin-right: 15px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+  scroll-snap-align: center;
 }
 
-.project-div .codepen .codepen-div:hover img {
+.project-div .codepen .codepen-div:hover .img-div img {
   opacity: 0.4;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
@@ -2233,12 +2249,20 @@
 }
 
 .project-div .codepen .codepen-div .img-div {
-  position: absolute;
-  width: 27%;
-  height: 31%;
+  width: 100%;
+  height: 100%;
+}
+
+.project-div .codepen .codepen-div .img-div img {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  border-radius: 40px;
 }
 
 .project-div .codepen .codepen-div .middle-spot-div {
+  position: absolute;
+  top: 0;
   height: 100%;
   width: 100%;
   display: -webkit-box;
@@ -2266,7 +2290,6 @@
   color: black;
   margin: auto;
   height: auto;
-  margin: auto;
 }
 
 .skill-slide {
@@ -2599,11 +2622,28 @@
   .mdl-button {
     display: block;
     left: 850px;
-    top: 500px;
+    -webkit-animation: arrow-up-and-down 1s linear 1s infinite alternate;
+            animation: arrow-up-and-down 1s linear 1s infinite alternate;
     width: 30%;
   }
   .mdl-button img {
-    width: 100%;
+    width: 80%;
+  }
+  @-webkit-keyframes arrow-up-and-down {
+    from {
+      top: 450px;
+    }
+    to {
+      top: 480px;
+    }
+  }
+  @keyframes arrow-up-and-down {
+    from {
+      top: 450px;
+    }
+    to {
+      top: 480px;
+    }
   }
   .postits {
     left: -350px;
@@ -2772,7 +2812,7 @@
     top: 420px;
   }
   .mdl-button img {
-    width: 100%;
+    width: 50%;
   }
   .postits {
     left: -50px;
@@ -3195,6 +3235,7 @@
   }
   .mdl-button {
     top: 550px;
+    left: 850px;
   }
   .css-art p {
     left: 470px;
@@ -4293,5 +4334,7 @@ ul li {
 .mdl-button {
   position: absolute;
   z-index: 2;
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
 }
 /*# sourceMappingURL=style.css.map */
