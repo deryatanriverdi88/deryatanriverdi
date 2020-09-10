@@ -18,7 +18,8 @@ class App extends React.Component {
     contact: false,
     lightOn: true,
     curtainClose: false,
-    windowSize: window.innerWidth
+    windowSize: window.innerWidth,
+    codepen :  {}
   }
 
   componentDidMount() {
