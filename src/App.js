@@ -447,7 +447,7 @@ class App extends React.Component {
         </div> : null }
 
         {this.state.project ?
-        <AwesomeSlider cssModule={AwesomeSliderStyles} mobileTouch={false}>
+        <AwesomeSlider cssModule={AwesomeSliderStyles} infinite={false}>
           <div className="project-div">
               <div className="video-container">
                   <iframe width="560" height="315" src="https://www.youtube.com/embed/yVvnaz8s6Tk" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="nutri-track-demo" allowFullScreen></iframe>
