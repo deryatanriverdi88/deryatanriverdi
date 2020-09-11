@@ -1,7 +1,7 @@
 import React from 'react';
 import './STYLES/style.css';
 import AwesomeSlider from 'react-awesome-slider';
-import AwesomeSliderStyles from 'react-awesome-slider/src/styled/cube-animation';
+import AwesomeSliderStyles from 'react-awesome-slider/dist/styles.css';
 import Clock from 'react-clock';
 import ScrollIntoView from 'react-scroll-into-view'
 
