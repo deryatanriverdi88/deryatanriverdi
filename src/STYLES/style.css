@@ -2203,6 +2203,7 @@
   -webkit-overflow-scrolling: touch;
   -ms-scroll-snap-type: x mandatory;
       scroll-snap-type: x mandatory;
+  overscroll-behavior-x: contain;
 }
 
 .project-div .codepen::-webkit-scrollbar {
