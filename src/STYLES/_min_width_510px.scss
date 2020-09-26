@@ -10,13 +10,11 @@
     .mdl-button{
         display: block;
         left: 850px;
+        top: 495px;
         animation: arrow-up-and-down 1s linear 1s infinite alternate;
     }
 
     @keyframes arrow-up-and-down {
-        from {
-          top: 495px
-        }
         to {
           top: 520px;
         }

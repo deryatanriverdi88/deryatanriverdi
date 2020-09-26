@@ -2679,21 +2679,16 @@
   .mdl-button {
     display: block;
     left: 850px;
+    top: 495px;
     -webkit-animation: arrow-up-and-down 1s linear 1s infinite alternate;
             animation: arrow-up-and-down 1s linear 1s infinite alternate;
   }
   @-webkit-keyframes arrow-up-and-down {
-    from {
-      top: 495px;
-    }
     to {
       top: 520px;
     }
   }
   @keyframes arrow-up-and-down {
-    from {
-      top: 495px;
-    }
     to {
       top: 520px;
     }
@@ -2767,19 +2762,14 @@
   }
   .mdl-button {
     display: block;
+    top: 495px;
   }
   @-webkit-keyframes arrow-up-and-down {
-    from {
-      top: 495px;
-    }
     to {
       top: 520px;
     }
   }
   @keyframes arrow-up-and-down {
-    from {
-      top: 495px;
-    }
     to {
       top: 520px;
     }
@@ -2897,19 +2887,14 @@
   }
   .mdl-button {
     left: 950px;
+    top: 450px;
   }
   @-webkit-keyframes arrow-up-and-down {
-    from {
-      top: 455px;
-    }
     to {
       top: 470px;
     }
   }
   @keyframes arrow-up-and-down {
-    from {
-      top: 455px;
-    }
     to {
       top: 470px;
     }
@@ -3075,19 +3060,14 @@
   .mdl-button {
     display: block;
     left: 950px;
+    top: 440px;
   }
   @-webkit-keyframes arrow-up-and-down {
-    from {
-      top: 440px;
-    }
     to {
       top: 470px;
     }
   }
   @keyframes arrow-up-and-down {
-    from {
-      top: 440px;
-    }
     to {
       top: 470px;
     }
@@ -3275,19 +3255,14 @@
   .mdl-button {
     display: block;
     left: 1000px;
+    top: 500px;
   }
   @-webkit-keyframes arrow-up-and-down {
-    from {
-      top: 500px;
-    }
     to {
       top: 550px;
     }
   }
   @keyframes arrow-up-and-down {
-    from {
-      top: 500px;
-    }
     to {
       top: 550px;
     }

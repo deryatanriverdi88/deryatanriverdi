@@ -9,12 +9,10 @@
 
     .mdl-button{
         left: 950px;
+        top: 450px
     }
 
     @keyframes arrow-up-and-down {
-        from {
-          top: 455px
-        }
         to {
           top: 470px;
         }
