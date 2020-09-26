@@ -415,11 +415,10 @@ class App extends React.Component {
             </div>
             }
             <div className="floor"></div>
-                <ScrollIntoView selector="#postit-1">
-                    <div className="mdl-button mdl-js-button mdl-button--raised">
-                        <img src="./img/arrow-down.png"/>
-                    </div>
-                </ScrollIntoView>
+            <ScrollIntoView selector="#postit-1">
+                <div className="mdl-button mdl-js-button mdl-button--raised">
+                </div>
+            </ScrollIntoView>
         </div>
 
         { this.state.bio ?
