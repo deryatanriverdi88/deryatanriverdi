@@ -452,7 +452,7 @@
     }
 
     .curtain-close .curtain-handle{
-        animation: move-down-curtain-handle-2500 3s linear;
+        animation: move-down-curtain-handle-2500 3s linear, curtain-handle-color-change 1s linear 1s infinite alternate;;
         animation-fill-mode: forwards;
     }
 

@@ -1284,6 +1284,7 @@
   display: inline-block;
   position: absolute;
   top: -4px;
+  left: 25px;
   right: -13px;
   width: 5px;
   height: 5px;
@@ -1521,10 +1522,10 @@
   position: absolute;
   width: 2px;
   top: -36px;
-  left: -19.5px;
+  left: -20px;
   border-bottom: 18px solid #fdb341;
-  border-left: 18.5px solid transparent;
-  border-right: 18.5px solid transparent;
+  border-left: 18.8px solid transparent;
+  border-right: 18.8px solid transparent;
 }
 
 .postits .email:after {
@@ -1916,15 +1917,15 @@
 
 .curtain-handle {
   position: relative;
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
   top: 75px;
-  left: 135px;
+  left: 133px;
   border-radius: 50%;
-  border: 5px solid #ff9801;
+  border: 7px solid #ff9801;
   z-index: 3;
-  -webkit-animation: move-up-curtain-handle 3s linear;
-          animation: move-up-curtain-handle 3s linear;
+  -webkit-animation: move-up-curtain-handle 3s linear, curtain-handle-color-change 1s linear 1s infinite alternate;
+          animation: move-up-curtain-handle 3s linear, curtain-handle-color-change 1s linear 1s infinite alternate;
 }
 
 .curtain-close {
@@ -1942,8 +1943,8 @@
 }
 
 .curtain-close .curtain-handle {
-  -webkit-animation: move-down-curtain-handle 3s linear;
-          animation: move-down-curtain-handle 3s linear;
+  -webkit-animation: move-down-curtain-handle 3s linear, curtain-handle-color-change 1s linear 1s infinite alternate;
+          animation: move-down-curtain-handle 3s linear, curtain-handle-color-change 1s linear 1s infinite alternate;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
@@ -2038,12 +2039,61 @@
   }
 }
 
+@-webkit-keyframes curtain-handle-color-change {
+  from {
+    border-color: #ff9801;
+  }
+  to {
+    border-color: #562228;
+  }
+}
+
+@keyframes curtain-handle-color-change {
+  from {
+    border-color: #ff9801;
+  }
+  to {
+    border-color: #562228;
+  }
+}
+
 .floor {
   position: absolute;
   background-image: url("../images/wooden-floor.jpg");
   z-index: -10;
   top: 630px;
   background-size: cover;
+}
+
+.mdl-button {
+  position: absolute;
+  display: none;
+  z-index: 2;
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+  border: 5px solid #d50a2d;
+  background: rgba(221, 100, 121, 0.6);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.mdl-button:before, .mdl-button:after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-width: 5px;
+  border-color: transparent transparent #d50a2d #d50a2d;
+  border-style: solid;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  position: absolute;
+  left: 20px;
+}
+
+.mdl-button:after {
+  top: 15px;
 }
 
 .awssld, .bio-card, .contact-card {
@@ -2067,6 +2117,7 @@
 .awssld__bullets {
   position: relative !important;
   bottom: 40px !important;
+  z-index: 2;
 }
 
 .awssld__controls {
@@ -2441,7 +2492,7 @@
     width: 400px;
     height: 400px;
     top: -15px;
-    left: -1px;
+    left: 0;
     -webkit-box-shadow: 2px 15px 5px rgba(0, 0, 0, 0.4);
             box-shadow: 2px 15px 5px rgba(0, 0, 0, 0.4);
   }
@@ -2630,25 +2681,21 @@
     left: 850px;
     -webkit-animation: arrow-up-and-down 1s linear 1s infinite alternate;
             animation: arrow-up-and-down 1s linear 1s infinite alternate;
-    width: 30%;
-  }
-  .mdl-button img {
-    width: 80%;
   }
   @-webkit-keyframes arrow-up-and-down {
     from {
-      top: 450px;
+      top: 495px;
     }
     to {
-      top: 480px;
+      top: 520px;
     }
   }
   @keyframes arrow-up-and-down {
     from {
-      top: 450px;
+      top: 495px;
     }
     to {
-      top: 480px;
+      top: 520px;
     }
   }
   .postits {
@@ -2699,12 +2746,43 @@
   }
 }
 
+@media only screen and (min-width: 540px) {
+  .mdl-button {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 560px) {
+  .mdl-button {
+    display: block;
+  }
+}
+
 /* Galaxy S5 => 640 x 360  # Horizontal done,
    Galaxy s7 => 640 x 360 # Horizontal done,
    iPhone 6/7/8 => 667 x 375 # Horizontal done*/
 @media only screen and (min-width: 600px) {
   .light-buttons .light-off {
     height: 1400px;
+  }
+  .mdl-button {
+    display: block;
+  }
+  @-webkit-keyframes arrow-up-and-down {
+    from {
+      top: 495px;
+    }
+    to {
+      top: 520px;
+    }
+  }
+  @keyframes arrow-up-and-down {
+    from {
+      top: 495px;
+    }
+    to {
+      top: 520px;
+    }
   }
   .postits {
     top: 700px;
@@ -2770,6 +2848,9 @@
   .garbage-can {
     left: 150px;
   }
+  .mdl-button {
+    left: 900px;
+  }
   .postits {
     left: -100px;
     top: 700px;
@@ -2814,8 +2895,24 @@
   .light-buttons .light-off {
     height: 1370px;
   }
-  .mdl-button img {
-    width: 50%;
+  .mdl-button {
+    left: 950px;
+  }
+  @-webkit-keyframes arrow-up-and-down {
+    from {
+      top: 455px;
+    }
+    to {
+      top: 470px;
+    }
+  }
+  @keyframes arrow-up-and-down {
+    from {
+      top: 455px;
+    }
+    to {
+      top: 470px;
+    }
   }
   .postits {
     left: -50px;
@@ -2977,22 +3074,22 @@
   }
   .mdl-button {
     display: block;
-    left: 850px;
+    left: 950px;
   }
   @-webkit-keyframes arrow-up-and-down {
     from {
-      top: 420px;
+      top: 440px;
     }
     to {
-      top: 460px;
+      top: 470px;
     }
   }
   @keyframes arrow-up-and-down {
     from {
-      top: 420px;
+      top: 440px;
     }
     to {
-      top: 460px;
+      top: 470px;
     }
   }
   .postits {
@@ -3177,7 +3274,7 @@
   }
   .mdl-button {
     display: block;
-    width: 25%;
+    left: 1000px;
   }
   @-webkit-keyframes arrow-up-and-down {
     from {
@@ -3278,7 +3375,7 @@
     height: 200px;
   }
   .mdl-button {
-    left: 850px;
+    left: 1000px;
   }
   .css-art p {
     left: 470px;
@@ -3789,8 +3886,8 @@
             animation-fill-mode: forwards;
   }
   .curtain-close .curtain-handle {
-    -webkit-animation: move-down-curtain-handle-2500 3s linear;
-            animation: move-down-curtain-handle-2500 3s linear;
+    -webkit-animation: move-down-curtain-handle-2500 3s linear, curtain-handle-color-change 1s linear 1s infinite alternate;
+            animation: move-down-curtain-handle-2500 3s linear, curtain-handle-color-change 1s linear 1s infinite alternate;
     -webkit-animation-fill-mode: forwards;
             animation-fill-mode: forwards;
   }
@@ -4026,8 +4123,8 @@
     top: 140px;
     left: 280px;
     border-width: 10px;
-    -webkit-animation: move-up-curtain-handle-2500 3s linear;
-            animation: move-up-curtain-handle-2500 3s linear;
+    -webkit-animation: move-up-curtain-handle-2500 3s linear, curtain-handle-color-change 1s linear 1s infinite alternate;
+            animation: move-up-curtain-handle-2500 3s linear, curtain-handle-color-change 1s linear 1s infinite alternate;
   }
   .stars {
     top: 100px;
@@ -4212,8 +4309,8 @@
     top: 140px;
     left: 420px;
     border-width: 15px;
-    -webkit-animation: move-up-curtain-handle-5000 3s linear;
-            animation: move-up-curtain-handle-5000 3s linear;
+    -webkit-animation: move-up-curtain-handle-5000 3s linear, curtain-handle-color-change 1s linear 1s infinite alternate;
+            animation: move-up-curtain-handle-5000 3s linear, curtain-handle-color-change 1s linear 1s infinite alternate;
   }
   .curtain-close {
     -webkit-animation: close-the-curtain-5000 3s linear;
@@ -4228,8 +4325,8 @@
             animation-fill-mode: forwards;
   }
   .curtain-close .curtain-handle {
-    -webkit-animation: move-down-curtain-handle-5000 3s linear;
-            animation: move-down-curtain-handle-5000 3s linear;
+    -webkit-animation: move-down-curtain-handle-5000 3s linear, curtain-handle-color-change 1s linear 1s infinite alternate;
+            animation: move-down-curtain-handle-5000 3s linear, curtain-handle-color-change 1s linear 1s infinite alternate;
     -webkit-animation-fill-mode: forwards;
             animation-fill-mode: forwards;
   }
@@ -4372,12 +4469,5 @@ body {
 
 ul li {
   list-style: none;
-}
-
-.mdl-button {
-  position: absolute;
-  z-index: 2;
-  cursor: -webkit-grabbing;
-  cursor: grabbing;
 }
 /*# sourceMappingURL=style.css.map */

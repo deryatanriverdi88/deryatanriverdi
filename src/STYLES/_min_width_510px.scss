@@ -11,18 +11,14 @@
         display: block;
         left: 850px;
         animation: arrow-up-and-down 1s linear 1s infinite alternate;
-        width: 30%;
-        img{
-            width: 80%;
-        }
     }
 
     @keyframes arrow-up-and-down {
         from {
-          top: 450px
+          top: 495px
         }
         to {
-          top: 480px;
+          top: 520px;
         }
     }
 

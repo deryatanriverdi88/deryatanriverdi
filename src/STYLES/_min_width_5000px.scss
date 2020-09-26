@@ -160,7 +160,8 @@
         top:140px;
         left: 420px;
         border-width: 15px;
-        animation: move-up-curtain-handle-5000 3s linear;
+        animation: move-up-curtain-handle-5000 3s linear,
+        curtain-handle-color-change 1s linear 1s infinite alternate;
     }
 
     .curtain-close{
@@ -174,7 +175,7 @@
     }
 
     .curtain-close .curtain-handle{
-        animation: move-down-curtain-handle-5000 3s linear;
+        animation: move-down-curtain-handle-5000 3s linear, curtain-handle-color-change 1s linear 1s infinite alternate;
         animation-fill-mode: forwards;
     }
 

@@ -2,6 +2,7 @@ import React from 'react';
 import './STYLES/style.css';
 import AwesomeSlider from 'react-awesome-slider';
 import AwesomeSliderStyles from 'react-awesome-slider/dist/styles.css';
+import 'react-awesome-slider/dist/custom-animations/fall-animation.css'
 import Clock from 'react-clock';
 import ScrollIntoView from 'react-scroll-into-view'
 
@@ -414,11 +415,10 @@ class App extends React.Component {
             </div>
             }
             <div className="floor"></div>
-                <ScrollIntoView selector="#postit-1">
-                    <div className="mdl-button mdl-js-button mdl-button--raised">
-                        <img src="./img/arrow-down.png"/>
-                    </div>
-                </ScrollIntoView>
+            <ScrollIntoView selector="#postit-1">
+                <div className="mdl-button mdl-js-button mdl-button--raised">
+                </div>
+            </ScrollIntoView>
         </div>
 
         { this.state.bio ?
@@ -447,7 +447,7 @@ class App extends React.Component {
         </div> : null }
 
         {this.state.project ?
-        <AwesomeSlider cssModule={AwesomeSliderStyles} mobileTouch={false}>
+        <AwesomeSlider cssModule={AwesomeSliderStyles} mobileTouch={false} bullets={true} animation="fallAnimation">
           <div className="project-div">
               <div className="video-container">
                   <iframe width="560" height="315" src="https://www.youtube.com/embed/yVvnaz8s6Tk" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="nutri-track-demo" allowFullScreen></iframe>

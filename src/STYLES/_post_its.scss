@@ -145,6 +145,7 @@
                 display: inline-block;
                 position: absolute;
                 top: -4px;
+                left: 25px;
                 right: -13px;
                 width: 5px;
                 height: 5px;
@@ -338,10 +339,10 @@
             position: absolute;
             width: 2px;
             top:-36px;
-            left: -19.5px;
+            left: -20px;
             border-bottom: 18px solid #fdb341;
-            border-left: 18.5px solid transparent;
-            border-right: 18.5px solid transparent;
+            border-left: 18.8px solid transparent;
+            border-right: 18.8px solid transparent;
         }
         &:after{
             border-bottom: 24px solid #585a7c;

@@ -226,14 +226,14 @@
 
 .curtain-handle{
     position: relative;
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     top: 75px;
-    left: 135px;
+    left: 133px;
     border-radius: 50%;
-    border: 5px solid #ff9801;
+    border: 7px solid #ff9801;
     z-index: 3;
-   animation: move-up-curtain-handle 3s linear;
+    animation: move-up-curtain-handle 3s linear, curtain-handle-color-change 1s linear 1s infinite alternate;
 }
 
 .curtain-close{
@@ -244,7 +244,7 @@
         animation-fill-mode: forwards;
     }
     .curtain-handle{
-        animation: move-down-curtain-handle 3s linear;
+        animation: move-down-curtain-handle 3s linear, curtain-handle-color-change 1s linear 1s infinite alternate;;
         animation-fill-mode: forwards;
     }
 }
@@ -291,5 +291,14 @@
 @keyframes move-down-curtain-handle{
     to{
       top: 305px;
+    }
+}
+
+@keyframes curtain-handle-color-change {
+    from {
+        border-color: #ff9801;
+    }
+    to {
+      border-color: #562228;
     }
 }

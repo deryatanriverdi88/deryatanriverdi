@@ -102,7 +102,7 @@
         top:140px;
         left: 280px;
         border-width: 10px;
-        animation: move-up-curtain-handle-2500 3s linear;
+        animation: move-up-curtain-handle-2500 3s linear, curtain-handle-color-change 1s linear 1s infinite alternate;
     }
 
     .stars{
