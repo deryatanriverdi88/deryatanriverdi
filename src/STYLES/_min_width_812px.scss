@@ -11,12 +11,10 @@
     .mdl-button{
         display: block;
         left: 950px;
+        top: 440px
     }
 
     @keyframes arrow-up-and-down {
-        from {
-          top: 440px
-        }
         to {
           top: 470px;
         }
