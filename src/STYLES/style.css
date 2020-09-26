@@ -2724,6 +2724,10 @@
     width: 950px !important;
     height: 600px !important;
   }
+  .project-div .codepen {
+    width: 70%;
+    margin: 0 auto;
+  }
   .skill-slide .front-end {
     padding-top: 50px;
   }
@@ -3344,7 +3348,7 @@
 /* Apple Macbook Air 13-inch => 1440 x 900 done */
 @media only screen and (min-width: 1400px) {
   .light-buttons .light-off {
-    height: 1600px;
+    height: 1650px;
   }
   .floor {
     height: 200px;
