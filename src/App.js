@@ -2,6 +2,7 @@ import React from 'react';
 import './STYLES/style.css';
 import AwesomeSlider from 'react-awesome-slider';
 import AwesomeSliderStyles from 'react-awesome-slider/dist/styles.css';
+import 'react-awesome-slider/dist/custom-animations/fall-animation.css'
 import Clock from 'react-clock';
 import ScrollIntoView from 'react-scroll-into-view'
 
